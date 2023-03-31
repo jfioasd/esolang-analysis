@@ -1,4 +1,7 @@
 # jfioasd.github.io
+
+https://esoteric.codes/blog/martin-ender
+
 Martin Ender creates 2D languages of unusual topologies, with code arranged in hexagons, triangles, or using registers arranged in icosohedral structures. We discuss the aesthetics of Funges and golfing languages, and how to both make a complex esolang clear enough for programmers to be able to engage with its central premise.
 
 » First, how did you become interested in esolanging/esoprogramming, golfing, etc? Are you currently in school or working, and if so, as a programmer?
