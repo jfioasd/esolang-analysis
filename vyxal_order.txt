@@ -1,934 +1,681 @@
-
+302 
 v (Vectorise)
 
-Vectorise an element
-
-Us
-
+281 
 : (Duplicate)
 
-Push a twice
-Overloads
-
-
-
+278 
 ; (Close Structure)
 
-Close a lambda / m
-
+269 
 * (Multiplication / Arity Change)
 
-Mult
-
+246 
 + (Addition)
 
-Adds the top two items on
-
+231 
 ? (Input)
 
-Get the next input from the 
-
+224 
 $ (Swap)
 
-Swap the top two items
-Overlo
-
+217 
 ∑ (Summate)
 
-Returns the sum of the top
-
+209 
 ƛ (Lambda Map)
-Open a mapping lambda - 
 
+179 
 f (Flatten)
 
-Turn a number into a list 
-
+161 
 n (Context)
 
-Context variable, value of
-
+147 
 › (Increment / Space Replace With 0)
 
-A
-
+142 
 L (Length)
 
-Get length of a
-Overloads
-
-
-
+140 
 ( (Open For Loop)
 
-Start a for loop, it
-
+134 
 = (Equals)
 
-Basic comparison - equals
-O
-
+126 
 J (Merge)
 
-Join two lists or items
-Over
-
+126 
 , (Print)
 
-Print a with trailing newlin
-
+123 
 ' (Lambda Filter)
 
-Open a filter lambda
-
+119 
 h (Head)
 
-First item of something
-Overl
-
+118 
 Ṙ (Reverse)
 
-Reverse a value
-Overloads
-
-
+111 
 - (Subtract)
 
-Subtracts the top two ite
-
+111 
 [ (Open If Statement)
 
-Open an if State
-
+109 
 ṅ (Join By Nothing)
 
-Join a list by the
-
+108 
 ⁰ (Very Last Input)
 
-Push the very last
-
+105 
 t (Tail)
 
-Last item
-Overloads
-
-    any 
-
+104 
 ‹ (Decrement)
 
-Subtract 1 from a number
-
+104 
 ɾ (Inclusive One Range)
 
-Inclusive rang
-
+102 
 p (Prepend)
 
-Prepend b to a
-Overloads
-
-
-
+88 
 d (Double / Dyadify)
 
-Double a number o
-
+87 
 | (Branch In Structure)
 
-Branch the str
+82 
+)
 
-) (Close For loop)
-
-Close a for loop
-* 
-
+78 
 C (Chr / Ord)
 
-Convert between characte
-
+75 
 / (Divide / Split)
 
-Divide two numbers 
-
+74 
 ¥ (Push Register)
 
-Push the current reg
-
+74 
 s (sort)
 
-Sort a list or string
-Overloa
-
+73 
 ÷ (Item Split)
-Pushes each item of the 
 
+71 
 i (Index)
 
-Index into a list
-Overloads
-
-
+63 
 ½ (Halve)
 
-Halves an item
-Overloads
+63 
+c (Contains / First Truthy Item Under Function Application)
 
-  
-
-c (Contains / First Truthy Item Under F
-
+63 
 e (Exponentiation)
 
-Exponentiate two nu
-
+62 
 ð (Space)
 
-A Space
-→ (Variable Set)
-
-Se
-
+62 
 λ (Lambda)
-Open a lambda - λ...;
 
-ƛ (La
-
+62 
 % (Modulo / Format)
 
-Modulo two numbers
-
+62 
 Ḣ (Head Remove / Behead)
 
-All but the f
-
+61 
 " (Pair)
 
-Place the top two items into 
-
+59 
 U (Uniquify)
 
-Remove duplicates
-Overloa
-
+58 
 ⌊ (Floor)
 
-Floor a number / real part o
+57 
+Ṅ (Integer partitions / First Truthy Non-Negative Integer)
 
-Ṅ (Integer partitions / First Truthy No
-
+57 
 τ (From Base Ten / To Custom Base)
 
-Con
-
+57 
 A (All)
 
-Check if all items in a list a
-
+56 
 ꘍ (Bitwise Xor)
 
-Performs bitwise xor b
+53 52 
+Π (Product of Array / Cartesian product over list)
 
-Π (Product of Array / Cartesian product
-
+51 
 Ẏ (Slice Until)
 
-Slice a list until a c
-
+50 
 £ (Set Register)
 
-Set the register to a
+50 
+N (Negate / Swap Case / First Integer Where Truthy)
 
-N (Negate / Swap Case / First Integer W
+50 
+↔ (Combinations/Remove/Fixed Point Collection)
 
-↔ (Combinations/Remove/Fixed Point Coll
-
+50 
 ⁋ (Join On Newlines)
 
-Join the top of t
-
+50 
 ẇ (Chunk Wrap)
 
-Wrap a list in chunks o
-
+49 
 b (Binary)
 
-Convert a number or string 
-
+49 
 ₀ (Ten)
 
-Push 10 to the stack
-₁ (Hundre
-
+48 
 Ṫ (Tail Remove / Truthy Under)
 
-Cut off
-
+48 
 ⇧ (Grade Up)
 
-Indices of elements to so
-
+47 
 ȯ (Slice)
 
-Slice from an index to the e
+46 
+İ (Index into / Collect while unique / Complex Number)
 
-İ (Index into / Collect while unique / 
-
+46 
 R (Reduce)
 
-Reduce a by b, or reverse e
-
+45 
 ² (Square)
 
-Square a number / Format a 
+45 
+ε (Absolute Difference / Repeat / Regex match)
 
-ε (Absolute Difference / Repeat / Regex
+45 
+l (Cumulative Groups / First Non-Negative Truthy Integers)
 
-l (Cumulative Groups / First Non-Negati
-
+44 
 ℅ (Random Choice)
 
-Random choice of sin
-
+44 
 ¹ (Second Last Input)
 
-Push the very la
-
+44 
 Ṗ (Permutations)
 
-Get all permutations 
+43 
+Ṡ (Vectorised sums / Strip whitespace from both sides / Is positive)
 
-Ṡ (Vectorised sums / Strip whitespace f
-
+43 
 ¯ (Deltas)
 
-Deltas (consecutive differe
-
+42 
 I (Into Two Pieces)
 
-Push n spaces / qu
-
+42 
 ₴ (Print Without Newline)
 
-Print a valu
-
+42 
 ~ (Filter / Execute Without Pop)
 
-For m
-
+41 
 ] (Close If Statement)
 
-Close an if Sta
-
+40 
 ₌ (Parallel Apply)
 
-Parallel apply two 
-
+40 
 ≈ (All Equal)
 
-Returns whether all item
-
+40 
 ⌈ (Ceiling)
 
-Take the ceiling of a numb
-
+39 
 W (Wrap)
 
-Stack wrapped into a list
-X (
-
+39 
 ⁼ (Exactly Equal To)
 
-a equal to b? (no
-
+38 
 G (Max)
 
-Maximum value or a
-Overloads
-
-
-
+38 
 ¦ (Cumulative Sum)
 
-Returns the sums of
-
+38 
 ʁ (Exclusive Zero Range)
 
-Exclusive ran
-
+38 
 Ḃ (Bifurcate)
 
-Pushes the top of the st
-
+38 
 ¬ (Logical Not)
-Return the inverse (neg
 
+38 
 g (Minimum)
 
-Take the minimum of a list
-
+38 
 S (Stringify)
 
-Stringify a list or numb
-
+37 
 ‡ (Two Element Lambda)
 
-Two Element lam
-
+37 
 D (Triplicate)
 
-Push three copies of a 
-
+36 
 ⁽ (One Element Lambda)
 
-One Element lam
-
+35 
 { (Open While Loop)
 
-Open a while loop 
-
+35 
 Ẋ (Cartesian Product / Fixpoint)
 
-Take 
-
+35 
 … (Print Without Popping)
 
-Print a valu
-
+35 
 ẋ (Repeat)
 
-Repeat a value several time
-
+35 
 T (Truthy Indices / Triple / Triadify)
 
+35 
+Ḋ (Is Divisible / Arbitrary Duplicate / Ordered Group By)
 
-Ḋ (Is Divisible / Arbitrary Duplicate /
-
+35 
 a (Any)
 
-Check if any items of a list a
-
+34 
 K (Factors / Substrings / Prefixes)
 
-Ge
-
+34 
 Ġ (Group consecutive)
 
-Group consecutiv
-
+34 
 ḟ (Find)
 
-Find a value in another
-Overl
-
+33 
 u (Minus One)
 
-Push -1
-v (Vectorise)
-
-V
-
+33 
 ∩ (Transpose)
 
-Transpose an array
-Overl
-
+32 
 < (Less Than)
 
-Basic comparison - less 
-
+31 
 ₍ (Parallel Apply Wrap)
 
-Parallel apply
-
+31 
 × (Asterisk Literal)
-the string "*" (as
 
+31 
 O (Count / Maximums-by)
 
-Count number o
-
+31 
 ⇩ (Grade Down)
 
-Indices of elements to 
-
+31 
 > (Greater Than)
 
-Basic comparison - gr
-
+31 
 ʀ (Inclusive Zero Range)
 
-Inclusive ran
-
+31 
 ≬ (Three Element Lambda)
 
-Three Element
-
+31 
 Ŀ (Transliterate)
 
-Replace each item of
-
+30 
 ḭ (Floor Division)
 
-Floor divide a by b
-
+30 
 ƒ (Reduce by)
 
-Reduce by an element
-
-Us
-
+30 
 ẏ (Exclusive Range Length)
 
-Range from 
-
+29 
 ₃ (Divisible By Three)
 
-Check if a is d
-
+29 
 y (Uninterleave)
 
-Push every other item
-
+29 
 Ė (Vyxal Exec / Reciprocal)
 
-Executes a
-
+29 
 ȧ (Absolute value)
 
-Take the absolute v
-
+29 
 µ (Sorting Lambda)
 
-Sort the top of the
-
+29 
 V (Replace / Map to Indices)
 
-Replace b
-
+28 
 ⅛ (Push To Global Array)
 
-Push to globa
-
+28 
 E (Two Power / Python Eval)
 
-2 ** a, or
-
+28 
 ż (Inclusive Range Length)
 
-Range from 
-
+27 
 w (Listify)
 
-a wrapped in a singleton l
-
+27 
 Z (Zip)
 
-Zip two lists or Zip a with b 
-
+26 
 ṡ (Sort by Function)
 
-Sort a list by a 
-
+26 
 √ (Square Root)
 
-Square root a number /
-
+26 
 æ (Is Prime / Case Check)
 
-(a is prime)
-
+26 
 r (Range)
 
-Range between two numbers, o
-
+26 
 • (MultiCommand)
 
-Logarithm / Repeat Ch
-
+25 
 ḣ (Head Extract)
 
-Separate the first it
-
+25 
 ∷ (Parity)
 
-A number modulo 2
-Overloads
-
+25 
 ṗ (Powerset)
 
-All possible combinations
-
+24 
 ≠ (Not Equal To)
 
-a is not equal to b?
-
-
+24 
 j (Join)
 
-Join a by b.
-Overloads
-
-    a
-
+24 
 ǐ (Prime factors)
 
-all prime factors / 
-
+23 
 ₁ (Hundred)
 
-Push 100 to the stack
-₂ (I
-
+23 
 ∞ (Palindromise)
 
-Palindromise a
-Overlo
-
+23 
 o (Remove)
 
-Remove instances of b in a
-
-
+22 
 _ (Pop)
 
-Pop the top item of the stack
-
-
+22 
 ↵ (Split On newlines)
 
-Split on newline
-
+21 
 ß (Conditional Execute)
 
-Executes eleme
-
+21 
 x (Recurse / Continue / Print Stack)
 
-C
-
+21 
 ǔ (Rotate Right)
 
-Rotate Right / Rotate
-
+21 
 β (To Base Ten / From Custom Base)
 
-Con
-
+21 
 ↳ (Right Bit Shift)
 
-Right-bitshift a v
-
+20 
 m (Mirror)
 
-Append input reversed to it
-
+20 
 ġ (Gcd / Group by Function)
 
-Greatest C
-
+20 
 ɽ (Exclusive One Range / Lowercase)
 
-Ex
-
+20 
 ⌐ (Complement / Comma Split)
 
-1 - a if 
-
+20 
 ¡ (Factorial)
 
-Returns the factorial of
-
+20 
 ₂ (Is Even)
 
-Check if a value is even
-O
-
+19 
 ∧ (Logical And)
-Returns the first truth
 
+19 
 & (Apply To Register)
 
-Apply the next e
-
+18 
 Y (Interleave)
 
-Interleave two lists
-Ov
-
+18 
 € (Split On / Fill By Coordinates)
 
-Spl
-
+18 
 † (Function Call)
 
-Calls a function / e
-
+18 
 F (Filter)
 
-Filter a list by another li
-
+18 
 ¾ (Push Global Array)
 
-Push global arra
-
+17 
 ∨ (Logical Or)
-Returns the first truthy
 
+17 
 ± (Sign)
 
-Get the sign of a number
-Over
-
+17 
 ¤ (Empty String)
 
-The empty string
-ð (S
-
+17 
 Ḟ (Generator / Modulo Index / Format)
 
-
-
+16 
 B (Binary To Decimal)
 
-Convert a binary
-
+16 
 ₄ (Twenty Six)
 
-Push 26 to the stack
-₅ 
-
+16 
 Ǔ (Rotate Left)
 
-Rotate Left / Rotate L
-
+15 
 Ȧ (Assign)
 
-The equivalent of a[b] = c
-
-
+15 
 Ǐ (Prime factorization)
 
-prime factoriz
-
+14 
 ₅ (Divisible By Five)
 
-Check if a is di
-
+14 
 ∴ (Dyadic Maximum)
 
-Maximum of two valu
-
+14 
 q (Uneval)
 
-Enclose in backticks, escap
-
+14 
 ₇ (One Twenty Eight)
 
-Push 128 to the s
-
+14 
 ꜝ (Bitwise Not)
 
-Performs bitwise not o
-
+14 
 Ǎ (Remove non-alphabets)
 
-Remove non-al
-
+14 
 ċ (Not One)
 
-Check if something is not 
-
+13 
 ∵ (Dyadic Minimum)
 
-Minimum of two valu
-
+13 
 ^ (Reverse Stack)
 
-Reverse the stack.
-_
-
+13 
 „ (Rotate Stack Left)
 
-Rotate Stack Lef
-
+13 
 ṁ (Mean)
 
-Average of a list - sum / len
-
+13 
 ǎ (Nth prime)
 
-nth prime / all substrin
-
+13 
 ↲ (Left Bit Shift)
 
-Left-bitshift a val
-
+12 
 Ċ (Counts)
 
-Returns a list of [item, co
-
+12 
 ṫ (Tail Extract)
 
-Remove the last item 
-
+12 
 ≤ (Lesser Than or Equal To)
 
-a is lesse
-
+12 
 ¶ (Newline)
 
-Push a newline to the stac
-
+12 
 ḋ (Divmod)
 
-Divmod / combinations / tri
-
+11 
 ₈ (Two Fifty Six)
 
-Push 256 to the stac
-
+11 
 ⟑ (Apply Lambda)
-Like a mapping lambda,
 
+11 
 M (Map Function)
 
-Map function object b
-
+11 
 ≥ (Greater Than or Equal To)
 
-a is grea
-
+11 
 ! (Stack Length)
 
-Push the length of th
-
+10 
 H (Hex To Decimal)
 
-Convert hexadecimal
-
+10 
 ⋏ (Bitwise And)
 
-Performs bitwise and b
-
+10 
 ₆ (Sixty Four)
 
-Push 64 to the stack
-₇ 
-
+10 
 ‟ (Rotate Stack Right)
 
+10 
 ⋎ (Bitwise Or)
 
-Performs bitwise or bet
-
+9 
 ⊍ (Symmetric Set difference)
 
-Uncommon 
-
+9 
 ɖ (Scan by)
 
-Cumulatively reduce by an 
-
+9 
 ∇ (Shift)
 
-Shift the top of stack two v
-
+8 
 } (Close While Loop)
 
-Close a while loo
-
+7 
 Ȯ (Over)
 
-Push the second-last item of 
+7 
+Ǒ (Multiplicity / Remove Fixpoint / First Truthy Index Under Function)
 
-Ǒ (Multiplicity / Remove Fixpoint / Fir
-
+7 
 ǒ (Modulo 3)
 
-Modulo 3 / Split into Len
-
+7 
 Ṁ (Insert)
 
-Insert a value at a specifi
-
+7 
 □ (Input List)
 
-All inputs wrapped in a
-
+6 
 ṙ (Round)
 
-Round a number to the neares
-
+6 
 ∪ (Set Union)
 
-Merge two arrays without
-
+6 
 § (Vertical Join)
 
-Transpose (filling w
+6 
+ŀ (Left Justify / Gridify / Infinite Replace / Collect until false)
 
-ŀ (Left Justify / Gridify / Infinite Re
-
+5 
 Ż (Slice From One Until)
 
-Slice from in
-
+5 
 ⟇ (Remove at Index)
-Returns every item 
 
+5 
 ḃ (Boolify)
 
-Convert an arbitrary value
+5 
+ƈ (Choose / random choice / set same / drop while)
 
-ƈ (Choose / random choice / set same / 
-
+4 
 ¼ (Pop From Global Array)
 
-Pop from glo
-
+4 
 ⟨ (Open List)
 
-Open a list - ⟨...⟩
-⟩ (C
-
+4 
 ⟩ (Close list)
 
-Close a list - ⟨...⟩
-‛ 
-
+4 
 P (Strip / Minimums-by)
 
-Remove the set
-
+3 
 ↓ (Min by Tail)
 
-Minimum by last item
-O
-
+3 
 ė (Enumerate)
 
-Zip with a range of the 
-
+3 
 z (Overlapping pairs)
 
-Push overlapping
-
+3 
 Ẇ (Split And Keep Delimiter)
 
-Split a v
-
+3 
 @ (Vectorised Length)
 
-Lengths of each 
-
+2 
 ↑ (Max by Tail)
 
-Maximum by last item
-O
+1 
+¢ (Infinite Replacement / Apply at Indices)
 
-¢ (Infinite Replacement / Apply at Indi
-
+1 
 X (Break)
 
-Break out of the current loo
