@@ -1,0 +1,934 @@
+
+v (Vectorise)
+
+Vectorise an element
+
+Us
+
+: (Duplicate)
+
+Push a twice
+Overloads
+
+
+
+; (Close Structure)
+
+Close a lambda / m
+
+* (Multiplication / Arity Change)
+
+Mult
+
++ (Addition)
+
+Adds the top two items on
+
+? (Input)
+
+Get the next input from the 
+
+$ (Swap)
+
+Swap the top two items
+Overlo
+
+∑ (Summate)
+
+Returns the sum of the top
+
+ƛ (Lambda Map)
+Open a mapping lambda - 
+
+f (Flatten)
+
+Turn a number into a list 
+
+n (Context)
+
+Context variable, value of
+
+› (Increment / Space Replace With 0)
+
+A
+
+L (Length)
+
+Get length of a
+Overloads
+
+
+
+( (Open For Loop)
+
+Start a for loop, it
+
+= (Equals)
+
+Basic comparison - equals
+O
+
+J (Merge)
+
+Join two lists or items
+Over
+
+, (Print)
+
+Print a with trailing newlin
+
+' (Lambda Filter)
+
+Open a filter lambda
+
+h (Head)
+
+First item of something
+Overl
+
+Ṙ (Reverse)
+
+Reverse a value
+Overloads
+
+
+- (Subtract)
+
+Subtracts the top two ite
+
+[ (Open If Statement)
+
+Open an if State
+
+ṅ (Join By Nothing)
+
+Join a list by the
+
+⁰ (Very Last Input)
+
+Push the very last
+
+t (Tail)
+
+Last item
+Overloads
+
+    any 
+
+‹ (Decrement)
+
+Subtract 1 from a number
+
+ɾ (Inclusive One Range)
+
+Inclusive rang
+
+p (Prepend)
+
+Prepend b to a
+Overloads
+
+
+
+d (Double / Dyadify)
+
+Double a number o
+
+| (Branch In Structure)
+
+Branch the str
+
+) (Close For loop)
+
+Close a for loop
+* 
+
+C (Chr / Ord)
+
+Convert between characte
+
+/ (Divide / Split)
+
+Divide two numbers 
+
+¥ (Push Register)
+
+Push the current reg
+
+s (sort)
+
+Sort a list or string
+Overloa
+
+÷ (Item Split)
+Pushes each item of the 
+
+i (Index)
+
+Index into a list
+Overloads
+
+
+½ (Halve)
+
+Halves an item
+Overloads
+
+  
+
+c (Contains / First Truthy Item Under F
+
+e (Exponentiation)
+
+Exponentiate two nu
+
+ð (Space)
+
+A Space
+→ (Variable Set)
+
+Se
+
+λ (Lambda)
+Open a lambda - λ...;
+
+ƛ (La
+
+% (Modulo / Format)
+
+Modulo two numbers
+
+Ḣ (Head Remove / Behead)
+
+All but the f
+
+" (Pair)
+
+Place the top two items into 
+
+U (Uniquify)
+
+Remove duplicates
+Overloa
+
+⌊ (Floor)
+
+Floor a number / real part o
+
+Ṅ (Integer partitions / First Truthy No
+
+τ (From Base Ten / To Custom Base)
+
+Con
+
+A (All)
+
+Check if all items in a list a
+
+꘍ (Bitwise Xor)
+
+Performs bitwise xor b
+
+Π (Product of Array / Cartesian product
+
+Ẏ (Slice Until)
+
+Slice a list until a c
+
+£ (Set Register)
+
+Set the register to a
+
+N (Negate / Swap Case / First Integer W
+
+↔ (Combinations/Remove/Fixed Point Coll
+
+⁋ (Join On Newlines)
+
+Join the top of t
+
+ẇ (Chunk Wrap)
+
+Wrap a list in chunks o
+
+b (Binary)
+
+Convert a number or string 
+
+₀ (Ten)
+
+Push 10 to the stack
+₁ (Hundre
+
+Ṫ (Tail Remove / Truthy Under)
+
+Cut off
+
+⇧ (Grade Up)
+
+Indices of elements to so
+
+ȯ (Slice)
+
+Slice from an index to the e
+
+İ (Index into / Collect while unique / 
+
+R (Reduce)
+
+Reduce a by b, or reverse e
+
+² (Square)
+
+Square a number / Format a 
+
+ε (Absolute Difference / Repeat / Regex
+
+l (Cumulative Groups / First Non-Negati
+
+℅ (Random Choice)
+
+Random choice of sin
+
+¹ (Second Last Input)
+
+Push the very la
+
+Ṗ (Permutations)
+
+Get all permutations 
+
+Ṡ (Vectorised sums / Strip whitespace f
+
+¯ (Deltas)
+
+Deltas (consecutive differe
+
+I (Into Two Pieces)
+
+Push n spaces / qu
+
+₴ (Print Without Newline)
+
+Print a valu
+
+~ (Filter / Execute Without Pop)
+
+For m
+
+] (Close If Statement)
+
+Close an if Sta
+
+₌ (Parallel Apply)
+
+Parallel apply two 
+
+≈ (All Equal)
+
+Returns whether all item
+
+⌈ (Ceiling)
+
+Take the ceiling of a numb
+
+W (Wrap)
+
+Stack wrapped into a list
+X (
+
+⁼ (Exactly Equal To)
+
+a equal to b? (no
+
+G (Max)
+
+Maximum value or a
+Overloads
+
+
+
+¦ (Cumulative Sum)
+
+Returns the sums of
+
+ʁ (Exclusive Zero Range)
+
+Exclusive ran
+
+Ḃ (Bifurcate)
+
+Pushes the top of the st
+
+¬ (Logical Not)
+Return the inverse (neg
+
+g (Minimum)
+
+Take the minimum of a list
+
+S (Stringify)
+
+Stringify a list or numb
+
+‡ (Two Element Lambda)
+
+Two Element lam
+
+D (Triplicate)
+
+Push three copies of a 
+
+⁽ (One Element Lambda)
+
+One Element lam
+
+{ (Open While Loop)
+
+Open a while loop 
+
+Ẋ (Cartesian Product / Fixpoint)
+
+Take 
+
+… (Print Without Popping)
+
+Print a valu
+
+ẋ (Repeat)
+
+Repeat a value several time
+
+T (Truthy Indices / Triple / Triadify)
+
+
+Ḋ (Is Divisible / Arbitrary Duplicate /
+
+a (Any)
+
+Check if any items of a list a
+
+K (Factors / Substrings / Prefixes)
+
+Ge
+
+Ġ (Group consecutive)
+
+Group consecutiv
+
+ḟ (Find)
+
+Find a value in another
+Overl
+
+u (Minus One)
+
+Push -1
+v (Vectorise)
+
+V
+
+∩ (Transpose)
+
+Transpose an array
+Overl
+
+< (Less Than)
+
+Basic comparison - less 
+
+₍ (Parallel Apply Wrap)
+
+Parallel apply
+
+× (Asterisk Literal)
+the string "*" (as
+
+O (Count / Maximums-by)
+
+Count number o
+
+⇩ (Grade Down)
+
+Indices of elements to 
+
+> (Greater Than)
+
+Basic comparison - gr
+
+ʀ (Inclusive Zero Range)
+
+Inclusive ran
+
+≬ (Three Element Lambda)
+
+Three Element
+
+Ŀ (Transliterate)
+
+Replace each item of
+
+ḭ (Floor Division)
+
+Floor divide a by b
+
+ƒ (Reduce by)
+
+Reduce by an element
+
+Us
+
+ẏ (Exclusive Range Length)
+
+Range from 
+
+₃ (Divisible By Three)
+
+Check if a is d
+
+y (Uninterleave)
+
+Push every other item
+
+Ė (Vyxal Exec / Reciprocal)
+
+Executes a
+
+ȧ (Absolute value)
+
+Take the absolute v
+
+µ (Sorting Lambda)
+
+Sort the top of the
+
+V (Replace / Map to Indices)
+
+Replace b
+
+⅛ (Push To Global Array)
+
+Push to globa
+
+E (Two Power / Python Eval)
+
+2 ** a, or
+
+ż (Inclusive Range Length)
+
+Range from 
+
+w (Listify)
+
+a wrapped in a singleton l
+
+Z (Zip)
+
+Zip two lists or Zip a with b 
+
+ṡ (Sort by Function)
+
+Sort a list by a 
+
+√ (Square Root)
+
+Square root a number /
+
+æ (Is Prime / Case Check)
+
+(a is prime)
+
+r (Range)
+
+Range between two numbers, o
+
+• (MultiCommand)
+
+Logarithm / Repeat Ch
+
+ḣ (Head Extract)
+
+Separate the first it
+
+∷ (Parity)
+
+A number modulo 2
+Overloads
+
+ṗ (Powerset)
+
+All possible combinations
+
+≠ (Not Equal To)
+
+a is not equal to b?
+
+
+j (Join)
+
+Join a by b.
+Overloads
+
+    a
+
+ǐ (Prime factors)
+
+all prime factors / 
+
+₁ (Hundred)
+
+Push 100 to the stack
+₂ (I
+
+∞ (Palindromise)
+
+Palindromise a
+Overlo
+
+o (Remove)
+
+Remove instances of b in a
+
+
+_ (Pop)
+
+Pop the top item of the stack
+
+
+↵ (Split On newlines)
+
+Split on newline
+
+ß (Conditional Execute)
+
+Executes eleme
+
+x (Recurse / Continue / Print Stack)
+
+C
+
+ǔ (Rotate Right)
+
+Rotate Right / Rotate
+
+β (To Base Ten / From Custom Base)
+
+Con
+
+↳ (Right Bit Shift)
+
+Right-bitshift a v
+
+m (Mirror)
+
+Append input reversed to it
+
+ġ (Gcd / Group by Function)
+
+Greatest C
+
+ɽ (Exclusive One Range / Lowercase)
+
+Ex
+
+⌐ (Complement / Comma Split)
+
+1 - a if 
+
+¡ (Factorial)
+
+Returns the factorial of
+
+₂ (Is Even)
+
+Check if a value is even
+O
+
+∧ (Logical And)
+Returns the first truth
+
+& (Apply To Register)
+
+Apply the next e
+
+Y (Interleave)
+
+Interleave two lists
+Ov
+
+€ (Split On / Fill By Coordinates)
+
+Spl
+
+† (Function Call)
+
+Calls a function / e
+
+F (Filter)
+
+Filter a list by another li
+
+¾ (Push Global Array)
+
+Push global arra
+
+∨ (Logical Or)
+Returns the first truthy
+
+± (Sign)
+
+Get the sign of a number
+Over
+
+¤ (Empty String)
+
+The empty string
+ð (S
+
+Ḟ (Generator / Modulo Index / Format)
+
+
+
+B (Binary To Decimal)
+
+Convert a binary
+
+₄ (Twenty Six)
+
+Push 26 to the stack
+₅ 
+
+Ǔ (Rotate Left)
+
+Rotate Left / Rotate L
+
+Ȧ (Assign)
+
+The equivalent of a[b] = c
+
+
+Ǐ (Prime factorization)
+
+prime factoriz
+
+₅ (Divisible By Five)
+
+Check if a is di
+
+∴ (Dyadic Maximum)
+
+Maximum of two valu
+
+q (Uneval)
+
+Enclose in backticks, escap
+
+₇ (One Twenty Eight)
+
+Push 128 to the s
+
+ꜝ (Bitwise Not)
+
+Performs bitwise not o
+
+Ǎ (Remove non-alphabets)
+
+Remove non-al
+
+ċ (Not One)
+
+Check if something is not 
+
+∵ (Dyadic Minimum)
+
+Minimum of two valu
+
+^ (Reverse Stack)
+
+Reverse the stack.
+_
+
+„ (Rotate Stack Left)
+
+Rotate Stack Lef
+
+ṁ (Mean)
+
+Average of a list - sum / len
+
+ǎ (Nth prime)
+
+nth prime / all substrin
+
+↲ (Left Bit Shift)
+
+Left-bitshift a val
+
+Ċ (Counts)
+
+Returns a list of [item, co
+
+ṫ (Tail Extract)
+
+Remove the last item 
+
+≤ (Lesser Than or Equal To)
+
+a is lesse
+
+¶ (Newline)
+
+Push a newline to the stac
+
+ḋ (Divmod)
+
+Divmod / combinations / tri
+
+₈ (Two Fifty Six)
+
+Push 256 to the stac
+
+⟑ (Apply Lambda)
+Like a mapping lambda,
+
+M (Map Function)
+
+Map function object b
+
+≥ (Greater Than or Equal To)
+
+a is grea
+
+! (Stack Length)
+
+Push the length of th
+
+H (Hex To Decimal)
+
+Convert hexadecimal
+
+⋏ (Bitwise And)
+
+Performs bitwise and b
+
+₆ (Sixty Four)
+
+Push 64 to the stack
+₇ 
+
+‟ (Rotate Stack Right)
+
+⋎ (Bitwise Or)
+
+Performs bitwise or bet
+
+⊍ (Symmetric Set difference)
+
+Uncommon 
+
+ɖ (Scan by)
+
+Cumulatively reduce by an 
+
+∇ (Shift)
+
+Shift the top of stack two v
+
+} (Close While Loop)
+
+Close a while loo
+
+Ȯ (Over)
+
+Push the second-last item of 
+
+Ǒ (Multiplicity / Remove Fixpoint / Fir
+
+ǒ (Modulo 3)
+
+Modulo 3 / Split into Len
+
+Ṁ (Insert)
+
+Insert a value at a specifi
+
+□ (Input List)
+
+All inputs wrapped in a
+
+ṙ (Round)
+
+Round a number to the neares
+
+∪ (Set Union)
+
+Merge two arrays without
+
+§ (Vertical Join)
+
+Transpose (filling w
+
+ŀ (Left Justify / Gridify / Infinite Re
+
+Ż (Slice From One Until)
+
+Slice from in
+
+⟇ (Remove at Index)
+Returns every item 
+
+ḃ (Boolify)
+
+Convert an arbitrary value
+
+ƈ (Choose / random choice / set same / 
+
+¼ (Pop From Global Array)
+
+Pop from glo
+
+⟨ (Open List)
+
+Open a list - ⟨...⟩
+⟩ (C
+
+⟩ (Close list)
+
+Close a list - ⟨...⟩
+‛ 
+
+P (Strip / Minimums-by)
+
+Remove the set
+
+↓ (Min by Tail)
+
+Minimum by last item
+O
+
+ė (Enumerate)
+
+Zip with a range of the 
+
+z (Overlapping pairs)
+
+Push overlapping
+
+Ẇ (Split And Keep Delimiter)
+
+Split a v
+
+@ (Vectorised Length)
+
+Lengths of each 
+
+↑ (Max by Tail)
+
+Maximum by last item
+O
+
+¢ (Infinite Replacement / Apply at Indi
+
+X (Break)
+
+Break out of the current loo
