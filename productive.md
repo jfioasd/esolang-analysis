@@ -1,5 +1,4 @@
-https://lead-academy.org/blog/how-to-be-more-productive/#:~:text=20%20Tips%20to%20be%20More%20Productive%201%201.,on%20one%20task%2C%20then%20complete%20it%20...%20%E6%9B%B4%E5%A4%9A%E9%A1%B9%E7%9B%AE
-
+https://lead-academy.org/blog/how-to-be-more-productive/
 # 1. Develop a suitable to-do list
 
 To-do lists usually fail because we complicate them or add activities that aren’t equally important. Others won’t require any time at all, some tasks will take a long time. As a result, there is a mismatch in how we spend our time. The result is that our to-do list turns into a means of avoidance. Yes, that is true because when we accomplish simple things, we become really confused while doing difficult things.
