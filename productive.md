@@ -35,8 +35,3 @@ Woman tensed because of the amount of work pending
 # 6. Take a break
 
 It can seem strange to advise taking breaks when discussing how to be productive at work, but taking regular breaks really lowers stress and increases productivity. Many workplaces require that workers take regular breaks. But if you work from home or in an unmonitored office, you may want to schedule short breaks every few minutes for 10–15 minutes.
-# 7. Find a technique for assigning tasks and tracking performance
-
-Giving your employees assignments and projects is one thing; seeing to it that they are completed and delivered is quite another. Then you have to deal with another element of the puzzle, which is sending it for approval.
-
-Your work will be more productive if you can find a dependable way to monitor the tasks your team is working on. Workzone and other project management tools can help with this. But you also have a personal role to play in this. Your coworkers’ ability to stay on task will increase as a result of your regular updates and follow-up with the next steps.
