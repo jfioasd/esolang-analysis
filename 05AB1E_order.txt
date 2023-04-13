@@ -1,0 +1,759 @@
+1862 .
+two char functions
+
+1805 }
+close a single if statement, loop, etc.
+
+1683 D
+pop a      push a, a
+
+1271 s
+pop a,b    push b,a
+
+1195 O
+pop (a)    push total sum of a if a is list, else total sum of stack
+
+1076 I
+push input()
+
+1045 €
+pop a      apply next command for each in a
+
+1003 '
+push char ( 'a pushes "a" )
+
+1002 y
+push string variable (used in mapping loops)
+
+998 2
+numeric literal
+
+922 g
+pop a      push length of a
+
+887 J
+pop a      push ''.join(a) if a is list / if not, then push ''.join(stack)
+
+871 0
+numeric literal
+
+867 •
+start/end a 1-9 char compressed string
+
+859 *
+pop a,b    push (a * b)
+
+833 1
+numeric literal
+
+832 ε
+pop a      apply each on a: usage εCODE}
+
+819 Q
+pop a,b    push a == b (bool)
+
+809 i
+pop a      if statement: iTHEN}: if true { then }
+
+798 N
+reserved for variables
+
+786 3
+numeric literal
+
+775 "
+start/end string literal
+
+757 +
+pop a,b    push (a + b)
+
+735 è
+pop a,b    push a[b]
+
+710 L
+pop a      push [1 .. a]
+
+697 S
+pop a      push all chars a seperate
+
+694 «
+pop a,b    push merged(a,b) if both are lists, else push concatenated(a, b)
+
+690 ®
+push the last item from register_c
+
+679 ¹
+push the first item from the input history
+
+658 -
+pop a,b    push (a - b)
+
+635 R
+pop a      push reversed(a)
+
+633 <
+pop a      push a - 1
+
+633 
+624 >
+pop a      push a + 1
+
+621 ø
+pop (a),b  push zipped b if b is list, else zipped a with b
+
+609 v
+pop a      range loop: for y in a (y = string, N = index)
+
+592 `
+pop a      push all the items of a into the stack
+
+586 4
+numeric literal
+
+582 ‚
+pop a,b    push [a, b]
+
+570 )
+wrap total stack to an array
+
+568 Å
+list commands
+
+562 P
+pop (a)    push total product of a if a is list, else total product of stack
+
+531 X
+integer variable
+
+521 ×
+pop a,b    push a × b (strings)
+
+519 ©
+get a      store a in register_c without popping
+
+513 _
+pop a      push negative bool
+
+499 ð
+push a space character
+
+495 ʒ
+pop a      filter a when the result of code == 1: usage ʒCODE}
+
+491 F
+pop a      for N in range(0, a) { }: F(commands)} / N = variable
+
+489 #
+pop a      if true: break/end (used in infinite loops)
+
+475 ž
+push current hours
+
+467 „
+2 char string / can also be used for 2 compressed strings
+
+466 ,
+pop a      print(a)
+
+454 /
+pop a,b    push (a / b)
+
+444 »
+pop (a)    if list, join list by newlines, else join stack by newlines
+
+417 ¦
+pop a      push a[1:]
+
+415 ˜
+pop a      push deep flattened a
+
+408 å
+pop a,b    push b in a
+
+375 5
+numeric literal
+
+367 6
+numeric literal
+
+361 K
+pop a,b    push a with no b's
+
+356 ô
+pop a,b    push a split in pieces of b
+
+353 A
+push 'abcdefghijklmnopqrstuvwxyz'
+
+341 Ý
+pop a      push [0 .. a]
+
+339 U
+pop a      assign X to a
+
+336 :
+pop a,b,c  a.replace(b, c) / infinite replacement
+
+332 n
+pop a      push a**2
+
+331 ¨
+pop a      push a[0:-1]
+
+330 [
+infinite loop start
+
+329 {
+pop a      push sorted a
+
+328 ¡
+pop a,b    push a.split(b)  
+
+326 ]
+close all loops and if statements
+
+323 £
+pop a,b    push a[0:b]
+
+320 …
+3 char string / can also be used for 3 compressed strings
+
+320 T
+push 10
+
+317 ì
+pop a,b    push merged(b, a) if both are lists, else a.prepend(b)
+
+316 (
+pop a      push -a
+
+316 k
+pop a,b    push 0-indexed index of b in a (-1 when not found)
+
+312 %
+pop a,b    push (a % b)
+
+308 ý
+pop (a),b  push b.join(a) if a is list, else b.join(stack)
+
+303 θ
+pop a      push a[-1]
+
+302 н
+pop a      push a[0]
+
+291 ë
+else statement
+
+289 Â
+pop a      push a, reversed(a)
+
+284 ¢
+pop a,b    push a.count(b)
+
+282 ·
+pop a      push 2 * a
+
+282 
+279 9
+numeric literal
+
+278 ;
+pop a      push a / 2
+
+271 ‹
+pop a,b    push a < b
+
+269 Ù
+pop a      push uniquified a
+
+266 |
+push inputs as strings and places them in an array until an empty newline or eof is found
+
+265 m
+pop a,b    push a**b
+
+265 Ð
+pop a      triplicate top of stack (push a, push a, push a)
+
+264 o
+pop a      push 2**a
+
+263 à
+get a      extract greatest element of list
+
+263 =
+print last item
+
+262 œ
+pop a      push permutations(a)
+
+261 δ
+pop a,b    get the next command, push double vectorized command
+
+258 r
+reverse stack
+
+257 ÿ
+used for string interpolation, pop a and replace ÿ with str(a)
+
+257 “
+for compressed strings (normal)
+
+256 ‡
+pop a,b,c  push a.transliterate(b -> c)
+
+255 ?
+pop a      print a no newline
+
+254 V
+pop a      assign Y to a
+
+250 š
+pop a,b    push a as a list (if not already a list) with b prepended
+
+246 7
+numeric literal
+
+246 ā
+get a      push range(1, len(a) + 1)
+
+243 ¥
+pop a      push delta's a
+
+243 Δ
+pop a      repeat CODE until a doesn't change: usage ΔCODE}
+
+242 ²
+push the second item from the input history
+
+240 p
+pop a      push isPrime(a)
+
+233 ˆ
+pop a      add to global array
+
+232 ã
+pop (a),b  push cartesian product of b.repeat(2) if b is list, else cartesian product of a.repeat(b)
+
+223 í
+pop a      push [reversed Q for Q in a] (short for €R)
+
+222 ć
+pop a      push head_extracted a: a[1:], a[0] 
+
+220 t
+pop a      push sqrt(a)
+
+218 u
+pop a      push upper_case(a)
+
+216 ¬
+get a      push head(a)
+
+215 l
+pop a      push lower_case(a)
+
+215 в
+pop a,b    push a converted to base b (arbitrary)
+
+210 Œ
+pop a      push substrings(a)
+
+210 8
+numeric literal
+
+208 Ë
+pop a      push 1 if all equal else 0
+
+206 Z
+push max(a) without popping
+
+205 Ï
+pop a,b    push the elements from a at which the same index at b is 1
+
+204 ÷
+pop a,b    push a // b (integer division)
+
+204 B
+pop a,b    push base(a, b)
+
+203 α
+pop a,b    push absolute difference of a and b
+
+202 Ÿ
+pop (a),b  push [a, ..., b] if b not a list, otherwise push [b[0],...,b[1],...,b[n]]
+
+201 ª
+pop a,b    push a as a list (if not already a list) with b appended
+
+199 Ç
+pop a      push ASCII value of a
+
+197 a
+pop a      push is_alpha(a)
+
+196 ›
+pop a,b    push a > b
+
+195 ç
+pop a      push char a
+
+195 d
+pop a      push is_positive(a) (a >= 0), returns false for non-numbers
+
+195 ∞
+push infinite list ([1, 2, …, ∞])
+
+191 ”
+for compressed strings (title)
+
+189 ¾
+push counter_variable
+
+189 ï
+pop a      push int(a)
+
+187 ¯
+push global array
+
+186 ü
+pairwise command (vectorizes if the first element is a list)
+
+185 @
+pop a,b    push a >= b
+
+185 Š
+pop a,b,c  push c,a,b
+
+185 ä
+pop a,b    push a sliced into b pieces
+
+184 γ
+pop a      push a split into chunks of consecutive equal elements
+
+180 ¤
+get a      push tail(a)
+
+178 !
+pop a,     push factorial(a)
+
+177 Y
+integer variable
+
+177 c
+pop a,b    push a nCr b
+
+171 e
+pop a,b    push a nPr b
+
+169 ¸
+pop a      push [a]
+
+167 Ä
+pop a      push abs(a)
+
+166 É
+pop a      push a % 2 == 1 (is uneven)
+
+164 Ā
+pop a      push truthified a
+
+164 η
+pop a      push prefixes(a)
+
+163 Ž
+two-char compressed number
+
+162 æ
+pop a      push powerset(a)
+
+154 Ö
+pop a,b    push a % b == 0
+
+154 ’
+for compressed strings (no implicit space)
+
+153 ú
+pop a,b    push a padded with b spaces in the front
+
+150 т
+push 100
+
+149 C
+pop a      push int(a, 2)
+
+147 À
+pop a      push a rotated 1 left
+
+147 x
+pop a      push a, a * 2
+
+146 M
+push the largest number in the stack
+
+146 Á
+pop a      push a rotated 1 right
+
+146 õ
+push empty string
+
+143 Æ
+pop a      push reduced_substraction(a) if a is list, else reduced_substraction(stack)
+
+143 ß
+get a      extract smallest element of list
+
+142 q
+terminates the program
+
+142 û
+pop a      push palindromized(a), 12345 becomes 123454321 (a + a[::-1][1:])
+
+141 ™
+pop a      push title_cased(a)
+
+141 h
+pop a      push hex(a)
+
+141 È
+pop a      push a % 2 == 0 (is even)
+
+140 ζ
+pop a,(b)  push zipped a with filler b (standardized to space)
+
+140 G
+pop a      for N in range(1, a) { }: F(commands)} / N = variable
+
+139 °
+pop a      push 10 ** a
+
+138 W
+push min(a) without popping
+
+136 ƒ
+pop a      push for N in range(0, a + 1)
+
+134 Ã
+pop a,b    push a.keep(b)
+
+133 Ω
+pop a      push random_pick(a)
+
+132 â
+pop a,b    push cartesian product
+
+131 ǝ
+pop a,b,c  replace the element in a at index c with b
+
+131 Σ
+pop a      sort a by the result of code: usage ΣCODE}
+
+130 f
+pop a      push list of prime factors (no duplicates)
+
+123 ¼
+counter_variable += 1
+
+123 ¿
+pop (a),b  push gcd(b) if b is list, else push gcd([b, a])
+
+122 ‰
+pop a,b    push a divmod b
+
+122 ^
+pop a,b    push a XOR b
+
+121 Í
+pop a      push a - 2
+
+120 ≠
+pop a      push 05AB1E falsified a (a != 1)
+
+118 ¶
+push newline character
+
+116 $
+push 1 and input (used for sequences)
+
+115 Ñ
+pop a      push divisors(a)
+
+115 и
+pop a,b    push a n-repeat (list-multiply) b
+
+112 Ì
+pop a      push a + 2
+
+112 Ê
+pop a,b    push a != b
+
+112 ∍
+pop a,b    push a extended/shortened to length b
+
+111 ι
+pop (a),b  push [a[0::b], a[1::b], ..., a[(b - 1)::b]] (uninterleave)
+
+110 z
+pop a      push 1 / a
+
+110 ê
+pop a      push sorted_uniquified(a)
+
+109 º
+pop a      push mirrored a
+
+109 µ
+pop a      while counter_variable != a, do...
+
+105 þ
+pop a      push only digits of a
+
+103 î
+pop a      push round_up(a)
+
+103 &
+pop a,b    push a AND b
+
+103 Ƶ
+convert the next char from base 255 to base 10 and add 101
+
+101 Î
+push 0 and input
+
+101 é
+pop a      push sorted a (key=length)
+
+97 á
+pop a      push only letters of a
+
+97 Ò
+pop a      push list of prime factors (with duplicates)
+
+97 E
+pop a      for N in range(0, a + 1). Usage E<func>}
+
+93 ù
+pop a,b    push a with elements of length b
+
+93 ƶ
+pop a      push lifted a, each element is multiplied by its index (1-indexed)
+
+93 ₂
+push 26, or in recursive environment, push a(n - 2)
+
+92 ~
+pop a,b    push a OR b
+
+91 β
+pop a,b    push a converted from base b (arbitrary)
+
+91 Ć
+pop a      push enclosed a: a + a[0]
+
+87 Ø
+pop a      push ath prime (zero-indexed)
+
+87 ³
+push the third item from the input history
+
+85 ₄
+push 1000, or in recursive environment, push a(n - 4)
+
+85 †
+pop a,b    push a with b filtered to the front
+
+84 Θ
+pop a      push 05AB1E truthified a (a == 1)
+
+81 H
+pop a      push int(a, 16)
+
+81 w
+
+
+80 Ü
+pop a,b    push a with trailing b's trimmed off
+
+80 j
+pop a      Same as J, with each substring right justified w/ a length of b
+
+75 м
+pop a,b    push a.remove(all elements of b)
+
+73 ±
+pop a      push bitwise not a
+
+73 λ
+pop a      recursive list generation with base case(s) a, usage: λ<flag?><func>} --> f(n) = <func>
+
+70 ₁
+push 256, or in recursive environment, push a(n - 1)
+
+70 Ó
+pop a      push list of exponents of prime factors (2^a, 3^b, 5^c, 7^d, etc.)
+
+69 ½
+pop a,     if 1, then counter_variable += 1
+
+66 Λ
+pop a,b,c  store a canvas with {a: num, b: filler, c: pattern} (todo: docs)
+
+66 —
+pop a      if 1, print y (used in loops)
+
+64 ‘
+for compressed strings (upper)
+
+63 ö
+pop a,b    push int(a, b)
+
+63 –
+pop a      if 1, print N (used in loops)
+
+61 ´
+clear global array
+
+55 ò
+pop a      push round to nearest integer(a) (bankers rounding)
+
+54 Û
+pop a,b    push a with leading b's trimmed off
+
+53 Ô
+pop a      push connected uniquified a
+
+51 Þ
+pop a      push cycled a (e.g. [1, 2, 3] → [1, 2, 3, 1, 2, ...)
+
+46 Γ
+
+
+44 §
+pop a      push str(a)
+
+42 ₅
+push 255, or in recursive environment, pop x and push a(x)
+
+41 ∊
+pop a      push vertically mirrored a
+
+40 Ú
+pop a,b    push a with leading and trailing b's trimmed off
+
+38 ₆
+push 36, or in recursive environment, pop x and push a(n - x)
+
+37 ₃
+push 95, or in recursive environment, push a(n - 3)
+
+35 Õ
+pop a      push euler_totient(a)
+
+32 ó
+
+
+23 ñ
+
+
+2 Ё
