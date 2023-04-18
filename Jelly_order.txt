@@ -1,256 +1,707 @@
 3084 €
+€ 	Each. Map a link over its left argument. 	<monad/dyad>€
+
 1717 ;
+; 	Concatenate.
+
 1684 $
+$ 	Last two links (if not part of an LCC) as a monad 	
+
 1599 “
+
 1522 Œ
+
 1388 µ
+
 1380 2
+
 1300 1
+
 1250 S
+S 	Sum of a list.
+
 1089 L
+L 	Length.
+
 1082 +
++ 	Addition.
+
 1051 ị
- 969 ”
- 968 0
- 932 ’
- 921 ‘
- 867 3
- 867 F
- 862 Æ
- 851 ,
- 850 /
- 847 Ç
- 842 Ð
- 822 Ḣ
- 806 Ø
- 782 ×
- 764 ¤
- 722 @
- 680 Z
- 668 D
- 666 R
- 652 ⁸
- 651 U
- 645 _
- 645 Ṫ
- 613 ¡
- 600 Ɗ
- 598 œ
- 597 Ṛ
- 592 P
- 591 Ḋ
- 570 ¥
- 570 Ṗ
- 562 -
- 551 ḟ
- 549 J
- 547 4
- 546 Ƈ
- 526 f
- 514 Q
- 511 *
- 505 s
- 483 i
- 479 %
- 470 Ẏ
- 469 Y
- 461 »
- 452 5
- 448 Ɱ
- 444 j
- 441 Ṁ
- 441 ⁶
- 436 ?
- 432 "
- 419 B
- 415 =
- 410 Ṣ
- 400 \
- 400 I
- 399 .
- 395 ⁵
- 383 ẋ
- 382 ċ
- 381 <
- 377 ³
- 376  
- 375 r
- 369 !
- 368 >
- 361 6
- 358 O
- 358 ¦
- 355 Ḥ
- 355 o
- 355 ⁾
- 354 ⁹
- 354 9
- 352 H
- 350 A
- 348 p
- 343 Ʋ
- 342 e
- 336 :
- 330 a
- 328 ż
- 325 ṁ
- 323 ç
- 320 T
- 316 Ḃ
- 316 þ
- 315 x
- 314 Ḷ
- 310 E
- 308 ¬
- 307 #
- 307 Ạ
- 306 ⁼
- 304 ṗ
- 302 `
- 301 ®
- 300 ṙ
- 299 N
- 298 )
- 298 Ṃ
- 296 W
- 295 ÷
- 295 ḣ
- 294 Ż
- 292 ɗ
- 292 Þ
- 290 ṭ
- 286 8
- 285 ð
- 283 ©
- 282 ²
- 282 V
- 280 Ḍ
- 279 ạ
- 278 7
- 274 c
- 270 }
- 270 ¢
- 270 m
- 269 ṣ
- 264 Ḅ
- 254 ¹
- 253 Ƒ
- 250 b
- 243 K
- 233 ¿
- 231 §
- 229 ḅ
- 227 X
- 224 ⁴
- 221 |
- 218 Ṭ
- 214 g
- 213 æ
- 207 n
- 203 Ƥ
- 203 ½
- 203 Ị
- 199 ^
- 197 ʋ
- 197 z
- 197 Ƭ
- 196 Ḟ
- 192 ß
- 192 ȷ
- 191 l
- 190 y
- 188 Ɲ
- 182 Ḳ
- 179 ṫ
- 178 Ẉ
- 175 C
- 171 ⁺
- 169 Ṿ
- 165 d
- 165 Ẹ
- 161 Ọ
- 153 Ä
- 151 Ṡ
- 146 Ġ
- 145 ȯ
- 144 ȧ
- 143 ⁽
- 136 Ñ
- 136 Ṅ
- 135 ṛ
- 135 u
- 134 &
- 131 Ẇ
- 131 «
- 128 M
- 128 v
- 127 ɓ
- 126 ḍ
- 120 Ụ
- 119 ṃ
- 115 ṡ
- 114 Ŀ
- 114 t
- 114 G
- 112 '
- 112 £
- 111 Ỵ
- 111 ḷ
- 110 ⁷
- 108 [
- 108 Ċ
- 106 Ȧ
- 105 (
- 105 ƒ
- 103 w
- 103 ƭ
- 101 ẹ
- 100 ḃ
-  96 ɠ
-  94 {
-  93 ~
-  92 Ɠ
-  90 Ṙ
-  89 ḋ
-  88 Ẓ
-  86 ı
-  82 Ė
-  81 k
-  81 ]
-  79 İ
-  79 Ẋ
-  78 ø
-  77 ɼ
-  75 ¶
-  73 Ṇ
-  67 h
-  67 ẇ
-  65 Ȯ
-  62 ⁻
-  56 q
-  54 ọ
-  54 ñ
-  53 ƙ
-  47 ŀ
-  46 ḥ
-  45 ỵ
-  41 Ƙ
-  40 ƈ
-  38 °
-  34 ẓ
-  32 ʠ
-  32 ɱ
-  32 ƥ
-  32 ʂ
-  30 ɲ
-  30 ɦ
-  29 ẏ
-  29 ȥ
-  28 ġ
-  27 ṇ
-  27 ḳ
-  27 Ɓ
-  26 ṅ
-  24 ė
-  22 ẉ
-  22 Ȥ
+ị 	Return the element of y at index x % len(y). If floor(x) and ceil(x) aren't equal, return the elements of y at indices floor(x) % len(y) and ceil(x) % len(y).
+
+969 ”
+
+968 0
+
+932 ’
+’ 	Decrement; compute z − 1.
+
+921 ‘
+‘ 	Increment; compute z + 1.
+
+867 3
+
+867 F
+F 	Flatten list.
+
+862 Æ
+
+851 ,
+, 	Pair; return [x, y].
+
+850 /
+/ 	Reduce or n-wise reduce. 	<dyad>/ or <dyad><nilad>/
+
+847 Ç
+Ç 	Last link as a monad. 	Ç
+
+842 Ð
+
+822 Ḣ
+Ḣ 	Head; pop and return the first element of z. Modifies z.
+
+806 Ø
+
+782 ×
+× 	Multiplication.
+
+764 ¤
+
+722 @
+@ 	Swaps operands. 	<dyad>@
+
+680 Z
+Z 	Zip; push the array of all columns of z.
+
+668 D
+D 	Convert from integer to decimal.
+
+666 R
+R 	Inclusive range [1 … z].
+
+652 ⁸
+⁸ 	Return the link's left argument or [].
+
+651 U
+U 	Upend; reverse an array.
+
+645 _
+_ 	Subtraction.
+
+645 Ṫ
+Ṫ 	Tail; pop and return the last element of z. Modifies z.
+
+613 ¡
+¡ 	Repeat n times. 	<link><repetitions>¡
+
+600 Ɗ
+Ɗ 	Last three links (if not part of an LCC) as a monad 	
+
+598 œ
+
+597 Ṛ
+Ṛ 	Reverse z. Does not vectorize.
+
+592 P
+P 	Product of a list.
+
+591 Ḋ
+Ḋ 	Dequeue; return z[1:].
+
+570 ¥
+¥ 	Last two links (if not part of an LCC) as a dyad 	
+
+570 Ṗ
+Ṗ 	Pop; return z[:-1].
+
+562 -
+
+551 ḟ
+ḟ 	Filter; remove the elements from x that are in y.
+
+549 J
+J 	Returns [1 … len(z)].
+
+547 4
+
+546 Ƈ
+
+526 f
+f 	Filter; remove the elements from x that are not in y.
+
+514 Q
+Q 	Return the unique elements of z, sorted by first appearance.
+
+511 *
+* 	Exponentiation with base x.
+
+505 s
+s 	Split x into slices of length y.
+
+483 i
+i 	Find the first index of element y in list x, or 0.
+
+479 %
+% 	Modulus.
+
+470 Ẏ
+Ẏ 	Tighten; dump all lists inside z.
+
+469 Y
+Y 	Join z, separating by linefeeds.
+
+461 »
+» 	Maximum of x and y.
+
+452 5
+
+448 Ɱ
+Ɱ 	Each (alias for Ð€). Map a link over its right argument. 	<dyad>Ɱ
+
+444 j
+j 	Join list x with separator y.
+
+441 Ṁ
+Ṁ 	Maximum.
+
+441 ⁶
+⁶ 	Return the sixth command line argument (fourth input) or ' '.
+
+436 ?
+? 	Ternary if. 	<if-clause><else-clause><condition>?
+
+432 "
+" 	Vectorize/zipwith. 	<dyad>"
+
+419 B
+B 	Convert from integer to binary.
+
+415 =
+= 	If x equals y, then 1, else 0. Vectorizes.
+
+410 Ṣ
+Ṣ 	Sort the list z.
+
+400 
+
+399 .
+
+395 ⁵
+⁵ 	Return the fifth command line argument (third input) or 10.
+
+383 ẋ
+ẋ 	Repeat list x y times.
+
+382 ċ
+ċ 	Count the occurrences of y in x.
+
+381 <
+< 	If x is less than y, then 1, else 0.
+
+377 ³
+³ 	Return the third command line argument (first input) or 100.
+
+376 
+
+375 r
+r 	Inclusive range. Descending if x > y.
+
+369 !
+! 	Factorial or Pi function.
+
+368 >
+> 	If x is greater than y, then 1, else 0.
+
+361 6
+
+358 O
+O 	Ord; cast to number.
+
+358 ¦
+¦ 	Apply link to items at specific indices. 	<link><indices>¦
+
+355 Ḥ
+Ḥ 	Double; compute 2z.
+
+355 o
+o 	Logical OR. Vectorizes with depth 0.
+
+355 ⁾
+
+354 ⁹
+⁹ 	Return the link's right argument or 256.
+
+354 9
+
+352 H
+H 	Halve; compute z ÷ 2.
+
+350 A
+A 	Absolute value.
+
+348 p
+p 	Cartesian product.
+
+343 Ʋ
+Ʋ 	Last four links (if not part of an LCC) as a monad 	
+
+342 e
+e 	If x occurs in y, then 1, else 0.
+
+336 :
+: 	Integer division.
+
+330 a
+a 	Logical AND. Vectorizes with depth 0.
+
+328 ż
+ż 	Zip; interleave x and y.
+
+325 ṁ
+ṁ 	Mold; reshape the content of x like the content of y. Reuses the content of x if necessary.
+
+323 ç
+ç 	Last link as a dyad. 	ç
+
+320 T
+T 	Return all indices of z that correspond to truthy elements.
+
+316 Ḃ
+Ḃ 	Bit; return z % 2.
+
+316 þ
+þ 	Outer product/table. 	<dyad>þ
+
+315 x
+x 	Times; repeat the elements of x y times.
+
+314 Ḷ
+Ḷ 	Lowered range; return [0 … z−1].
+
+310 E
+E 	Check if all elements of z are equal.
+
+308 ¬
+¬ 	Logical NOT: if z is zero or empty, then 1, else 0.
+
+307 #
+# 	nfind: Count up, collecting first n matches. 	<condition><amount>#
+
+307 Ạ
+Ạ 	All; return 0 if z contains a falsey value, else 1.
+
+306 ⁼
+⁼ 	Equals. Does not vectorize.
+
+304 ṗ
+ṗ 	Cartesian power.
+
+302 `
+` 	Make a monad from a dyad by repeating the argument. 	<dyad>`
+
+301 ®
+® 	Restore; retrieve the value of the register. Initially 0.
+
+300 ṙ
+ṙ 	Rotate x y units to the left.
+
+299 N
+N 	Negative; compute −z.
+
+298 )
+
+298 Ṃ
+Ṃ 	Minimum.
+
+296 W
+W 	Wrap; return [z].
+
+295 ÷
+÷ 	Floating point division.
+
+295 ḣ
+ḣ 	Head; return x[:y].
+
+294 Ż
+Ż 	Prepend 0 to z. For integers, return [0 … z].
+
+292 ɗ
+ɗ 	Last three links (if not part of an LCC) as a dyad 	
+
+292 Þ
+Þ 	Sort by some key function. 	<monad>Þ
+
+290 ṭ
+ṭ 	Tack; append x to y.
+
+286 8
+
+285 ð
+
+283 ©
+© 	Copy link result to register (® atom to retrieve). 	<link>©
+
+282 ²
+² 	Square.
+
+282 V
+V 	Eval z as Jelly code, with no arguments. If z is a list, it maps Python's str function to all of z's elements, concatenates them and then eval's the result. Vectorizes at depth 1.
+
+280 Ḍ
+Ḍ 	Convert from decimal to integer.
+
+279 ạ
+ạ 	Absolute difference.
+
+278 7
+
+274 c
+c 	Combinations; compute xCy.
+
+270 }
+} 	Turn a monad into a dyad. Uses the right argument. 	<monad>}
+
+270 ¢
+¢ 	Last link as a nilad. 	¢
+
+270 m
+m 	Modular; return every y th element of x. If y is zero, mirror: prepend x to its reverse.
+
+269 ṣ
+ṣ 	Split list x at occurrences of y.
+
+264 Ḅ
+Ḅ 	Convert from binary to integer.
+
+254 ¹
+¹ 	Identity; return z.
+
+253 Ƒ
+Ƒ 	Check if the left argument is equal to the result. 	<link>Ƒ
+
+250 b
+b 	Convert from integer to base y.
+
+243 K
+K 	Join z, separating by spaces.
+
+233 ¿
+¿ 	While loop. 	<body><condition>¿
+
+231 §
+§ 	Sum. Vectorizes at depth 1.
+
+229 ḅ
+ḅ 	Convert from base y to integer.
+
+227 X
+X 	Random; choose a random item from z if z is a list, or from 1 to z inclusive if z is a positive integer. If z = 0, return z. Error if z is negative or a decimal.
+
+224 ⁴
+⁴ 	Return the fourth command line argument (second input) or 16.
+
+221 |
+| 	Bitwise OR.
+
+218 Ṭ
+Ṭ 	Return a Boolean array with 1s at the indices in z.
+
+214 g
+g 	Greatest common divisor (GCD, HCF).
+
+213 æ
+
+207 n
+n 	Not equals. If x equals y, then 0, else 1. Vectorizes.
+
+203 Ƥ
+Ƥ 	Map a link over prefixes, and if given a <nilad>, overlapping infixes if positive, or the overlapping outfixes of abs(<nilad>) if negative. 	<monad>Ƥ or <monad><nilad>Ƥ
+
+203 ½
+½ 	Square root.
+
+203 Ị
+Ị 	Insignificant; return abs(z) ≤ 1.
+
+199 ^
+^ 	Bitwise XOR.
+
+197 ʋ
+ʋ 	Last four links (if not part of an LCC) as a dyad 	
+
+197 z
+z 	Zip; transpose x with filler y.
+
+197 Ƭ
+
+196 Ḟ
+Ḟ 	Floor; round z down to the nearest integer. Real part for complex z.
+
+192 ß
+ß 	This link, with the same arity. 	ß
+
+192 ȷ
+
+191 l
+l 	Logarithm with base y.
+l (overlapping) slices of length y of x.
+
+190 y
+y 	Translate the elements of y according to the mapping in x.
+
+188 Ɲ
+Ɲ 	Apply a dyadic link or a monadic chain for all pairs of neighboring elements. 	<any>Ɲ
+
+182 Ḳ
+Ḳ 	Split z at spaces.
+
+179 ṫ
+ṫ 	Tail; return x[y - 1:].
+
+178 Ẉ
+Ẉ 	Get the length of each element of z.
+
+175 C
+C 	Complement; compute 1 − z.
+
+171 ⁺
+⁺ 	Duplicates the previous link. 	
+
+169 Ṿ
+Ṿ 	Uneval; right inverse of V.
+
+165 d
+d 	Divmod.
+
+165 Ẹ
+Ẹ 	Any; return 1 if z contains a truthy value, else 0.
+
+161 Ọ
+Ọ 	Chr; cast to character.
+
+153 Ä
+Ä 	Cumulative sum. Vectorizes at depth 1.
+
+151 Ṡ
+Ṡ 	Sign of z. Conjugate for complex z.
+
+146 Ġ
+Ġ 	Group the indices of z by their corresponding values.
+
+145 ȯ
+ȯ 	Logical OR. Does not vectorize.
+
+144 ȧ
+ȧ 	Logical AND. Does not vectorize.
+
+143 ⁽
+
+136 Ñ
+Ñ 	Next link as a monad. 	Ñ
+
+136 Ṅ
+Ṅ 	Print z and a linefeed. Returns z.
+
+135 ṛ
+ṛ 	Right argument; return y.
+
+135 u
+
+134 &
+& 	Bitwise AND.
+
+131 Ẇ
+Ẇ 	Sublists; all non-empty contiguous slices of z.
+
+131 «
+« 	Minimum of x and y.
+
+128 M
+M 	Return all indices of z that correspond to maximal elements.
+
+128 v
+v 	Eval x as Jelly code, with argument y.
+
+127 ɓ
+
+126 ḍ
+ḍ 	If x divides y, then 1, else 0.
+
+120 Ụ
+Ụ 	Grade the list z up, i.e., sort its indices by their corresponding values.
+
+119 ṃ
+ṃ 	Base decompression; convert x to base length(y) then index into y.
+
+115 ṡ
+ṡ 	Return al
+
+114 Ŀ
+Ŀ 	Link at index n as a monad. 	<index>Ŀ
+
+114 t
+t 	Trim all elements of y from both sides of x.
+
+114 G
+G 	Attempt to format z as a grid.
+
+112 '
+'.
+' 	For monads, flat. For dyad, spawn. 	<monad/dyad>'
+
+112 £
+£ 	Link at index n as a nilad. 	<index>£
+
+111 Ỵ
+Ỵ 	Split z at linefeeds.
+
+111 ḷ
+ḷ 	Left argument; return x.
+
+110 ⁷
+⁷ 	Return the seventh command line argument (fifth input) or '
+
+108 [
+
+108 Ċ
+Ċ 	Ceil; round z up to the nearest integer. Imag. part for complex z.
+
+106 Ȧ
+Ȧ 	Any and all; return 0 if z is empty, or contains a falsey value when flattened, else 1.
+
+105 (
+
+105 ƒ
+ƒ 	Reduce or n-wise reduce using the right argument as the starting value. 	<dyad>ƒ or <dyad><nilad>ƒ
+
+103 w
+w 	Find the first index of sublist y within list x, or 0.
+
+103 ƭ
+ƭ 	Tie. Cycle through a number of (default 2) links each time called. 	<links...><nilad>ƭ or <link><link>ƭ
+
+101 ẹ
+ẹ 	Return the indices of all occurrences of y in x.
+
+100 ḃ
+ḃ 	Convert from integer to bijective base y.
+
+96 ɠ
+ɠ 	Read a single line from STDIN.
+
+94 {
+{ 	Turn a monad into a dyad. Uses the left argument. 	<monad>{
+
+93 ~
+~ 	Bitwise NOT.
+
+92 Ɠ
+Ɠ 	Read and evaluate a single line from STDIN.
+
+90 Ṙ
+Ṙ 	Print a string representation of z, without a linefeed. Returns z.
+
+89 ḋ
+ḋ 	Dot product of two vectors (real/complex). Right pads the shorter argument with 0.
+
+88 Ẓ
+Ẓ 	If z is a prime, then 1, else 0 (alias for ÆP).
+
+86 ı
+
+82 Ė
+Ė 	Enumerate; return [ [1,y[1]] , [2,y[2]], ... ].
+
+81 k
+k 	Partition y after truthy indices of x.
+
+81 ]
+
+79 İ
+İ 	Inverse;Reciprocal; compute 1 ÷ z.
+
+79 Ẋ
+Ẋ 	Shuffle; return a random permutation of z.
+
+78 ø
+
+77 ɼ
+ɼ 	Register. Apply link to ® then copy to the register and return the result. 	<link>ɼ
+
+75 ¶
+
+73 Ṇ
+Ṇ 	Logical NOT. Does not vectorize.
+
+67 h
+
+67 ẇ
+ẇ 	Sublist exists; return 1 if x is a contiguous sublist of y, else 0.
+
+65 Ȯ
+Ȯ 	Print z. Returns z.
+
+62 ⁻
+⁻ 	Not equals. Does not vectorize.
+
+56 q
+
+54 ọ
+ọ 	Order, multiplicity, valuation; how many times is x divisible by y?
+
+54 ñ
+ñ 	Next link as a dyad. 	ñ
+
+53 ƙ
+ƙ 	Key. Map a link over the groups formed by identical items. 	<monad>ƙ
+
+47 ŀ
+ŀ 	Link at index n as a dyad. 	<index>ŀ
+
+46 ḥ
+ḥ 	Jelly hash function. x contains a magic number (akin to a salt, can also be a base-250 compressed integer as a string) concatenated with a collection of values. If there are more than two items in x, all but the first are concatenated into a single collection. If there are two items and the second is a number N, the range [1,N] is used as the collection. y is the input to the hash function. Depending on the resulting hash, an item from the collection is returned.
+
+45 ỵ
+
+41 Ƙ
+
+40 ƈ
+ƈ 	Read a single character from STDIN.
+
+38 °
+° 	Convert z from degrees to radians.
+
+34 ẓ
+
+32 ʠ
+
+32 ɱ
+
+32 ƥ
+
+32 ʂ
+
+30 ɲ
+
+30 ɦ
+
+29 ẏ
+
+29 ȥ
+
+28 ġ
+
+27 ṇ
+
+27 ḳ
+
+27 Ɓ
+
+26 ṅ
+
+24 ė
+
+22 ẉ
+
+22 Ȥ
+
