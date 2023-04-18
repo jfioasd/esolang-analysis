@@ -1,240 +1,711 @@
-1-graphs:
- 155 *
- 118 _
- 102 +
- 100 m
-  81 \
-  77 Σ
-  73 /
-  67 '
-  64 {
-  62 k
-  60  
-  53 ╒
-  53 x
-  50 =
-  50 )
-  48 -
-  45 r
-  45 ]
-  40 n
-  40 Å
-  40 h
-  38 (
-  36 o
-  35 <
-  34 ─
-  34 $
-  34 %
-  34 3
-  34 "
-  33 É
-  33 ;
-  32 y
-  31 î
-  31 g
-  31 £
-  30 §
-  30 ²
-  30 ∞
-  28 2
-  27 α
-  27 i
-  26 ÿ
-  26 a
-  26 p
-  26 ½
-  25 w
-  25 Æ
-  25 û
-  24 ♂
-  24 ╞
-  24 1
-  23 ▒
-  23 ~
-  23 ‼
-  23 0
-  22 5
-  22 ε
-  22 æ
-  22 ▀
-  22 ï
-  21 ░
-  21 !
-  21 l
-  20 s
-  20 ╙
-  20 9
-  20 u
-  20 4
-  19 Ä
-  19 ╕
-  19 8
-  19 ♀
-  18 ^
-  18 `
-  18 ÷
-  18 ô
-  18 }
-  17 Þ
-  17 ├
-  17 b
-  17 ■
-  17 f
-  16 δ
-  16 ╧
-  16 ±
-  16 ¥
-  15 ▌
-  15 ╓
-  15 ß
-  15 ê
-  14 e
-  14 t
-  14 6
-  14 q
-  14 √
-  14 7
-  14 E
-  13 ╠
-  13 Γ
-  13 .
-  13 ∟
-  13 ≥
-  13 ¬
-  12 ∙
-  12 ╫
-  12 ▄
-  12 #
-  12 ?
-  12 ╩
-  12 ▲
-  12 A
-  12 I
-  12 á
-  12 ⌠
-  11 ┌
-  11 N
-  11 ╘
-  11 ┴
-  11 ,
-  11 M
-  11 ¶
-  10 ╟
-  10 ▐
-  10 @
-  10 à
-  10 ¿
-  10 â
-   9 ♪
-   9 ▬
-   9 >
-   9 ∩
-   9 S
-   9 R
-   9 G
-   9 ⌡
-   9 ç
-   8 ╡
-   8 ▼
-   8 ñ
-   8 ♣
-   8 ╛
-   8 ╤
-   8 C
-   8 W
-   8 │
-   8 å
-   8 Ç
-   8 |
-   7 ╪
-   7 ☻
-   7 J
-   7 ¢
-   7 ▓
-   7 z
-   7 ü
-   7 T
-   7 D
-   7 ú
-   7 c
-   7 ¡
-   6 ♥
-   6 ä
-   6 F
-   6 ╦
-   6 ╜
-   6 B
-   6 ♦
-   6 ó
-   6 ↑
-   6 v
-   6 ù
-   6 ╢
-   6 ♫
-   5 ö
-   5 °
-   5 ƒ
-   5 ò
-   5 d
-   5 O
-   5 ⌐
-   5 ↨
-   5 φ
-   5 ┤
-   5 H
-   5 V
-   5 Z
-   4 └
-   4 ¼
-   4 ┼
-   4 ⁿ
-   4 [
-   4 σ
-   4 U
-   4 ⌂
-   4 í
-   4 ♠
-   4 è
-   4 ╣
-   4 ·
-   4 L
-   4 Y
-   4 ☼
-   4 ┐
-   4 ª
-   4 ┬
-   3 ≤
-   3 π
-   3 Ñ
-   3 ◄
-   3 P
-   3 j
-   3 ë
-   3 ╖
-   3 :
-   3 ↔
-   3 º
-   2 ╔
-   2 •
-   2 ═
-   2 ○
-   2 K
-   2 →
-   2 ╚
-   2 µ
-   2 ►
-   1 Ù
-   1 &
-   1 Q
-   1 X
-   1 Ω
-   1 ☺
-   1 Φ
-   1 ◙
-   1 ╨
-   1 ì
-   1 ◘
-   1 τ
-   1 ←
-   1 «
+155
+* : pop a, b : push(a*b)
+
+118
+_ : duplicate TOS
+
+102
++ : pop a, b : push(a+b)
+
+100
+m : explicit map
+
+81
+
+73
+/ : pop a, b : push(a/b), split strings
+
+67
+' : push single character
+
+64
+{ : start block or arbitrary length
+
+62
+k : read integer from input
+
+60
+
+53
+╒ : range(1,n+1)
+
+53
+x : reverse int/array/string
+
+50
+= : pop(a, b), push(a==b)
+
+50
+) : increment
+
+48
+- : pop a, b : push(a-b)
+
+45
+r : range(0, n)
+
+45
+] : end array / wrap stack in array
+
+40
+n : newline char, or map array with newlines
+
+40
+Å : start block of length 2
+
+40
+h : length of array/string without popping
+
+38
+( : decrement
+
+36
+o : print TOS without popping
+
+35
+< : pop(a, b), push(a<b), slicing for lists/strings
+
+34
+─ : flatten array
+
+34
+$ : pop(a), push ord(a) or char(a)
+
+34
+% : modulo
+
+34
+3 : push 3
+
+34
+" : string notation
+
+33
+É : start block of length 3
+
+33
+; : discard TOS
+
+32
+y : join array without separator to string or number
+
+31
+î : index of current loop (1-based)
+
+31
+g : pop a, (b), pop operator from code, filter
+
+31
+£ : length of array/string with pop
+
+30
+§ : get from array
+
+30
+² : pop a : push(a*a)
+
+30
+∞ : pop a, push 2*a
+
+28
+2 : push 2
+
+27
+α : wrap last two elements in array
+
+27
+i : convert to integer (implicit map)
+
+26
+ÿ : start string of length 4
+
+26
+a : wrap in array
+
+26
+p : print with newline
+
+26
+½ : pop a : push(a//2 if int else a/2)
+
+25
+w : random integer in range, random item from list
+
+25
+Æ : start block of length 5
+
+25
+û : start string of length 2
+
+24
+♂ : push 10
+
+24
+╞ : discard from left of string/array
+
+24
+1 : push 1
+
+23
+▒ : split to list of chars/digits
+
+23
+~ : evaluate string, dump array, negate integer
+
+23
+‼ : apply next 2 operators to the stack separately
+
+23
+0 : push 
+
+22
+5 : push 5
+
+22
+ε : reduce list with operator
+
+22
+æ : start block of length 4
+
+22
+▀ : unique elements of string/list
+
+22
+ï : index of current loop, or length of last loop
+
+21
+░ : convert to string (implicit map)
+
+21
+! : gamma(n+1), lowercase for strings
+
+21
+l : read string from input
+
+20
+s : sort(array)
+
+20
+╙ : maximum of two elements, max of list, maximum by filter
+
+20
+9 : push 9
+
+20
+u : join with separator
+
+20
+4 : push 4
+
+19
+Ä : start block of length 1
+
+19
+╕ : start compressed string of length 4 (etaoinsrdluczbfp)
+
+19
+8 : push 8
+
+19
+♀ : push 100
+
+18
+^ : zip top two elements on stack
+
+18
+` : duplicate the top two items
+
+18
+÷ : is divisible
+
+18
+ô : start block of length 6
+
+18
+} : end block
+
+17
+Þ : discard everything but TOS
+
+17
+├ : pop from left of string/array
+
+17
+b : push -1
+
+17
+■ : cartesian product with itself for lists, next collatz item for numbers
+
+17
+f : pop a, push fibonacci(a)
+
+16
+δ : capitalize string
+
+16
+╧ : pop a, b, a.contains(b)
+
+16
+± : absolute value
+
+16
+¥ : modulo 2
+
+15
+▌ : prepend to start of list
+
+15
+╓ : minimum of two elements, min of list, minimum by filter
+
+15
+ß : wrap last three elements in array
+
+15
+ê : read entire input as int array
+
+14
+e : push e (2.71828...)
+
+14
+t : unix timestamp as integer milliseconds
+
+14
+6 : push 6
+
+14
+q : print without newline
+
+14
+√ : pop a : push(sqrt(a)), split string to list
+
+14
+7 : push 7
+
+14
+E : push 15
+
+13
+╠ : pop a, b, push b/a
+
+13
+Γ : wrap last four elements in array
+
+13
+. : pop a, b : push(b*a)
+
+13
+∟ : do while true without popping
+
+13
+≥ : greater or equal, slicing for lists/strings
+
+13
+¬ : rotate entire stack in reverse
+
+12
+∙ : triplicate TOS
+
+12
+╫ : left-rotate bits in int, list/str
+
+12
+▄ : lowercase alphabet as string
+
+12
+# : pop a, b : push(a**b)
+
+12
+? : rot3
+
+12
+╩ : fetch single dictionary word (top 256)
+
+12
+▲ : do while true with pop
+
+12
+A : push 11
+
+12
+I : push 20
+
+12
+á : sort by comparator
+
+12
+⌠ : increment twice
+
+11
+┌ : convert to inverted boolean
+
+11
+N : push 25
+
+11
+╘ : discard everything in stack
+
+11
+┴ : check if equal to 1
+
+11
+, : pop a, b : push(b-a)
+
+11
+M : push 24
+
+11
+¶ : is_prime(n)
+
+10
+╟ : push 60
+
+10
+▐ : append to end of list
+
+10
+@ : rrot3
+
+10
+à : convert to binary string
+
+10
+¿ : if/else (uses one of the next two characters/blocks in the code)
+
+10
+â : convert to binary
+
+9
+♪ : push 1000
+
+9
+▬ : pop a, b : push(b**a)
+
+9
+> : pop(a, b), push(a>b), slicing for lists/strings
+
+9
+∩ : pop a : push 1/a (implicit map)
+
+9
+S : push 30
+
+9
+R : push 29
+
+9
+G : push 18
+
+9
+⌡ : decrement twice
+
+9
+ç : implicit faulty filter
+
+8
+╡ : discard from right of string/array
+
+8
+▼ : do while false with pop
+
+8
+ñ : pop(a), push palindromize(a) string/list/number
+
+8
+♣ : push 128
+
+8
+╛ : if without else
+
+8
+╤ : range(-n, n+1)
+
+8
+C : push 13
+
+8
+W : push 35
+
+8
+│ : get differences of list
+
+8
+å : convert from binary string
+
+8
+Ç : inverted filter
+
+8
+|
+
+7
+╪ : right-rotate bits in int, list, str
+
+7
+☻ : push 16
+
+7
+J : push 21
+
+7
+¢ : convert to/from hexadecimal
+
+7
+▓ : get average of list
+
+7
+z : reverse sort(array)
+
+7
+ü : ceiling with implicit map
+
+7
+T : push 31
+
+7
+D : push 14
+
+7
+ú : pop(a), push(10**a)
+
+7
+c : push -2
+
+7
+¡ : push a, b, push a != b
+
+6
+♥ : push 32
+
+6
+ä : convert from binary
+
+6
+F : push 17
+
+6
+╦ : fetch single dictionary word (all)
+
+6
+╜ : else without if
+
+6
+B : push 12
+
+6
+♦ : push 64
+
+6
+ó : pop(a), push(2**a)
+
+6
+↑ : while true without popping
+
+6
+v : random integer in [-2**31, 2**31-1]
+
+6
+ù : start string of length 3
+
+6
+╢ : start compressed string of length 2 (etaoinsrdluczbfp)
+
+6
+♫ : push 10000
+
+5
+ö : start block of length 7
+
+5
+° : is perfect square
+
+5
+ƒ : random float in range [0,1]
+
+5
+ò : start block of length 8
+
+5
+d : push -3
+
+5
+O : push 26
+
+5
+⌐ : rotate entire stack
+
+5
+↨ : pop a, b, loop from a to b (inclusive)
+
+5
+φ : golden ratio (1.618...)
+
+5
+┤ : pop from right of string/array
+
+5
+H : push 19
+
+5
+V : push 34
+
+5
+Z : push 38
+
+4
+└ : push TOS+1 without popping
+
+4
+¼ : pop a : push(a//4 if int else a/4)
+
+4
+┼ : duplicate second item from top and push to top
+
+4
+ⁿ : pop a : push(a*a*a)
+
+4
+[ : start array
+
+4
+σ : remove leading zeroes
+
+4
+U : push 33
+
+4
+⌂ : asterisk character (for challenges where a printable character is needed)
+
+4
+í : get total number of iterations of for loop
+
+4
+♠ : push 256
+
+4
+è : read entire input as string array
+
+4
+╣ : start compressed string of length 2 (gwymvkxjqh ?*#.,)
+
+4
+· : quadruplicate TOS
+
+4
+L : push 23
+
+4
+Y : push 37
+
+4
+☼ : push 100000
+
+4
+┐ : push TOS-1 without popping
+
+4
+ª : push [1]
+
+4
+┬ : check if equal to 0
+
+3
+≤ : lesser or equal,  slicing for lists/strings
+
+3
+π : pi (3.14159...)
+
+3
+Ñ : check if palindrome
+
+3
+◄ : push 10000000
+
+3
+P : push 27
+
+3
+j : read float from input
+
+3
+ë : read entire input as float array
+
+3
+╖ : start compressed string of length 3 (etaoinsrdluczbfp)
+
+3
+: space character
+:
+
+3
+↔ : do while false without popping
+
+3
+º : push [0]
+
+2
+╔ : push 86400
+
+2
+• : push 512
+
+2
+═ : pad list elements to equal length
+
+2
+○ : push 2048
+
+2
+K : push 22
+
+2
+→ : while true with pop
+
+2
+╚ : push 3600
+
+2
+µ : swap array/string items
+
+2
+► : push 1000000
+
+1
+
+1
+&
+
+1
+Q : push 28
+
+1
+X : push 36
+
+1
+Ω : center string/int
+
+1
+☺
+
+1
+Φ : increment array/string item
+
+1
+◙ : push 4096
+
+1
+╨ : closest power of two above
+
+1
+ì : get loop value in foreach loop
+
+1
+◘ : push 1024
+
+1
+τ : tau (2*pi)
+
+1
+← : while false with pop
+
+1
+« : end compressed string (etaoinsrdluczbfp)
