@@ -1,2001 +1,2001 @@
 1-graphs:
-1471467 
-151523 }
-135441 {
-105122 ]
-101643 [
-64213 ;
-50453 )
-49894 (
-40668 --
-33800 0
-31218 :
-28822 "
-19946 the
-18114 CONSTANT:
-17384 unit-test
-16704 1
-15754 f
-12477 a
-10985 dup
-10311 2
-9659 of
-9259 drop
-9245 M:
-9101 $link
-7686 inline
-7500 3
-7315 HELP:
-6950 to
-6826 FUNCTION:
-6769 T{
-6495 $snippet
-6420 t
-6392 if
-6134 swap
-5950 $description
-5855 is
-5792 4
-5627 $values
-5517 and
-5396 n
-4968 USING:
-4731 int
-4630 dip
-4607 bi
-4546 +
-4444 =
-4362 get
-4356 IN:
-3934 in
-3841 kernel
-3628 string
-3325 166
-3285 5
-3266 x
-3244 with
-3231 seq
-3103 _
-3091 sequences
-3058 ?
-3054 word
-3046 sequence
-2897 object
-2826 for
-2793 keep
-2765 \
-2676 length
-2653 an
-2623 be
-2601 TUPLE:
-2584 "."
-2547 void
-2524 10
-2514 -
-2488 '[
-2466 or
-2462 *
-2417 0.0
-2412 $subsections
-2405 over
-2398 V{
-2384 are
-2351 :>
-2350 value
-2343 "a
-2334 when
-2330 math
-2291 not
-2245 map
-2221 CHAR:
-2220 quot
-2197 new
-2145 first
-2112 each
-2103 ...
-2068 H{
-2059 1.0
-2028 that
-1989 ,
-1988 from
-1974 UINT
-1945 accessors
-1927 6
-1916 ALIAS:
-1875 by
-1874 <
-1865 b
-1862 integer
-1862 HRESULT
-1836 set
-1823 8
-1822 TYPEDEF:
-1811 ;"
-1807 on
-1796 "The
-1778 nip
-1727 class
-1650 DWORD
-1633 y
-1614 as
+1541149 
+153545 }
+137201 {
+106864 ]
+103331 [
+65629 ;
+51469 )
+50903 (
+41089 --
+34324 0
+32124 :
+28984 "
+26288 !
+23385 the
+18508 CONSTANT:
+17571 unit-test
+17363 1
+16081 f
+14120 a
+11209 of
+11189 dup
+10713 2
+9546 drop
+9294 M:
+9270 FUNCTION:
+9177 $link
+8438 to
+7820 inline
+7736 3
+7354 HELP:
+7192 is
+6845 T{
+6837 if
+6674 and
+6534 $snippet
+6507 t
+6435 for
+6255 swap
+5988 4
+5957 $description
+5658 n
+5629 $values
+5162 int
+5128 =
+5065 +
+4972 USING:
+4855 in
+4701 dip
+4655 bi
+4492 get
+4357 IN:
+3848 kernel
+3778 with
+3711 string
+3418 5
+3362 x
+3326 166
+3325 seq
+3263 *
+3188 word
+3179 sequence
+3157 _
+3123 be
+3114 sequences
+3093 ?
+3089 See
+3075 an
+2985 object
+2965 -
+2876 Copyright
+2875 are
+2867 void
+2860 keep
+2836 BSD
+2831 \
+2814 https://factorcode.org/license.txt
+2780 length
+2759 or
+2690 (C)
+2664 not
+2612 10
+2608 TUPLE:
+2598 "."
+2588 that
+2560 :>
+2557 value
+2531 '[
+2528 license.
+2481 when
+2473 over
+2433 0.0
+2432 V{
+2414 $subsections
+2398 from
+2351 "a
+2347 math
+2332 new
+2323 first
+2316 CHAR:
+2295 on
+2290 map
+2269 ...
+2262 quot
+2230 each
+2219 by
+2112 H{
+2083 ,
+2079 1.0
+2017 6
+1977 UINT
+1973 set
+1968 b
+1953 accessors
+1929 <
+1926 8
+1921 ALIAS:
+1909 integer
+1904 as
+1874 HRESULT
+1837 TYPEDEF:
+1829 ;"
+1825 can
+1813 nip
+1803 "The
+1776 class
+1711 y
+1674 DWORD
+1673 The
+1650 7
+1646 name
+1615 ::
+1613 GENERIC:
+1612 void*
 1609 $nl
-1606 can
-1601 GENERIC:
-1589 name
-1589 ::
-1554 7
-1552 2drop
-1532 void*
-1530 clone
-1451 x,
-1448 make
-1424 ",
-1417 quotation
-1410 words
-1409 STRUCT:
-1350 which
-1346 path
-1336 "USING:
-1324 obj
+1601 it
+1592 clone
+1569 2drop
+1526 which
+1523 make
+1494 words
+1460 x,
+1460 quotation
+1433 call
+1433 ",
+1424 this
+1416 STRUCT:
+1399 at
+1398 number
+1394 path
+1365 write
+1344 "USING:
+1343 obj
 1323 ARTICLE:
-1298 call
-1292 write
-1286 ""
-1286 it
-1258 namespaces
-1245 at
+1307 ""
+1262 -1
+1261 namespaces
+1256 gadget
+1254 255
+1246 boa
+1241 type
 1234 tools.test
-1233 boa
-1231 gadget
-1229 <PRIVATE
-1229 -1
+1234 assoc
+1230 <PRIVATE
 1225 PRIVATE>
-1218 The
-1216 255
-1211 prettyprint
-1182 $examples
-1176 assoc
-1170 number
-1166 "a"
-1153 type
-1136 B{
-1129 c
-1121 arrays
-1119 this
-1115 SYMBOL:
-1082 bi@
-1068 $example
-1066 2dip
-1060 2array
-1045 array
-1044 str
+1225 |
+1221 prettyprint
+1184 $examples
+1174 "a"
+1170 c
+1160 B{
+1149 arrays
+1129 SYMBOL:
+1121 array
+1118 will
+1106 c-string
+1102 bi@
+1083 2dip
+1081 float
+1080 $example
+1080 2array
+1075 100
+1053 key
+1051 str
+1048 data
+1038 2dup
 1036 assocs
-1031 2dup
-1025 |
-1018 will
-1012 "seq"
-1012 ."
- 996 $code
- 995 bi*
- 989 dst
- 984 %
- 976 combinators
- 962 "n"
- 960 2.0
- 958 100
- 957 key
- 951 16
- 947 "{
- 945 tri
- 936 }"
- 933 shift
- 926 curry
- 925 c-string
- 924 D:
+1024 ."
+1013 "seq"
+1012 dst
+1005 bi*
+1003 $code
+1003 16
+ 989 %
+ 987 combinators
+ 978 stack
+ 975 shift
+ 969 =>
+ 968 9
+ 968 values
+ 964 all
+ 964 "n"
+ 963 error
+ 963 case
+ 962 2.0
+ 954 "{
+ 951 tri
+ 945 curry
+ 943 }"
+ 934 Slava
+ 934 unless
+ 931 D:
+ 929 one
+ 913 20
  908 help.markup
- 906 9
- 905 unless
- 898 =>
- 895 case
- 894 data
+ 906 used
+ 894 parser
  893 help.syntax
- 881 20
- 878 fixnum
- 877 error
- 873 values
- 872 float
+ 892 fixnum
+ 891 code
+ 886 quot:
+ 881 11
+ 878 nth
+ 867 30
+ 866 print
+ 863 12
+ 863 src
+ 860 /
  860 "quot"
- 859 11
- 855 30
- 854 ".
- 853 src
- 852 quot:
- 851 "b"
- 848 cond
- 844 POSTPONE:
- 843 nth
- 827 2bi
- 825 strings
- 823 12
- 823 $class-description
- 819 $vocab-link
- 817 print
- 809 used
- 809 parser
- 805 stack
- 796 00
- 794 BOOL
+ 859 cond
+ 856 ".
+ 855 strings
+ 853 "b"
+ 849 POSTPONE:
+ 846 i
+ 832 2bi
+ 829 >
+ 829 $class-description
+ 822 uint
+ 820 $vocab-link
+ 807 BOOL
+ 804 00
+ 794 input
  792 ERROR:
- 785 uint
- 782 code
- 779 all
- 775 i
- 773 /
- 770 vocabulary
- 769 "A
- 769 "This
- 768 >
- 764 one
- 764 name>>
+ 791 second
+ 789 name>>
+ 776 vocabulary
+ 775 "A
+ 774 Pestov.
+ 773 pick
+ 773 2009
+ 771 "This
+ 767 append
+ 766 element
+ 766 stream
+ 762 This
+ 762 if*
  762 ARM-INSTRUCTION:
- 759 append
- 758 pick
- 756 if*
- 752 alien
- 750 second
- 741 io
- 735 $notes
- 723 "x"
- 715 z
- 714 element
- 711 stream
- 704 Rn
- 694 3.0
- 691 input
- 688 alien.c-types
+ 758 alien
+ 742 io
+ 739 should
+ 737 $notes
+ 733 two
+ 728 z
+ 727 "x"
+ 721 If
+ 712 into
+ 710 [[
+ 707 use
+ 706 have
+ 706 Rn
+ 704 slot
+ 703 result
+ 701 given
+ 696 3.0
+ 690 alien.c-types
+ 684 boolean
  684 DIDFT_OPTIONAL
- 682 slot
  676 ABOUT:
+ 674 node
+ 673 using
  672 HOOK:
- 671 boolean
+ 670 file
  669 ra
- 661 [[
- 650 result
- 649 os
+ 663 ]]
+ 652 os
+ 652 15
+ 651 $
  649 DIDFT_BUTTON
- 644 node
- 636 compile-call
- 636 rep
- 634 given
- 633 $
- 628 byte-array
- 627 ]]
- 623 two
- 622 15
- 615 elt
- 610 32
- 610 system
- 608 tuple
- 602 d
- 600 must-fail-with
- 597 ##peek
- 595 .
- 591 use
- 591 first2
- 585 when*
- 584 This
- 582 cpu
- 580 elements
- 579 eq?
- 577 timestamp
- 574 using
- 573 <iota>
- 567 m
- 565 like
- 562 current
+ 643 must
+ 642 has
+ 640 tuple
+ 640 A
+ 640 system
+ 639 32
+ 638 compile-call
+ 638 elt
+ 637 rep
+ 634 elements
+ 633 byte-array
+ 629 like
+ 626 .
+ 626 index
+ 625 d
+ 625 FUNCTION-ALIAS:
+ 624 2010
+ 615 you
+ 611 image
+ 609 current
+ 606 must-fail-with
+ 604 cpu
+ 602 m
+ 602 ##peek
+ 599 matrix
+ 597 Doug
+ 596 first2
+ 593 read
+ 590 when*
+ 588 following
+ 587 eq?
+ 585 <iota>
+ 583 tag
+ 581 we
+ 580 timestamp
+ 577 output
+ 570 document
+ 568 MOV
+ 562 set-global
+ 562 member?
  562 C{
- 560 into
- 560 read
- 559 must
- 558 set-global
+ 558 set-at
  558 GpStatus
- 556 index
- 555 If
- 555 set-at
- 554 file
- 552 declare
- 552 you
- 547 have
- 546 INTEGER
- 545 member?
- 543 should
- 543 cleave
- 540 insn
- 538 v
- 537 following
- 537 has
- 533 bitand
- 533 matrix
- 528 C:
- 528 url
- 526 size_t
- 525 $see-also
+ 556 declare
+ 552 list
+ 552 bitand
+ 549 v
+ 549 INTEGER
+ 547 cleave
+ 546 size_t
+ 545 its
+ 541 insn
+ 539 same
+ 538 Coleman.
+ 537 2008
+ 536 push
+ 533 url
+ 532 then
+ 531 effect
+ 531 C:
+ 528 generic
+ 528 only
+ 527 $see-also
+ 526 color
  523 "an
- 521 document
  519 "Outputs
+ 519 size
+ 517 token
+ 516 read-only
  515 GUID_Key_malloced
- 514 read-only
+ 513 related-words
+ 513 X
  513 DIDFT_MAKEINSTANCE
- 512 effect
- 510 generic
- 510 tag
+ 509 Factor
  506 rb
- 504 image
- 502 list
- 501 push
- 500 output
- 500 string>number
- 499 related-words
- 496 token
- 479 31
- 477 A
- 477 GLenum
- 476 -1.0
- 475 Factor
- 473 "Creates
- 472 utf8
- 467 foo
- 466 vector
- 466 dest
+ 503 foo
+ 503 string>number
+ 502 any
+ 502 throw
+ 499 31
+ 498 vector
+ 496 time
+ 495 GLenum
+ 488 random
+ 486 where
+ 486 utf8
+ 484 but
+ 478 -1.0
+ 474 "Creates
+ 471 does
+ 468 matches?
+ 468 dest
+ 467 14
+ 467 ds-reg
+ 466 C
+ 466 word-prop
  466 rt
- 465 word-prop
- 463 matches?
- 459 X
- 456 throw
- 454 number>string
- 453 quotations
- 453 its
- 453 size
- 453 edge
- 448 "?"
- 448 random
- 446 MOV
- 444 math.parser
- 443 vertex
- 442 14
- 440 real
- 439 same
- 437 sprintf
- 436 get-global
- 431 double
- 430 DEFER:
+ 462 vertex
+ 460 edge
+ 458 number>string
+ 456 real
+ 456 quotations
+ 455 binary
+ 454 13
+ 450 end
+ 450 "?"
+ 450 than
+ 449 classes
+ 448 double
+ 447 id
+ 446 no
+ 445 math.parser
+ 442 get-global
+ 440 so
+ 439 sprintf
+ 438 DEFER:
+ 438 interval
+ 437 >string
+ 437 buffer
+ 437 ->
+ 435 last
+ 435 return
+ 432 "c"
+ 430 world
  430 GL-FUNCTION:
- 429 "c"
- 428 13
  427 FLOAT
- 426 binary
- 423 does
- 423 >string
- 422 cr
- 422 id
- 421 INSTANCE:
- 421 interval
- 420 world
- 419 C
- 418 classes
- 415 COLOR:
- 415 then
- 414 filter
- 414 action
- 412 where
- 411 ascii
- 407 neg
- 405 end
- 404 any
- 402 @
- 401 color
+ 426 INSTANCE:
+ 425 filter
+ 425 bool
+ 423 cr
+ 423 action
+ 422 version
+ 420 times
+ 419 COLOR:
+ 419 neg
+ 418 window
+ 417 point
+ 415 p
+ 414 @
+ 414 text
+ 413 ascii
+ 406 handle
+ 401 more
+ 401 bytes
+ 401 1array
+ 401 keys
  401 target_addr
- 400 buffer
- 397 response
+ 399 response
+ 398 prepend
+ 397 e
+ 395 must-fail
+ 395 splitting
+ 394 outputs
  394 $quotation
- 393 times
- 393 splitting
- 393 1array
- 393 prepend
- 393 p
- 392 only
- 389 e
- 387 ds-reg
- 385 "IN:
- 385 1&&
- 383 loc
- 382 int-rep
+ 394 event
+ 393 line
+ 393 called
+ 390 objects
+ 390 "foo"
+ 388 "IN:
+ 388 loc
+ 388 table
+ 387 1&&
+ 385 int-rep
+ 384 111
+ 382 dupd
+ 381 w
+ 381 "y"
+ 381 bits
  381 Rt
- 380 "foo"
- 380 111
- 379 must-fail
- 379 version
- 378 "y"
- 377 dupd
- 374 w
- 374 outputs
- 374 keys
+ 379 call-next-method
+ 376 rot
+ 376 >=
+ 374 empty?
  373 ..a
- 373 call-next-method
- 373 last
- 370 objects
- 370 face
- 368 rot
- 368 nl
+ 373 24
+ 372 run
+ 371 [|
+ 371 block
+ 371 nl
+ 371 face
+ 368 next
+ 368 may
+ 368 pair
  367 math.order
- 366 empty?
- 366 window
- 362 handle
- 360 sets
- 358 than
+ 367 method
+ 367 encoding
+ 366 vocab
+ 366 prefix
+ 364 sets
+ 363 char
+ 362 slots
+ 362 see
+ 362 "If
+ 360 ##load-integer
+ 358 initial:
  358 "Returns
- 356 vocab
- 355 "If
- 355 bytes
- 355 point
- 354 initial:
- 354 [|
- 354 called
- 354 prefix
+ 358 <=
+ 357 nth-unsafe
+ 355 call(
+ 355 60
+ 354 state
+ 354 concat
+ 353 literals
+ 353 $[
  353 "Throws
- 353 ##load-integer
- 352 $[
- 352 pathname
- 350 no
- 350 table
- 349 slots
- 349 pair
- 348 call(
- 347 60
- 347 24
- 345 nth-unsafe
- 345 encoding
- 344 >=
- 343 4.0
- 342 line
- 341 concat
- 341 bool
- 340 literals
+ 353 pathname
+ 350 flush
+ 348 other
+ 347 21
+ 347 50
+ 347 GLint
+ 345 source
+ 344 SYNTAX:
+ 344 4.0
+ 343 char*
+ 342 up
+ 342 after
+ 342 count
+ 341 0x00
+ 339 R/
  339 C-TYPE:
- 339 char
+ 339 find
  339 combinators.short-circuit
- 338 50
- 337 block
- 337 0x00
- 336 time
- 336 more
- 336 flush
- 334 <=
- 334 INT
- 333 -2
- 333 continuations
- 332 return
- 332 event
- 331 source
- 329 method
- 329 ->
- 328 $emphasis
+ 338 request
+ 337 continuations
+ 336 INT
+ 335 -2
+ 333 returns
+ 333 John
+ 332 <<
+ 332 require
+ 331 $emphasis
+ 331 out
+ 329 2^
+ 328 also
  327 alien.syntax
- 327 bits
- 326 byte-arrays
+ 327 byte-arrays
  325 $list
- 325 GLint
- 323 see
- 323 21
- 322 require
- 322 handle>>
- 321 request
- 320 2^
- 320 may
+ 324 r
+ 324 handle>>
+ 323 It
+ 322 ranges
+ 321 bitor
+ 321 mod
+ 321 dim
  319 MAIN:
- 319 R/
- 318 dim
+ 319 17
+ 318 test
+ 318 parse
+ 318 0.5
  318 src1
  318 src2
- 317 next
- 315 ranges
- 314 state
- 313 text
- 312 0.5
- 311 all?
- 310 ":"
- 310 but
- 309 value>>
- 308 classes.struct
- 308 bitor
- 308 char*
- 307 with-string-writer
- 307 destructors
- 305 key-down
- 304 )"
- 304 r
- 304 count
+ 316 ":"
+ 316 model
+ 315 memory
+ 315 all?
+ 312 >>
+ 312 function
+ 311 user
+ 311 40
+ 311 with-string-writer
+ 310 value>>
+ 309 classes.struct
+ 309 )"
+ 309 destructors
+ 309 license
+ 307 ${
+ 307 22
+ 307 uchar
+ 306 vocabs
+ 306 "[
+ 306 key-down
+ 306 vreg
+ 304 $errors
+ 304 ch
+ 304 string"
  304 bottles
- 303 $errors
- 303 uchar
- 302 "[
- 302 string"
+ 303 start
+ 303 eval(
  301 if-empty
+ 301 before
+ 301 between
  300 io.files
- 298 REAL
- 298 vreg
+ 300 64
+ 299 23
+ 299 REAL
+ 298 suffix
+ 298 len
  297 ..b
- 297 vocabs
- 297 eval(
- 296 model
- 295 ch
- 295 find
- 294 calendar
- 294 17
+ 297 >array
+ 297 while
+ 296 3drop
+ 296 calendar
+ 296 process
+ 295 $var-description
+ 295 defined
+ 295 recursive
+ 295 containing
+ 295 s
+ 294 do
+ 294 zero?
+ 294 63
  294 LPCSTR
- 293 ${
- 293 so
- 293 3drop
- 293 22
- 292 <<
- 292 >array
- 292 40
- 292 Rd
- 291 suffix
- 291 3array
- 290 $var-description
- 289 mod
- 288 other
- 287 SYNTAX:
+ 293 33
+ 293 Rd
+ 292 max
+ 292 3array
+ 292 header
+ 290 For
+ 290 25
+ 289 <ref>
+ 289 message
+ 288 fry
  287 set-word-prop
- 287 len
  286 summary
- 286 64
  286 WM_USER
- 285 63
- 284 recursive
+ 285 g
+ 285 some
  284 11111
  284 COM-INTERFACE:
- 283 fry
  282 ENUM:
- 282 <ref>
- 281 parse
- 281 zero?
- 280 s
- 280 23
- 279 after
- 277 memory
- 277 25
- 276 >>
- 276 user
- 276 query
- 275 also
+ 282 thread
+ 282 query
+ 282 temp0
+ 281 /i
+ 280 contains
+ 280 left
+ 279 offset
+ 278 such
+ 277 */
+ 277 was
+ 277 cfg
+ 277 with-variable
+ 277 present
+ 277 Benediktsson
+ 275 calls
  275 math.functions
- 275 33
- 274 cfg
- 274 while
+ 275 command
+ 275 there
+ 275 n/f
+ 274 numbers
  274 $slot
- 274 n/f
- 274 returns
- 273 with-variable
- 272 we
- 271 max
- 271 process
- 270 start
+ 272 uchar*
+ 271 q
+ 271 inputs
+ 269 256
  269 PyObject*
- 268 /i
- 268 present
- 266 g
- 266 command
- 264 containing
- 264 header
- 262 message
- 262 thread
- 262 dispose
- 262 with-destructors
- 261 assert=
- 261 "d"
- 261 label
- 261 GLuint
- 259 bignum
- 259 out
- 259 uchar*
- 257 before
+ 269 __
+ 268 they
+ 268 every
+ 268 assert=
+ 267 bignum
+ 267 width
+ 266 byte
+ 265 default
+ 265 dispose
+ 263 "d"
+ 263 with-destructors
+ 263 label
+ 262 variable
+ 262 sum
+ 262 GLuint
+ 261 uses
+ 261 form
+ 261 format
+ 261 server
+ 260 2keep
+ 260 port
+ 259 sq
+ 259 texture
+ 258 long
+ 257 until
  257 test-bb
- 256 It
- 256 256
- 255 up
- 255 "path"
+ 256 range
+ 256 "path"
+ 256 position
+ 255 lines
+ 255 Y
  255 Rs
+ 254 literal
  254 io.encodings.utf8
+ 254 row
+ 254 x86
  254 0x66
- 253 2keep
+ 254 ulong
+ 253 help
+ 253 slice
+ 253 28
+ 253 float-4{
  253 b-edge
- 253 ulong
- 252 float-4{
+ 252 $syntax
+ 252 HANDLE
+ 251 definition
+ 251 >fixnum
  251 alien.data
- 250 sq
+ 251 editor
+ 251 v+
+ 250 true
+ 250 19
+ 249 deref
+ 249 swapd
  249 evx-insn
- 248 deref
- 248 help
- 248 >fixnum
- 248 editor
- 247 $syntax
- 247 x86
- 247 xml
- 247 v+
- 247 cycles:
- 246 port
- 245 contains
- 245 q
- 245 cdecl
- 245 INSTRUCTION:
- 245 opcode:
+ 248 xml
+ 248 cycles:
+ 247 18
+ 247 locals
+ 247 cdecl
+ 246 register
+ 246 duration
+ 246 INSTRUCTION:
+ 246 opcode:
+ 245 types
+ 244 calling
+ 244 map-as
  244 0xFD
- 243 swapd
- 243 width
- 243 duration
- 243 HANDLE
+ 244 board
+ 243 SINGLETON:
+ 243 "/"
  243 opposite-edge
- 242 SINGLETON:
- 242 lines
- 242 slice
- 242 offset
+ 242 unless*
+ 242 top
+ 242 head
+ 242 search
+ 242 seq'
  242 next-edge
- 241 unless*
- 241 calls
+ 241 most
  241 $maybe
- 241 map-as
- 241 "/"
- 241 seq'
- 240 defined
+ 241 "hello"
+ 240 instance
  240 "obj"
- 239 variable
+ 240 compose
  239 "value"
+ 239 recover
+ 239 tree
  239 io.pathnames
- 239 server
  239 ##replace
  239 x-insn
- 238 long
- 237 literal
- 237 between
- 237 18
- 237 compose
- 237 28
+ 238 1000
+ 238 []
+ 237 right
+ 237 implements
  237 UINT32
- 236 recover
- 236 inputs
- 236 19
- 235 See
- 235 locals
- 234 instance
- 234 run
- 234 such
- 234 format
+ 236 hashtable
+ 235 body
+ 235 suffix!
+ 235 <regexp>
+ 234 2008,
+ 234 their
+ 234 pointer
+ 234 /f
+ 234 group
+ 234 params
  233 "the
- 233 implements
- 233 head
- 232 2nip
+ 233 2nip
+ 233 height
+ 233 cell
  232 "class"
  232 rocksdb_options_t*
- 231 definition
- 231 calling
- 230 uses
- 230 with-compilation-unit
- 230 "hello"
- 229 search
- 229 /f
- 228 body
- 228 rect
- 227 M::
- 227 "name"
- 227 <regexp>
- 227 board
- 226 form
+ 232 [+]
+ 231 members
+ 231 with-compilation-unit
+ 231 rect
+ 230 HS{
+ 230 "name"
+ 230 threads
+ 230 Joe
+ 230 01
+ 229 definitions
+ 229 set-nth
+ 228 M::
+ 228 >bignum
+ 228 accum
+ 228 200
+ 228 base
+ 227 underlying>>
+ 227 empty
+ 225 h
  225 PRIMITIVE:
- 225 >bignum
- 225 range
- 225 members
- 225 1000
- 225 01
- 225 params
- 224 hashtable
- 223 until
- 222 set-nth
- 222 they
- 222 underlying>>
- 222 do
- 222 threads
- 222 Y
- 221 temp0
- 220 200
- 219 surround
- 219 group
- 219 ulonglong
- 219 bb
- 218 some
+ 225 colors
+ 225 being
+ 225 because
+ 225 k
+ 225 26
+ 225 a,
+ 223 int*
+ 223 ":
+ 223 bit
+ 223 options
+ 222 your
+ 222 surround
+ 222 ulonglong
+ 222 bb
+ 221 target
+ 221 single
+ 220 specified
+ 220 address
+ 219 bitxor
  218 $sequence
- 218 tree
  218 ,,
- 217 ":
- 216 most
+ 218 context
+ 217 pass
  216 "word"
- 215 every
- 215 function
- 214 definitions
- 214 true
- 214 accum
- 214 texture
- 214 a,
- 213 h
+ 216 min
+ 215 lexer
+ 214 $heading
+ 214 128
+ 214 struct
+ 213 c-ptr
+ 213 integer"
  212 TYPED:
- 212 integer"
- 212 $heading
- 212 26
- 212 left
- 210 c-ptr
+ 212 hashtables
+ 211 flags{
+ 211 -3
+ 211 define
+ 211 example,
+ 211 hash
  210 math.vectors
- 209 flags{
+ 210 c-type
+ 210 arg2
+ 210 beer
+ 209 MACRO:
  209 sequences.private
- 209 height
- 209 128
- 209 c-type
- 208 MACRO:
- 208 target
- 208 hashtables
- 208 options
- 208 beer
+ 209 always
+ 209 temp
  208 Display*
- 207 colors
- 207 lexer
- 206 was
- 206 types
- 206 min
+ 207 level
+ 207 [a,b]
+ 206 parsing
+ 206 need
  206 Rm
  206 cpVect
- 205 -3
- 205 byte
- 205 default
- 205 [a,b]
- 204 FROM:
- 204 your
- 204 $unchecked-example
+ 205 FROM:
+ 205 reverse
+ 205 $unchecked-example
+ 205 29
+ 204 USE:
+ 204 (c)
+ 204 graph
  204 dim>>
+ 204 Color
+ 203 sorting
+ 203 glue
  203 "1"
- 203 graph
- 202 temp
- 201 top
+ 202 match
+ 201 0xff
+ 201 vectors
+ 201 passed
+ 201 shape
+ 201 location
+ 201 exemplar
+ 201 button
  201 ##branch
  201 float-4-rep
- 200 exemplar
- 200 arg2
- 199 single
- 199 k
- 199 sorting
- 199 glue
- 199 hash
- 198 there
+ 200 protocol
+ 200 order
+ 200 "string"
+ 200 now
+ 200 these
+ 199 change
+ 199 named
+ 199 been
+ 199 without
+ 199 decode
+ 199 loop
+ 198 <array>
+ 198 entry
  198 SPECIALIZED-ARRAY:
- 197 arg1,
- 196 named
- 196 their
+ 198 arg1,
+ 197 123
+ 197 methods
+ 197 mode
+ 197 append-path
+ 197 N
+ 196 style
+ 196 reduce
  196 $contract
+ 196 grouping
+ 196 80
+ 196 reg
  196 X-FUNCTION:
- 195 USE:
- 195 123
- 195 "string"
- 195 append-path
- 195 0xff
- 194 HS{
- 194 int*
- 194 define
- 194 level
- 194 decode
- 194 grouping
- 193 vectors
- 192 lookup-word
- 192 pass
- 192 reg
- 191 <array>
- 191 u
- 191 row
+ 195 <=>
+ 195 both
+ 195 flags
+ 195 27
+ 194 foldable
+ 194 split
+ 194 example
+ 194 u
+ 193 lookup-word
+ 193 S{
+ 192 "A"
+ 192 product
+ 192 0x01
+ 192 heap-size
+ 191 write1
  191 double-4{
- 191 heap-size
  191 value-numbering-step
- 190 foldable
- 190 For
- 190 specified
- 190 address
- 190 cell
- 189 reverse
- 189 "A"
- 189 0x01
- 188 newseq
- 188 []
- 187 being
+ 191 GLsizei
+ 190 syntax
+ 190 sort
+ 190 them
+ 190 newseq
+ 189 parameters
+ 189 library
+ 189 In
+ 188 URL"
+ 188 class-of
+ 188 "key"
+ 188 inlined?
+ 187 1/0.
+ 187 rest
  187 UNION:
- 187 write1
- 187 29
- 186 passed
- 186 "key"
- 186 register
+ 187 log
+ 186 add
  186 "v"
- 185 80
- 184 PREDICATE:
- 184 class-of
+ 185 PREDICATE:
+ 185 windows
+ 185 mask
+ 185 tensor
  184 any?
- 184 27
- 184 inlined?
+ 184 title
+ 184 "assoc"
+ 184 error.
  184 CHARACTER*1
- 184 [+]
- 183 URL"
- 183 split
- 183 match
- 183 position
- 183 "assoc"
- 182 1/0.
- 182 struct
- 181 test
- 181 parsing
- 181 <=>
- 181 class<=
- 181 input-stream
- 181 base
- 180 rest
- 180 fixnum+fast
+ 183 j
+ 183 names
+ 183 equal
+ 183 1||
+ 183 checksum-bytes
+ 182 class<=
+ 182 seq>>
+ 182 input-stream
+ 182 48
+ 182 HWND
+ 181 fixnum+fast
+ 181 tri*
+ 181 ^
+ 180 Groff.
  180 specialized-arrays
- 180 1||
+ 180 instant
+ 180 dummy_ptr,
  179 LIBRARY:
  179 "An
  179 io.streams.string
- 179 reduce
+ 179 alpha
+ 179 2011
+ 179 seconds
+ 179 json
  179 ui.gadgets
- 179 GLsizei
- 178 tri*
- 178 empty
- 178 json
- 178 instant
+ 178 complex
+ 178 Daniel
+ 178 GLdouble
+ 178 temp1
  178 2-operand-rm-sse
- 177 entry
- 177 title
- 177 location
+ 177 heap
+ 177 regexp
  177 DIDFT_ANYINSTANCE
+ 176 -4
+ 176 assoc-each
  176 error>>
- 176 now
- 176 loop
- 176 context
+ 176 either
+ 176 child
  176 n'/f
- 176 HWND
- 175 library
- 175 windows
- 174 assoc-each
- 174 seq>>
+ 175 B
+ 175 55
+ 175 sp
+ 174 non-negative
+ 174 replicate
+ 174 returned
+ 174 item
  174 add-responder
- 173 non-negative
- 173 replicate
- 173 change
- 173 bitxor
- 173 N
- 173 naturals
+ 174 b,
+ 174 naturals
+ 173 implement
+ 173 host
+ 173 main
+ 173 "f"
+ 173 output-stream
+ 173 XML
  173 cpFloat
- 172 style
- 172 -4
- 172 names
- 172 sort
- 172 ^
- 172 regexp
- 172 GLdouble
+ 172 underlying
+ 172 between?
+ 172 nodes
+ 171 files
+ 171 0x80
+ 171 join
  171 provides
- 171 output-stream
- 171 mask
- 171 seconds
- 170 methods
- 170 syntax
- 170 complex
- 170 48
- 170 "m"
+ 171 "m"
+ 170 set-nth-unsafe
+ 170 directory
  170 "id"
- 169 host
- 169 underlying
- 169 main
- 169 child
- 169 log
- 168 set-nth-unsafe
- 168 product
+ 170 rs
+ 169 sqrt
+ 169 We
+ 169 mapping
+ 168 x>>
+ 168 L
  168 math.bitwise
- 167 sqrt
+ 168 OpenGL
+ 168 PCSTR
+ 168 #call
  167 kernel.private
- 167 join
- 167 #call
- 166 sum
+ 167 instances
+ 167 checksum
+ 167 rule
+ 167 reach
+ 166 just
  166 "Calls
- 166 example,
+ 166 sequence."
+ 166 encode
+ 166 >integer
+ 166 responder
+ 166 answer
  166 vrt
  166 xo-insn
- 166 PCSTR
- 165 S{
- 165 checksum-bytes
- 165 XML
- 164 sequence."
+ 165 l
+ 165 alist
+ 165 contents
+ 164 since
  164 split1
- 164 alist
- 164 55
- 164 responder
- 164 dummy_ptr,
- 164 b,
- 163 mode
- 163 compiler.cfg.instructions
+ 164 be>
+ 164 compiler.cfg.instructions
+ 163 delete-at
+ 163 head?
+ 163 59
+ 163 70
+ 163 instruction
  163 PVOID
  163 PCWSTR
- 162 implement
- 162 shape
+ 162 assoc-map
  162 class>>
- 162 >integer
- 162 be>
+ 162 reject
+ 162 /mod
+ 162 [XML
  161 compiler.units
- 161 delete-at
- 161 x>>
- 161 checksum
+ 161 cannot
+ 161 bl
+ 161 -8
+ 161 urls
  161 float-array{
- 161 [XML
- 161 sp
- 161 rs
+ 160 symbol
  160 word."
+ 160 program
  160 "abc"
- 160 "f"
- 160 bl
- 160 urls
+ 160 check
+ 160 Test
+ 160 macosx?
+ 160 info
  160 METHOD:
+ 160 GUID:
  159 "Tests
- 159 between?
- 159 heap
- 159 been
+ 159 operations
+ 159 unless-empty
  159 float+
- 159 reach
- 159 macosx?
- 159 nodes
  159 vreg-use
- 158 instances
- 158 0x80
- 158 protocol
- 158 unless-empty
+ 158 status
+ 158 99
+ 158 "-"
+ 158 short
  158 XML]
- 158 GUID:
- 157 always
- 157 l
- 157 head?
- 157 reject
+ 158 font
+ 158 Window
+ 158 ##load-reference
+ 157 initialize
  157 5.0
- 157 59
- 156 assoc-map
+ 156 yield
+ 156 results
  156 n>>
- 156 encode
+ 156 52
  156 GML:
- 156 ##load-reference
  156 vrb
  156 final-classes
- 155 example
  155 <string-reader>
- 155 either
- 155 flags
- 155 answer
+ 155 how
+ 155 CALLBACK:
  155 src1>>
- 154 CALLBACK:
- 154 "-"
- 154 temp1
- 153 yield
- 152 files
- 152 $strong
- 152 def>>
- 152 numbers
- 152 B
- 152 -8
- 152 n'
- 152 returned
- 152 unix
- 152 short
+ 154 1/2
+ 154 $strong
+ 154 abs
+ 154 n'
+ 154 45
+ 153 produce
+ 153 created
+ 153 def>>
+ 153 ("
+ 153 unix
+ 153 49
+ 153 self
+ 153 BYTE
+ 152 instead
+ 152 windows?
  152 WORD
  152 CODEGEN:
- 151 initialize
- 151 symbol
- 151 order
- 151 right
- 151 without
+ 151 ?tail
  151 namespaces:set
+ 151 parameter
  151 "exemplar"
- 151 99
- 151 error.
- 151 rule
- 151 self
- 150 them
- 150 windows?
- 150 70
- 150 button
- 150 BYTE
+ 151 -5
+ 151 cells
+ 150 effects
+ 150 layouts
+ 150 off
  150 GpGraphics*
- 149 ?tail
- 149 pointer
- 149 abs
- 149 /mod
- 149 1/2
- 148 equal
- 148 alpha
- 148 item
+ 149 \"
+ 149 contain
+ 149 space
+ 149 -rot
+ 149 logic
+ 149 2curry
+ 149 callback
+ 149 #
+ 149 0x0f
+ 148 multiline
+ 148 third
+ 148 functions
+ 148 execute
+ 148 ]"
+ 148 registers
+ 148 layout
+ 148 variables
  148 models
- 147 multiline
- 147 ("
+ 148 mouse
+ 148 /**
+ 147 character
+ 147 first3
  147 cc
- 147 0x0f
  147 UINT*
- 146 execute
- 146 directory
- 146 layouts
- 146 first3
- 146 L
- 146 45
+ 146 stored
+ 146 operation
+ 146 would
+ 146 ]=]
+ 146 0x00000001
  146 ULONG
  145 SYMBOLS:
- 145 52
- 145 -5
- 145 bit
- 144 add
+ 145 take
+ 145 v-
+ 145 database
+ 145 Load
+ 144 bar
+ 144 alias
  144 "z"
- 144 -rot
- 144 ]"
- 144 both
- 144 contents
- 144 49
- 144 OpenGL
- 144 info
+ 144 sequence-parser
  144 basic-block
- 143 layout
+ 143 support
+ 143 pi
  143 xb
- 143 v-
- 143 sequence-parser
+ 143 char**
  143 +vector+
  143 live-interval-state
- 142 these
- 142 2curry
- 142 third
- 142 ]=]
+ 142 corresponding
+ 142 implementation
+ 142 inside
+ 142 y>>
+ 142 multiple
+ 142 42
+ 142 ?head
+ 142 101
  142 lookup-c-type
- 142 0x00000001
- 141 j
+ 141 <range>
+ 141 already
+ 141 2tri
+ 141 scan-token
+ 141 formatting
  141 0x0
- 141 tensor
+ 141 2012
+ 141 <timestamp>
  141 N,
- 140 stored
- 140 created
- 140 \"
- 140 pi
- 140 ?head
+ 140 initial
+ 140 "(
+ 140 string?
+ 140 36
+ 140 37
+ 140 rewrite
+ 140 type>>
  140 le>
- 140 101
+ 140 game
  140 GLfloat
  139 >boolean
- 139 <range>
- 139 effects
- 139 need
- 139 "(
- 139 2tri
+ 139 array?
+ 139 characters
  139 "str"
  139 "To
  139 "bar"
- 139 y>>
+ 139 hide
+ 139 HTTP
  139 frt
- 138 array?
- 138 string?
- 138 results
- 138 type>>
- 138 <timestamp>
+ 138 compiler
+ 138 >byte-array
+ 138 "p"
+ 138 buf
+ 138 44
+ 138 53
+ 138 41
  137 $side-effects
- 137 operation
- 137 "p"
- 137 variables
+ 137 subseq
+ 137 map>assoc
+ 137 representation
  137 with-scope
- 137 rewrite
- 137 formatting
- 137 char**
- 137 HTTP
+ 137 MEMO:
  137 cons
- 137 game
- 137 Window
  137 use:
- 136 >byte-array
- 136 subseq
- 136 map>assoc
+ 136 /*
+ 136 unicode
+ 136 ~
+ 136 hashcode
+ 136 create
+ 136 cache
+ 136 execute(
+ 136 seq1
  136 io.encodings.binary
  136 C-GLOBAL:
- 136 hide
- 136 status
+ 136 listener
+ 136 >lower
+ 136 player
  136 new-insn
  136 frb
+ 136 DWORD*
  136 "rgbButtons"
- 135 cannot
- 135 database
+ 135 "hi"
+ 135 tail
+ 135 three
+ 135 value,
+ 135 children>>
+ 135 Get
  135 xt
  135 FLOAT*
- 134 mapping
+ 134 don't
+ 134 points
+ 134 To
+ 134 "USE:
  134 must-infer
- 134 operations
+ 134 control
+ 134 predicate
+ 134 move
+ 134 assoc-size
  134 >alist
- 134 buf
  134 io.directories
- 134 MEMO:
+ 134 2map
  134 vra
- 133 bar
- 133 "hi"
- 133 program
- 133 because
  133 str'
- 133 execute(
- 133 logic
- 133 listener
- 133 cells
- 133 children>>
+ 133 parent
+ 133 X,
  133 cc=
- 133 DWORD*
- 132 parameters
  132 "For
+ 132 many
  132 \"a\"
- 132 42
- 132 37
- 132 2map
+ 132 takes
+ 132 read1
+ 132 object.
+ 132 0x20
+ 132 framebuffer
  132 src2>>
  132 def:
  132 literal:
- 131 produce
+ 131 global
  131 "g"
- 131 seq1
- 131 X,
- 130 ~
- 130 instead
- 130 hashcode
+ 131 section
+ 131 target,
+ 131 0x10
+ 131 cursor
+ 131 ##copy
+ 130 perform
  130 size>>
- 130 read1
- 130 off
- 130 framebuffer
- 129 "USE:
- 129 scan-token
- 129 #
+ 130 args
+ 130 command-line
+ 130 ushort
+ 130 display
+ 130 link
+ 130 EAX
+ 129 ";"
+ 129 infer
+ 129 35
  129 dst>>
- 129 command-line
- 129 ushort
+ 129 password
  129 cpu.architecture
- 128 perform
- 128 how
- 128 assoc-size
+ 128 associated
+ 128 back
+ 128 seq2
+ 128 col
  128 io.encodings.ascii
  128 libc
- 128 44
- 128 callback
- 128 font
+ 128 access
+ 128 shape>>
  128 vreg>insn
- 128 EAX
- 127 ";"
- 127 predicate
- 127 36
- 127 53
+ 127 GENERIC#:
+ 127 ")"
+ 127 whether
+ 127 positive
+ 127 2005,
+ 127 attributes
+ 127 cut
  127 tri@
- 127 0x20
+ 127 34
+ 127 val
  127 timestamp'
- 127 shape>>
- 127 ##copy
+ 127 instructions
  126 "Defines
- 126 To
- 126 seq2
- 126 parent
- 126 unicode
+ 126 "t"
+ 126 <byte-array>
+ 126 2007,
+ 126 copy
+ 126 even?
+ 126 127
+ 126 float*
+ 126 38
+ 126 printf
+ 126 add-gadget
  126 >>dim
+ 126 op
  126 SUBROUTINE:
+ 126 vm-reg
  126 pDevice,
- 125 tail
- 125 infer
+ 125 [a..b]
+ 125 $warning
+ 125 work
+ 125 starting
  125 "elt"
- 125 args
- 125 add-gadget
- 125 op
  125 ROLE-TUPLE:
- 125 __
  125 deque
- 124 implementation
- 124 contain
+ 125 RAX
+ 124 part
  124 instead."
- 124 <byte-array>
- 124 In
+ 124 110
  124 io.encodings.string
- 124 127
- 124 target,
+ 124 with-string-reader
+ 124 ms
+ 124 children
+ 124 LVM_FIRST
+ 123 3bi
+ 123 way
+ 123 another
+ 123 at*
  123 3dip
- 123 representation
- 123 0x10
- 123 printf
- 123 >lower
- 123 with-string-reader
+ 123 flag
+ 123 51
+ 123 57
+ 123 set-value
  123 int-4-rep
- 123 LVM_FIRST
- 122 ")"
- 122 3bi
- 122 compiler
- 122 corresponding
- 122 $warning
- 122 "t"
- 122 set-value
- 122 password
- 121 GENERIC#:
- 121 [a..b]
- 121 initial
- 121 value,
- 121 110
- 121 even?
- 121 cut
+ 122 root
+ 122 different
+ 122 allows
+ 122 sleep
+ 122 56
+ 122 Set
+ 122 ppc
+ 122 seq*
+ 122 SIMD
+ 121 old
+ 121 world"
+ 121 normalize-path
+ 121 integer?
  121 &dispose
- 121 ppc
- 121 41
- 121 seq*
+ 121 json>
  121 PDWORD
- 120 /*
+ 120 >url
+ 120 what
  120 equivalent:"
- 120 at*
- 120 attributes
+ 120 found
+ 120 54
+ 120 type,
  120 try-process
- 120 instruction
+ 120 F
  120 (write-ptx-element)
  120 vx-insn
  120 IUnknown
  120 D3DXHANDLE
  120 LPD3DXBUFFER*
  120 in-d>>
- 119 world"
  119 ")
- 119 normalize-path
  119 file-exists?
  119 >float
  119 must-infer-as
- 119 float*
  119 $url
- 119 val
- 119 json>
- 119 link
+ 119 b-rep
  119 <date>
+ 119 lua_State*
+ 118 tail?
  118 "Sets
- 118 whether
- 118 support
+ 118 sure
+ 118 about
  118 sequence"
- 118 38
- 118 35
- 118 >url
+ 118 images
+ 118 load
+ 118 in>>
+ 118 edges
+ 118 ui
  118 sm_20
+ 118 Flags,
+ 118 0x00000002
  118 0%
- 117 tail?
- 117 take
- 117 integer?
- 117 34
- 117 b-rep
- 117 children
- 117 Flags,
+ 117 standard
+ 117 errors
+ 117 vocabs.loader
+ 117 <slice>
+ 117 data>>
+ 117 longlong
+ 117 pos
+ 117 size_t*
+ 117 field
  117 LPCWSTR
- 116 associated
- 116 just
- 116 create
+ 116 [let
  116 parse-stream
- 116 vocabs.loader
- 116 takes
+ 116 1quotation
  116 "Applies
- 116 <slice>
- 116 51
- 116 57
- 116 data>>
- 116 ui
- 116 display
+ 116 rows
+ 116 75
  116 LONG
- 116 lua_State*
- 115 inside
- 115 1quotation
- 115 allows
- 115 in>>
+ 116 win32-error=0/f
+ 115 least
+ 115 These
+ 115 column
+ 115 written
  115 add-library
+ 115 send
+ 115 username
  115 compiler.cfg
- 115 win32-error=0/f
  115 FOLDABLE-INSN:
  114 $table
+ 114 debugger
  114 $or
- 114 56
- 114 longlong
- 114 0x00000002
+ 114 possible
+ 114 original
+ 114 simple
+ 114 digits
+ 114 2019
  114 display,
- 114 player
  113 length>>
- 113 sleep
- 113 section
- 113 edges
- 113 username
+ 113 if-zero
+ 113 whose
+ 113 generated
+ 113 <reversed>
+ 113 value."
+ 113 key,
+ 113 client
+ 113 rgba
+ 113 uniform
  113 CUresult
  113 USHORT
- 112 character
- 112 global
- 112 parameter
+ 112 above
+ 112 virtual
+ 112 "("
+ 112 [1..b]
+ 112 want
+ 112 available
+ 112 blue
+ 112 spawn
  112 both?
- 112 multiple
- 112 RAX
+ 112 2013
+ 112 ave-time
+ 112 audio
  111 1234
- 111 cache
- 111 <reversed>
- 111 spawn
- 111 value."
+ 111 An
+ 111 union
+ 111 unclip
  111 attr
+ 111 db
  111 float-4
- 111 mouse
  111 file-info
- 110 */
- 110 [let
- 110 virtual
- 110 "("
- 110 if-zero
+ 111 SUB
  110 "Adds
- 110 characters
+ 110 deprecated
+ 110 sequence=
+ 110 "In
  110 "2"
- 110 move
- 110 54
- 110 rgba
- 110 type,
+ 110 T
+ 110 2006
+ 110 90
+ 110 day
+ 110 0x02
+ 110 2014
  110 options,
  110 cell_t
+ 110 shader
+ 110 ave
+ 110 Key:
  110 out-d>>
  109 $error-description
- 109 "In
- 109 debugger
- 109 unclip
- 109 75
- 109 cursor
- 108 deprecated
- 108 space
- 108 root
+ 109 indicates
+ 109 blocks
+ 109 paths
+ 109 You
+ 109 zero
+ 109 endian
+ 109 "+"
+ 109 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ 109 SD
+ 109 Vector2
+ 108 When
+ 108 \s
+ 108 Pestov,
+ 108 could
+ 108 store
  108 maybe{
- 108 access
+ 108 pairs
  108 with-directory
  108 alien.libraries
+ 108 39
  108 "seq1"
- 108 size_t*
+ 108 400
+ 108 year
  108 key>>
+ 108 @c
  108 cairo_t*
  108 LPDIRECT3DDEVICE9
- 107 [1..b]
- 107 sequence=
- 107 registers
+ 107 less
  107 "Constructs
- 107 "+"
- 107 90
+ 107 "w"
+ 107 index,
  107 "gadget"
- 107 F
+ 107 04
  107 Jerry
  107 project-euler.common
  106 key?
- 106 standard
- 106 since
+ 106 -10
+ 106 is,
+ 106 reference
  106 unix?
- 106 union
- 106 "w"
- 106 0x02
+ 106 indices
+ 106 same?
+ 106 maximum
+ 106 local
+ 106 track
+ 106 47
  106 math.matrices
+ 106 timeout
+ 106 device
  106 windows.types
+ 106 Draw
  105 MIXIN:
- 105 -10
+ 105 "asdf"
  105 classes.tuple
- 105 already
+ 105 dynamic
+ 105 word,
+ 105 full
+ 105 string,
  105 ch/f
- 105 images
+ 105 1.5
  105 specifier"
+ 105 otherwise
  105 instance?
- 105 same?
- 105 key,
+ 105 depth
  105 quot'
  105 stream-write
- 105 rows
- 105 day
- 105 field
+ 105 items
+ 105 recip
+ 105 46
+ 105 profile
+ 105 foreground
+ 105 y,
  105 track-add
- 104 whose
- 104 way
- 104 indicates
- 104 endian
- 104 recip
- 104 year
- 104 foreground
- 104 y,
+ 105 Take
+ 105 trials)
+ 105 temp2
+ 104 known
+ 104 eval
+ 104 unparse
+ 104 2cleave
+ 104 "B"
+ 104 v*
+ 104 pprint*
+ 104 Flags
+ 104 -----------
  104 SOLUTION:
- 104 vm-reg
- 103 "asdf"
- 103 word,
- 103 another
- 103 \s
+ 104 down,
+ 103 information
  103 adjoin
  103 prepose
- 103 client
+ 103 interface
+ 103 ","
+ 103 each-index
+ 103 define-core-syntax
+ 103 URL
+ 103 ptr
+ 103 --------
+ 103 wall,
+ 103 around,
  103 HDEVINFO
- 102 unparse
- 102 three
- 102 2cleave
- 102 "B"
+ 102 harvest
+ 102 useful
+ 102 diff
  102 "i"
- 102 ","
- 102 400
+ 102 generator
  102 "u"
- 102 around,
- 102 SIMD
+ 102 statement
+ 102 DESCRIPTION
+ 102 ##inc
+ 101 vocabularies
+ 101 red
+ 101 forget
  101 "object"
- 101 eval
- 101 points
+ 101 "s"
+ 101 "\n"
  101 ?nth
- 101 col
- 101 39
- 101 index,
+ 101 environment
+ 101 split-lines
+ 101 77
+ 101 2over
+ 101 zip
  101 "matrix"
- 101 db
- 101 profile
- 101 v*
- 101 ptr
- 101 wall,
+ 101 2020
+ 101 prime
  101 double-2-rep
  101 double-rep
- 101 ##inc
- 100 vocabularies
- 100 about
- 100 "s"
- 100 environment
- 100 diff
- 100 2over
- 100 simple
- 100 each-index
- 100 T
- 100 pprint*
- 100 Take
+ 100 object"
+ 100 final
+ 100 within
+ 100 <alien>
+ 100 obj1
+ 100 obj2
+ 100 generalizations
+ 100 2007
+ 100 0x04
+ 100 win
+ 100 L{
+ 100 SOLUTION
  100 "graph
  100 beer.
- 100 down,
  100 wall.
  100 instructions>>
  100 pname,
-  99 object"
-  99 old
-  99 1.5
-  99 copy
-  99 paths
+  99 each-integer
   99 a>>
-  99 indices
   99 stream>>
-  99 generalizations
-  99 statement
-  98 harvest
-  98 blocks
+  99 frame
+  99 double>bits
+  99 43
+  99 67
+  99 bootstrap-cell
+  99 58
+  99 Chris
+  99 render
+  99 ADD
+  98 name,
+  98 I
+  98 added
+  98 spread
   98 car
-  98 blue
-  98 split-lines
-  98 pairs
-  98 each-integer
+  98 "array"
   98 "s
-  98 46
+  98 "h"
+  98 compile
+  98 dispatch
+  98 continuation
   98 0xffffffff
+  98 attribute
+  98 0x03
   98 v*n
-  98 uniform
+  98 memory>struct
+  98 L,
+  98 reps
+  97 map!
   97 name"
-  97 "\n"
-  97 back
+  97 integers
+  97 3append
+  97 open
   97 map-reduce
-  97 zip
-  97 "h"
+  97 specialized
+  97 69
+  97 pointer:
+  97 "0"
+  97 1,
   97 "url"
   97 errptr
-  97 Flags
-  97 L{
+  97 ctx-reg
+  97 cell-size
   97 float-rep
-  97 reps
-  96 part
-  96 3append
+  96 0/0.
+  96 tests
+  96 equivalent
   96 member-eq?
-  96 generated
-  96 column
-  96 77
-  96 pointer:
+  96 1024
+  96 passing
+  96 needs
+  96 "}"
+  96 filename
+  96 arguments
   96 path>>
-  96 obj1
-  96 obj2
-  96 track
-  96 0x04
-  96 timeout
+  96 bitnot
+  96 box
+  96 blank?
+  96 65
   96 LPVOID
-  95 When
-  95 spread
-  95 double>bits
+  95 must-not-fail
+  95 writing
+  95 "Hello
+  95 <displaced-alien>
   95 6.0
-  95 0x03
-  95 send
-  95 win
+  95 checksums
+  95 delta
   95 <dlist>
   95 pprint-word
-  95 L,
-  95 cell-size
-  94 what
+  95 0x00000004
+  94 0.1
+  94 compare
   94 stack."
-  94 string,
   94 "Converts
-  94 must-not-fail
+  94 stack.
   94 error."
+  94 rules
   94 "T{
-  94 "}"
-  94 specialized
-  94 <displaced-alien>
-  94 "0"
-  94 checksums
+  94 bit?
   94 "seq2"
+  94 98
   94 >be
-  94 pos
-  94 URL
+  94 model>>
+  94 emitter
   94 scratch-reg
+  93 "["
   93 from>>
-  93 is,
-  93 information
-  93 dynamic
-  93 forget
+  93 word.
+  93 collection
   93 >>name
-  93 control
-  93 available
-  93 You
-  93 check
+  93 here
   93 "newseq"
   93 stream"
-  93 zero
-  93 interface
-  93 bitnot
-  93 continuation
+  93 component
+  93 identity
+  93 round
+  93 0.25
   93 "q"
-  93 58
-  93 blank?
-  93 define-core-syntax
-  93 model>>
-  93 memory>struct
-  93 04
+  93 tag-bits
+  93 97
+  93 0x40
+  93 content
+  93 regular
+  93 gc-map
   93 compiler.tree
-  92 errors
+  93 convert-farkup
+  92 "]"
+  92 User
   92 ";
-  92 depth
-  92 <alien>
+  92 greater
+  92 ">"
+  92 close
+  92 file-contents
   92 disposable
-  92 bit?
-  92 0/0.
-  92 43
+  92 generate
   92 4array
-  92 generator
-  92 47
-  92 shader
+  92 authentication
+  92 LD
+  92 socket
   92 vec>>
   92 rep>>
-  92 temp2
+  92 jit-load-cell
   92 DeviceInfoSet,
-  91 "["
-  91 name,
+  91 D
+  91 basic
   91 io.backend
-  91 reference
-  91 least
-  91 passing
-  91 items
-  91 0.25
+  91 delete
+  91 try
+  91 entries
+  91 102
+  91 doesn't
+  91 UI
+  91 resulting
+  91 scale
   91 combinators.smart
-  91 0x40
+  91 72
+  91 73
   91 n*v
-  91 render
-  91 0x00000004
+  91 grid
+  91 monitor
+  91 typedef
+  91 (100
+  91 C+
   91 SIZE_T
-  91 convert-farkup
-  90 red
-  90 0.1
-  90 "]"
-  90 equivalent
+  90 superclass
+  90 remove
+  90 beginning
+  90 lookup-vocab
+  90 stack,
   90 $slots
   90 stream-read1
-  90 file-contents
+  90 2/
+  90 usage
   90 id>>
-  90 dispatch
-  90 65
-  90 device
+  90 Z
+  90 vertices
+  90 param
+  90 76
+  90 month
+  90 article
+  90 env
   90 with-out-parameters
+  90 arg1
   90 Nibbles
-  90 regular
-  90 audio
   90 compiler.cfg.registers
-  90 C+
-  90 gc-map
   90 pDesc
+  89 comment
+  89 1.
+  89 (see
+  89 common
   89 with-variables
+  89 counter
   89 pad-head
-  89 added
-  89 round
-  89 authentication
-  89 LD
+  89 gc
+  89 null
+  89 through
+  89 odd?
+  89 alien-callback
+  89 bootstrap-cells
+  89 <groups>
+  89 Tom
+  89 GLdouble*
   89 ##set-slot-imm
-  88 known
+  88 ?{
   88 word>>
+  88 sequence,
   88 integers"
-  88 1024
-  88 collection
-  88 lookup-vocab
-  88 102
-  88 2/
-  88 local
-  88 vertices
-  88 month
-  88 <groups>
-  88 env
+  88 below
+  88 representing
+  88 object."
+  88 wrapper
+  88 required
+  88 Check
+  88 Ehrenberg
+  88 pop
+  88 prev
   88 "Prints
-  88 jit-load-cell
-  87 ?{
-  87 above
-  87 User
+  88 opcode
+  88 05
+  87 running
+  87 3dup
   87 ?unless
-  87 positive
+  87 120
   87 alien.strings
-  87 would
-  87 object."
+  87 except
   87 map-sum
-  87 odd?
-  87 ">"
+  87 previous
+  87 >c-ptr
   87 with-disposal
   87 "1
-  87 67
-  87 bootstrap-cells
-  87 97
-  87 98
-  87 attribute
+  87 lists
   87 io.styles
   87 mailbox
+  87 pack
   87 <gadget>
-  87 article
-  87 instructions
+  87 time+
+  87 fd
+  87 read-response
   87 APPLICATION_ERROR_MASK
   87 ERROR_SEVERITY_ERROR
-  86 3dup
-  86 useful
-  86 wrapper
-  86 different
-  86 starting
-  86 rules
-  86 stack,
-  86 original
-  86 >c-ptr
-  86 alien-callback
-  86 identity
-  86 prev
-  86 76
+  86 H
+  86 \n
+  86 "When
+  86 directly
+  86 special
+  86 callstack
+  86 -6
+  86 compiled
+  86 those
+  86 live
+  86 sift
+  86 in?
+  86 allocated
+  86 align
+  86 num
+  86 shuffle
+  86 i1
+  86 i2
+  86 e1
   86 pref-dim
   86 uint64_t
-  86 time+
-  86 read-response
-  86 Tom
   86 HINF
   85 QUALIFIED-WITH:
-  85 sequence,
-  85 sift
-  85 in?
-  85 written
-  85 filename
-  85 69
-  85 72
+  85 step
+  85 begin
+  85 satisfy
+  85 during
+  85 unit
+  85 thrown
+  85 existing
+  85 works
+  85 push-all
+  85 finally
+  85 optional
+  85 88
+  85 replace
+  85 timer
+  85 size,
+  85 connection
+  85 108
   85 cdr
   85 dlist
+  85 Register
   85 spill-slot
-  84 "When
-  84 final
+  84 init
   84 slots:"
   84 "vocab"
-  84 compare
+  84 vocab-name
+  84 300
   84 ?at
-  84 delete
-  84 representing
-  84 possible
+  84 A,
+  84 value.
   84 "stream"
   84 with-file-reader
   84 &free
-  84 UI
-  84 usage
-  84 i1
-  84 i2
-  84 param
-  84 timer
+  84 out>>
+  84 selector
+  84 10.0
   84 markup
   84 c:int
-  84 fd
   84 take-char
-  84 socket
   84 imm
   84 GLfloat*
   84 imm9
-  83 thrown
-  83 finally
-  83 writing
-  83 entries
-  83 compile
-  83 shuffle
-  83 out>>
-  83 10.0
-  83 grid
-  83 e1
+  83 All
+  83 create-word
+  83 unsigned
+  83 "hello
+  83 defines
+  83 flip
+  83 exception
+  83 -1/0.
+  83 61
+  83 62
+  83 >hex
+  83 elt1
+  83 elt2
+  83 pixel
   83 ];
-  83 opcode
-  83 108
-  83 2019
-  83 ADD
+  83 c,
   83 blas-vector-base
   83 ALPHA,
   83 REAL(*)
-  83 GLdouble*
   83 rx
   83 short-8-rep
-  82 (see
-  82 satisfy
-  82 push-all
-  82 full
+  82 ratio
+  82 ?first
+  82 declared
+  82 sin
+  82 equal?
+  82 head-slice
+  82 tail-slice
+  82 even
   82 vocabs.parser
   82 file-name
-  82 less
-  82 A,
-  82 resulting
-  82 num
-  82 >hex
-  82 elt1
-  82 elt2
+  82 throws
+  82 2022
+  82 extension
+  82 owner
   82 to>>
-  82 pack
-  82 05
-  82 typedef
+  82 vdot
+  82 width,
+  82 location,
+  82 Vector3
   82 S1
   82 S2
-  81 ?first
-  81 \n
-  81 begin
-  81 create-word
+  82 HMODULE
+  81 tool
   81 "There
-  81 sin
-  81 vocab-name
-  81 beginning
-  81 equal?
-  81 "hello
-  81 300
-  81 tail-slice
-  81 120
-  81 null
+  81 done
+  81 wrap
+  81 number=
+  81 0xFF
+  81 page
+  81 rs-reg
   81 "from"
-  81 selector
-  81 73
+  81 <repetition>
+  81 type-number
+  81 trim
   81 io.sockets
   81 io.files.temp
+  81 io.launcher
   81 ui.gestures
-  81 SUB
+  81 count,
   81 mouseo
+  81 resolver
   81 DOUBLE-PRECISION(*)
   81 COMPLEX(*)
   81 DOUBLE-COMPLEX(*)
-  81 location,
+  81 vregs
   81 0x7fffffff
-  81 ctx-reg
-  81 HMODULE
+  81 pane
   81 live-interval
-  80 H
   80 "Thrown
-  80 counter
-  80 many
-  80 optional
-  80 flag
+  80 o
+  80 "\""
+  80 were
+  80 together
+  80 scope
+  80 application
+  80 clear-assoc
   80 readln
-  80 number=
-  80 0xFF
+  80 supported
   80 -16
-  80 component
-  80 -1/0.
-  80 61
+  80 normalize
+  80 On
+  80 free
   80 239
-  80 <repetition>
+  80 macosx
   80 "3"
-  80 lists
-  80 delta
-  80 vdot
+  80 receive
+  80 ones
+  80 Aaron
   80 ui.gadgets.worlds
   80 insert-tuple
+  80 ctx
+  80 <c-direct-array>
+  80 Count
   80 -0700"
-  80 resolver
+  80 W*
   80 Bool
-  79 init
-  79 word.
-  79 found
-  79 -6
-  79 head-slice
-  79 defines
-  79 clear-assoc
+  79 SBUF"
+  79 "TUPLE:
   79 "Reads
   79 "alien"
-  79 stack.
-  79 owner
-  79 macosx
-  79 trim
+  79 represents
+  79 [=[
   79 tools.deploy.config
-  79 http.client
-  79 io.launcher
-  79 <c-direct-array>
-  79 s,
-  79 pane
-  78 hashcode*
-  78 declared
-  78 integers
-  78 "\""
-  78 open
-  78 "TUPLE:
-  78 ratio
-  78 flip
-  78 close
-  78 alien>string
-  78 align
-  78 254
-  78 box
-  78 [=[
-  78 count,
-  78 arch
-  78 WINDOW*
-  78 bf
-  78 c,
-  78 CFSTRING:
-  78 UPLO,
-  78 doc
-  78 turtle
-  78 ];"
-  78 compiler.cfg.utilities
-  78 GLint*
-  78 interactor
-  78 "i1"
-  78 PSP_DEVINFO_DATA
-  77 superclass
-  77 tool
-  77 define-declared
-  77 scope
-  77 work
-  77 "Hello
-  77 with-byte-reader
-  77 "to"
-  77 88
-  77 relayout-1
-  77 ubyte-components
-  77 ctx
-  77 BOOLEAN
-  77 011
-  76 word?
-  76 o
-  76 together
-  76 "e"
-  76 throws
-  76 maximum
-  76 normalize
-  76 allocated
-  76 x86.64
-  76 62
-  76 "graph"
-  76 topic
-  76 <struct>
-  76 deploy-ui?
-  76 deploy-reflection
-  76 content
-  76 loc>>
-  76 pool
-  76 .f32
-  76 TCBDB*
-  76 push-back
-  76 000
-  76 addrspec
-  76 literal>>
-  75 D
-  75 during
-  75 existing
-  75 xa
-  75 +lt+
-  75 want
-  75 string>>
-  75 rs-reg
-  75 constructed
-  75 obj>>
-  75 matrix4
-  75 deploy-io
-  75 DECIMAL:
-  75 <inet4>
-  75 temp-file
-  75 105
-  75 undo
-  75 LPCTSTR
-  75 any-rep
-  75 "i2"
-  75 Status
-  75 ID3D10Blob**
-  74 step
-  74 running
-  74 greater
-  74 page
-  74 holding
-  74 scale
-  74 tag-bits
-  74 type-number
-  74 represents
-  74 receive
-  74 left>>
-  74 0x38
-  74 deploy-name
-  74 graphviz
-  74 DESTRUCTOR:
-  74 cl_uint
-  74 cpBody*
-  74 LPDWORD
-  74 live
-  73 QUALIFIED:
-  73 directly
-  73 remove
-  73 basic
-  73 math.private
-  73 store
-  73 \"b\"
-  73 2each
-  73 wrap
-  73 file-lines
-  73 arguments
-  73 pop
-  73 "C"
-  73 bootstrap-cell
-  73 newelt
-  73 "2.0"
-  73 "title"
-  73 minutes
-  73 coverage
-  73 idx
-  73 dispatch-message
-  73 Count
-  73 ##phi
-  73 EBNF[=[
-  73 build-tree
-  73 BOOL*
-  73 GpPen*
-  72 TYPED::
-  72 SBUF"
-  72 documentation
-  72 words:"
-  72 make-foldable
-  72 def
-  72 10000
-  72 hex>
-  72 exception
-  72 frame
-  72 quotation,
-  72 session
-  72 comparison
-  72 Z
-  72 2&&
-  72 cos
-  72 sequences.extras
-  72 >c-array
-  72 ones
-  72 gml
-  72 define-persistent
-  72 ast
-  72 monitor
-  72 int-regs
-  72 GpPath*
-  72 GLshort
-  71 comment
-  71 SINGLETONS:
-  71 interleave
-  71 ")."
-  71 "slots"
-  71 vocabulary."
-  71 gc
-  71 otherwise
-  71 "parser"
-  71 could
-  71 required
-  71 "array"
-  71 stdcall
-  71 generate
-  71 object.
-  71 template
+  79 minutes
