@@ -1,158 +1,415 @@
-1-graphs:
-  23 𝐬
-  17 >
-  15  
-  14 𝕚
-  11 𝐈
-  11 )
-  10 D
-   9 ₁
-   8 <
-   7 t
-   7 S
-   7 o
-   7 ᛦ
-   6 𝔼
-   6 Γ
-   6 𝐅
-   6 0
-   5 𝐫
-   5 𝐠
-   5 𝕊
-   5 𝕎
-   5 𝐍
-   4 f
-   4 𝕋
-   4 Λ
-   4 𝕔
-   4 ᚫ
-   4 𝐓
-   4 𝔻
-   4 𝐏
-   4 (
-   4 ᚺ
-   4 r
-   4 i
-   4 s
-   4 q
-   3 ℚ
-   3 𝕌
-   3 π
-   3 𝐂
-   3 Ξ
-   3 }
-   3 A
-   3 𝐗
-   3 𝐥
-   3 :
-   3 𝕕
-   3 ͻ
-   3 ÷
-   3 𝐕
-   3 B
-   3 #
-   3 e
-   3 l
-   2 𝕙
-   2 𝕘
-   2 ₃
-   2 ᛖ
-   2 𝐣
-   2 𝐩
-   2 𝐌
-   2 4
-   2 ᛃ
-   2 Ψ
-   2 β
-   2 _
-   2 𝐖
-   2 𝕖
-   2 𝕓
-   2 𝐋
-   2 1
-   2 Δ
-   2 𝕍
-   2 +
-   2 2
-   2 δ
-   2 𝕣
-   2 {
-   2 𝕀
-   2 𝐭
-   2 C
-   2 𝐲
-   2 m
-   2 ᚠ
-   2 /
-   2 7
-   2 6
-   2 ρ
-   2 σ
-   2 γ
-   2 ℙ
-   2 𝐜
-   2 v
-   2 u
-   2 n
-   2 μ
-   2 b
-   2 9
-   2 𝐐
-   2 J
-   1 𝐧
-   1 𝕄
-   1 𝕞
-   1 𝐮
-   1 𝕒
-   1 '
-   1 ᛝ
-   1 I
-   1 𝕗
-   1 𝔸
-   1 ₂
-   1 λ
-   1 ᛄ
-   1 𝐱
-   1 𝕤
-   1 𝐒
-   1 N
-   1 h
-   1 j
-   1 \
-   1 φ
-   1 K
-   1 $
-   1 "
-   1 ξ
-   1 ᛂ
-   1 η
-   1 3
-   1 F
-   1 Y
-   1 G
-   1 c
-   1 χ
-   1 Σ
-   1 y
-   1 𝕠
-   1 𝐔
-   1 𝐎
-   1 &
-   1 𝕂
-   1 𝕨
-   1 O
-   1 𝐞
-   1 ℤ
-   1 £
-   1 𝕪
-   1 ς
-   1 §
-   1 Θ
-   1 ℝ
-   1 H
-   1 ,
-   1 W
-   1 d
-   1 !
-   1 .
-   1 𝕥
+23 𝐬
+𝐬 	list 	Sum
+
+17 >
+> 	int 	Increment
+
+15 
+
+14 𝕚
+𝕚 	int, list 	Check that the int is in the list
+
+11 𝐈
+𝐈 	int 	Inclusive range: (0 .. n]
+
+11 )
+) 		Close loop/conditional etc.
+
+10 D
+D 	any 	Duplicate
+
+9 ₁
+₁ 		Get first input line
+
+8 <
+< 	int 	Decrement
+
+7 t
+t 		Shortcut for 3p
+
+7 S
+
+7 o
+
+7 ᛦ
+ᛦ 	int 	Square
+
+6 𝔼
+𝔼 	int, int 	Check for equality
+
+6 Γ
+Γ .. ) 	any 	Perform the operation(s) .. on each element in the list.
+
+6 𝐅
+𝐅 	int 	Get all factors
+
+6 0
+
+5 𝐫
+𝐫 	any 	Reverse
+
+5 𝐠
+𝐠 	list 	Get greatest element
+
+5 𝕊
+𝕊 	int, int 	Subtract
+
+5 𝕎
+𝕎 	int, int 	Power
+
+5 𝐍
+𝐍 	int 	Compute -a
+
+4 f
+f 		Infinite list of fibonacci numbers (well, up until 2^63-1)
+
+4 𝕋
+𝕋 	int, int 	Multiply
+
+4 Λ
+Λ .. ) 	list 	Keep those in the list where <elem> .. is equal to 1
+
+4 𝕔
+𝕔 	list, int 	Get closest value to int in list
+
+4 ᚫ
+ᚫ 	int 	Multiply by 2
+
+4 𝐓
+𝐓 	int 	Factorial
+
+4 𝔻
+𝔻 	int, int 	Add
+
+4 𝐏
+𝐏 	int 	Prime factors
+
+4 (
+( .. ) 		Decompress a base 255 string
+
+4 ᚺ
+ᚺ 	int 	Divide by 2
+
+4 r
+
+4 i
+
+4 s
+
+4 q
+q 		Shortcut for 4p
+
+3 ℚ
+ℚ 	any, any 	Check for equality, ignoring types
+
+3 𝕌
+𝕌 	list, list 	Only keep mutual elements [that are in both lists]
+
+3 π
+π 	13
+
+3 𝐂
+𝐂 	int 	Get the characters
+
+3 Ξ
+Ξ .. ) 	any 	If int and equal to 1, or if list and contains 1, do ..
+
+3 }
+
+3 A
+
+3 𝐗
+𝐗 	int 	Get all prefixes
+
+3 𝐥
+𝐥 	list 	Length
+
+3 :
+: 	int 	Previous prime
+
+3 𝕕
+𝕕 	int, list 	Get the ath element of b.
+
+3 ͻ
+ͻ .. ) 		Infinite loop.
+
+3 ÷
+÷ 		Terminate loop/conditional etc, if the top of the stack is truthy
+
+3 𝐕
+𝐕 	int 	Proper divisors.
+
+3 B
+B 	int 	Compress a number into base 255
+
+3 #
+# 		Else statement
+
+3 e
+
+3 l
+
+2 𝕙
+𝕙 	list, int 	Remove the last b elements of a
+𝕙 	list 	Remove the last element of a
+
+2 𝕘
+𝕘 	list, int 	Remove the first b elements of a
+𝕘 	list 	Remove the first element of a
+
+2 ₃
+₃ 		Get third input line
+
+2 ᛖ
+ᛖ 	int 	Add 2
+
+2 𝐣
+𝐣 	list 	Join elements into an int
+
+2 𝐩
+𝐩 	list 	Product
+
+2 𝐌
+𝐌 	int 	Check for primality
+
+2 4
+
+2 ᛃ
+ᛃ 	int 	Modulo 2, then perform logical NOT.
+
+2 Ψ
+Ψ 	list 	Apply the next token to each element in the list
+
+2 β
+β 	0
+
+2 _
+_ 	list 	Push each element to the stack
+
+2 𝐖
+
+2 𝕖
+𝕖 	list, int 	Get first b elements of a
+
+2 𝕓
+𝕓 	any 	Bifurcate; duplicate and reverse
+
+2 𝐋
+𝐋 	int 	Get the first n primes
+
+2 1
+
+2 Δ
+Δ .. ) 	any 	If integer, create inclusive range or if list, add one to each value.
+
+2 𝕍
+𝕍 	int, int 	Integer division
+
+2 +
+
+2 2
+
+2 δ
+δ 	2
+
+2 𝕣
+𝕣 	int, int 	Repeat b, a times
+
+2 {
+
+2 𝕀
+𝕀 	int, list 	Index of a in b
+
+2 𝐭
+𝐭 	int 	Check if composite
+
+2 C
+
+2 𝐲
+
+2 m
+
+2 ᚠ
+ᚠ 	int 	Subtract 2
+
+2 /
+/ 	any 	Delete from underneath: a, b -> b
+
+2 7
+
+2 6
+
+2 ρ
+ρ 	14
+
+2 σ
+σ 	15
+
+2 γ
+γ 	1
+
+2 ℙ
+ℙ 	int, int 	Get the ath polygonal number for a polygon with b sides.
+
+2 𝐜
+𝐜 	int 	Divisor count.
+
+2 v
+
+2 u
+
+2 n
+
+2 μ
+μ 	10
+
+2 b
+
+2 9
+
+2 𝐐
+𝐐 	any 	Check that all elements are equal
+
+2 J
+
+1 𝐧
+𝐧 	any 	Get the length, then create an inclusive range.
+
+1 𝕄
+𝕄 	int, int 	Modulo
+
+1 𝕞
+𝕞 	int, int 	Check that a is a multiple of b
+
+1 𝐮
+𝐮 	list 	Uniquify
+
+1 𝕒
+𝕒 	int, int 	Logical AND
+
+1 '
+
+1 ᛝ
+
+1 I
+Implicit exclusive range if integer.
+I 		Take one line of input
+
+1 𝕗
+𝕗 	list, int 	Get last b elements of a
+
+1 𝔸
+𝔸 	any, any 	Append b to the end of a
+
+1 ₂
+₂ 		Get second input line
+
+1 λ
+λ 	9
+
+1 ᛄ
+ᛄ 	int 	Modulo 2
+
+1 𝐱
+𝐱 	int 	Get all suffixes
+
+1 𝕤
+𝕤 	int, int 	Subtract, then get absolute.
+
+1 𝐒
+𝐒 	int 	Create a singleton list out of this
+
+1 N
+N .. ) 	int 	N times do ..
+
+1 h
+
+1 j
+
+1 
+
+1 K
+
+1 $
+$ 		Wrap stack to array
+
+1 "
+
+1 ξ
+ξ 	12
+
+1 ᛂ
+
+1 η
+η 	5
+
+1 3
+
+1 F
+
+1 Y
+
+1 G
+
+1 c
+c 		Infinite list of perfect numbers (0-indexed)
+
+1 χ
+χ 	20
+
+1 Σ
+Σ .. ) 	list 	Keep those in the list where <elem> .. is equal to 0
+
+1 y
+
+1 𝕠
+𝕠 	list, int 	Count the amount of b in a.
+
+1 𝐔
+𝐔 	int 	Unique prime factors
+
+1 𝐎
+𝐎 	int 	Logical NOT (in Neim, only 1 is truthy)
+
+1 &
+& .. ) 		Create a list of the elements pushed in ..
+
+1 𝕂
+
+1 𝕨
+
+1 O
+
+1 𝐞
+
+1 ℤ
+
+1 £
+
+1 𝕪
+
+1 ς
+ς 	16
+
+1 §
+
+1 Θ
+Θ 		Push currently looped value or 100 if not in loop
+
+1 ℝ
+ℝ 	int, int 	Repeat a, b times
+
+1 H
+
+1 ,
+
+1 W
+
+1 d
+
+1 !
+
+1 .
+.. - .. 		Assert that both sides evaluate to a truthy value
+
+1 𝕥
