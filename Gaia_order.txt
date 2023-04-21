@@ -1,179 +1,468 @@
-1-graphs:
- 121 ¦
-  66 :
-  50 +
-  43 Σ
-  41 ¤
-  36 e
-  34 l
-  32 1
-  31 ⟨
-  31 @
-  31 ⟩
-  30 ×
-  29 )
-  27 $
-  26 2
-  23 ┅
-  23 (
-  22 …
-  21 d
-  21 _
-  20 v
-  20 3
-  20 ↑
-  19 =
-  19 u
-  18 '
-  17 &
-  17 /
-  17 0
-  16 ⟪
-  16 ⟫
-  15 ”
-  14 b
-  14 ⁇
-  14 ;
-  13 <
-  13 #
-  13 ⌉
-  13 ḍ
-  13 †
-  13 9
-  12 ⊢
-  12 ọ
-  12 ,
-  11 %
-  11 \
-  11 C
-  11 ȯ
-  11 6
-  10 Z
-  10 >
-  10 “
-  10 ṣ
-  10 ⁻
-  10 f
-  10 D
-  10 ṫ
-   9 Π
-   9 ṛ
-   9 Ė
-   9 ‡
-   9 !
-   9 ṙ
-   9 s
-   9 ḥ
-   9 ₵
-   9 t
-   8 w
-   8 z
-   8 -
-   8 |
-   8 ÷
-   8 ₓ
-   8 p
-   8 c
-   8 o
-   8 ṇ
-   7 ċ
-   7 ₌
-   7 *
-   7 B
-   7 r
-   6 ⊃
-   6 ⌋
-   6 K
-   6 ?
-   6 a
-   6 ]
-   6 E
-   5 S
-   5  
-   5 8
-   5 €
-   5 ₔ
-   5 7
-   5 ₸
-   5 ∨
-   5 ṅ
-   5 4
-   5 ḋ
-   4 ↺
-   4 ẋ
-   4 ṡ
-   4 q
-   4 5
-   4 ℍ
-   4 ẏ
-   4 ∂
-   4 k
-   4 {
-   4 }
-   4 U
-   4 ⊣
-   4 ụ
-   4 ⁈
-   4 ṗ
-   4 H
-   3 I
-   3 Ø
-   3 ∫
-   3 i
-   3 N
-   3 h
-   3 ∧
-   3 y
-   3 ⌠
-   3 A
-   3 ∆
-   3 [
-   3 §
-   3 R
-   3 ṭ
-   3 °
-   3 W
-   3 ỵ
-   2 ∇
-   2 ª
-   2 ḣ
-   2 ⇈
-   2 g
-   2 ⊂
-   2 ₁
-   2 Q
-   2 X
-   2 ₉
-   2 ₅
-   2 ¿
-   2 «
-   2 Ṁ
-   2 P
-   2 ė
-   2 ⌡
-   2 ‼
-   2 L
-   2 ^
-   2 ~
-   1 ↓
-   1 ’
-   1 ₀
-   1 .
-   1 F
-   1 G
-   1 J
-   1 M
-   1 O
-   1 T
-   1 V
-   1 Y
-   1 `
-   1 j
-   1 m
-   1 n
-   1 x
-   1 "
-   1 ←
-   1 ∞
-   1 ↻
-   1 ṁ
+121:
+¦ 	1 	inherit 	Map. For each element of z, run the operator on a separate stack. Concatenate the final stacks from each element into one list and push it. If the operator is a dyad, iterate over the left-most list and use the other argument as an extra parameter to each execution.
+
+66:
+: 	Duplicate: push two copies of z. 	Duplicate. 	Duplicate.
+
+50:
++ 	x + y. 	n concatenated to s. 	n added into l. 	y concatenated to x. 	s added into l. 	y concatenated to x.
+
+43:
+Σ 	Digital sum. 		Sum of z.
+
+41:
+¤ 	Swap: Push y, then x. 	Swap 	Swap 	Swap 	Swap 	Swap
+
+36:
+e 	10 z 	Run contents of z as Gaia code. 	Dump contents of z onto the stack.
+
+34:
+l 	Length of z. 	Length. 	Length.
+
+32:
+
+31:
+
+31:
+@ 	Push an input.
+
+31:
+
+30:
+× 	x times y. 	Repeat s n times. 	Repeat l n times. 	Cartesian product of x and y. 	Join l by s. 	Cartesian product of x and y.
+
+29:
+) 	Inrcrement: z+1. 	Last character of z. 	Last element of z.
+
+27:
+$ 	List of z's digits. 	List of z's characters. 	Stringify all contents of z and join with no separator.
+
+26:
+
+23:
+┅ 	If z is positive, range from 1 to z. If z is negative, the downward range from -1 to z. If z is 0, [0]. 	All suffixes of z: each element is mapped to the elements after it, including itself. 	Suffixes.
+
+23:
+( 	Decrement: z-1. 	First character of z. 	First element of z.
+
+22:
+… 	If z is positive, range from 0 to z-1. If z is negative, the downward range from 0 to z+1. If z is 0, []. 	All prefixes of z: each element is mapped to the elements before it, including itself. 	Prefixes.
+
+21:
+d 	List of the divisors of z. 	Parse z as a number. 	Convert from base 10.
+
+21:
+_ 	Negation: -z. 		Flatten z.
+
+20:
+v 	Reverse. 	Reverse. 	Reverse.
+
+20:
+
+20:
+
+19:
+= 	1 if x = y, else 0. 	n th character of s. 	n th element of l. 	1 if x = y, else 0. 		1 if x = y, else 0.
+
+19:
+u 	Square root of z. 	Remove duplicate characters from z. 	Remove duplicate elements from z.
+
+18:
+
+17:
+& 	x bitwise AND y. 	Repeat each character of s n times. 	Repeat each element of l n times. 	Set intersection of the characters of x and y. 		Set intersection of x and y.
+
+17:
+/ 	Integer division of x by y. 	Split s into n-length chunks. The last one may be shorter. 	Split s into n-length chunks. The last one may be shorter. 	Split x around occurrences of y, and discard empty pieces. 	Split l around instances of s, and discard empty pieces. 	Split x around occurences of y as a sublist, and discard empty pieces.
+
+17:
+
+16:
+
+16:
+
+15:
+
+14:
+b 	Convert z to binary. 		Convert z from binary.
+
+14:
+⁇ 	1 	inherit 	Select. For each element of z, run the operator on a separate stack. If the top of the stack after that is falsy, remove it from z. If the operator is a dyad, iterate over the left-most list and use the other argument as an extra parameter to each execution.
+
+14:
+; 	Push x, then y, then x. 	Push x, then y, then x. 	Push x, then y, then x. 	Push x, then y, then x. 	Push x, then y, then x. 	Push x, then y, then x.
+
+13:
+< 	1 if x is less than y, else 0. 	The first n character of s. 	The first n elements of l. 	1 if x is lexicographically before y, else 0. 		1 if x is lexicographically before y, else 0.
+
+13:
+# 	1 	inherit 	N Find. Find the first z positive integers which give a truthy result when run through the operator. If a dyad is used, the left-most number is used as z and the other argument is an extra parameter for each trial. Note: If not enough numbers exist, this will hang in an infinite loop.
+
+13:
+⌉ 	Ceil. 	Uppercase. 	Maximum of z.
+
+13:
+ḍ 	List of prime factors of z. 	All partitions of z. 	All partitions of z.
+
+13:
+† 	1 	2 	Vectorize. If the operator is a monad, execute it on both of the top two stack elements. If it's a dyad, execute it on corresponding elements from the lists x and y. If the lists are of unequal length, append the "extra" elements from the longer one to the end.
+
+13:
+
+12:
+⊢ 	1 	1 	Reduce. If z is empty, push 0. Otherwise, on a separate stack, push the first element of z, then one-by-one push each other element of z and execute the operator after each push. Push the final stack as a list.
+
+12:
+ọ 	Sign: -1 if z is negative, 0 if z is 0, 1 if z is positive. 	Trim: remove leading and trailing whitespace from z. 	Deltas: the differences between consecutive elements of z.
+
+12:
+, 	Pair: push [x, y]. 	Pair. 	Pair. 	Pair. 	Pair. 	Pair.
+
+11:
+% 	x mod y. 	Every nth character of s. 	Every nth element of l. 	Split x around occurrences of y, but keep the separators in the result. 	Split l around instances of s, but keep the separators in the result. 	Split x around occurrences of y as a sublist, but keep the separators in the result.
+
+11:
+
+11:
+ȯ 	Sign of z: -1 if negative, 0 if 0, 1 if positive. 	Sort z. 	Sort z.
+
+11:
+
+10:
+Z 	Divmod; push x/y and x%y. 	Unzip s by n. 	Unzip l by n. 	Interleave x and y. 		Interleave x and y.
+
+10:
+> 	1 if x is greater than y, else 0. 	All but the first n character of s. 	All but the first n elements of l. 	1 if x is lexicographically after y, else 0. 		1 if x is lexicographically after y, else 0.
+
+10:
+
+10:
+ṣ 	arcsin(z). 	Split z on newlines. 	Join z with newlines.
+
+10:
+⁻ 	x minus y. 		Remove all instances of n from l. 	Remove all characters in y from x. 	Remove all instances of s from l. 	For each element of y, remove all instances of it from x.
+
+10:
+f 	Factorial of z. 	Permutations of z. 	Permutations of z.
+
+10:
+D 	Absolute difference. 	Delete character of s at index n. 	Delete element of l at index n. 	Multiset difference of the characters of x and y. 		Multiset difference of x and y.
+
+10:
+ṫ 	tan(z). 	Palindromize: turn z into a palindrome by taking all but the last character, reversing it, and appending it to the original z. 	Palindromize: turn z into a palindrome by taking all but the last element, reversing it, and appending it to the original z.
+
+9:
+Π 	Digital product. 		Product of z.
+
+9:
+ṛ 	Random integer from 1 to z. 	Randomly choose a character from z and push it. 	Randomly choose an element from z and push it.
+
+9:
+Ė 	1 if y divides x, else 0. 	1 if n is in s, else 0. 	1 if l contains n, else 0 	1 if y appears in x, else 0. 	1 if l contains s, else 0 	1 if x contains y (as an element), else 0
+
+9:
+‡ 	1 	2 	Table. If the operator is a monad, execute it on the second from the top element only. If it's a dyad, execute it for each pair in the Cartesian product of the lists x and y.
+
+9:
+! 	1 if z is 0, else 0. 	1 if z is empty, else 0. 	1 if z is empty, else 0.
+
+9:
+ṙ 	String representation of z. 	String representation of z. 	String representation of z.
+
+9:
+s 	z 2 	Enumerate. 	Enumerate: [i, z[i]] for i in 1..len(z).
+
+9:
+ḥ 	z divided by 2. 	Remove the first character of z. 	Remove the first element of z.
+
+9:
+
+9:
+t 	Totient of z. 		Transpose of z. One-dimensional lists are considered to be two-dimensional with 1 row.
+
+8:
+w 	Wrap: push [z]. 	Wrap. 	Wrap.
+
+8:
+z 	2 z 		Powerset of z.
+
+8:
+
+8:
+| 	x bitwise OR y. 			Set union of the characters of x and y. 		Set union of x and y.
+
+8:
+÷ 	x divided by y. 	Split s into n roughly equal-length chunks. 	Split l into n roughly equal-length chunks. 	Split x around occurrences of y. 	Split l around instances of s. 	Split x around occurrences of y (as a sublist).
+
+8:
+
+8:
+p 	Print z. 	Print. 	Print.
+
+8:
+c 	Character at code point z. 	Code point of first character of z. 	
+
+8:
+o 		1 if z is in sorted order (increasing or decreasing), else 0. 	1 if z is in sorted order (increasing or decreasing), else 0.
+
+8:
+ṇ 	Push the zth prime number. 	Pull out the first character of z, leaving the rest on the stack below it. 	Pull out the first element of z, leaving the rest on the stack below it.
+
+7:
+ċ 	List containing z 0's. 	List of the code points of the characters in z. 	List of indices of z: range(len(z))
+
+7:
+₌ 	1 	inherit 	Push an extra copy of the arguments before executing the operator.
+
+7:
+* 	x y. 		Cartesian power of l by n. 			
+
+7:
+B 	Convert x to base y. 	Convert n to base len(s), then (0-based) index each digit into s. 	Convert l from base n. 	For each character in x, get its (0-based) index in y. Convert the resulting indices from base len(y). 		
+
+7:
+r 	Parity: z mod 2. 		Get all pairs of z's elements.
+
+6:
+⊃ 	1 if x >= y, else 0. 	Stretch right; repeat the last character of s enough times to make it at least length n. Use spaces if s is empty. 	Stretch right; repeat the last element of l enough times to make it at least length n. Use 0s if l is empty. 	1 if x is a superset of y, else 0. 		1 if x is a superset of y, else 0.
+
+6:
+⌋ 	Floor. 	Lowercase. 	Minimum of z.
+
+6:
+K 	Binomial coefficient: x choose y. 		All subsets of l that are size n. 	Keep only characters of x that are in y. 		Keep only elements of x that are also in y.
+
+6:
+? 	2 	1 	If z is truthy, execute the first operator, else execute the second.
+
+6:
+
+6:
+
+6:
+E 	x * 10 y. 	Extract the character of s at index n. 	Extract the element of l at index n. 			Extract the elements of x and indices given by the elements of y.
+
+5:
+S 	1 if x and y are coprime (relatively prime), else 0 	Split s into two sections, the first of which has length n. 	Split l into two sections, the first of which has length n. 	Split x around the first occurrence of y. 	Split l around first occurence of s. 	Split x around the first occurrence of y (as a sublist).
+
+5:
+
+5:
+
+5:
+
+5:
+ₔ 	1 	inherit 	Push an extra copy of the arguments in swapped order, then run the operator. This only alters the behaviour of dyads.
+
+5:
+
+5:
+₸ 	Push 10.
+
+5:
+∨ 	Logical OR. 	Logical OR. 	Logical OR. 	Logical OR. 	Logical OR. 	Logical OR.
+
+5:
+ṅ 	List of the first z prime numbers. 	Pull out the last character of z, leaving the rest on the stack below it. 	Pull out the last element of z, leaving the rest on the stack below it.
+
+5:
+
+5:
+ḋ 	Prime factors of z as [factor, exponent] pairs. 	All contiguous substrings of z. 	All contiguous sublists of z.
+
+4:
+↺ 	2 	0 	While loop. Execute the first operator. If it gave a truthy result, execute the second operator and repeat.
+
+4:
+ẋ 	Reciprocal: 1/z. 	Split z into runs of the same character. 	Split z into runs of the same element.
+
+4:
+ṡ 	sin(z). 	Split z on spaces. 	Join z with spaces.
+
+4:
+q 	Print z plus a newline. 	Printline. 	Printline.
+
+4:
+
+4:
+ℍ 	Push 100.
+
+4:
+ẏ 	1 if z is positive, else 0. 	1 if there are no lowercase letters in z, else 0. 	1 if there are no falsy elements in z, else 0.
+
+4:
+
+4:
+
+4:
+
+4:
+
+4:
+U 	If x > y, range from x to y. If y < x, downward range from x to y. If x = y, [x]. 			Multiset union of the characters of x and y. 		Multiset union of x and y.
+
+4:
+⊣ 	1 	1 	Cumulative reduce. Like ⊢, but instead concatenate the stacks after each execution of the operator and push that list.
+
+4:
+ụ 	1 if z is a perfect square, else 0. 	Extract words: split by newlines, then split each resulting string by spaces. 	Join any elements of z that are lists with spaces, then join z with newlines.
+
+4:
+⁈ 	1 	inherit 	Reject. Same as ⁇, but rejects elements that give a truthy result.
+
+4:
+ṗ 	1 if z is prime, else 0. 		
+
+4:
+
+3:
+I 	Round x to y decimal places. 	Index of first appearance n in s. 	Index of first appearance n in l. 	Index of first occurrence of y in x. 	Index of s in l. 	Index of first occurrence of y in x as a sublist.
+
+3:
+Ø 	Empty string
+
+3:
+∫ 	1 	inherit 	Map the operator over the list z, as ¦ would do. Push z sorted in ascending order according to results of mapping.
+
+3:
+i 	Identity: push z. 	Identity. 	Identity.
+
+3:
+N 	If x > y, range from x to y-1. If y < x, downward range from x to y+1. If x = y, []. 			Multiset intersection of the characters of x and y. 		Multiset intersection of x and y.
+
+3:
+h 	Convert z to base 16. 		Convert z from base 16.
+
+3:
+∧ 	Logical AND. 	Logical AND. 	Logical AND. 	Logical AND. 	Logical AND. 	Logical AND.
+
+3:
+y 	1 if z is an integer, else 0. 	1 if all characters of z are equal, else 0. 	1 if all elements of z are equal, else 0.
+
+3:
+⌠ 	1 	inherit 	Do the same as with ∫, but return the maximal element.
+
+3:
+
+3:
+∆ 	1 	inherit 	Find index. Find the index of the first element in the list to give a truthy result when run through the operator. If the operator is a dyad, iterate over the left-most list using the other argument as an extra parameter on each execution.
+
+3:
+
+3:
+§ 	String containing just a space
+
+3:
+
+3:
+ṭ 	arctan(z). 	1 if z is a palindrome, else 0. 	1 if z is a palindrome, else 0.
+
+3:
+° 	1 	0 	Until-done loop. Execute the operator until the top of the stack (not popped) is the same from two consecutive iterations.
+
+3:
+
+3:
+ỵ 	1 if z is negative, else 0. 	1 if there are no uppercase letters in z, else 0. 	1 if there are no truthy elements in z, else 0.
+
+2:
+∇ 	1 	inherit 	Find element. Same as ∆, but returns the element instead of the index.
+
+2:
+ª 	1 	0 	While-unique loop. Execute the operator until the top of the stack (not popped) after an iteration is the same as the top-of-stack from a previous iteration.
+
+2:
+ḣ 	z times 2. 	Remove the last character of z. 	Remove the last element of z.
+
+2:
+
+2:
+g 		Read contents of the file given by the file path in z. If z is empty, read the source file instead. 	Grade up z (sort the indices of z by their value).
+
+2:
+⊂ 	1 if x <= y, else 0. 	Stretch left; repeat the first character of s enough times to make it at least length n. Use spaces if s is empty. 	Stretch left; repeat the first element of l enough times to make it at least length n. Use 0s if l is empty. 	1 if x is a subset of y, else 0. 		1 if x is a subset of y, else 0.
+
+2:
+
+2:
+
+2:
+
+2:
+
+2:
+
+2:
+¿ 	1 	1 	If z is truthy, execute the operator. Do nothing otherwise.
+
+2:
+
+2:
+Ṁ 	Maximum of x and y. 		Treating l as a 2D array, rotate it clockwise n times. 	Maximum of x and y. 		Maximum of x and y.
+
+2:
+
+2:
+ė 	cos(z). 	Run-length encoding of z. 	Run-length encoding of z.
+
+2:
+⌡ 	1 	inherit 	Do the same as with ∫, but return the minimal element.
+
+2:
+‼ 	1 if z is non-zero, else 0. 	1 if z is non-empty, else 0. 	1 if z is non-empty, else 0.
+
+2:
+
+2:
+^ 	x bitwise XOR y. 			Symmetric set difference of the characters of x and y. 		Symmetric set difference of x and y.
+
+2:
+~ 	Bitwise negate. 	Swap case of letters in z. 	
+
+1:
+
+1:
+
+1:
+
+1:
+
+1:
+
+1:
+
+1:
+
+1:
+
+1:
+
+1:
+
+1:
+
+1:
+
+1:
+
+1:
+
+1:
+
+1:
+n 			Depth of z.
+
+1:
+
+1:
+
+1:
+
+1:
+∞ 	1 	0 	Infinite loop. Infinitely execute the operator.
+
+1:
+↻ 	2 	0 	Until loop. Execute the first operator. If it gave a falsy result, execute the second operator and repeat.
+
+1:
+ṁ 	Pop the stack value at index z and push it (1 is the top of the stack). 		Get all the maximal elements of z.
