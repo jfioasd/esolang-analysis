@@ -1,170 +1,488 @@
-1-graphs:
-  24 Σ
-  19 ³
-  18 D
-  10 l
-   9 2
-   8 @
-   8 ²
-   8 €
-   7 ¬
-   6 }
-   6 ;
-   5 L
-   5 Æ
-   5 ·
-   5 U
-   5 *
-   5 J
-   5 -
-   5 s
-   5 #
-   5 y
-   5 ‽
-   5 b
-   5  
-   4 o
-   4 +
-   4 ε
-   4 m
-   4 ì
-   4 /
-   4 ½
-   4 ↑
-   4 ‹
-   4 .
-   4 £
-   4 §
-   4 u
-   4 ^
-   4 ›
-   4 >
-   4 1
-   4 %
-   3 4
-   3 α
-   3 {
-   3 V
-   3 Π
-   3 3
-   3 ⁇
-   3 E
-   3 ↔
-   3 0
-   3 a
-   3 υ
-   3 B
-   3 ,
-   3 ”
-   3 X
-   3 `
-   2 …
-   2 S
-   2 Ö
-   2 v
-   2 Á
-   2 ψ
-   2 Ω
-   2 π
-   2 Δ
-   2 Å
-   2 Θ
-   2 ä
-   2 ð
-   2 ï
-   2 ⁾
-   2 Ç
-   2 Ý
-   2 ó
-   2 Ü
-   2 γ
-   2 ↕
-   2 ]
-   2 «
-   2 ⁿ
-   2 “
-   2 H
-   2 N
-   2 õ
-   2 8
-   2 G
-   2 å
-   2 ⁸
-   2 ‥
-   2 ®
-   2 :
-   2 _
-   2 5
-   2 δ
-   1 ‰
-   1 M
-   1 R
-   1 A
-   1 ∩
-   1 σ
-   1 T
-   1 <
-   1 ı
-   1 ×
-   1 p
-   1 œ
-   1 ¤
-   1 P
-   1 φ
-   1 n
-   1 )
-   1 ç
-   1 I
-   1 (
-   1 \
-   1 ξ
-   1 ¥
-   1 d
-   1 ¦
-   1 λ
-   1 ⁴
-   1 j
-   1 W
-   1 þ
-   1 Ì
-   1 ι
-   1 Z
-   1 g
-   1 ü
-   1 β
-   1 ā
-   1 á
-   1 Â
-   1 Ú
-   1 ý
-   1 Î
-   1 |
-   1 ò
-   1 Ù
-   1 [
-   1 ~
-   1 z
-   1 ¢
-   1 c
-   1 χ
-   1 í
-   1 ù
-   1 7
-   1 Φ
-   1 6
-   1 â
-   1 =
-   1 !
-   1 ʾ
-   1 9
-   1 ?
-   1 O
-   1 q
-   1 ¿
-   1 é
-   1 ⁼
-   1 »
-   1 ô
-   1 τ
-   1 r
-   1 à
+24 Σ
+Σ 	Pop a 	If a is an array, pushes the total sum of a, else pushes the total sum of the stack.
+
+19 ³
+³ 	N/A 	Pushes the first input.
+
+18 D
+Digits 0-9 	N/A 	Creates a number literal.
+D 	Pop a 	Pushes a twice (duplicate).
+
+10 l
+l 	Pop a 	Pushes length of a.
+
+9 2
+
+8 @
+@ 	Pop a 	Pushes the range 1..a.
+
+8 ²
+² 	Pop a 	Pushes a squared.
+
+8 €
+€ 	Pop a, block 	Pushes an array with the results of running the given block once for every element in a (map/collect).
+
+7 ¬
+¬ 	Pop a 	Pushes the square root of a.
+
+6 }
+} 	Pop a 	Pushes a split into slices of 1 (shorthand for 1σ).
+
+6 ;
+
+5 L
+L 	Pop a 	Prints a to standard output (without trailing newline).
+
+5 Æ
+
+5 ·
+
+5 U
+U 	Pop a 	Pushes a uniquified.
+
+5 *
+* 	Pop a, b 	Pushes a * b (multiplication).
+
+5 J
+J 	Pop a 	If a is an array, pushes a.join(''), else pushes stack.join('').
+
+5 -
+- 	Pop a, b 	Pushes a - b (subtraction).
+
+5 s
+s 	Pop a, b 	Pushes b, a (swap).
+
+5 #
+# 	Pop a 	Pushes the range 0..a.
+
+5 y
+y 	Pop a 	Pushes the sign of a (1 if positive, -1 if negative, 0 if zero).
+
+5 ‽
+‽ 	Pop a 	If a is truthy, breaks out of the current block/wire.
+
+5 b
+b 	Pop a 	Pushes a in binary (base 2).
+
+5 
+
+4 o
+o 	Pop a 	Pushes full prime factorization of a.
+
+4 +
++ 	Pop a, b 	Pushes a + b (addition).
+
+4 ε
+ε 	Pop a, b 	Pushes whether b is in a.
+
+4 m
+m 	Pop a 	Pushes prime factors of a.
+
+4 ì
+ì 	Pop a 	Pushes a as an integer.
+
+4 /
+/ 	Pop a, b 	Pushes a / b (division).
+
+4 ½
+½ 	Pop a 	Pushes a / 2 (half).
+
+4 ↑
+↑ 	Pop a 	Pushes the maximum element in a.
+
+4 ‹
+‹ 	Pop a 	Pushes a - 1 (decrement).
+
+4 .
+. 	N/A 	Creates a character literal (e.g. .a ⇒ 'a').
+
+4 £
+£ 	Block 	Runs the given block infinitely.
+
+4 §
+§ 	Pop a 	Pushes a random element from a.
+
+4 u
+u 	Pop a 	Pushes a as a string.
+
+4 ^
+^ 	N/A 	Pushes index of current element in array being looped over.
+
+4 ›
+› 	Pop a 	Pushes a + 1 (increment).
+
+4 >
+> 	Pop a, b 	Pushes a > b (greater than).
+
+4 1
+
+4 %
+% 	Pop a, b 	Pushes a % b (modulo).
+
+3 4
+
+3 α
+
+3 {
+{ 	Pop a 	Deep flattens a.
+
+3 V
+V 	Pop a 	Pushes divisors of a.
+
+3 Π
+Π 	Pop a 	If a is an array, pushes the total product of a, else pushes the total product of the stack.
+
+3 3
+
+3 ⁇
+⁇ 	Pop a, block 	Pushes an array containing all elements of a for which the given block returns a truthy value (filter/select).
+
+3 E
+E 	Pop a, b 	Pushes a == b (equality).
+
+3 ↔
+↔ 	Pop a, b 	Pushes a.concat(b).
+
+3 0
+
+3 a
+a 	Pop a, b 	Pushes absolute difference of a and b.
+
+3 υ
+
+3 B
+B 	Pop a, b 	Pushes a converted to base b.
+
+3 ,
+, 	Pop a 	Prints a to standard output (with trailing newline).
+
+3 ”
+” 	N/A 	Creates a compressed string literal.
+
+3 X
+X 	Pop a 	Pushes !a (boolean NOT).
+
+3 `
+` 	Pop a 	Pushes char code of a.
+
+2 …
+… 	N/A 	Creates a three-character literal (e.g. …abc => 'abc').
+
+2 S
+S 	Pop a 	Pushes a sorted.
+
+2 Ö
+Ö 	Pop a 	Pushes the run-length encoding of a (i.e. "aabbbcca" => [["a", 2], ["b", 3], ["c", 2], ["a", 1]]).
+
+2 v
+v 	Pop a, b 	Pushes a // b (integer/floor division).
+
+2 Á
+Á 	Pop a 	Pushes a in all upper-case.
+
+2 ψ
+ψ 	Pop a 	Pushes all permutations of a.
+
+2 Ω
+Ω 	N/A 	Executes the wire at the index after the current one.
+
+2 π
+π 	Pop a 	Pushes the ath prime number.
+
+2 Δ
+Δ 	Pop a 	Pushes an array of the absolute differences between consecutive elements in a.
+
+2 Å
+Å 	Pop a, block 	Pushes whether all the elements in a return a truthy value from the given block.
+
+2 Θ
+Θ 	N/A 	Executes the wire at the index before the current one.
+
+2 ä
+ä 	Pop a 	Pushes the prime factorization of a as a list of [prime, exponent] pairs.
+
+2 ð
+ð 	Pop a 	Pushes a == a.reverse (palindrome).
+
+2 ï
+ï 	Pop a, b 	Pushes a.split(b).
+
+2 ⁾
+⁾ 	Pop a 	Pushes the last element in a. Does not vectorize.
+
+2 Ç
+Ç 	Pop a, b 	Pushes an array of every consecutive group of b elements in a.
+
+2 Ý
+Ý 	N/A 	Pushes an empty string ('').
+
+2 ó
+ó 	Pop a 	Pushes a converted to base 10 from binary (base 2).
+
+2 Ü
+Ü 	Pop a, b 	Pushes a right-justified to length b (with spaces).
+
+2 γ
+γ 	Pop a 	Pushes all possible rotations of a.
+
+2 ↕
+↕ 	Pop a 	Pushes the minimum and maximum element in a as an array of the form [min, max].
+
+2 ]
+] 	Pop a 	Flattens a by one level onto the stack.
+
+2 «
+« 	Pop a, b 	Pushes [a, b] (pair).
+
+2 ⁿ
+ⁿ 	Pop a, b 	Pushes ab.
+
+2 “
+“ 	N/A 	Creates a base-255 number literal.
+
+2 H
+H 	Pop a, b 	Pushes a split on spaces.
+
+2 N
+N 	Pop a, b 	Pushes a != b (inequality).
+
+2 õ
+õ 	N/A 	N/A
+
+2 8
+
+2 G
+G 	Pop a, b 	Pushes the range a..b.
+
+2 å
+å 	N/A 	N/A
+
+2 ⁸
+⁸ 	N/A 	Pushes 100.
+
+2 ‥
+‥ 	N/A 	Creates a two-character literal (e.g. ‥ab => 'ab').
+
+2 ®
+® 	Pop a 	Pushes a[b] (element at index).
+
+2 :
+: 	Pop a, block 	Executes the given block for each element in a (foreach loop).
+
+2 _
+_ 	N/A 	Pushes current element in array being looped over.
+
+2 5
+
+2 δ
+δ 	Pop a 	Pushes an array of the differences between consecutive elements in a.
+
+1 ‰
+‰ 	Pop a 	Pushes 2a.
+
+1 M
+M 	Pop a, block 	Runs the given block a times.
+
+1 R
+R 	Pop a 	Pushes a reversed.
+
+1 A
+A 	Pop a 	Pushes the absolute value of a.
+
+1 ∩
+∩ 	Pop a, b 	Pushes the set intersection of a and b.
+
+1 σ
+σ 	Pop a, b 	Pushes a split into groups of length b.
+
+1 T
+T 	N/A 	N/A
+
+1 <
+< 	Pop a, b 	Pushes a < b (less than).
+
+1 ı
+ı 	Pop a 	Pushes a rounded up to the nearest integer (ceiling).
+
+1 ×
+× 	Pop a, b 	Pushes a repeated b times.
+
+1 p
+p 	Pop a 	Pushes whether a is a prime number.
+
+1 œ
+œ 	Pop a 	Pushes [a, a.reverse].
+
+1 ¤
+¤ 	Pop a, component 	Same as ¡, except pushes the array of intermediate results. Equivalent to scanl1 in Haskell.
+
+1 P
+P 	Pop a 	Pushes all primes up to a.
+
+1 φ
+φ 	Pop a 	Pushes the Euler totient/phi function of a.
+
+1 n
+n 	Pop a 	Pushes exponents of prime factorization of a.
+
+1 )
+) 	Pop a 	Pushes a without the last element.
+).
+).
+
+1 ç
+ç 	Pop a, b 	Pushes all possible combinations of b elements in a.
+
+1 I
+I 	N/A 	Pushes input from standard input.
+
+1 (
+( 	Pop a 	Pushes a without the first element.
+
+1 
+
+1 ¥
+¥ 	Pop a, b 	Pushes a % b == 0 (divisibility).
+
+1 d
+d 	Pop a 	Pushes a * 2 (double).
+
+1 ¦
+¦ 	Pop a 	Pushes a rounded to the nearest integer.
+
+1 λ
+λ 	Pop a 	Pushes a rotated once to the left.
+
+1 ⁴
+⁴ 	N/A 	Pushes the second input.
+
+1 j
+j 	Pop a, b 	If a is an array, pushes a.join(b), else pushes stack.join(b).
+
+1 W
+W 	N/A 	Pushes [stack] (wrap).
+
+1 þ
+þ 	Pop a 	Sleeps execution for a seconds.
+
+1 Ì
+Ì 	N/A 	N/A
+
+1 ι
+ι 	Pop a, b 	Pushes a[0..b] (slice from beginning).
+
+1 Z
+Z 	Pop a 	Pushes a split on newlines.
+
+1 g
+g 	Pop a, b 	Pushes the range a...b.
+
+1 ü
+ü 	N/A 	N/A
+
+1 β
+β 	Pop a, b 	Pushes a split into b groups.
+
+1 ā
+ā 	N/A 	N/A
+
+1 á
+á 	Pop a, b 	Pushes a | b (bitwise OR).
+
+1 Â
+Â 	Pop a 	Pushes a in title-case.
+
+1 Ú
+Ú 	Pop a, b 	Pushes a with b spaces prepended.
+
+1 ý
+ý 	Pop a 	Pushes the ath Fibonacci number.
+
+1 Î
+Î 	N/A 	N/A
+
+1 |
+| 	Pop a, b 	Pushes a || b (boolean OR).
+
+1 ò
+ò 	Pop a 	Pushes a zipped.
+
+1 Ù
+Ù 	Pop a, b 	Pushes a with b spaces appended.
+
+1 [
+[ 	Pop a 	Pushes stack[a].
+
+1 ~
+~ 	Pop a 	Pushes -a (negative).
+
+1 z
+z 	Pop a 	Pushes a without surrounding whitespace.
+
+1 ¢
+¢ 	Get a 	Sets the value of the register to a.
+
+1 c
+c 	Pop a, b 	Pushes a nCr b (binomial coefficient).
+
+1 χ
+χ 	Pop a, block 	Pushes the elements in a that return the minimum and maximum value from the given block.
+
+1 í
+í 	Pop a 	Pushes a as a float.
+
+1 ù
+ù 	Pop a 	If a is an array, pushes a.join(' '), else pushes stack.join(' ').
+
+1 7
+
+1 Φ
+Φ 	Pop a 	Executes the wire at index a.
+
+1 6
+
+1 â
+â 	Pop a, b 	Pushes a ^ b (bitwise XOR).
+
+1 =
+= 	Get a 	Prints a to standard output (with trailing newline).
+
+1 !
+! 	Pop a 	Pushes a! (factorial).
+
+1 ʾ
+
+1 9
+
+1 ?
+? 	Pop a, block 	If a is truthy, executes the given block. If not, executes the block given to the ¿ component if one is present.
+
+1 O
+O 	N/A 	Removes last element of stack.
+
+1 q
+q 	N/A 	Immediately stops program execution.
+
+1 ¿
+¿ 	Block 	Else statement for use with the ? component.
+
+1 é
+é 	Pop a 	Pushes a % 2 == 0 (even).
+
+1 ⁼
+⁼ 	Pop a, b 	Pushes whether a and b are equal. Does not vectorize.
+
+1 »
+» 	Pop a, component 	Pushes an array containing the results of applying the given component for each element in a.
+
+1 ô
+ô 	Pop a 	Pushes a converted to base 10 from hexadecimal (base 16).
+
+1 τ
+τ 	N/A 	Pushes 10.
+
+1 r
+r 	Pop a, b, c 	Pushes a.tr(b, c).
+
+1 à
+à 	Pop a, b 	Pushes a & b (bitwise AND).
