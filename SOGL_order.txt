@@ -1,254 +1,1131 @@
-1-graphs:
- 120 }
- 107 +
- 103 .
-  99 {
-  94 *
-  90 ‘
-  81  
-  78 ¹
-  72 I
-  71 "
-  69 ;
-  61 :
-  58 H
-  58 ╬
-  54 2
-  52 1
-  51 ┼
-  50 ?
-  46 «
-  45 3
-  43 @
-  43 ∫
-  40 e
-  40 n
-  39 ┌
-  39 ž
-  39 F
-  39 ŗ
-  37 ∑
-  37 ³
-  36 0
-  35 ±
-  35 -
-  34 ⁴
-  34 ,
-  34 '
-  33 ∙
-  33 ⁰
-  33 ⌡
-  33 =
-  33 a
-  32 4
-  32 ²
-  32 5
-  31 l
-  30 j
-  30 o
-  28 b
-  28 »
-  28 O
-  28 m
-  28 ╚
-  27 ø
-  27 W
-  26 ā
-  25 ⁾
-  25 Κ
-  25 L
-  25 %
-  25 №
-  24 Z
-  24 A
-  23 \
-  23 ”
-  22 6
-  22 w
-  22 P
-  22 ē
-  22 8
-  22 X
-  21 9
-  20 ⁄
-  20 ↔
-  20 č
-  20 K
-  20 ╝
-  20 k
-  20 ─
-  19 θ
-  19 ↕
-  19 Q
-  19 |
-  19 !
-  19 ┘
-  18 p
-  18 Ο
-  18 ┐
-  18 ¶
-  18 ¼
-  17 h
-  17 _
-  17 /
-  17 C
-  16 G
-  16 d
-  16 Ƨ
-  16 r
-  16 ⁷
-  16 f
-  15 ι
-  15 7
-  15 E
-  15 ⁵
-  14 M
-  14 ^
-  14 κ
-  14 █
-  14 <
-  14 R
-  14 ‽
-  14 z
-  14 >
-  14 └
-  14 ╔
-  14 ⁽
-  13 Γ
-  13 →
-  13 i
-  13 (
-  13 N
-  13 #
-  13 U
-  13 Ζ
-  13 y
-  13 ■
-  12 ]
-  12 ο
-  12 )
-  12 $
-  12 ⁶
-  12 “
-  12 §
-  12 S
-  12 │
-  12 √
-  11 ū
-  11 ≡
-  11 Δ
-  11 q
-  11 c
-  11 ▓
-  11 ≥
-  11 [
-  11 δ
-  11 ←
-  10 ↑
-  10 ¡
-  10 ⁸
-  10 Y
-  10 ¾
-  10 Χ
-  10 ƨ
-  10 B
-  10 Θ
-  10 u
-  10 t
-  10 ╗
-  10 ‰
-   9 Ν
-   9 ≤
-   9 ļ
-   9 Ω
-   9 Æ
-   9 ψ
-   9 η
-   9 J
-   8 α
-   8 ⅜
-   8 ģ
-   8 ∆
-   8 ║
-   8 ÷
-   8 ⅟
-   8 D
-   8 ╥
-   8 æ
-   8 ō
-   8 ¬
-   8 ½
-   7 ⅛
-   7 ░
-   7 γ
-   7 Ξ
-   7 Ε
-   7 Υ
-   7 `
-   7 Π
-   7 ≠
-   7 x
-   7 Μ
-   7 ņ
-   7 ~
-   7 β
-   7 ⅔
-   7 χ
-   7 ρ
-   7 °
-   6 ○
-   6 ¦
-   6 σ
-   6 ⌠
-   6 ►
-   6 T
-   6 ׀
-   6 ↓
-   6 τ
-   6 ⅝
-   6 π
-   6 v
-   6 μ
-   6 ′
-   6 g
-   6 ℮
-   6 Σ
-   6 š
-   6 ζ
-   5 Ι
-   5 ▼
-   5 ν
-   5 ī
-   5 ▲
-   5 ‛
-   5 Η
-   5 ▒
-   5 ‼
-   5 □
-   5 ¤
-   5 ◄
-   5 s
-   5 ε
-   5 &
-   4 V
-   4 ⅞
-   4 ⅓
-   4 Ρ
-   4 ⁹
-   4 Τ
-   4 Λ
-   3 ═
-   3 ξ
-   3 ╤
-   3 υ
-   3 ‚
-   3 ≈
-   2 Φ
-   2 ķ
-   2 φ
-   2 Ψ
-   2 ω
-   2 ∞
-   2 Β
-   2 λ
-   1 ’
+120 }
+}	loop/if/for each/anything ender. `x+,}{O` would be equal to `{x+,}{O}`
+
+107 +
++	2 inputs
+		numbers: adds the two
+			`35+` -> 8
+			`6544+++` -> 19
+		string & number, number & string, strings: joins the two
+			`"hello, ”6+` -> "hello, 6"
+			`"hello”"world”+` -> "helloworld"
+			`6"th place”+` -> "6th place"
+		array & number, number & array, array & string, string & array: add the non-array item either before of after the array
+			`"hello", ["world", "baz"]` -> ["hello", "world", "baz"]
+			`"foo” + [["bar”, "baz”], ["hello”, "world”]]` -> ["foo", ["bar", "baz"], ["hello", "world"]]
+		arrays: add the second array in the 1st array
+		`[["bar”, "baz”], ["hello”, "world”]] + "foo”` -> [["bar", "baz"], ["hello", "world", "foo"]]
+		`["hi”] + ["there”]` -> ["hi", ["there"]]
+		`["foo”] + [["bar”, "baz”], ["hello”, "world”]]` -> [["foo"], [["bar", "baz"], ["hello", "world"]]]
+		`[["bar”, "baz”], ["hello”, "world”]], ["foo”]` -> [["bar", "baz"], ["hello", "world"], ["foo"]]
+
+103 .
+.	takes user input as number
+
+99 {
+{	1 input
+		number: loop/repeat that many times the continuing code, closed by "}"
+		string: for each char in the string and push the char looping at, closed by "}" or EOF
+		array: for each item in the array and push the char looping at, closed by "}" or EOF
+
+94 *
+*	2 inputs
+		numbers: multiplies the two
+		strings: push a 2D array of all the 2 character combinations, one from one and second from second
+			`"abc”123”*` -> [[["a1", "b1", "c1"], ["a2", "b2", "c2"], ["a3", "b3", "c3"]]]
+		string & number, number & string: repeats the string the number amount of times
+		array & number, number & array: multiply the array horizontally
+			`["hello", "bar"]3*` -> ["hellohellohello", "bar  bar  bar  "]
+			`[["ab","cd","ef"],["g","h","i"]]3*` -> [["ababab","cdcdcd","efefef"], ["g g g ","h h h ","i i i "]]
+			`[1, 3, 5]7*` -> [7, 21, 35]
+		array & string, string & array: int the array replace numbers with the string repeated that many times, and append the string after strings
+
+90 ‘
+‘	string ender: compressed string decompressor (long numbers, base250 to ASCII, english)
+
+81 
+
+78 ¹
+¹	x inputs
+		any: POPs until the popped isn't of the type what the 1st was and puts all popped in an array
+			`"hello”"world”¹` -> [["hello", "world"]]
+			`123"foo”"bar”¹` -> [1,2,3,["foo","bar"]]
+			`"hello”123¹` -> ["hello",[1,2,3]]
+			`12345¹` -> [[1,2,3,4,5]]
+
+72 I
+I	1 input
+		number: increases by 1
+		string: rotate right
+			`hello”I` -> [["h"],["e"],["l"],["l"],["o"]]
+		array: rotate right
+			`[["ab","cd","ef"]["gh","ij","kl"]]I` -> [["gh","ab"],["ij","cd"],["kl","ef"]]
+
+71 "
+"	starts a string. String enders are (and are explained on ): " “”‘’ ". If at the start, can be removed if the string doesn't contain ". If at the end and there is no ” then is the same as being at the start (regular string)
+			`"hello”` -> ["hello"]
+			`"world` -> ["world"]
+			`"there”+"hi ` -> ["hi there"]
+			`"⁰²¹»ø’` -> [0, 2, 1, 6, 11]
+			`"Look how easily I can display the " character!”` -> ["Look how easily I can display the " character!"]
+
+69 ;
+;	2 inputs
+		any: reverse the last 2 things on stack
+
+61 :
+:	1 input
+		any: duplicates POP once
+			`123:` -> [1, 2, 3, 3]
+
+58 H
+H	1 input
+		number: decreases by 1
+		string: rotate left
+			`hello”H` -> [["o"],["l"],["l"],["e"],["h"]]
+		array: rotate left
+			`[["gh","ab"],["ij","cd"],["kl","ef"]]H` -> [["ab","cd","ef"], ["gh","ij","kl"]]
+
+58 ╬
+╬	1 input
+		any: palindromize somehow. The how is defined as the next character. See palenChars.txt for more info
+
+54 2
+2	pushes 2
+
+52 1
+1	pushes 1
+
+51 ┼
+┼	2 inputs
+		array & array: appends horizontally
+			`["hello", "world"] ┼ ["foo", "bar"]` -> ["hellofoo", "world bar"]
+		array & string, string & array: append the string vertically horizontally on the array
+			`["this", "is", "an example"] ┼ "hello"` -> ["this      hl", "is        eo", "an examplel"]
+
+50 ?
+?	if then (ends with `}`)
+
+46 «
+«	1 input
+		number: bitshift left
+		string: put the first letter at the end
+		array: put the first item at the end
+
+45 3
+3	pushes 3
+
+43 @
+@	pushes a space
+
+43 ∫
+∫	1 input
+		number: loop/repeat that many times the continuing code, closed by "}", each time pushing the current loop-point (0-based).
+		string: iterate over the string and push the char looping at twice
+		array: for each item in each item in each item in ... in the array loop, ending with "}" or EOF, each time pushing the current item.
+			`[["ab"], ["cd"], ["76f"]]∫` -> ["a", "b", "c", "d", "7", "6", "f"]
+
+40 e
+e	loads variable "e" to stack. Default is user input number
+
+40 n
+n	2 inputs
+	string & number, number & string, array & number, number & array: mold into POP POP
+			`"hello world”3n` -> [["hel", "lo ", "wor", "ldh"]]
+			`["a", "b", "c"]2n` -> [[["a", "b"], ["c", "a"]]]
+
+39 ┌
+┌	push "-"
+
+39 ž
+ž	4 inputs
+		array & number & number & array: replace in the 1st array from the positions given (1-indexed) to those + 2nd arrays size with the 2nd array. Order doesn't matter, but the 1st array will be source and 1st number - x position
+
+39 F
+F	loads the current repeat iteration (1-based)
+
+39 ŗ
+ŗ	3 inputs
+		string & string & string: replace with POP POP in POP
+			`"hello wrd”"r”"orl”ŗ` -> "hello world"
+		string & string & array: replace each 1ns string character in the 1st string with the item in the array which corresponds to its count
+			`"h-l-o wo-ld”"-”["e","l","r"]` -> "hello world"
+		string & array & string: replace from the 1st string any of the array with the 2nd string
+			`"hello world”["h","l","o"]"^”` -> "^e^^^ w^r^d"
+		array & string & string: replace in each item of the array occurences of the 1st string with the 2nd string
+			`["hello", "world"]"l”"*”` -> ["he**o", "wor*d"]
+		any: mixed from the above
+
+37 ∑
+∑	1 input
+		array: add/join the whole array together
+			`[1,2,3]∑` -> 6
+			`["9+10= ", 19]∑` -> "9+10= 19"
+		number, string: join POP with that
+
+37 ³
+³	1 input
+		any: duplicates POP thrice
+			`123³` -> [1, 2, 3, 3, 3]
+
+36 0
+0	pushes 0
+
+35 ±
+±	1 input
+		number: negates the number
+			`8±` -> -8
+		string: reverses the string
+			`"hello”±` -> "olleh"
+		array: vectorize
+
+35 -
+-	2 inputs
+		numbers: 1st num - 2nd num
+			`73-` -> 4
+		string & number, number & string: remove the nth letter from the string(1-indexed)
+		strings: removes the 1st string from the 2nd string
+		array, string: removes all occurences of that string from the array
+		array, number: removes the item at that index
+	1 input (if the last one is an array, ignore the one before and do)
+		array: get deltas - subtract each item from the next
+			`[3, 6, 13, 5]-` -> [3, 7, 8]
+
+34 ⁴
+⁴	duplicate the 2nd from the top of the stack
+
+34 ,
+,	takes user input as string
+
+34 '
+'	push the next character as a number (skipping ones that can be done otherwise (just use the compressor))
+
+33 ∙
+∙	2 inputs
+		number & string, string & number: get an array with number many items all being the string
+		number & array, array & number: multiply vertically
+			`["hello", "world"]3∙` -> [["hello", "world", "hello", "world", "hello", "world"]]
+
+33 ⁰
+⁰	x inputs
+		any: wrap the whole stack in an array
+
+33 ⌡
+⌡	1 input
+		any: repeat next command
+
+33 =
+=	2 inputs
+		number & string, string & number: pushes if equal
+			`123 "123”=` -> 1
+		array & number, array & string, number & array, string & array: if all in array are equal to the other input
+
+33 a
+a	loads variable "a" to stack. Default is 0, unless it's first called with `α` and a string, then it's empty.
+
+32 4
+4	pushes 4
+
+32 ²
+²	1 input
+		number: squares the number
+		string: joins to itself
+			`hello"²` -> ["hellohello"]
+
+32 5
+5	pushes 5
+
+31 l
+l	1 input
+		array: pushes the length of the array, doesn't pop
+		string: pushes the length of the string, doesn't pop
+		number: pushes the length of the number, doesn't pop
+			`5l` -> 1
+			`12.0”rl` -> 2
+			`12.345”rl` -> 5
+
+30 j
+j	1 input
+		number: sin (degrees)
+		string: pops the last letter off
+		array: pop the last item off the array
+
+30 o
+o	1 input
+		any: appends to current output line, pops the value
+
+28 b
+b	loads variable "b" to stack. Default is user input number
+
+28 »
+»	1 input
+		number: bitshift right
+		string: put the last letter at the start
+		array: put the last item at the start
+
+28 O
+O	1 input
+		any: output in a new line, pops
+
+28 m
+m	2 inputs
+		string & number, number & string: repeat the string as many times needed to get the specified length
+			`"hello”9m` -> "hellohell"
+
+28 ╚
+╚	1 input
+		number: get a diagonal (of `/`) of the size of the number
+		string: get a diagonal of the string (starting at the bottom-left corner)
+		array: center the array horizontally
+
+27 ø
+ø	pushes an empty string
+
+27 W
+W	2 inputs
+		number & string, string & number: pop the number and push the nth(1-indexed) char from the string
+		number & array, array & number: pop the number and push the 1st occurence of it. 0 in case of none.
+		strings: give out the index of the 2nd string in the 1st one (1-indexed, 0 in the case of none)
+		string & array, array & string: pop the string and give out the 1st occurence of the string in the array. 1-indexed, 0 in case of none
+
+26 ā
+ā	pushes an empty array
+
+25 ⁾
+⁾	1 input (upper ")")
+		string: uppercase all letters after any of `.?!` or at the start (sentence case)
+		number: decrease by 2
+
+25 Κ
+Κ	2 inputs
+		reverse add
+
+25 L
+L	pushes 10
+
+25 %
+%	2 inputs
+		numbers: positive modulo
+			`83%` -> 1
+			`93%` -> 0
+			`9±5%` -> 4
+
+25 №
+№	1 input
+		number: factorial of POP
+		string: reverse on newlines
+		array: reverse the array
+
+24 Z
+Z	pushes the english alphabet uppercase
+
+24 A
+A	1 input
+		any: saves POP on variable "a"
+
+23 
+
+22 6
+6	pushes 6
+
+22 w
+w	2 inputs
+		number & string, string & number: pop the number and show the 1st occurence(1-indexed) of the number in the string
+		number & array, array & number: pop the number and push the nth(1-indexed) thing from the array.
+		strings: give out an array with the values of where the 2nd string was in the 1st one.
+
+22 P
+P	1 input
+		any: output in a new line, pops and disables auto-output
+
+22 ē
+ē	push the number in variable e and increases it after (equal to `e:IE` and `eeIE`) or for a string, push the last char and POP it off of the string.
+
+22 8
+8	pushes 8
+
+22 X
+X	1 input
+		any: simply POP and do nothing with it.
+			`"hello”{}X` -> ["h", "e", "l", "l"]
+
+21 9
+9	pushes 9
+
+20 ⁄
+⁄	1 input
+		string, number: get the length of POP
+		array: get an identical array with each value being correspondings length
+
+20 ↔
+↔	1 input
+		string, array: swap pairs of "/\ <> () {} []" (mirroring)
+		number: divide by 2 and get the ceiling
+
+20 č
+č	1 input
+		array: joins the array with newlines into a single string
+			`["hello ", "foo"]č` -> "hello 
+
+20 K
+K	1 input
+		number: cos
+		string: pops the first letter off and pushes it
+		array: pop the first item off the array and pushes it
+
+20 ╝
+╝	1 input
+		number: get a diagonal (of `\`) of the size of the number
+		string: get a diagonal of the string (starting at the top-left corner)
+		array: center the array vertically
+
+20 k
+k	1 input
+		number: cos (degrees)
+		string: pops the first letter off
+		array: pop the first item off the array
+
+20 ─
+─	2 inputs
+		number & number: (2nd is base) convert x from base 10 to base y. If base is 2 and is constant then instead of an array with the digits it gives a string
+			`2─` -> "101001101"
+		string & number: convert each letter of string to base y in an array (if base is 2 then convert to base 2 strings with 8 0s)
+
+19 θ
+θ	1 input
+		string: split on spaces
+			`"Hello worldθ”` -> ["Hello", "world"]
+		number: absolute value
+
+19 ↕
+↕	1 input
+		string, array: swap pairs of "/\ ^v '." and replace "`" with "." and replace "," with "'" and move "_" up one character, leaving a space
+
+19 Q
+Q	1 input
+		any: output in a new line, doesn't pop
+
+19 |
+|	
+
+19 !
+!	1 input
+		number: not
+		string: NOT each character as a number
+		array: NOT all of its contents
+
+19 ┘
+┘	push ""
+
+18 p
+p	1 input
+		any: appends to current output line, pops and disables auto-output
+
+18 Ο
+Ο	3 inputs
+		numbers: constrain 1st from 2nd to 3rd (or if 2nd>3rd then if not in the range (exclusive) then go to the opposite)
+			`725Ο` -> 5
+			`289Ο` -> 8
+			`739Ο` -> 7
+			`365Ο` -> 6
+			`321Ο` -> 1
+		number & string & string, string & string & number: repeat number-1 times 1stStr+2ndStr and append 1stStr
+			`3"|”"  ”Ο` -> "|  |  |"
+			`"hi”"'”1Ο` -> "'hi'"
+		string & number & string: repeat number times 1stStr+2ndStr and append 1stStr
+			`"|”3"  ”Ο` -> "|  |  |  |"
+
+18 ┐
+┐	push "|"
+
+18 ¶
+¶	push a newline character
+
+18 ¼
+¼	1 input
+		number: push 0.25*pop
+		string: encase the string in the next character
+			`hello”¾'` -> "'hello'"
+		array: create a diagonal of the lines
+			`a”bc”defg”¹¼` -> [["a", " bc", "  defg"]]
+
+17 h
+h	swaps the 2nd-from-top and 3rd-from-top ([1,2,3]->[2,1,3])
+hello"
+			`["hello", "world"]` -> [["world", "hello"]]
+
+17 _
+_	1 input
+		array: split the array into its contents on the stack
+
+17 /
+/	2 inputs
+		numbers: divide
+		strings & number, number & string: divide the strings length (floored) by number
+
+17 C
+C	1 input
+		any: saves POP on variable "c"
+
+16 G
+G	puts the 3rd from the top of the stack ontop
+		`123G` -> [2, 3, 1]
+
+16 d
+d	loads variable "d" to stack. Default is user input string
+
+16 Ƨ
+Ƨ	pushes the next two characters as a string
+
+16 r
+r	1 input
+		string: convert to number
+			`"123”r` -> 123
+		number: convert to string (inverse of above)
+		array: vectorize
+
+16 ⁷
+⁷	puts the 4th from the top of the stack ontop
+		`1234G` -> [2,3,4,1]
+
+16 f
+f	loads the current repeat iteration (0-indexed) or the outer loops iteration (1-indexed) if it exists
+foo"
+		string: split into a char array
+			`"bar”č` -> ["b", "a", "r"]
+
+15 ι
+ι	remove the 2nd-from-top of the stack
+
+15 7
+7	pushes 7
+
+15 E
+E	1 input
+		any: saves POP on variable "e"
+
+15 ⁵
+⁵	duplicate the 3rd from the top of the stack
+
+14 M
+M	pushes 100
+
+14 ^
+^	2 inputs
+		numbers: power
+			`28^` -> 256
+			`2^` -> 2^input
+			`^` -> input^input
+
+14 κ
+κ	2 inputs
+		reverse subtract
+
+14 █
+█	pushes all the possible SOGL characters
+
+14 <
+<	2 inputs
+		any: if POP is greater than POP
+			`"8”5<` -> 0
+			`85<` -> 0
+			`55<` -> 0
+			`"3”5<` -> 1
+			`25<` -> 1
+
+14 R
+R	1 input
+		string: convert to ordinals (stack an array with the values)
+		number: convert to character (inverse of above)
+		array: do above for all contents
+
+14 ‽
+‽	1 input
+		any: if not POP then (ends with `}`)
+
+14 z
+z	pushes the english alphabet lowercase
+
+14 >
+>	2 inputs
+		any: if POP is less than POP
+			`"8”5>` -> 1
+			`85>` -> 1
+			`55>` -> 0
+			`"3”5>` -> 0
+			`25>` -> 0
+
+14 └
+└	push "/"
+
+14 ╔
+╔	push "_"
+
+14 ⁽
+⁽	1 input (upper "(")
+		String: uppercase the first letter of word
+		number: increase by 2
+		array: vectorize
+
+13 Γ
+Γ	1 input
+		string, array: palindromize mirroring
+			`"/--¶\-”Γ` -> "/---\¶\- -/"
+
+13 →
+→	evaluate as JavaScript (works only in SOGLOnline)
+
+13 i
+i	pushes last input taken
+
+13 (
+(	do while the top value of the stack is not equal to the previous answer.
+
+13 N
+N	pushes 256
+
+13 #
+#	outputs a quote character (`"`)
+
+13 U
+U	1 input
+		string: UPPERCASES the string
+		number: ceilings the number
+		array: does the above on all contents
+
+13 Ζ
+Ζ	pushes the next two characters as seperate strings
+			`Ζab` -> ["a", "b"]
+
+13 y
+y	
+
+13 ■
+■	begin pseudo-string mode - starts a string, ending when the current character isn't any of [ -~¶], but will always take at least 3 characters, though regular strings (`"...“”‘‘`) take priority over this
+
+12 ]
+]	do ... while top of the stack is truthy (end with "}"). does pop. e.g. `]1-q:` would print all numbers from input (not included) to 0 (included)
+
+12 ο
+ο	1 input
+		any: push pop wrapped in an array
+
+12 )
+)	
+
+12 $
+$	outputs a string ender quote (`”`)
+
+12 ⁶
+⁶	3 inputs
+		any: puts the 2nd and 3rd from bottom ontop of the stack
+			`234⁶` -> [4, 2, 3]
+
+12 “
+“	string ender: push converted to a number
+
+12 §
+§	1 input
+		array: reverse the ASCII-art horizontally
+
+12 S
+S	1 input
+		string: swaps case
+
+12 │
+│	2 inputs
+		number array & number: converts the array from base x to base 10
+		string & number: converts the string from base 10 to base x (if starting base is bigger than 10 it'll count it as ASCII) and output number
+
+12 √
+√	1 input
+		number: square root
+		string: convert the string into an array of length x and each subpart length x too
+			`"abcdef123”√` -> [[["abc"], ["def"], ["123"]]]
+		array: for each final string or number either take square root or convert it into an array of length x and each subpart length x too
+			`["abcd", "ef12", 625]√` -> [[["ab"], ["cd"]], [["ef"], ["12"]], 25]
+
+11 ū
+ū	1 input
+		string, array: uppercase every words first letter
+		number: 2^x
+
+11 ≡
+≡	2 inputs
+		strings, numbers: are the inputs excatly identical
+			`9”9≡` -> 1
+			`5.0”5≡` -> 0
+			`55≡` -> 1
+		arrays: check if all items are equal to their corresponding items in the other array
+
+11 Δ
+Δ	1 input
+		number: pushes range; inclusive
+			`6Δ` -> [[1,2,3,4,5,6]]
+			`62*Δ` -> [[1,2,3,4,5,6,7,8,9,10,11,12]]
+		string: pushes all printable ascii chars up to that point; inclusive
+			` 6Δ` -> " !"#$%&'()*+,-./0123456"
+
+11 q
+q	1 input
+		any: appends to current output line, doesn't pop
+
+11 c
+c	loads variable "c" to stack. Default is user input string
+
+11 ▓
+▓	1 input
+		add spaces where needed to become square
+
+11 ≥
+≥	puts the top thing on the stack below everything
+
+11 [
+[	while top of the stack is truthy do ... (end with "}" but not required). doesn't pop. e.g. `[1-q` would print all numbers from input (not included) to 0 (included)
+
+11 δ
+δ	1 input
+		number: pushes range; exclusive
+			`6δ` -> [[0,1,2,3,4,5]]
+			`LIΔ` -> [[0,1,2,3,4,5,6,7,8,9,10]]
+		string: pushes all printable ascii chars up to that point; exclusive
+			` 6δ` -> " !"#$%&'()*+,-./012345"
+
+11 ←
+←	stop the program. Additionally adds a } after it as nothing after it can be executed
+
+10 ↑
+↑	
+
+10 ¡
+¡	1 input
+		any: normalize; same as `!!` - if value is truthy, return 1, else 0
+
+10 ⁸
+⁸	
+		
+	in the further code replace all occurences of the last character on the line to everything before it. Kinda line functions.
+			`5{t}Y
+
+10 Y
+Y	
+
+10 ¾
+¾	1 input
+		number: push 0.75*pop
+		string: encase the string in the two following characters
+			`ello”¼H!` -> "Hello!"
+		array: create an antidiagonal of the lines
+			`a”bc”defg”¹¾` -> [["  a", " bc", "defg"]]
+
+10 Χ
+Χ	2 inputs
+		number & string, string & number: get the biggest number of the two (convert the string to a number)
+		numbers: get the biggest number of the two
+		strings: get the longest element of the string (or by ASCII if equal)
+		array: get the largest element of the array (logic as above) - maximum
+
+10 ƨ
+ƨ	pushes the next character repeated twice
+
+10 B
+B	1 input
+		any: saves POP on variable "b"
+
+10 Θ
+Θ	2 inputs
+		strings: split X with Y
+			`"foo-bar”"-”Θ` -> ["foo", "bar"]
+
+10 u
+u	1 input
+		string: lowercases the string
+		number: floors the number
+		array: does the above on all contents
+
+10 t
+t	1 input
+		any: appends to current output line, doesn't pop and disables auto-output
+
+10 ╗
+╗	push "+"
+
+10 ‰
+‰	2 inputs
+		numbers: ((a-1) modulo b) + 1
+			`83%` -> 1
+			`93%` -> 3
+			`9%` -> ((input-1)%9)+1)
+
+9 Ν
+Ν	2 inputs
+		numbers, strings: inclusive range from pop to pop
+
+9 ≤
+≤	puts the last item of the stack ontop
+
+9 ļ
+ļ	outputs next character, appending
+
+9 Ω
+Ω	
+
+9 Æ
+Æ	pushes a string of vowels in both cases ("aeiouAEIOU")
+
+9 ψ
+ψ	1 input
+		number: get a random number from 0 to the number. Does pop
+		string: get a random character from the string. Does pop
+
+9 η
+η	
+
+9 J
+J	1 input
+		number: sin
+		string: pops the last letter off and pushes it
+		array: pop the last item off the array and pushes it
+
+8 α
+α	1 input
+		string: append to variable `a`. If not initialized, set to it
+			`"hello ”α"world”αa` -> "hello world"
+		number: increase `a` by the number
+			`"3α8αa` -> 11
+
+8 ⅜
+⅜	
+
+8 ģ
+ģ	1 input
+		number: increase A by POP
+		string: append POP to A
+
+8 ∆
+∆	push -1
+
+8 ║
+║	1 input
+		string, array, number: remove duplicates from left to right - deduplicate or get unique
+
+8 ÷
+÷	2 inputs
+		numbers: divides and floors
+		string, array: replace the next character with the following one
+			`hello”÷l_` -> "he__o"
+
+8 ⅟
+⅟	1 input
+		number: does 1/POP
+		string, array: swap the next character with the following one
+			`heool”⅟lo` -> "hello"
+
+8 D
+D	1 input
+		any: saves POP on variable "d"
+
+8 ╥
+╥	1 input
+		string: palindromize
+			`"hello”` -> "hellolleh"
+			`["foo","bars"]╥` -> [["foo oof","barsrab"]]
+
+8 æ
+æ	pushes a string of vowels ("aeiou")
+
+8 ō
+ō	outputs the next two characters, appending
+
+8 ¬
+¬	
+
+8 ½
+½	1 input
+		number: divide by 2 (not rounded unlike "»")
+		string: divide length by 2 (floored)
+			`hello”½` -> "he"
+			`h½` -> ""
+
+7 ⅛
+⅛	
+
+7 ░
+░	clear output
+
+7 γ
+γ	
+
+7 Ξ
+Ξ	
+
+7 Ε
+Ε	
+
+7 Υ
+Υ	2 inputs
+		numbers: log of base POP
+
+7 `
+`	
+
+7 Π
+Π	
+
+7 ≠
+≠	2 inputs
+		string & number, number & string: pushes if aren't equal
+			`123 "123”≠` -> 0
+			`23≠` -> 1
+			`33≠` -> 0
+		array & number, array & string: if at least 1 item in array is not equal to the other input
+
+7 x
+x	1 input
+		any: simply POP twice and do nothing with it.
+			`"hello”{}x` -> ["h", "e", "l"]
+
+7 Μ
+Μ	1 input
+		number: get the prime factorization of n
+
+7 ņ
+ņ	outputs the next two characters in a new line
+
+7 ~
+~	2 inputs
+		numbers: if abs(a-b)<1
+
+7 β
+β	3 inputs
+		strings: in the 1st replace 2nd with 3rd as regex
+
+7 ⅔
+⅔	
+
+7 χ
+χ	2 inputs
+		number & string, string & number: get the smallest number of the two (convert the string to a number)
+		numbers: get the smallest number of the two
+		strings: get the shortest element of the string (or by ASCII if equal)
+		array: get the smallest element of the array (logic as above) - minimum
+
+7 ρ
+ρ	1 input
+		anything: checks if is a palindrome
+
+7 °
+°	
+
+6 ○
+○	1 input
+		number, string, array: if truthy, output 0, exit
+		number, string, array: if falsy, do nothing
+
+6 ¦
+¦	1 input
+		number: sign
+			`-5` -> -1
+			`0` -> 0
+			`72.6` -> 1
+		string: makes an array with all the distinct characters in the string in order of ASCII.
+		array: do the above for each item
+
+6 σ
+σ	
+
+6 ⌠
+⌠	repeat input times
+
+6 ►
+►	1 input
+		run-length encode
+
+6 T
+T	1 input
+		any: output in a new line, doesn't pop and disables auto-output
+
+6 ׀
+׀	1 input
+		number, string, array: if truthy, output 1, exit
+		number, string, array: if falsy, do nothing
+
+6 ↓
+↓	
+
+6 τ
+τ	1 input
+		number: log of base 2
+
+6 ⅝
+⅝	
+
+6 π
+π	
+
+6 v
+v	1 input
+		string: pushes if is fully lowercase
+
+6 μ
+μ	1 input
+		number: get the prime factorization of n (excluding self)
+
+6 ′
+′		checks if number is prime
+
+6 g
+g	1 input
+		number: greatest common divisor
+
+6 ℮
+℮	
+
+6 Σ
+Σ	
+
+6 š
+š	
+
+6 ζ
+ζ	1 input
+		string: pushes its character code
+		number: pushes a string with a char with that code point
+		array: converts each element to either its code point string or character code number
+
+5 Ι
+Ι	push the last string in the program
+
+5 ▼
+▼	1 input
+		string, array: mirror vertically (either as array or newline separated string)
+			`hello¶world”` -> "world
+
+5 ν
+ν	2 inputs
+		numbers, strings: range from pop (included) to pop (excluded)
+
+5 ī
+ī	push 0.1
+
+5 ▲
+▲	
+
+5 ‛
+‛	
+
+5 Η
+Η	
+
+5 ▒
+▒	refresh output
+
+5 ‼
+‼	`else` if an `if` is before in the scope
+			`38=?"is 8”‼"isn't 8”` -> "isn't 8"
+
+5 □
+□	1 input
+		number: sort the digits
+		string: sort the characters
+		array: sort each run of each type, vectorize on arrays
+
+5 ¤
+¤	2 inputs
+		string array & array, array & string array: get a string with each item of the 1st array repeated the amount of corresponding 2nd array, joined
+		number array & number array: get a string with each item of the 1st array repeated the amount of corresponding 2nd array, joined
+
+5 ◄
+◄	1 input
+		run-length decode
+
+5 s
+s	1 input
+		string: checks if contains multiple cases
+
+5 ε
+ε	
+
+5 &
+&	2 inputs
+		strings, numbers: logical and.
+		arrays: makes a new array only with the items that are in both arrays
+
+4 V
+V	1 input
+		string: pushes if is fully uppercase
+
+4 ⅞
+⅞	
+
+4 ⅓
+⅓	1 input
+		number: create a diagonal of the following character
+			`3⅓X` -> ["X", " X", "  X"]
+		string, array: push contents of that URLs contents
+
+4 Ρ
+Ρ	1 input
+		number: rounds to nearest (half-up) integer
+
+4 ⁹
+⁹	
+
+4 Τ
+Τ	1 input
+		number: log of base 10
+
+4 Λ
+Λ	1 input
+		number: get the divisors of n
+
+3 ═
+═	
+
+3 ξ
+ξ	
+
+3 ╤
+╤	1 input
+		string: depalindromize
+
+3 υ
+υ	1 input
+		number: divide by 10
+
+3 ‚
+‚	
+
+3 ≈
+≈	
+
+2 Φ
+Φ	
+
+2 ķ
+ķ	outputs next character in a new line
+
+2 φ
+φ	
+
+2 Ψ
+Ψ	1 input
+		number: get a random number from 1 to the number; inclusive, Doesn't pop
+		string: get a random character from " " to the strings 0th char; inclusive, doesn't pop
+
+2 ω
+ω	
+
+2 ∞
+∞	
+
+2 Β
+Β	
+
+2 λ
+λ	1 input
+		number: get the divisors of n (excluding self)
+
+1 ’
+’	string ender: pushes the indexes of the codepage of the characters in an array
+		`⁰¹²³⁴Λ’` -> [[0, 1, 2, 3, 4, 173]]
