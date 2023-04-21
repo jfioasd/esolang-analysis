@@ -1,250 +1,665 @@
-1-graphs:
- 594 m
- 538 o
- 298 ṁ
- 292 f
- 290 Σ
- 289 +
- 271 2
- 271 ¹
- 267 S
- 260 L
- 254 1
- 248 ⁰
- 231 ȯ
- 222 ←
- 221 d
- 212 =
- 210 →
- 205 !
- 202 ḣ
- 192 §
- 191 ↔
- 191 -
- 186 `
- 184 N
- 182 "
- 175 0
- 170 '
- 167 ↑
- 166 ¡
- 160 :
- 159 z
- 152 *
- 149 t
- 148 İ
- 137 ḋ
- 131 3
- 130 #
- 128 €
- 125 T
- 125 e
- 121 Π
- 117 u
- 117 (
- 112 C
- 108 _
- 106 p
- 103 Ṡ
- 102 Ẋ
- 100 ḟ
-  99 s
-  94 R
-  91  
-  89 ≠
-  88 ŀ
-  87 ¬
-  84 ö
-  84 ?
-  83 Θ
-  82 %
-  80 F
-  80 O
-  80 Λ
-  79 ½
-  76 ₁
-  76 ;
-  75 ▲
-  74 4
-  73 )
-  72 g
-  72 h
-  72 D
-  71 U
-  71 …
-  70 I
-  70 5
-  69 B
-  67 ¨
-  67 M
-  67 □
-  67 c
-  66 6
-  64 ^
-  63 ε
-  62 w
-  62 ∫
-  61 a
-  61 ṗ
-  60 ¤
-  59 ¦
-  57 V
-  57 J
-  56 /
-  55 Ṗ
-  54 Q
-  50 9
-  50 >
-  50 ±
-  50 √
-  49 ↓
-  48 <
-  47 ²
-  46 ṫ
-  45 P
-  45 ´
-  45 π
-  44 Ö
-  43 ▼
-  41 A
-  40 Ḋ
-  39 k
-  39 i
-  39 G
-  38 n
-  38 |
-  38 &
-  38 ġ
-  37 7
-  36 ≤
-  36 Ṙ
-  36 ṙ
-  35 8
-  35 ¢
-  34 ż
-  34 E
-  34 x
-  33 ,
-  33 Ṫ
-  33 r
-  33 λ
-  33 ►
-  32 ω
-  32 Γ
-  32 \
-  31 †
-  30 ¶
-  28 X
-  27 ø
-  25 ÷
-  25 ×
-  24 ◄
-  24 ·
-  23 ṡ
-  22 ü
-  22 ≥
-  21 Z
-  21 ∂
-  21 Ω
-  20 £
-  20 ~
-  20 K
-  19 ∞
-  19 Ṁ
-  19 .
-  19 ³
-  18 ⌋
-  18 δ
-  17 ₀
-  16 ‼
-  16 Ë
-  15 W
-  15 Ċ
-  14 ë
-  14 Y
-  13 ≡
-  13 y
-  13 ⌊
-  12 ≈
-  12 v
-  11 η
-  11 ė
-  11 Ḟ
-  11 ƒ
-  11 Ξ
-  10 ⌈
-  10 μ
-  10 l
-  10 σ
-   9 ₂
-   8 ]
-   8 ₅
-   8 ¥
-   8 ⁴
-   7 ‡
-   7 }
-   6 [
-   6 q
-   6 Ψ
-   6 Ż
-   6 {
-   6 Ġ
-   6 Ȧ
-   6 β
-   5 »
-   5 H
-   5 $
-   5 ı
-   5 b
-   5 ↕
-   5 ⁸
-   5 ‰
-   5 ÿ
-   5 j
-   5 Ä
-   5 ζ
-   4 ⌉
-   4 Ï
-   4 ċ
-   4 Ḃ
-   4 θ
-   4 ₇
-   4 Ẏ
-   4 ⁷
-   4 «
-   3 φ
-   3 @
-   3 ȧ
-   3 Ÿ
-   3 ₄
-   3 ẋ
-   3 ẏ
-   3 Ø
-   3 ⁶
-   3 Φ
-   3 ₆
-   3 ⁵
-   2 ◊
-   2 ȷ
-   2 ṅ
-   2 Ü
-   2 Δ
-   2 ¿
-   2 τ
-   2 ₃
-   2 Ŀ
-   2 Ḣ
-   2 ẇ
-   2 ḃ
-   2 ξ
-   1 γ
-   1 Ė
-   1 ߞ
-   1 ¯
-   1 ₈
-   1 ä
-   1 Ȯ
-   1 ρ
-   1 ï
-   1 ψ
-   1 ⁹
+594 m
+m 		map 	(x -> y) -> [x] -> [y] 	Map function over list
+
+538 o
+o 		com 	(y -> z) -> (x -> y) -> x -> z 	Function composition
+
+298 ṁ
+ṁ 	dm 	cmap 	(x -> [y]) -> [x] -> [y] 	Map function over list and concat the result
+
+292 f
+f 		filter 	(Concrete y) => (x -> y) -> [x] -> [x] 	Filter list by predicate
+
+290 Σ
+Σ 	Sig 	sum 	[TNum] -> TNum 	Sum of list
+
+289 +
++ 		add 	TNum -> TNum -> TNum 	Add numbers
+
+271 2
+
+271 ¹
+
+267 S
+S 		hook 	(x -> y -> z) -> (x -> y) -> x -> z 	S-combinator
+
+260 L
+L 		len 	[x] -> TNum 	Length of list
+
+254 1
+
+248 ⁰
+⁰-⁹ 	Nul-Nin 	Superscript digits 		Lambda arguments
+
+231 ȯ
+ȯ 	do 		Too many to list 	Composition of three functions; ȯABC is roughly equivalent to oAoBC
+
+222 ←
+← 	lft 	head 	[x] -> x 	First value of a list
+
+221 d
+d 		base10 	TNum -> [TNum] 	Base-10 digits
+
+212 =
+= 		eq 	(Concrete x) => x -> x -> TNum 	Equals
+
+210 →
+→ 	rgt 	last 	[x] -> x 	Last value of a list
+
+205 !
+! 		index 	TNum -> [x] -> x 	Value at modular index
+
+202 ḣ
+ḣ 	dh 	heads 	(Concrete x) => x -> [x] 	Prefixes for lists, range for numbers
+
+192 §
+§ 	sec 	fork 	(x -> y -> z) -> (u -> x) -> (u -> y) -> u -> z 	Compose each argument of binary function
+
+191 ↔
+↔ 	lr 	swap 	(x, y) -> (y, x) 	Swap a pair
+
+191 -
+- 		sub 	TNum -> TNum -> TNum 	Subtract first argument from second
+
+186 `
+` 		flip 	(x -> y -> z) -> y -> x -> z 	Invert order of arguments
+
+184 N
+N 		nats 	[TNum] 	Infinite list of natural numbers
+
+182 "
+" 		Double quote 		String delimiter
+
+175 0
+0-9 		Digits 		Used in numeric literals
+
+170 '
+' 		Single quote 		Character delimiter
+
+167 ↑
+↑ 	up 	take 	TNum -> [x] -> [x] 	Take n elements from list. Negative n takes from the end
+
+166 ¡
+¡ 	exc 	iter 	(x -> x) -> x -> [x] 	Apply function repeatedly, collect values in infinite list
+
+160 :
+: 		cons 	x -> [x] -> [x] 	Prepend a value to a list
+
+159 z
+z 		zip 	(x -> y -> z) -> [x] -> [y] -> [z] 	Zip lists with function
+
+152 *
+* 		mul 	TNum -> TNum -> TNum 	Multiply numbers
+
+149 t
+t 		tail 	[x] -> [x] 	Remove first element
+
+148 İ
+İ 	dI 	Dotted capital I 		Access built-in numeric sequences
+
+137 ḋ
+ḋ 	dd 	base2 	TNum -> [TNum] 	Binary digits
+
+131 3
+
+130 #
+# 		countf 	(Concrete y) => (x -> y) -> [x] -> TNum 	Number of list elems where function result is truthy
+
+128 €
+€ 	eur 	elem 	(Concrete x) => [x] -> x -> TNum 	Index of first occurrence, or 0 if not found
+
+125 T
+T 		trsp 	[[a]] -> [[a]] 	Transpose a 2-d list, elements missing from shorter rows are skipped
+
+125 e
+e 		list2 	x -> x -> [x] 	Create a list with two elements
+
+121 Π
+Π 	Pi 	prod 	[TNum] -> TNum 	Product of list
+
+117 u
+u 		nub 	(Concrete x) => [x] -> [x] 	Remove duplicates
+
+117 (
+() 		Parentheses 		Group expressions
+
+112 C
+C 		cut 	TNum -> [a] -> [[a]] 	Cut into sublists of given length. Negative n counts lengths from the end.
+
+108 _
+_ 		neg 	TNum -> TNum 	Negate a number
+
+106 p
+p 		pfac 	TNum -> [TNum] 	Prime factorization
+
+103 Ṡ
+Ṡ 	dS 	hookf 	(x -> y -> z) -> (y -> x) -> y -> z 	Like S, but composes on other argument
+
+102 Ẋ
+Ẋ 	dX 	mapad2 	(x -> x -> y) -> [x] -> [y] 	Map over pairs of adjacent values
+
+100 ḟ
+ḟ 	df 	find 	(Concrete y) => (x -> y) -> [x] -> x 	Return first value that gives truthy result
+
+99 s
+s 		show 	(Concrete x) => x -> [TChar] 	Convert value to string
+
+94 R
+R 		replic 	TInt -> a -> [a] 	List composed by a given number of copies of a value
+
+91 
+
+89 ≠
+≠ 	neq 	neq 	(Concrete x) => x -> x -> TNum 	Not equal
+
+88 ŀ
+ŀ 	dl 	lrange 	TNum -> [TNum] 	Lowered range (from 0 to n-1)
+
+87 ¬
+¬ 	neg 	not 	(Concrete x) => x -> TNum 	Negation of truthiness
+
+84 ö
+ö 	Do 		Too many to list 	Composition of four functions; öABCD is roughly equivalent to oAoBoCD
+
+84 ?
+? 		if 	(Concrete x) => y -> y -> x -> y 	Ternary if conditioned on third argument
+
+83 Θ
+Θ 	The 	prep0 	[x]->[x] 	Prepends a default value of the appropriate type to a list. Default values are either falsy values (0,[],...) or functions returning those values.
+
+82 %
+% 		mod 	TNum -> TNum -> TNum 	Modulus of second argument by first
+
+80 F
+F 		foldl 	(y -> x -> y) -> y -> [x] -> y 	Left fold
+
+80 O
+O 		sort 	(Concrete x) => [x] -> [x] 	Sort list in ascending order
+
+80 Λ
+Λ 	Lam 	all 	Concrete b => (a->b) -> [a] -> TNum 	Length + 1 if all elements satisfy predicate, else 0
+
+79 ½
+½ 	hlf 	halve 	TNum -> TNum 	Divide by 2 (does not floor)
+
+76 ₁
+
+76 ;
+; 		pure 	x -> [x] 	Create singleton list
+
+75 ▲
+▲ 	top 	maxl 	(Concrete x) => [x] -> x 	Maximum of list
+
+74 4
+
+73 )
+
+72 g
+g 		group 	(Concrete x) => [x] -> [[x]] 	Group equal adjacent values
+
+72 h
+h 		init 	[x] -> [x] 	Remove last element
+
+72 D
+D 		double 	TNum -> TNum 	Multiply by 2
+
+71 U
+U 		nubw 	Concrete a => [a] -> [a] 	Longest prefix of a list with all unique elements
+
+71 …
+… 	ell 	rangeN 	TNum -> TNum -> [TNum] 	Inclusive numeric range
+
+70 I
+I 		id 	x -> x 	Identity function
+
+70 5
+
+69 B
+B 		base 	TNum -> TNum -> [TNum] 	Digits in given base
+
+67 ¨
+¨ 	die 	Dieresis 		Delimiter for compressed strings
+
+67 M
+M 		lmap 	(x -> y -> z) -> [x] -> y -> [z] 	Map over left argument
+
+67 □
+□ 	squ 	square 	TNum -> TNum 	Raise to second power
+
+67 c
+c 		chr 	TNum -> TChar 	Convert integer to character
+
+66 6
+
+64 ^
+^ 		power 	TNum -> TNum -> TNum 	Second argument raised to the power of the first
+
+63 ε
+ε 	eps 	small 	TNum -> TNum 	Has absolute value at most 1
+
+62 w
+w 		words 	[TChar] -> [[TChar]] 	Split on spaces
+
+62 ∫
+∫ 	int 	cumsum 	[TNum] -> [TNum] 	Cumulative sum
+
+61 a
+a 		abs 	TNum -> TNum 	Absolute value
+
+61 ṗ
+ṗ 	dp 	isprime 	TNum -> TNum 	Return the index of the argument in the list of all primes, or 0 if it is not a prime number
+
+60 ¤
+¤ 	cur 	combin 	(y -> y -> z) -> (x -> y) -> x -> x -> z 	Compose both arguments of binary function
+
+59 ¦
+¦ 	bar 	divds 	TNum -> TNum -> TNum 	1 if b == 0, b / a if a divides b, 0 otherwise
+
+57 V
+V 		any 	Concrete b => (a->b) -> [a] -> TNum 	Index of first element satisfying predicate, 0 if not found
+
+57 J
+J 		join 	[x] -> [[x]] -> [x] 	Join by a list
+
+56 /
+/ 		div 	TNum -> TNum -> TNum 	Exact division, uses rational numbers when possible
+
+55 Ṗ
+Ṗ 	dP 	powset 	[x] -> [[x]] 	All finite subsequences
+
+54 Q
+Q 		slices 	[a] -> [[a]] 	All contiguous sublists
+
+50 9
+
+50 >
+> 		gt 	(Concrete x) => x -> x -> TNum 	Greater than
+
+50 ±
+± 	pm 	sign 	TNum -> TNum 	Sign of a number
+
+50 √
+√ 	srd 	sqrt 	TNum -> TNum 	Square root
+
+49 ↓
+↓ 	dow 	drop 	TNum -> [x] -> [x] 	Drop n elements from list. Negative n drops from the end
+
+48 <
+< 		lt 	(Concrete x) => x -> x -> TNum 	Less than
+
+47 ²
+
+46 ṫ
+ṫ 	dt 	tails 	(Concrete x) => x -> [x] 	Suffixes for lists, reversed range for numbers
+
+45 P
+P 		perms 	[a] -> [[a]] 	List of all permutations of the given list
+
+45 ´
+´ 	acu 	argdup 	(x -> x -> y) -> x -> y 	Apply twice to same argument
+
+45 π
+π 	pi 	cpow 	TNum -> [x] -> [[x]] 	Cartesian power
+
+44 Ö
+Ö 	DO 	sorton 	(Concrete y) => (x -> y) -> [x] -> [x] 	Sort by function result
+
+43 ▼
+▼ 	bot 	minl 	(Concrete x) => [x] -> x 	Minimum of list
+
+41 A
+A 		mean 	[TNum] -> TNum 	Average of a list
+
+40 Ḋ
+Ḋ 	dD 	divs 	TNum -> [TNum] 	List of divisors
+
+39 k
+k 		keyon 	Concrete y => (x -> y) -> [x] -> [[x]] 	Group list elements into classes by function value. Classes are ordered by the function values.
+
+39 i
+i 		d2i 	TDouble -> TNum 	Convert from Double to Int by rounding (round half to even)
+
+39 G
+G 		scanl 	(y -> x -> y) -> y -> [x] -> [y] 	Scan from left
+
+38 n
+n 		bwand 	TNum -> TNum -> TNum 	Bitwise AND
+
+38 |
+| 		or 	(Concrete x) => x -> x -> x 	Second argument if truthy, else first
+
+38 &
+& 		and 	(Concrete x) => x -> x -> x 	Second argument if falsy, else first
+
+38 ġ
+ġ 	dg 	groupOn 	(Concrete y) => (x -> y) -> [x] -> [[x]] 	Group on function result
+
+37 7
+
+36 ≤
+≤ 	leq 	le 	(Concrete x) => x -> x -> TNum 	Less than or equal
+
+36 Ṙ
+Ṙ 	dR 	clone 	TNum -> [x] -> [x] 	Replicate each element by given number
+
+36 ṙ
+ṙ 	dr 	rotate 	TNum -> [a] -> [a] 	Rotate n steps to the left
+
+35 8
+
+35 ¢
+¢ 	cnt 	cycle 	[x] -> [x] 	Repeat list infinitely
+
+34 ż
+ż 	dz 	zip' 	(a -> a -> a) -> [a] -> [a] -> [a] 	Like zip, but keeps trailing elements from the longer list unchanged.
+
+34 E
+E 		same 	Concrete x => [x] -> TNum 	Length plus 1 if all elements are equal, else 0
+
+34 x
+x 		split 	Concrete x => x -> [x] -> [[x]] 	Split on given element
+
+33 ,
+, 		pair 	x -> y -> (x, y) 	Construct pair
+
+33 Ṫ
+Ṫ 	dT 	table 	(x -> y -> z) -> [x] -> [y] -> [[z]] 	Outer product, or "multiplication table"
+
+33 r
+r 		read 	(Concrete x) => [TChar] -> x 	Convert string to value
+
+33 λ
+λ 	lam 	Small lambda 		One-argument anonymous function
+
+33 ►
+► 	est 	maxlby 	Concrete y => (x -> x -> y) -> [x] -> x 	Maximum element with custom ordering predicate
+
+32 ω
+ω 	ohm 	fixp 	(Concrete x) => (x -> x) -> x -> x 	Find periodic (usually fixed) point by iterating
+
+32 Γ
+Γ 	Gam 	list 	y -> (x -> [x] -> y) -> [x] -> y 	Pattern match on list
+
+32 
+
+30 ¶
+¶ 	pgf 	lines 	[TChar] -> [[TChar]] 	Split on newlines
+
+28 X
+X 		slice 	TNum -> [a] -> [[a]] 	All subslists of length n. Negative n includes final stubs.
+
+27 ø
+ø 	so 	empty 	[x] 	Empty list
+
+25 ÷
+÷ 	div 	idiv 	TNum -> TNum -> TNum 	Integer division
+
+25 ×
+× 	eks 	mix 	(x -> y -> z) -> [x] -> [y] -> [z] 	Function applied to all pairs drawn from the lists
+
+24 ◄
+◄ 	wst 	minlby 	Concrete y => (x -> x -> y) -> [x] -> x 	Minimum element with custom ordering predicate
+
+24 ·
+· 	blt 	comf 	(x -> y -> z) -> (u -> y) -> (x -> u -> z) 	Compose second argument of function
+
+23 ṡ
+ṡ 	ds 	srange 	TNum -> [TNum] 	Symmetric range (from -n to n)
+
+22 ü
+ü 	Du 	nubon 	(Concrete x) => (x -> y) -> [x] -> [x] 	Remove duplicates by function result
+
+22 ≥
+≥ 	geq 	ge 	(Concrete x) => x -> x -> TNum 	Greater than or equal
+
+21 Z
+
+21 ∂
+∂ 	ptl 	adiags 	[[x]] -> [[x]] 	Antidiagonals
+
+21 Ω
+Ω 	Ohm 	until 	Concrete y => (x -> y) -> (x -> x) -> x -> x 	Iterate function until test result is truthy
+
+20 £
+£ 	gbp 	oelem 	(Concrete x) => [x] -> x -> TNum 	Like elem, but the list is supposed to be sorted
+
+20 ~
+~ 		branch 	(x -> y -> z) -> (u -> x) -> (v -> y) -> (u -> v -> z) 	Compose both arguments of binary function separately
+
+20 K
+K 		const 	x -> y -> x 	Constant function
+
+19 ∞
+∞ 	inf 	rep 	x -> [x] 	Infinite list of copies of the argument
+
+19 Ṁ
+Ṁ 	dM 	rmap 	(x -> y -> z) -> x -> [y] -> [z] 	Map over right argument
+
+19 .
+. 		Decimal point 		Used in floating point literals
+
+19 ³
+
+18 ⌋
+⌋ 	rfl 	gcd 	TNum -> TNum -> TNum 	Greatest common divisor
+
+18 δ
+δ 	del 	decorM 	(((a, b) -> c) -> [(a,b)] -> [[(a,d)]]) -> (a -> b -> c) -> [a] -> [b] -> [[d]] 	Apply higher-order function using auxiliary list
+
+17 ₀
+₀-₉ 	nul-nin 	Subscript digits 		Line labels
+
+16 ‼
+‼ 	dex 	twice 	(x -> x) -> (x -> x) 	Apply function twice
+
+16 Ë
+Ë 	DE 	sameon 	Concrete y => (x -> y) -> [x] -> TNum 	Are function results all equal? Returns length + 1 or 0.
+
+15 W
+W 		where 	Concrete b => (a->b) -> [a] -> [TNum] 	Indices of elements satisfying predicate
+
+15 Ċ
+Ċ 	dC 	gaps 	TNum -> [a] -> [a] 	Take every abs(n)'th element, starting from the first if n is positive, from the -n-1st if negative
+
+14 ë
+ë 	De 	list4 	x -> x -> x -> x -> [x] 	Create a list with four elements
+
+14 Y
+Y 		max 	(Concrete x) => x -> x -> x 	Maximum of two values
+
+13 ≡
+≡ 	cng 	congr 	(Concrete x) => x -> x -> TNum 	Recursively check if the two arguments have the same shape and the same distribution of truthy/falsy values. Returns 1 or 0.
+
+13 y
+y 		min 	(Concrete x) => x -> x -> x 	Minimum of two values
+
+13 ⌊
+⌊ 	lfl 	floor 	TNum -> TNum 	Floor function
+
+12 ≈
+≈ 	apx 	simil 	(Concrete x) => x -> x -> TNum 	Similar. For numbers or chars checks if the absolute difference is <=1. For lists checks if they are the same length. For Pairs checks if both elements are similar.
+
+12 v
+v 		bwor 	TNum -> TNum -> TNum 	Bitwise OR
+
+11 η
+η 	eta 	onixes 	((TNum -> a) -> [TNum] -> b) -> [a] -> b 	Act on list of indices using indexing function. If α is a function, ηα is roughly equivalent to α§!ŀ.
+
+11 ė
+ė 	de 	list3 	x -> x -> x -> [x] 	Create a list with three elements
+
+11 Ḟ
+Ḟ 	dF 	foldr 	(x -> y -> y) -> y -> [x] -> y 	Right fold
+
+11 ƒ
+ƒ 	fl 	fix 	(x -> x) -> x 	Least fixed point (used for recursion)
+
+11 Ξ
+Ξ 	Xi 	merge 	Concrete a => [[a]] -> [a] 	Merge a list of lists. Each list should be ordered, and if there are more than 2 lists, their heads should also be ordered. Works on infinite lists.
+
+10 ⌈
+⌈ 	lce 	ceil 	TNum -> TNum 	Ceiling function
+
+10 μ
+μ 	mu 	Small mu 		Two-argument anonymous function
+
+10 l
+
+10 σ
+σ 	sjg 	subs 	(Concrete x) => x -> x -> [x] -> [x] 	Substitute all occurrences of an element.
+
+9 ₂
+
+8 ]
+
+8 ₅
+
+8 ¥
+¥ 	yen 	ixsof 	(Concrete x) => x -> [x] -> [TNum] 	Indices of occurrence
+
+8 ⁴
+
+7 ‡
+‡ 	ddg 	vec2 	(Vect2 a b c x y z) => (a -> b -> c) -> x -> y -> z 	Bi-vectorize a function ("deep zip")
+
+7 }
+
+6 [
+
+6 q
+
+6 Ψ
+Ψ 	Psi 	toadjM 	(((a, a) -> c) -> [(a,a)] -> [[(a, a)]]) -> (a -> a -> c) -> [a] -> [[a]] 	Apply higher-order function on adjacent pairs instead of single elements
+
+6 Ż
+
+6 {
+
+6 Ġ
+Ġ 	dG 	scanr 	(x -> y -> y) -> y -> [x] -> [y] 	Scan from right
+
+6 Ȧ
+
+6 β
+
+5 »
+» 	rr 	mapacR 	(y -> x -> x) -> (y -> x -> z) -> x -> [y] -> [z] 	Scanr over a list with the first function, but results are produced by applying the second function to intermediate steps
+
+5 H
+
+5 $
+
+5 ı
+
+5 b
+
+5 ↕
+↕ 	ud 	span 	(Concrete y) => (x -> y) -> [x] -> ([x], [x]) 	Split at first value where function gives falsy result
+
+5 ⁸
+
+5 ‰
+‰ 	ppm 	divmod 	TNum -> TNum -> [TNum] 	Two-element list [b ÷ a, b % a]
+
+5 ÿ
+
+5 j
+
+5 Ä
+
+5 ζ
+
+4 ⌉
+⌉ 	rce 	lcm 	TNum -> TNum -> TNum 	Lowest common multiple
+
+4 Ï
+
+4 ċ
+
+4 Ḃ
+
+4 θ
+
+4 ₇
+
+4 Ẏ
+
+4 ⁷
+
+4 «
+« 	ll 	mapacL 	(x -> y -> x) -> (x -> y -> z) -> x -> [y] -> [z] 	Scanl over a list with the first function, but results are produced by applying the second function to intermediate steps
+
+3 φ
+φ 	phi 	Small phi 		Self-referential anonymous function
+
+3 @
+
+3 ȧ
+
+3 Ÿ
+
+3 ₄
+
+3 ẋ
+
+3 ẏ
+
+3 Ø
+
+3 ⁶
+
+3 Φ
+
+3 ₆
+
+3 ⁵
+
+2 ◊
+
+2 ȷ
+
+2 ṅ
+
+2 Ü
+
+2 Δ
+
+2 ¿
+
+2 τ
+
+2 ₃
+
+2 Ŀ
+
+2 Ḣ
+
+2 ẇ
+
+2 ḃ
+
+2 ξ
+ξ 	xi 	Small xi 		Three-argument anonymous function
+
+1 γ
+
+1 Ė
+
+1 ߞ
+
+1 ¯
+
+1 ₈
+
+1 ä
+
+1 Ȯ
+
+1 ρ
+
+1 ï
+
+1 ψ
+ψ 	psi 	Small psi 		Self-referential anonymous function with extra argument
+
+1 ⁹
