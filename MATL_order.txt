@@ -1,98 +1,283 @@
-1-graphs:
 1323 t
+t duplicate elements strrep
+
 1142 X
+X Not used regexp regexprep
+
 1090 Y
- 911 1
- 901 :
- 787 )
- 752 2
- 742 G
- 720 Z
- 691 '
- 623 &
- 599 h
- 597 @
- 593 s
- 592 !
- 552 "
- 549 *
- 516 +
- 469 ]
- 467 0
- 442 3
- 432 -
- 411 q
- 402 y
- 402 w
- 376 =
- 370 i
- 329 4
- 327 5
- 309 Q
- 307 v
- 302 ~
- 292 P
- 288 n
- 285 d
- 283 /
- 272 \
- 265 f
- 257 6
- 251 >
- 249 ^
- 239 <
- 238 ?
- 238 (
- 228 e
- 222 l
- 221 $
- 218 `
- 209 T
- 208 x
- 206 S
- 201 M
- 200 B
- 199 E
- 198 o
- 195 c
- 194 m
- 190  
- 189 A
- 183 O
- 182 9
- 180 H
- 173 U
- 171 7
- 170 J
- 168 8
- 167 b
- 165 a
- 165 I
- 163 K
- 156 |
- 154 p
- 152 F
- 151 k
- 150 g
- 148 }
- 147 _
- 139 j
- 136 L
- 133 z
- 133 .
- 128 D
- 126 u
- 125 V
- 115 #
- 104 r
-  91 [
-  91 ,
-  86 W
-  74 N
-  64 R
-  64 %
-  48 C
-  47 {
-  20 ;
-   1 ¹
-   1 û
+Y Not used inf isinf
+
+911 1
+1 Not used predefined literals predefined literals
+
+901 :
+: colon (range) linearize array comma-separated list bitset
+
+787 )
+) ( ) reference indexing / split { } reference indexing ( ) reference ind. with final : / split ( ) refererence ind. with initial : / split
+
+752 2
+2 Not used predefined literals predefined literals
+
+742 G
+G Paste from clipboard G (user-input) plot imwrite / imagesc / image / imshow appearance of graphics / format
+
+720 Z
+Z Not used
+
+691 '
+' Not used. String delimiter execute Matlab function run-length encoding now / clock
+
+623 &
+& alternative default input/output spec intersect and bitand
+
+599 h
+h horzcat {..., ...} hankel hypergeom
+
+597 @
+@ "for" / "do twice" value / "while" index "for" index perms randperm
+
+593 s
+s sum sum(..., 1, ...) cumsum std / cov / skewness / kurtosis
+
+592 !
+! .' (transpose) / permute rot90 system full
+
+552 "
+" for repmat repelem (run-length decoding) blanks
+
+549 *
+* .* kron matrix product Cartesian product
+
+516 +
++ + conv2 conv2(..., 'same') / cconv
+
+469 ]
+] end (loops or conditional branches) sub2ind
+
+467 0
+0 Not used predefined literals predefined literals
+
+442 3
+3 Not used predefined literals predefined literals
+
+432 -
+- - setdiff deconv
+
+411 q
+q decrement by 1 quantile n-th prime / next prime primes
+
+402 y
+y duplicate element eye hypot size
+
+402 w
+w swap
+
+376 =
+= == isequal strcmp
+
+370 i
+i input urlread imread
+
+329 4
+4 Not used predefined literals predefined literals
+
+327 5
+5 Not used predefined literals predefined literals
+
+309 Q
+Q increment by 1 accumarray rat polyval / roots / polyfit / inpolygon
+
+307 v
+v vertcat eig / svd / strtrim symmetric range / array / deblank
+
+302 ~
+~ Not setxor xor bitxor
+
+292 P
+P flip flipud pi pdist2 / entries below diagonal
+
+288 n
+n numel / size nchoosek (numbers) / multinomial c. poly / interp1
+
+285 d
+d diff diag / spdiags blkdiag gcd
+
+283 /
+/ ./ angle right matrix divide unwrap
+
+272 
+
+257 6
+6 Not used predefined literals predefined literals
+
+251 >
+> > max cummax
+
+249 ^
+^ .^ sqrt matrix power, or sum of matrix powers Cartesian power
+
+239 <
+< < min cummin
+
+238 ?
+? if why sparse
+
+238 (
+( ( ) assignment indexing { } assignment indexing ( ) assignment ind. with final : ( ) assignment ind. with initial :
+
+228 e
+e reshape / squeeze expm / logical "infinite" graph power exp / Levenshtein distance
+
+222 l
+l ones clamp (limit to a range) log. With two inputs, specifies base log2
+
+221 $
+$ specify inputs sym / str2sym char(vpa(str2sym(...), ...)) fopen, fread, fclose
+
+218 `
+` do...while while tic toc
+
+209 T
+T Not used. True (literal) toeplitz
+
+208 x
+x delete from stack clc
+
+206 S
+S sort sortrows circshift sign / fftshift / linspace
+
+201 M
+M Paste from clipboard M (function-input) mode
+
+200 B
+B logical(dec2bin(...)-'0') bin2dec(char(...+'0')) dec2bin bin2dec
+
+199 E
+E multiply by 2 replace elements in array ifft, ifftn
+
+198 o
+o double / cell array to numeric / parity int64 round / change case fix
+
+195 c
+c char (also for cell array) cat strcat strjoin / convert to '#' and char 0
+
+194 m
+m ismember ismember(...,'rows') mean lcm
+
+190 
+
+189 A
+A all all(..., 1) dec2base. Larger base, any symbols base2dec. Larger base, any symbols
+
+183 O
+O zeros datestr datenum datevec
+
+182 9
+9 Not used predefined literals
+
+180 H
+H Paste from clipboard H Copy to clipboard H advanced plotting functions
+
+173 U
+U str2num / string to array / square str2double
+
+171 7
+7 Not used predefined literals
+
+170 J
+J Paste from clipboard J Copy to clipboard J symbolic-specific functions
+
+168 8
+8 Not used predefined literals
+
+167 b
+b bubble strsplit
+
+165 a
+a any any(..., 1) padarray / unpad array base2base
+
+165 I
+I Paste from clipboard I Copy to clipboard I col2im image processing functions
+
+163 K
+K Paste from clipboard K Copy to clipboard K
+
+156 |
+| abs / norm / determinant union or bitor
+
+154 p
+p prod prod(..., 1, ...) cumprod isprime / totient function
+
+152 F
+F Not used. False (literal) exponents of prime factorization fft, fftn
+
+151 k
+k lower / floor upper / ceil closest values
+
+150 g
+g logical / cell2mat ndgrid gamma / gammainc / betainc gammaln / betaln
+
+148 }
+} else / finally split array
+
+147 _
+_ unary minus / normalize uint8
+
+139 j
+j input(...,'s') real imag conj / real and imag
+
+136 L
+L Paste from clipboard L (multi-level) Copy to clipboard L (multi-level) gallery
+
+133 z
+z nnz / cellfun(@nnz, ...) nonzeros / remove whitespace
+
+133 .
+. break continue pause bitget
+
+128 D
+D disp(num2str(..., ...)) / mat2str disp(num2str(...)) sprintf / fprintf disp
+
+126 u
+u unique unique(,...'rows') strjust
+
+125 V
+V num2str
+
+115 #
+# specify outputs display stack (debug) sound, soundsc, audiowrite fopen, fwrite, fclose
+
+104 r
+r rand randn randi randsample / shuffle
+
+91 [
+[ Not used. Array delimiter ind2sub
+
+91 ,
+, do twice cos sin tan
+
+86 W
+W 2 raised to input
+
+74 N
+N stack size nchoosek (array) NaN isnan
+
+64 R
+R triu triu(...,1) / build matrix tril tril(...,-1) / build matrix
+
+64 %
+% comment class cast typecast
+
+48 C
+C im2col im2col(..., 'distinct')
+
+47 {
+{ Not used. Cell array delimiter num2cell mat2cell mat2cell(x,ones(size(x,1),1),size(x,2))
+
+20 ;
+; acos asin atan2
+
+1 ¹
+
+1 û
