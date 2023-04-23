@@ -4,7 +4,7 @@ I think golfing languages outdesign each other because some of them have better 
 are the most useful datatype.)
 
 1. Blocks `[ ... ]`
-2. Some way to denote lists (eg. `{ ... }`). And Strings `" ... "`
+2. Some way to denote lists (eg. `{ ... }`). And Strings `" ... "` which are just arrays of codepoints.
 3. Numbers: `0` `1` `2` `3` `4` `5` `10` `0.0` ... (`t` `f`) (`166` is that frequent?)
 4. Some stack-shuffling operators: `dup` `drop` `swap` `over` `nip` `2drop` `2dip` `2dup`
 5. Some combinators: `_cond_ [ if_t ] [ if_f ] if`, `.. .. and`, `.. .. or`, `.. not`, `[ .. ] dip`, `[ ... ] with` `[ .. ] [ .. ] bi`, `[ ... ] keep`, `[ .. ] when`, `[ .. ] map`, `[ .. ] each`
