@@ -26,3 +26,5 @@ I'll do another iteration of this later on because I feel I've missed some thing
 `prefix` `suffix` `find` `>array`
 
 Many common operations in golflangs like `sum` and `join` are in the lower part of the corpus, as a side note. `v+` is used less than I expected.
+
+I need to filter out the words per vocabulary so that I don't miss things.
