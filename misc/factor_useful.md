@@ -20,3 +20,5 @@ I learned a lot about the most frequently used number constants after looking at
 13. `keys` (keys of assoc. arr), `rot` (`x y z - y z x`), `empty?`
 14. `24`, `>=`, `60`, `50`, `<=`, `-2`, `21`, `2^` (i.e. `2 ** x`), `0.5`, `all?`, `bitor`, `count` (# of items quotation matches), `zero?`, `/i`, `max`
 15. I'll stop here because things start to get a bit too useless from this point on.
+
+I'll do another iteration of this later on because I feel I've missed some things.
