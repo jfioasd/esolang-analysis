@@ -9,5 +9,5 @@ are the most useful datatype.)
 4. Some stack-shuffling operators: `dup` `drop` `swap` `over` `nip` `2drop` `2dip` `2dup`
 5. Some combinators: `_cond_ [ if_t ] [ if_f ] if`, `.. .. and`, `.. .. or`, `.. not`, `[ .. ] dip`, `[ ... ] with` `[ .. ] [ .. ] bi`, `[ ... ] keep`, `[ .. ] when`, `[ .. ] map`, `[ .. ] each`
 6. More: `[ .. ] call`, 
-7. Other useful words: `+`, `=`, `seq` (really?), `_` (in fry sequence), `length`, `-`, `'[`, `*`, `first`, `<`, `set`, `on`, `::` (named word definition)
-8. `""` empty string.
+7. Other useful words: `+`, `=`, `seq` (really?), `_` (in fry sequence), `get`, `length`, `-`, `'[`, `*`, `first`, `<`, `set`, `on`, `::` (named word definition)
+8. `""` empty string. `-1`. `write`: print str. w/o a newline
