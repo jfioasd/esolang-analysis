@@ -7,7 +7,7 @@ are the most useful datatype.)
 2. Some way to denote lists (eg. `{ ... }`). And Strings `" ... "` which are just arrays of codepoints.
 3. Numbers: `0` `1` `2` `3` `4` `5` `10` `0.0` ... (`t` `f`) (`166` is that frequent?)
 4. Some stack-shuffling operators: `dup` `drop` `swap` `over` `nip` `2drop` `2dip` `2dup`
-5. Some combinators: `_cond_ [ if_t ] [ if_f ] if`, `.. .. and`, `.. .. or`, `.. not`, `[ .. ] dip`, `[ ... ] with` `[ .. ] [ .. ] bi`, `[ ... ] keep`, `[ .. ] when`, `[ .. ] map`, `[ .. ] each`
-6. More: `[ .. ] call`, 
-7. Other useful words: `+`, `=`, `seq` (really?), `_` (in fry sequence), `get`, `length`, `-`, `'[`, `*`, `first`, `<`, `set`, `on`, `::` (named word definition)
+5. Some combinators: `_cond_ [ if_t ] [ if_f ] if`, `and`, `or`, `not`, `dip`, `with` `bi`, `keep`, `when`, `map`, `each`
+6. More: `call`, `bi@` (which applies 1 quotation to two values), `bi*` (which respectively applies two quotations to two values).
+7. Other useful words: `+`, `=`, `seq` (really?), `_` (in fry sequence), `get`, `length`, `-`, `'[`, `*`, `first`, `<`, `set`, `on`, `::` (named word definition), `%` (which is more useful than `/`)
 8. `""` empty string. `-1`. `write`: print str. w/o a newline
