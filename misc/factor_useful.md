@@ -22,3 +22,7 @@ I learned a lot about the most frequently used number constants after looking at
 15. I'll stop here because things start to get a bit too useless from this point on.
 
 I'll do another iteration of this later on because I feel I've missed some things. The Factor corpus reminds me of the Vyxal corpus, in which many of the operations overlap (`first`, `length`, `index`, `member?`, `<iota>`, `append`, ...)
+
+`prefix` `suffix` `find` `>array`
+
+Many common operations in golflangs like `sum` and `join` are in the lower part of the corpus, as a side note. `v+` is used less than I expected.
