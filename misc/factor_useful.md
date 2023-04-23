@@ -1,4 +1,5 @@
-I think golfing languages outdesign each other simply because some of them have better 1-byte sequence processing functions than others.
+I think golfing languages outdesign each other because some of them have better sequence processing functions than others. For example they have builtins for palindromize, center, Husk has count-by, etc.
+
 (Not noting that number operations are not that useful in golf than sequences ... Numbers are the most common datatype in golflangs, but lists
 are the most useful datatype.)
 
