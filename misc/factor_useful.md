@@ -23,6 +23,10 @@ I learned a lot about the most frequently used number constants after looking at
 
 I'll do another iteration of this later on because I feel I've missed some things. The Factor corpus reminds me of the Vyxal corpus, in which many of the operations overlap (`first`, `length`, `index`, `member?`, `<iota>`, `append`, ...)
 
+`@` is not used as often in fries than `_`, so implement implicit variables...
+
+I might need to generate a 2-word corpus to get a better understanding of it.
+
 `prefix` `suffix` `find` `>array`
 
 Many common operations in golflangs like `sum` and `join` are in the lower part of the corpus, as a side note. `v+` is used less than I expected.
