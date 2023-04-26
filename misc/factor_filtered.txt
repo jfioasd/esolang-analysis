@@ -105,11 +105,13 @@
  200 glue
  192 reverse
  188 reduce
+ 186 split
  184 any?
  181 rest
  181 tri*
  179 loop
  174 replicate
+ 174 sort
  173 ^
  172 between?
  169 log
@@ -118,6 +120,7 @@
  168 product
  167 join
  166 >integer
+ 164 split1
  164 reach
  163 head?
  161 /mod
@@ -125,11 +128,13 @@
  159 reject
  153 abs
  152 short
+ 151 ?tail
  149 2curry
  147 -rot
  147 first3
  146 execute
  143 third
+ 142 ?head
  141 2tri
  139 >boolean
  139 <range>
@@ -167,6 +172,7 @@
  100 2over
  100 indices
   99 each-integer
+  99 split-lines
   99 double>bits
   97 map!
   97 3append
@@ -202,3 +208,4 @@
   74 cos
   73 hex>
   73 2each
+  73 replace
