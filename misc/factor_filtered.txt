@@ -1,0 +1,204 @@
+11144 dup
+9501 drop
+6440 if
+6241 swap
+5539 and
+4689 dip
+4686 +
+4643 bi
+4551 =
+3274 with
+3076 ?
+3053 sequence
+2904 object
+2838 keep
+2611 -
+2517 *
+2483 or
+2430 over
+2369 when
+2321 not
+2258 map
+2213 new
+2166 first
+2121 each
+1890 <
+1809 nip
+1578 clone
+1567 2drop
+1347 call
+1244 boa
+1094 bi@
+1083 2dip
+1037 2dup
+1004 bi*
+ 951 tri
+ 948 shift
+ 940 curry
+ 929 unless
+ 867 nth
+ 832 2bi
+ 789 >
+ 785 /
+ 768 pick
+ 763 append
+ 762 if*
+ 755 second
+ 673 boolean
+ 610 tuple
+ 595 first2
+ 590 when*
+ 588 like
+ 585 eq?
+ 584 <iota>
+ 563 index
+ 560 member?
+ 549 bitand
+ 510 push
+ 501 string>number
+ 478 throw
+ 456 number>string
+ 420 filter
+ 414 neg
+ 398 times
+ 396 prepend
+ 382 dupd
+ 378 last
+ 372 rot
+ 371 empty?
+ 359 prefix
+ 353 >=
+ 350 concat
+ 336 <=
+ 323 2^
+ 315 all?
+ 315 bitor
+ 313 count
+ 308 mod
+ 301 if-empty
+ 296 find
+ 296 suffix
+ 293 3drop
+ 291 zero?
+ 278 /i
+ 278 while
+ 267 assert=
+ 260 2keep
+ 258 sq
+ 248 >fixnum
+ 248 swapd
+ 244 map-as
+ 242 slice
+ 241 unless*
+ 240 compose
+ 234 suffix!
+ 233 2nip
+ 233 head
+ 231 /f
+ 226 >bignum
+ 226 do
+ 225 set-nth
+ 225 until
+ 221 surround
+ 218 bitxor
+ 217 most
+ 200 glue
+ 192 reverse
+ 188 reduce
+ 184 any?
+ 181 rest
+ 181 tri*
+ 179 loop
+ 174 replicate
+ 173 ^
+ 172 between?
+ 169 log
+ 168 sqrt
+ 168 sum
+ 168 product
+ 167 join
+ 166 >integer
+ 164 reach
+ 163 head?
+ 161 /mod
+ 159 unless-empty
+ 159 reject
+ 153 abs
+ 152 short
+ 149 2curry
+ 147 -rot
+ 147 first3
+ 146 execute
+ 143 third
+ 141 2tri
+ 139 >boolean
+ 139 <range>
+ 137 subseq
+ 134 2map
+ 133 produce
+ 131 ~
+ 130 hashcode
+ 130 #
+ 127 tri@
+ 126 tail
+ 125 even?
+ 123 [a..b]
+ 123 3bi
+ 123 3dip
+ 121 cut
+ 119 >float
+ 118 tail?
+ 117 integer?
+ 117 <slice>
+ 112 [1..b]
+ 112 if-zero
+ 112 <reversed>
+ 112 both?
+ 111 unclip
+ 110 sequence=
+ 110 move
+ 105 same?
+ 105 recip
+ 104 copy
+ 103 prepose
+ 102 harvest
+ 101 ?nth
+ 101 each-index
+ 100 2over
+ 100 indices
+  99 each-integer
+  99 double>bits
+  97 map!
+  97 3append
+  97 map-reduce
+  96 member-eq?
+  95 bitnot
+  93 bit?
+  89 pad-head
+  89 odd?
+  89 2/
+  89 round
+  87 map-sum
+  86 3dup
+  86 sift
+  86 wrapper
+  85 push-all
+  82 head-slice
+  82 tail-slice
+  82 >hex
+  81 ?first
+  81 sin
+  81 equal?
+  81 null
+  81 <repetition>
+  81 selector
+  81 trim
+  80 number=
+  79 flip
+  78 hashcode*
+  78 pop
+  78 align
+  75 remove
+  74 cos
+  73 hex>
+  73 2each
