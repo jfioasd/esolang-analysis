@@ -1,0 +1,30 @@
+4686 +
+2611 -
+2517 *
+1890 <
+ 948 shift
+ 789 >
+ 785 /
+ 549 bitand
+ 414 neg
+ 398 times
+ 353 >=
+ 336 <=
+ 323 2^
+ 315 bitor
+ 308 mod
+ 291 zero?
+ 278 /i
+ 258 sq
+ 248 >fixnum
+ 231 /f
+ 226 >bignum
+ 218 bitxor
+ 166 >integer
+ 161 /mod
+ 153 abs
+ 125 even?
+ 119 >float
+ 117 integer?
+ 112 if-zero
+ 105 recip
