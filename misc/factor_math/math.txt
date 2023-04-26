@@ -23,11 +23,15 @@
  231 /f
  226 >bignum
  218 bitxor
+ 173 ^
  172 between?
+ 169 log
+ 168 sqrt
  166 >integer
  161 /mod
  153 abs
  139 <range>
+ 131 ~
  130 #
  125 even?
  123 [a..b]
@@ -42,7 +46,10 @@
   93 bit?
   89 odd?
   89 2/
+  89 round
   82 >hex
+  81 sin
   80 number=
   78 align
+  74 cos
   73 hex>
