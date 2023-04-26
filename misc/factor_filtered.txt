@@ -30,6 +30,7 @@
 1244 boa
 1094 bi@
 1083 2dip
+1075 2array
 1037 2dup
 1004 bi*
  951 tri
@@ -60,6 +61,7 @@
  456 number>string
  420 filter
  414 neg
+ 401 1array
  398 times
  396 prepend
  382 dupd
@@ -76,9 +78,11 @@
  313 count
  308 mod
  301 if-empty
+ 297 >array
  296 find
  296 suffix
  293 3drop
+ 292 3array
  291 zero?
  278 /i
  278 while
@@ -138,6 +142,7 @@
  141 2tri
  139 >boolean
  139 <range>
+ 138 array?
  137 subseq
  134 2map
  133 produce
@@ -180,6 +185,7 @@
   96 member-eq?
   95 bitnot
   93 bit?
+  92 4array
   89 pad-head
   89 odd?
   89 2/
