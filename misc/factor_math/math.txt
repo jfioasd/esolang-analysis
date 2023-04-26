@@ -5,7 +5,10 @@
  948 shift
  789 >
  785 /
+ 584 <iota>
  549 bitand
+ 501 string>number
+ 456 number>string
  414 neg
  398 times
  353 >=
@@ -20,11 +23,26 @@
  231 /f
  226 >bignum
  218 bitxor
+ 172 between?
  166 >integer
  161 /mod
  153 abs
+ 139 <range>
+ 130 #
  125 even?
+ 123 [a..b]
  119 >float
  117 integer?
+ 112 [1..b]
  112 if-zero
  105 recip
+  99 each-integer
+  99 double>bits
+  95 bitnot
+  93 bit?
+  89 odd?
+  89 2/
+  82 >hex
+  80 number=
+  78 align
+  73 hex>
