@@ -8,6 +8,11 @@
  170 .
  130 ,
 
+A more complete one done on Daniel Cristofani's programs:
+Counter({'>': 2445, '+': 2224, '<': 1990, '-': 1315, '[': 1056, ']': 1056, '.': 168, ',': 26})
+
+
+
 Huffman Tree:
 >: 00
 <: 100
