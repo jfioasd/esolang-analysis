@@ -5,6 +5,8 @@ I only did the analysis on the esolangs that I'm interested in, so that
 I'll include the builtins that will be the most useful/powerful for my esolangs,
 thereby making them easy to program in. So I only did analysis on golflangs and some fungeoids.
 
+(I'm currently trying to make a 1D fungeoid, so I've analyzed the command frequencies in Backhand and Hexagony.)
+
 If you have heard of any other language that I can analyze, tell me, and I might analyze the language's frequencies if I'm interested enough.
 
 So you can use this as a reference for some of the design patterns of popular esolangs on CGCC.
