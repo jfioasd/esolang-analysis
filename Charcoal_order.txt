@@ -1,257 +1,612 @@
-1-graphs:
 4886 θ
+θ 	q 	First input.
+
 3852 ι
+
 2482 η
+η 	h 	Second input.
+
 2370 υ
+υ 	u 	An empty list.
+
 1739 Ｆ
+Ｆ 	for 	exp bdy 	Iterate over x, running y once per iteration. The loop variable is stored in the first free variable in ικλμνξπρςστυφχψωαβγδεζηθ. If x is a number, iterate over range(x) instead.
+
 1730 κ
+
 1646 Ｅ
+Ｅ 	Each/Map 	exp exp 	An array arr where arr[i] is y(x[i]). During evaluation of y, the loop variable and index are stored in the first two free variables in ικλμνξπρςστυφχψωαβγδεζηθ.
+
 1580 ≔
+≔ 	Assign 	exp var 	Assigns the result of x to y.
+
 1559 §
+§ 	AtIndex 	x[y], wrapping if needed.
+
 1555 ²
+
 1492 Ｉ
+Ｉ 	Cast 	x as a string if it is a number, or x as a number if it is a string.
+
 1404 ⁺
+⁺ 	Add/Plus 	x+y. Vectorizes.
+
 1340 ¹
+
 1164 λ
+
 1121 Ｎ
+Ｎ 	InputNumber 	The next input as a number.
+
 1085 ⊞
+⊞ 	Push 	exp exp 	Pushes y to x.
+
 1053 ζ
+ζ 	z 	Third input.
+
 1052 ⁻
+⁻ 	Subtract/Minus 	x-y, or x with y deleted if both x and y are strings, or x with instances of elements of y removed if both x and y are lists. Vectorizes.
+
 1007 ×
- 996 Ｌ
- 992 «
- 977 ⊕
- 953 ⁰
- 814 ⟦
- 764 №
- 690 ⟧
- 677 ⁼
- 670 Σ
- 641 ³
- 606 ﹪
- 597 Φ
- 589 …
- 582 Ｗ
- 576 »
- 569 ¬
- 560  
- 548 Ｓ
- 534 ⊟
- 529 μ
- 514 ⪪
- 514 ”
- 499 ⊖
- 484 ⭆
- 484 ¿
- 475 ⌕
- 450 ⁴
- 441 ⌈
- 427 Ｘ
- 421 ⮌
- 419 ∧
- 413 Ｍ
- 411 ⌊
- 392 ÷
- 386 ε
- 383 ‹
- 382 ⪫
- 381 ⁵
- 378 Ａ
- 360 ±
- 358 ⎇
- 356 ∨
- 351 ¦
- 350 χ
- 350 ›
- 350 ←
- 330 Ｐ
- 322 Ｋ
- 318 ν
- 317 ⊗
- 315 ⁶
- 310 ↓
- 301 ω
- 296 ↨
- 292 →
- 278 1
- 275 ✂
- 270 δ
- 265 β
- 247 ↑
- 243 ¶
- 242 _
- 241 #
- 239 0
- 238 ⁸
- 236 Ｏ
- 235 Ｕ
- 231 ‖
- 230 α
- 217 -
- 204 ≦
- 202 ↘
- 201 ⍘
- 201 /
- 196 ⁹
- 195 ⬤
- 194 ℅
- 192 o
- 188 Ｊ
- 184 .
- 182 \
- 179 ‽
- 179 ⁷
- 177 ξ
- 177 φ
- 175 ↔
- 175 |
- 169 ⊘
- 168 ⊙
- 168 ↙
- 167 ↗
- 166 ·
- 164 ∕
- 161 ≧
- 158 *
- 157 ⸿
- 156 )
- 156 e
- 153 ⎚
- 153 a
- 150 Π
- 149 ↖
- 145 +
- 143 Ｂ
- 135 i
- 125 s
- 123 2
- 119 π
- 118 A
- 117 ,
- 115 r
- 112 ψ
- 112 γ
- 112 Ｇ
- 112 u
- 111 ⅉ
- 111 t
- 109 <
- 109 d
- 109 O
- 108 ✳
- 108 &
- 107 ↧
- 107 ⅈ
- 107 4
- 106 >
- 105 ＆
- 105 n
- 104 3
- 104 l
- 103 X
- 101 ≡
- 100 S
-  99 (
-  98 Ｄ
-  98 ↶
-  97 [
-  96 ;
-  96 !
-  95 ↷
-  94 h
-  94 5
-  93 ]
-  93 {
-  92 =
-  91 “
-  90 Ｔ
-  90 T
-  88 L
-  88 σ
-  88 ^
-  85 ρ
-  85 v
-  84 7
-  84 %
-  83 B
-  83 I
-  83 ◧
-  83 :
-  83 y
-  83 '
-  81 }
-  81 D
-  80 ₂
-  80 x
-  80 b
-  80 E
-  79 Ｃ
-  79 8
-  79 ↥
-  79 m
-  78 "
-  78 f
-  76 P
-  76 M
-  75 C
-  74 @
-  73 ¤
-  73 p
-  72 R
-  72 c
-  72 H
-  71 U
-  71 G
-  69 9
-  69 ｜
-  69 V
-  69 6
-  69 Ｖ
-  68 τ
-  68 ⟲
-  67 $
-  67 N
-  67 k
-  66 ς
-  66 ´
-  66 F
-  65 Ｈ
-  65 w
-  64 Q
-  64 ⧴
-  64 ➙
-  63 ~
-  63 K
-  62 g
-  62 J
-  62 W
-  61 ◨
-  60 z
-  59 Y
-  59 ″
-  58 `
-  58 j
-  57 ?
-  57 Z
-  55 q
-  54 ≕
-  53 ‴
-  53 À
-  52 ⦄
-  50 ⦃
-  50 ▷
-  50 Ｒ
-  46 �
-  46 Ｑ
-  45 ；
-  44 Ｚ
-  43 ？
-  43 Ｙ
-  42 Þ
-  38 ▶
-  36 º
-  35 ê
-  35 ü
-  34 ¡
-  32 ～
-  26 ï
+× 	Multiply/Times 	x*y, or x extended to length len(x)*y if one is a string. Vectorizes.
+
+996 Ｌ
+Ｌ 	Length 	The length of x, cast to a string if a number.
+
+992 «
+
+977 ⊕
+⊕ 	Incremented/++ 	x+1, casting if it is a string. Vectorizes.
+
+953 ⁰
+
+814 ⟦
+
+764 №
+№ 	Count 	The number of occurrences of y in x.
+
+690 ⟧
+
+677 ⁼
+⁼ 	Equals 	Whether x is equal to y.
+
+670 Σ
+Σ 	Sum 	The sum of all elements in x if it is an array, digital sum if it is a number, sum of all numbers or digital sum if it is a string depending on whether it can be parsed as a single number.
+
+641 ³
+
+606 ﹪
+﹪ 	Modulo 	x%y. Note that this can be used to format strings.
+
+597 Φ
+Φ 	Filter 	exp exp 	An array arr containing all the values in x where y returns truthy. During evaluation of y, the loop variable and index are stored in the first two free variables in ικλμνξπρςστυφχψωαβγδεζηθ.
+
+589 …
+… 	Range 	Range from 0 to x, excluding x.
+
+582 Ｗ
+Ｗ 	while 	exp bdy 	Iterate while x is true, running y once per iteration. The result of x is stored in the first free variable in ικλμνξπρςστυφχψωαβγδεζηθ.
+
+576 »
+
+569 ¬
+¬ 	Not 	False if x is truthy, else True if x is falsy.
+
+560 
+
+548 Ｓ
+Ｓ 	InputString 	The next input as a string.
+
+534 ⊟
+⊟ 	Pop 	The last value in x, after removing it from x.
+
+529 μ
+
+514 ⪪
+⪪ 	Split 	The result of splitting x with y if y is a string, or x split into pieces of length y if y is an number.
+
+514 ”
+
+499 ⊖
+⊖ 	Decremented/-- 	x-1, casting if it is a string. Vectorizes.
+
+484 ⭆
+⭆ 	StringMap 	str exp 	A string str formed from the concatenation of y(x[i]) for all characters in x. During evaluation of y, the loop variable and index are stored in the first two free variables in ικλμνξπρςστυφχψωαβγδεζηθ.
+
+484 ¿
+¿ 	if 	exp bdy bdy 	If x evaluates to truthy, run y, else run z.
+
+475 ⌕
+⌕ 	Find 	The index of y in x.
+
+450 ⁴
+
+441 ⌈
+⌈ 	Maximum/max/Ceiling/ceil 	The maximum value in x, or the ceiling of x if it is a number.
+
+427 Ｘ
+Ｘ 	Exponentiate/Exponent/Power 	x to the power of y.
+
+421 ⮌
+⮌ 	Reverse 	x reversed. Also works on non-negative integers.
+
+419 ∧
+∧ 	And/and 	y if x and y are both truthy else False. Short-circuits.
+
+413 Ｍ
+Ｍ 	Move 	num dir 	Move the cursor x characters in the direction of y.
+
+411 ⌊
+⌊ 	Minimum/min/Floor 	The minimum value in x, or the floor of x if it is a number.
+
+392 ÷
+÷ 	IntDivide/IntegerDivide 	x//y. Vectorizes.
+
+386 ε
+ε 	e 	Fourth input.
+
+383 ‹
+‹ 	Less 	<
+
+382 ⪫
+⪫ 	Join 	The result of joining x with y.
+
+381 ⁵
+
+378 Ａ
+
+360 ±
+± 	Negate 	-x. Vectorizes.
+
+358 ⎇
+⎇ 	Ternary 	y if x is truthy else z.
+
+356 ∨
+∨ 	Or/or 	y if y is truthy, else x if x is truthy, else False. Short-circuits.
+
+351 ¦
+
+350 χ
+χ 	c 	10.
+
+350 ›
+› 	Greater 	>
+
+350 ←
+
+330 Ｐ
+Ｐ 	Multiprint 	mdr str 	Prints y in the directions in x. The cursor is not moved.
+
+322 Ｋ
+
+318 ν
+
+317 ⊗
+⊗ 	Doubled/*** 	x*2, casting if it is a string. Vectorizes.
+
+315 ⁶
+
+310 ↓
+
+301 ω
+ω 	w 	The empty string.
+
+296 ↨
+↨ 	Base 	x converted from (if an array) or to base y. Can also be used to evaluate a polynomial.
+
+292 →
+
+278 1
+
+275 ✂
+✂ 	Slice 	A new iterable containing the elements of x, if this is implemented in the underlying Python class.
+
+270 δ
+δ 	d 	Fifth input.
+
+265 β
+β 	b 	Lowercase letters from a to z.
+
+247 ↑
+
+243 ¶
+
+242 _
+
+241 #
+
+239 0
+
+238 ⁸
+
+236 Ｏ
+
+235 Ｕ
+
+231 ‖
+‖ 	Reflect 		Reflect the canvas right, the axis being vertical through the cursor.
+
+230 α
+α 	a 	Uppercase letters from A to Z.
+
+217 -
+
+204 ≦
+≦ 	MapAssignLeft 	op exp var 	Assigns the result of op exp var to var, where op is a non-lazy binary operator. Vectorises.
+
+202 ↘
+
+201 ⍘
+⍘ 	BaseString 	x converted from (if a string) or to base y, up to base 62, using digits, lowercase letters and uppercase letters, or to base len(y) if y is a string.
+
+201 /
+
+196 ⁹
+
+195 ⬤
+⬤ 	All/Every 	exp exp 	True if y returns truthy for all elements in x else False. During evaluation of y, the loop variable and index are stored in the first two free variables in ικλμνξπρςστυφχψωαβγδεζηθ.
+
+194 ℅
+℅ 	Character/Ordinal/chr/ord 	The character code of x if x is a character, or the character x is the character code of if x is an integer.
+
+192 o
+
+188 Ｊ
+Ｊ 	JumpTo 	num num 	Jump to the position x characters right, y characters down from the original position.
+
+184 .
+
+182 
+
+179 ⁷
+
+177 ξ
+
+177 φ
+φ 	f 	1000.
+
+175 ↔
+↔ 	Absolute/abs 	abs(x). Vectorizes.
+
+175 |
+
+169 ⊘
+⊘ 	Halved/\ 	x/2, casting if it is a string. Vectorizes.
+
+168 ⊙
+⊙ 	Any/Some 	exp exp 	True if y returns truthy for any element in x else False. During evaluation of y, the loop variable and index are stored in the first two free variables in ικλμνξπρςστυφχψωαβγδεζηθ.
+
+168 ↙
+
+167 ↗
+
+166 ·
+
+164 ∕
+∕ 	Divide 	x/y, or x reduced to length len(x)/y if one is a string, or x split by y if x and y are strings, or x reduced using y if y is a function. Vectorizes.
+
+161 ≧
+≧ 	MapAssignRight 	op exp var
+
+158 *
+
+157 ⸿
+
+156 )
+
+156 e
+
+153 ⎚
+⎚ 	Clear 		Resets the canvas.
+
+153 a
+
+150 Π
+Π 	Product 	The product of all elements in x if it is an array, digital product if it is a number, product of all numbers or digital product if it is a string depending on whether it can be parsed as a single number.
+
+149 ↖
+
+145 +
+
+143 Ｂ
+Ｂ 	Box 	num str 	Prints a square x characters wide and tall, and using y as the border, repeating y if needed.
+
+135 i
+
+125 s
+
+123 2
+
+119 π
+
+118 A
+
+117 ,
+
+115 r
+
+112 ψ
+ψ 	y 	Null byte.
+
+112 γ
+γ 	g 	ASCII printables.
+
+112 Ｇ
+Ｇ 	Polygon 	{dir num} str 	Prints a polygon with sides in x with the lengths in y and directions, and the z used to fill, repeating from the origin. If the polygon cannot be closed, it will not be filled.
+
+112 u
+
+111 ⅉ
+ⅉ 	J/Y 	Current cursor y-position.
+
+111 t
+
+109 <
+
+109 d
+
+109 O
+
+108 ✳
+
+108 &
+
+107 ↧
+↧ 	Lowercase 	The lowercase equivalent of x if it has one. Vectorizes.
+
+107 ⅈ
+ⅈ 	I/X 	Current cursor x-position.
+
+107 4
+
+106 >
+
+105 ＆
+＆ 	BitwiseAnd 	&. Vectorizes.
+
+105 n
+
+104 3
+
+104 l
+
+103 X
+
+101 ≡
+≡ 	switch 	exp {exp bdy} 	Depending on the value of x, executes z where x == y.
+
+100 S
+
+99 (
+
+98 Ｄ
+Ｄ 	Dump 		Output the contents of the canvas. This has a 10 millisecond minimum interval by default.
+
+98 ↶
+↶ 	PivotLeft 	num 	Rotate the cursor 45 degrees counterclockwise x times.
+
+97 [
+
+96 ;
+
+96 !
+
+95 ↷
+↷ 	PivotRight 	num 	Rotate the cursor 45 degrees clockwise x times.
+
+94 h
+
+94 5
+
+93 ]
+
+93 {
+
+92 =
+
+91 “
+
+90 Ｔ
+Ｔ 	Trim 	num num 	Removes any part of the canvas outside a rectangle x characters wide and y characters tall, starting at the cursor, but not above or to the left of the origin.
+
+90 T
+
+88 L
+
+88 σ
+
+88 ^
+
+85 ρ
+
+85 v
+
+84 7
+
+84 %
+
+83 B
+
+83 I
+
+83 ◧
+◧ 	PadLeft 	The result of left-padding x with y.
+
+83 :
+
+83 y
+
+83 '
+
+81 }
+
+81 D
+
+80 ₂
+₂ 	SquareRoot 	sqrt(x).
+
+80 x
+
+80 b
+
+80 E
+
+79 Ｃ
+
+79 8
+
+79 ↥
+↥ 	Uppercase 	The uppercase equivalent of x if it has one. Vectorizes.
+
+79 m
+
+78 "
+
+78 f
+
+76 P
+
+76 M
+
+75 C
+
+74 @
+
+73 ¤
+¤ 	Fill 	str 	If the cursor is in an empty space, fills the space with x, repeating x if needed.
+
+73 p
+
+72 R
+
+72 c
+
+72 H
+
+71 U
+
+71 G
+
+69 9
+
+69 ｜
+｜ 	BitwiseOr 	|. Vectorizes.
+
+69 V
+
+69 6
+
+69 Ｖ
+Ｖ 	Evaluate/eval 	The result after executing x as a string.
+
+68 τ
+
+68 ⟲
+⟲ 	Rotate 		Rotate the canvas 90 degrees counterclockwise around the cursor.
+
+67 $
+
+67 N
+
+67 k
+
+66 ς
+
+66 ´
+
+66 F
+
+65 Ｈ
+
+65 w
+
+64 Q
+
+64 ⧴
+⧴ 	DelayedRule 	Lazily evaluated rule, currently does nothing.
+
+64 ➙
+➙ 	Rule 	Wolfram equivalent of named argument. Also used as match-replacement pair.
+
+63 ~
+
+63 K
+
+62 g
+
+62 J
+
+62 W
+
+61 ◨
+◨ 	PadRight 	The result of right-padding x with y.
+
+60 z
+
+59 Y
+
+59 ″
+″ 	Repeated 	Wolfram pattern-matching construct matching one or more of x.
+
+58 `
+
+58 j
+
+57 ?
+
+57 Z
+
+55 q
+
+54 ≕
+≕ 	GetVariable/getvar 	The value of the variable x.
+
+53 ‴
+‴ 	RepeatedNull 	Wolfram pattern-matching construct matching zero or more of x.
+
+53 À
+
+52 ⦄
+
+50 ⦃
+
+50 ▷
+▷ 	EvaluateVariable/evalvar 	exp lst 	Runs the function in the variable x with y as its arguments.
+
+50 Ｒ
+Ｒ 	Refresh 	num 	Refresh the screen with the contents of the canvas, with a minimum of x milliseconds timeout before the screen will be refreshed again.
+
+46 �
+
+46 Ｑ
+
+45 ；
+
+44 Ｚ
+
+43 ？
+？ 	PatternTest 	Wolfram pattern-matching construct. Matches x only when y returns truthy.
+
+43 Ｙ
+
+42 Þ
+
+38 ▶
+▶ 	ExecuteVariable/execvar 	var wls 	Executes function or Charcoal function stored in x with y as arguments.
+
+36 º
+
+35 ê
+
+35 ü
+
+34 ¡
+
+32 ～
+～ 	BitwiseNot 	The 2's complement of x if x is an integer, or can be cast from string to integer.
+
+26 ï
+
+
+
+
