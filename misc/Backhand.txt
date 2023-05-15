@@ -1,57 +1,142 @@
-Trying to see the frequencies of the commands of a 1D fungeoid.
-1-graphs:
-  39 "
-  28  
-  23 o
-  18 v
-  16 e
-  16 {
-  15 :
-  14 H
-  11 l
-  11 #
-  10 i
-  10 }
-  10 ;
-  10 &
-   9 @
-   9 |
-   8 !
-   8 2
-   8 *
-   7 r
-   7 t
-   7 O
-   7 ^
-   7 b
-   7 0
-   7 ]
-   6 s
-   5 y
-   5 a
-   5 [
-   5 ~
-   4 p
-   4 I
-   4 _
-   4 j
-   4 8
-   3 -
-   3 ,
-   3 d
-   3 W
-   3 <
-   3 $
-   3 >
-   3 1
-   2 f
-   2 u
-   2 n
-   2 D
-   2 7
-   2 .
-   1 x
-   1 +
-   1 %
-   1 4
-   1 h
+39 '"'
+" 	String 	Turn on string mode, which pushes the ordinal value of each character it lands on until it reaches either another "
+
+28 ' '
+
+23 'o'
+o 	ASCII output 	Pop a and output a as a character
+
+18 'v'
+v 	Decrement Step 	Decrease the step value by 1
+
+16 'e'
+
+16 '{'
+{ 	Step Left 	Step left one
+
+15 ':'
+: 	Dupe 	Pop a then push a twice
+
+14 'H'
+H 	Halt 	Print the contents of the stack as a string and terminate the program
+
+11 'l'
+l 	Length 	Push the length of the stack
+
+11 '#'
+
+10 'i'
+i 	ASCII input 	Push the ordinal value of the next character in input. If there is no input left, push -1
+
+10 '}'
+} 	Step Right 	Step right one
+
+10 ';'
+
+10 '&'
+& 	Register 	If there is not a value in the register, pop a and store a in the register. Otherwise, push the value in the register and clear it
+
+9 '@'
+@ 	Terminate 	End the program
+
+9 '|'
+| 	Decision Change 	Pop a and if a is not zero reverse direction
+
+8 '!'
+! 	Not 	Pop a and push 1 if a is equal to 0, otherwise 0
+
+8 '2'
+
+8 '*'
+* 	Multiplication 	Pop two values a then b and push b*a
+
+7 'r'
+r 	Reverse 	Reverse the stack
+
+7 't'
+
+7 'O'
+O 	Number output 	Pop a and print a as a number
+
+7 '^'
+^ 	Increment Step 	Increase the step value by 1
+
+7 'b'
+
+7 '0'
+
+7 ']'
+] 	Increment 	Pop a and push a+1
+
+6 's'
+s 	Skip 	Pop a and skip forward a characters, bouncing off the sides as usual. This moves forward in the current direction
+
+5 'y'
+
+5 'a'
+
+5 '['
+[ 	Decrement 	Pop a and push a-1
+
+5 '~'
+~ 	Pop 	Pop and discard a
+
+4 'p'
+
+4 'I'
+I 	Number input 	Ignore input data until it reaches a number and push that number. If the number is preceeded by a - then the number is negative. If there is no input left, push -1
+
+4 '_'
+_ 	Decision Step 	Pop a and if a is zero step right, else step left
+
+4 'j'
+j 	Jump 	Pop a and jump to the ath character, bouncing off the sides as usual. 0 represents the first character
+
+4 '8'
+
+3 '-'
+0-9a-f 	Number 	Pushs the appropriate hexadecimal number. The characters a to f push the values 10 to 15
+
+3 ','
+
+3 'd'
+
+3 'W'
+W 	Double Decrement Step 	Decrease the step value by 2
+
+3 '<'
+< 	Left 	Change direction to left
+
+3 '$'
+$ 	Swap 	Pop a then b and push a then b
+
+3 '>'
+> 	Right 	Change direction to right
+
+3 '1'
+
+2 'f'
+
+2 'u'
+
+2 'n'
+
+2 'D'
+
+2 '7'
+
+2 '.'
+
+1 'x'
+x 	Switch 	Swap the main and other stack
+
+1 '+'
++ 	Addition 	Pop two values a then b and push b+a
+
+1 '%'
+% 	Modulo 	Pop two values a then b and push b%a, where the sign of the result matches the sign of a
+
+1 '4'
+
+1 'h'
+h 	Finish 	Output the top of stack as a number and terminate the program
