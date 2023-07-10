@@ -2,7 +2,7 @@
 1-byte command order for several esolangs used on CGCC.
 
 ## Most linked-to esolangs on Esolangs
-[source](https://esolangs.org/wiki/Special:MostLinkedPages)
+[source](https://esolangs.org/wiki/Special:MostLinkedPages). Don't know where to put it, so I'll put it here.
 
 I think this is a good measure of esolang popularity.
 
