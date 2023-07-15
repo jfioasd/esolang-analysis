@@ -14,13 +14,13 @@
 Œp 	Cartesian product of z's items.
 
 84 Æf
-Æf 	Compute the array of primes whose product is z.
+Æf 	Compute the array of primes whose product is z. [i.e. factorize]
 
 82 Œu
 Œu 	Upper case.
 
 76 ŒṖ
-ŒṖ 	Partition of z (z must be a list).
+ŒṖ 	Partition [(i.e. sublists)] of z (z must be a list).
 
 74 ØD
 ØD 	Digits; yield '0123456789'.
