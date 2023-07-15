@@ -12,4 +12,4 @@ Indeed, I don't think these two bases [make much of a difference](https://tio.ru
 
 P. S. Vyxal uses range encoding, and Nibbles uses an approximation to range encoding. So it would be good to pass this base-343 format to a range encoder for compressing the most frequent character sequences to a shorter format.
 
-Also, if it's possible to train a neural network to insert the highly common builtins at the right positions (so that they don't have to be written explicitly), that would be a great advantage. Neural networks can be quite accurate. ;P
+Also, if it's possible to train a neural network to insert the highly common builtins at the correct positions (so that they don't have to be written explicitly), that would be a great advantage. Neural networks can be quite accurate. ;P
