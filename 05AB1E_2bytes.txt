@@ -1,0 +1,491 @@
+138 .Δ
+.Δ 	a 	Find the first element of a that results in 1 when ran through CODE. Usage: .Δ CODE }
+
+135 .V
+.V 	a 	Run as 05AB1E code
+
+113 .•
+.• 	- 	Decompress a base 255 alphabet based string
+
+97 .ø
+.ø 	a,b 	Surround a with b
+
+67 .c
+.c 	a 	Left-focused centralize. Push centralized_left(a)
+
+58 .;
+.; 	a,b,c 	Replace first. Push a.replace_first(b, c)
+
+54 ._
+._ 	a,b 	Rotate a b units to the left
+
+49 .B
+.B 	a 	Squarify a. Push squarified(a)
+
+47 .œ
+.œ 	a 	Partiton a
+
+46 ÅA
+ÅA 	a 	Computes the arithmetic mean of a
+
+43 žM
+žM 	Vowels. Push "aeiou"
+
+42 .s
+.s 	a 	Suffixes. Push suffixes(a)
+
+42 .¡
+.¡ 	a 	Split a by function result. Usage: .¡ CODE }
+
+38 žh
+žh 	Push [0-9]
+
+38 .¥
+.¥ 	a 	Undelta. Push the cumulative sum of a, with a zero prepended
+
+38 .r
+.r 	a 	Random shuffle. Push random_shuffle(a)
+
+33 Åв
+Åв 	a,b 	Push a converted to custom base b
+
+33 Ås
+Ås 	a 	Middle. Push the middle element / character of a
+
+33 .ι
+.ι 	a,b 	Interleave a and b
+
+33 .«
+.« 	a 	Right Reduce (foldr). Folds a dyadic command between each element in a list from right to left
+
+33 Å0
+Å0 	a 	Produces a list of 0's with length a
+
+31 Åœ
+Åœ 	a 	Integer partitions of a (all possible combinations of positive integers that sum to a)
+
+31 .γ
+.γ 	a 	Group a by function result. Usage: .γ CODE }
+
+31 .Æ
+.Æ 	a,b 	All b-element combinations of a
+
+31 .$
+.$ 	a,b 	Drop b elements from a (a[b:])
+
+31 .S
+.S 	a,b 	Compare. Push 1 if a > b, -1 if a < b, 0 if a equals b
+
+30 žQ
+žQ 	Push printable ASCII character set (32-128)
+
+29 Åγ
+Åγ 	a 	Run-length encode a
+
+29 Å?
+Å? 	a,b 	Check if a starts with b
+
+27 .p
+.p 	a 	Prefixes. Push prefixes(a)
+
+26 .:
+.: 	a,b,c 	Replace all. Push a.replace(b, c)
+
+26 ÅP
+ÅP 	a 	Computes a list of all prime numbers lower or equal to a
+
+26 .R
+.R 	a 	Random element. Push random_pick(a)
+
+23 .E
+.E 	a 	Evaluate. Push eval(a) (does not work in safe mode)
+
+23 žK
+žK 	Push [a-zA-Z0-9]
+
+22 .Œ
+.Œ 	a,b 	Partitions of a containing b elements. All possible ways to divide a into b pieces
+
+22 .±
+.± 	a 	Sign. Push -1 if a < 0, 1 if a > 0, 0 otherwise.
+
+22 Åf
+Åf 	a 	Computes the ath Fibonacci term
+
+20 žq
+žq 	Push pi
+
+20 .ý
+.ý 	a,b 	Intersperse a with b (e.g. [1, 2, 3] 0 .ý --> [1, 0, 2, 0, 3])
+
+19 Å1
+Å1 	a 	Produces a list of 1's with length a
+
+18 .w
+.w 	a 	Data read from the URL a
+
+18 .º
+.º 	a 	Intersected mirror
+
+18 Å17 .g
+.g 	- 	Length of the stack
+
+17 .ï
+.ï 	a 	Integer? Push is_int(a)
+
+16 Åp
+Åp 	a 	Produces a list of the first a primes
+
+16 Å»
+Å» 	a 	Cumulative reduce left. Usage: Å» CODE }
+
+16 ÅF
+ÅF 	a 	Computes a list of all Fibonacci numbers lower or equal to a
+
+16 .ª
+.ª 	a 	Sentence capitalisation. Push sentence_cased(a)
+
+16 Å¿
+Å¿ 	a,b 	Check if a ends with b
+
+16 .W
+.W 	a 	Wait a milliseconds
+
+16 Å²
+Å² 	a 	Check whether a is a square number
+
+15 ÅΓ
+ÅΓ 	a,b 	Run-length decode a with b (pushes the elements and the chunk lengths separately)
+
+15 .¿
+.¿ 	(a,)b 	Least common multiple (lcm / hcf). Push lcm(b) if b is list, else push lcm(b, a)
+
+15 Å¡
+Å¡ 	a,b 	Split a on truthy indices in b. Example: [1, 2, 3, 4], [0, 1, 0, 0] -> [[1], [2, 3, 4]]
+
+15 žN
+žN 	Consonants. Push "bcdfghjklmnpqrstvwxyz"
+
+15 ÅÉ
+ÅÉ 	a 	Produces a list of all non-negative odd numbers lower or equal to a
+
+15 .D
+.D 	a,b 	Push b copies of a if b is an integer, else push len(b) copies
+
+14 .M
+.M 	a 	Mode. Push most frequent element in a
+
+14 .C
+.C 	a 	Right-focused centralize. Push centralized_right(a)
+
+14 žf
+žf 	Push current month
+
+14 žy
+žy 	Push 128
+
+14 ÅT
+ÅT 	a 	Computes a list of all triangular numbers lower or equal to a
+
+13 žO
+žO 	Vowels including y. Push "aeiouy"
+
+13 .u
+.u 	a 	Is uppercase? Push is_upper(a)
+
+13 ža
+ža 	Push current hours
+
+13 žb
+žb 	Push current minutes
+
+13 .x
+.x 	a,b 	Closest. Push the element in a closest to b (either absolute difference or string distance)
+
+13 .Λ
+.Λ 	a,b,c 	Store a canvas with {a: num, b: filler, c: pattern} and push the string to the stack
+
+12 ÅΔ
+ÅΔ 	a 	Computes the index of the first element of a for which CODE returns 1. Usage: ÅΔ CODE }
+
+12 žc
+žc 	Push current seconds
+
+12 že
+že 	Push current day
+
+12 žg
+žg 	Push current year
+
+11 .L
+.L 	a,b 	Levenshtein distance. Push levenshtein(a, b)
+
+11 žu
+žu 	Push ()<>[]{}
+
+11 .å
+.å 	a,b 	Check whether a occurs in b. Push a in b (non-vectorized)
+
+11 žV
+žV 	Push ["qwertyuiop", "asdfghjkl", "zxcvbnm"]
+
+10 žv
+žv 	Push 16
+
+10 Å€
+Å€ 	a,b 	Apply CODE to every bth element of a. Usage: Åe CODE }
+
+10 .Γ
+.Γ 	a 	Cumulative fixed-point. Apply CODE to the current value until the result no longer changes, collecting all intermediate results. Usage: .Γ CODE }
+
+10 .²
+.² 	a 	Logarithm with base 2. Push log_2(a)
+
+10 .£
+.£ 	a,b 	Last b elements of a. Push a[-b:]
+
+10 .∊
+.∊ 	a 	Intersected vertical mirror
+
+9 .ò
+.ò 	a,b 	Round a with b digits precision (bankers rounding)
+
+9 .I
+.I 	a,b 	bth permutation of a
+
+9 ÅÏ
+ÅÏ 	a,b 	Apply a function to the elements in a for which the corresponding element of b is truthy (1). Usage: ÅÏ CODE }
+
+9 žj
+žj 	Push [a-zA-Z0-9_]
+
+9 .X
+.X 	a 	Convert from integer to roman numeral string
+
+9 žs
+žs 	Decimal expansion of pi (infinite list)
+
+8 žL
+žL 	Push [z-aZ-A9-0]
+
+8 Åm
+Åm 	a 	Median. Sorts the list, then returns either the middle element or the average of the middle elements depending on the parity of the length of the list.
+
+8 Å½
+Å½ 	a 	Sine. Push sin(a)
+
+8 .»
+.» 	a 	Left Reduce (foldl). Folds a dyadic command between each element in a list from right to left with opposite right / left operands
+
+8 .Á
+.Á 	- 	Rotate stack 1 right
+
+8 .l
+.l 	a 	Is lowercase? Push is_lower(a)
+
+8 Å/
+Å/ 	a 	Produces the anti-diagonal (right) of a matrix a
+
+7 žP
+žP 	Push "bcdfghjklmnpqrstvwxz"
+
+7 žJ
+žJ 	Push 4294967296
+
+7 .š
+.š 	a 	Swap / Switch capitalisation. Push switch_cased(a)
+
+7 .m
+.m 	a 	Counter-Mode. Push least frequent element in a
+
+6 .ā
+.ā 	a 	Enumerate a. Push enumerated(a)
+
+6 žH
+žH 	Push 65536
+
+6 žt
+žt 	Decimal expansion of e (infinite list)
+
+6 .n
+.n 	a,b 	Logarithm of a in base b. Push log_b(a)
+
+6 žr
+žr 	Push e
+
+6 žn
+žn 	Push [A-Za-z]
+
+6 žp
+žp 	Push [Z-A]
+
+6 žm
+žm 	Push [9-0]
+
+6 ÅN
+ÅN 	a 	Next prime. Lowest prime greater than a
+
+5 žd
+žd 	Push current microseconds
+
+5 žĆ
+žĆ 	Push the 05AB1E codepage.
+
+5 žR
+žR 	Push "ABC"
+
+5 žz
+žz 	Push 256
+
+5 žB
+žB 	Push 1024
+
+4 žI
+žI 	Push 2147483648
+
+4 žY
+žY 	Push "https://"
+
+4 Å¼
+Å¼ 	a 	Tangent. Push tan(a)
+
+4 ÅÈ
+ÅÈ 	a 	Produces a list of all non-negative even numbers lower or equal to a
+
+4 .¢
+.¢ 	a,b 	Count the occurrences of b in a without vectorizing.
+
+4 .v
+.v 	a 	Convert from roman numeral string to integer (reverse of .X)
+
+3 Åβ
+Åβ 	a,b 	Push a converted from custom base b
+
+3 žZ
+žZ 	Push "http://www."
+
+3 .b
+.b 	a 	Letteriquify a. Push letterified(a)
+
+3 žD
+žD 	Push 4096
+
+3 žw
+žw 	Push 32
+
+3 ži
+ži 	Push [a-zA-Z]
+
+3 .i
+.i 	a,b 	Check whether b occurs in a, used for infinite lists that are guaranteed to be non-decreasing.
+
+3 .Þ
+.Þ 	a 	Cycle the last element, yielding an infinite list.
+
+3 žW
+žW 	Push qwertyuiopasdfghjklzxcvbnm
+
+3 Å|
+Å| 	a 	Produces the columns of a matrix a
+
+3 Å«
+Å« 	a 	Cumulative reduce right. Usage: Å« CODE }
+
+3 žS
+žS 	Push qwertyuiop
+
+3 .Ø
+.Ø 	a 	0-based index of the greatest prime less than or equal to a
+
+3 .¼
+.¼ 	- 	Decrement the counter variable. counter_variable -= 1
+
+3 žA
+žA 	Push 512
+
+3 .µ
+.µ 	- 	Reset the counter variable to 0. counter_variable = 0
+
+2 žÁ
+žÁ 	Push aeiouyAEIOUY
+
+2 žF
+žF 	Push 16384
+
+2 žX
+žX 	Push "http://"
+
+2 .k
+.k 	a,b 	Flat index of b in a
+
+2 žC
+žC 	Push 2048
+
+2 žo
+žo 	Push [Z-Az-a]
+
+2 žÀ
+žÀ 	Push aeiouAEIOU
+
+2 ÅM
+ÅM 	a 	Previous prime. Highest prime less than a
+
+2 ÅU
+ÅU 	a,b 	Computes the ath b-gonal number
+
+2 Å9
+Å9 	a 	Produces a list of 9's with length a
+
+2 ÅG
+ÅG 	a 	Computes a list of all Lucas numbers lower or equal to a
+
+2 žx
+žx 	Push 64
+
+2 Å¾
+Å¾ 	a 	Cosine. Push cos(a)
+
+1 žG
+žG 	Push 32768
+
+1 Å8
+Å8 	a 	Produces a list of 8's with length a
+
+1 .o
+.o 	a,b 	Overlap. Push overlap(b)
+
+1 ÅL
+ÅL 	a,b 	Limit by, return a if a < b else b
+
+1 Å!
+Å! 	a 	Produces a list of all factorials lower or equal than a
+
+1 Å=
+Å= 	a 	Deck shuffle a (e.g. [1, 2, 3, 4, 5, 6, 7] --> [1, 5, 2, 6, 3, 7, 4])
+
+1 Å6
+Å6 	a 	Produces a list of 6's with length a
+
+1 žk
+žk 	Push [z-aZ-A]
+
+1 Åg
+Åg 	a 	Computes the ath Lucas term
+
+1 žT
+žT 	Push asdfghjkl
+
+1 žU
+žU 	Push zxcvbnm
+
+1 .À
+.À 	- 	Rotate stack 1 left
+
+1 Åu
+Åu 	a 	Produces the upper triangular matrix of a
+
+1 Ån
+Ån 	a 	Nearest prime. In case of a tie, the higher prime is pushed
+
+1 Å4
+Å4 	a 	Produces a list of 4's with length a
