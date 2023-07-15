@@ -1,0 +1,497 @@
+165 Œ!
+Œ! 	All permutations of z. May contain duplicates.
+
+134 ŒP
+ŒP 	Powerset of z. May contain duplicates.
+
+122 ØA
+ØA 	Alphabet; yield 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.
+
+91 Œg
+Œg 	Group runs of equal elements. Vectorizes at depth 1.
+
+90 Œp
+Œp 	Cartesian product of z's items.
+
+84 Æf
+Æf 	Compute the array of primes whose product is z.
+
+82 Œu
+Œu 	Upper case.
+
+76 ŒṖ
+ŒṖ 	Partition of z (z must be a list).
+
+74 ØD
+ØD 	Digits; yield '0123456789'.
+
+73 ÆP
+ÆP 	If z is a prime, then 1, else 0 (has the shorter alias Ẓ).
+
+72 Œl
+Œl 	Lower case.
+
+69 Øa
+Øa 	Alphabet; yield 'abcdefghijklmnopqrstuvwxyz'.
+
+63 Œc
+Œc 	Unordered pairs (œc2).
+
+59 ÆḞ
+ÆḞ 	Returns the zth item in the Fibonacci sequence.
+
+57 Æm
+Æm 	Arithmetic mean.
+
+56 ŒD
+ŒD 	Diagonals of a matrix. Starts with the main diagonal.
+
+56 ŒḄ
+ŒḄ 	Bounce; yield z[:-1] + z[::-1]. Does not vectorize.
+
+55 ÆR
+ÆR 	Range; generate all primes between 2 and z.
+
+53 ŒḂ
+ŒḂ 	Check if z is a palindrome. For integers, short for DŒḂ$.
+
+53 Ø.
+Ø. 	Bits; yield [0, 1].
+
+53 œṗ
+œṗ 	Partition y before truthy indices of x.
+
+52 œc
+œc 	Combinations without replacement.
+
+50 œṣ
+œṣ 	Split x around sublists equal to y.
+
+47 œị
+œị 	Element of y at multi-dimensional index x. If x is empty, return y. Otherwise, y is replaced by its element at index x[0] (behaves like ị), x is replaced by x[1:], and the procedure is repeated.
+
+46 œ?
+œ? 	Permutation at index x of the items in y (where y defines the sort order of those items).
+
+45 ŒH
+ŒH 	Split z into two halves with similar length.
+
+45 ŒB
+ŒB 	Bounce; yield z[:-1] + z[::-1]. Vectorizes at depth 1.
+
+41 Œr
+Œr 	Run-length encode. “aab”Œr is [['a', 2], ['b', 1]].
+
+40 ØB
+ØB 	Base digits; yield '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'.
+
+39 ÆD
+ÆD 	Compute the array of z's divisors.
+
+38 ÆE
+ÆE 	Compute the array of exponents of z's prime factorization. Includes zero exponents.
+
+38 ÆḊ
+ÆḊ 	Determinant. For non-square z, computes det(zzT)½; if z is a row vector, this is its norm.
+
+36 œs
+œs 	Split x into y chunks of similar lengths.
+
+35 ÆN
+ÆN 	Generate the zth prime.
+
+33 ŒṪ
+ŒṪ 	Return all multidimensional indices of z that correspond to truthy elements, with depth 0.
+
+33 œ-
+œ- 	Multiset difference.
+
+33 æ.
+æ. 	Dot product of two vectors (real/complex). Right pads the shorter argument with 1.
+
+31 Œs
+Œs 	Swap case.
+
+30 Œṗ
+Œṗ 	Integer partitions of z (ways to sum positive integers to z)
+
+29 Æ²
+Æ² 	If z is a square, then 1, else 0.
+
+29 œp
+œp 	Partition y at truthy indices of x, without keeping the borders.
+
+27 ŒṬ
+ŒṬ 	Return a multidimensional rectangular boolean array with 1s at the indices in z.
+
+26 œṖ
+œṖ 	Partition y at the indices in x.
+
+25 ØẠ
+ØẠ 	Alphabet; yield 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'.
+
+25 Æn
+Æn 	Next; generate the closest prime strictly greater than z.
+
+24 œċ
+œċ 	Combinations with replacement.
+
+24 ÆẸ
+ÆẸ 	Inverse of ÆE.
+
+24 ÆF
+ÆF 	Compute z's prime factorization as [prime, exponent] pairs.
+
+23 Œṙ
+Œṙ 	Run-length decode. Right inverse of Œr.
+
+23 Œɠ
+Œɠ 	Group run lengths. Does not vectorize.
+
+23 ŒR
+ŒR 	List from −abs(z) to abs(z) inclusive (shorthand for Ar@N$).
+
+23 Øc
+Øc 	Vowels; yield 'AEIOUaeiou'.
+
+22 ŒV
+ŒV 	Evaluate Python code z.
+
+21 Ø0
+Ø0 	Zeroes; yield [0, 0].
+
+21 œi
+œi 	Find the first multidimensional index of element y in x. Returns empty list if there are no occurrences.
+
+21 ØP
+ØP 	Pi
+
+21 æl
+æl 	Lowest common multiple (LCM).
+
+20 ØṖ
+ØṖ 	Yield the set of printable ASCII chars.
+
+20 æ*
+æ* 	Matrix power.
+
+20 ŒṘ
+ŒṘ 	Python's string representation.
+
+20 Ø+
+Ø+ 	Signs; yield [1, -1].
+
+20 ŒJ
+ŒJ 	Multidimensional indices of z.
+
+20 œS
+œS 	After sleeping for y seconds, return x.
+
+19 Ø(
+Ø( 	Parentheses; yield '()'.
+
+19 Œ?
+Œ? 	Shortest permutation of items [1,2,...,N] which would yield z via Œ¿.
+
+18 Æ½
+Æ½ 	Compute the integer square root of z.
+
+18 Ø½
+Ø½ 	Yield [1, 2].
+
+17 œ|
+œ| 	Multiset union.
+
+17 œ&
+œ& 	Multiset intersection.
+
+17 Œ¿
+Œ¿ 	Index of permutation z in a lexicographically sorted list of all permutations of z's items.
+
+17 ær
+ær 	Round x to the nearest multiple of 10−y.
+
+17 ÆḌ
+ÆḌ 	Proper divisors.
+
+16 œ^
+œ^ 	Multiset symmetric difference.
+
+16 ÆC
+ÆC 	Count the primes less or equal to z.
+
+16 ØJ
+ØJ 	Yield Jelly's codepage.
+
+15 Ø[
+Ø[ 	Square brackets; yield '[]'.
+
+15 Ær
+Ær 	Find the roots of a polynomial, given a list of coefficients.
+
+15 Œœ
+Œœ 	Odd-even. Same as s2Z. [1, 2, 3, 4] gives [[1, 3], [2, 4]].
+
+15 ŒQ
+ŒQ 	Distinct sieve. (Replace each first occurrence of a value with 1, and all later occurrences with 0.)
+
+14 ØH
+ØH 	Hexadecimal digits; yield '0123456789ABCDEF'.
+
+14 Ø⁷
+Ø⁷ 	Yield 128 (27).
+
+14 ÆṪ
+ÆṪ 	Totient function.
+
+14 ØW
+ØW 	Word; yield 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_'
+
+14 Æs
+Æs 	Divisor sum.
+
+14 Øẹ
+Øẹ 	Vowels; yield 'aeiou'.
+
+14 Œċ
+Œċ 	Unordered pairs with replacement (œċ2).
+
+14 ŒḊ
+ŒḊ 	Depth.
+
+13 Ø%
+Ø% 	Yield 4294967296 (232).
+
+13 Æṃ
+Æṃ 	Mode. Vectorizes.
+
+13 œṡ
+œṡ 	Split x at the first occurrence of y.
+
+13 Øq
+Øq 	Qwerty; yield ['qwertyuiop', 'asdfghjkl', 'zxcvbnm'].
+
+13 Æi
+Æi 	Separate a number z into [real(z), imag(z)].
+
+13 Æṣ
+Æṣ 	Proper divisor sum.
+
+12 Øy
+Øy 	Vowels; yield 'AEIOUYaeiouy'.
+
+12 Øh
+Øh 	Hexadecimal digits; yield '0123456789abcdef'.
+
+12 œP
+œP 	Partition y at the indices in x, without keeping the borders.
+
+12 Æd
+Æd 	Divisor count.
+
+12 Ø1
+Ø1 	Ones; yield [1, 1].
+
+12 æR
+æR 	Inclusive prime range, from x to y.
+
+12 Ø-
+Ø- 	Signs; yield [-1, 1].
+
+11 æ«
+æ« 	Bit shift; compute x × 2y.
+
+11 Øp
+Øp 	Phi (golden ratio)
+
+11 ØQ
+ØQ 	Qwerty; yield ['QWERTYUIOP', 'ASDFGHJKL', 'ZXCVBNM'].
+
+10 œ!
+œ! 	Permutations without replacement.
+
+10 æ×
+æ× 	Matrix multiplication.
+
+10 Æl
+Æl 	Natural logarithm.
+
+10 œr
+œr 	Trim all elements of y from the right side of x.
+
+9 æ%
+æ% 	Symmetric modulo 2y; map x in the interval (−y, y]. Try 100Ræ%4 to get the hang of it.
+
+9 Æp
+Æp 	Previous; generate the closest prime strictly less than z.
+
+9 Œt
+Œt 	Title case.
+
+9 æḟ
+æḟ 	Floor x to the nearest power of y.
+
+9 æ»
+æ» 	Bit shift; compute x × 2−y. Returns an integer.
+
+8 ŒM
+ŒM 	Return all multidimensional indices of z that correspond to maximal elements.
+
+8 œẹ
+œẹ 	Return the multidimensional indices of all occurrences of y in x.
+
+8 ÆS
+ÆS 	Sine.
+
+8 æc
+æc 	Convolution of x and y.
+
+8 ØY
+ØY 	Consonants; yield 'BCDFGHJKLMNPQRSTVWXZbcdfghjklmnpqrstvwxz'.
+
+8 Æṁ
+Æṁ 	Median. Vectorizes.
+
+8 ŒĠ
+ŒĠ 	Group multidimensional indices by their corresponding values.
+
+7 Œd
+Œd 	Antidiagonals of a matrix. Starts with the main antidiagonal.
+
+7 Æị
+Æị 	Combines the first two elements of a list into a complex number, z[0] + 1j*z[1]. Missing values are replaced with zeroes and extra values are truncated.
+
+6 Ø<
+Ø< 	Angle brackets; yield '<>'.
+
+6 ØḄ
+ØḄ 	Consonants; yield 'bcdfghjklmnpqrstvwxyz'.
+
+6 ŒT
+ŒT 	Format time: Let the last three bits of z be abc. If a is 1, include the time; if b is 1, include the minute; if c is 1, include the second.
+
+6 Æe
+Æe 	Exponential function.
+
+6 æċ
+æċ 	Ceil x to the nearest power of y.
+
+5 Øỵ
+Øỵ 	Vowels; yield 'aeiouy'.
+
+5 ŒḌ
+ŒḌ 	Reconstruct matrix from its diagonals.
+
+5 æi
+æi 	Modular inverse of x, modulo y, or if none exists, 0.
+
+5 Ø^
+Ø^ 	Slashes; yield '/'
+
+5 Æṛ
+Æṛ 	Construct the polynomial with roots z. Returns list of coefficients.
+
+5 ÆẠ
+ÆẠ 	Cosine.
+
+5 Æḍ
+Æḍ 	Proper divisor count.
+
+5 Øv
+Øv 	Yield 'Ṙv'.
+
+4 Æ!
+Æ! 	Convert from integer to factorial base.
+
+4 ÆA
+ÆA 	Arccosine.
+
+4 œl
+œl 	Trim all elements of y from the left side of x.
+
+4 ÆT
+ÆT 	Tangent.
+
+4 Æ¡
+Æ¡ 	Convert from factorial base to integer.
+
+4 Æv
+Æv 	Count distinct prime factors.
+
+4 Ø2
+Ø2 	Twos; yield [2, 2].
+
+3 Ø⁵
+Ø⁵ 	Yield 250 (Jelly's integer compression base).
+
+3 Œb
+Œb 	Like ŒṖ, but returns [[]] for the empty list.
+
+3 æị
+æị 	Combines x and y into a complex number as x + 1j*y.
+
+3 ØC
+ØC 	Consonants; yield 'BCDFGHJKLMNPQRSTVWXYZbcdfghjklmnpqrstvwxyz'.
+
+3 Æṭ
+Æṭ 	Trace.
+
+3 æA
+æA 	Arctangent with two arguments, i.e., atan2().
+
+3 ŒỤ
+ŒỤ 	Grade the multidimensional array z up, i.e., sort its multidimensional indices by their corresponding values.
+
+2 Øė
+Øė 	Vowels; yield 'AEIOU'.
+
+2 ÆṬ
+ÆṬ 	Arctangent.
+
+2 ŒG
+ŒG 	GET request z. http:// is prepended by default.
+
+2 Æc
+Æc 	Carmichael function.
+
+2 ŒĖ
+ŒĖ 	Multidimensional enumerate.
+
+2 ØV
+ØV 	Yield 'ṘV' (a cheat for writing a quine.)
+
+2 Ø{
+Ø{ 	Curly brackets; yield '{}'.
+
+2 Ø°
+Ø° 	Yield 360.
+
+1 ØỴ
+ØỴ 	Consonants; yield 'bcdfghjklmnpqrstvwxz'.
+
+1 æp
+æp 	Precision; round x to y significant figures.
+
+1 ØẎ
+ØẎ 	Consonants; yield 'BCDFGHJKLMNPQRSTVWXZ'.
+
+1 Æ¿
+Æ¿ 	Convert from primorial base to integer.
+
+1 Æ°
+Æ° 	Convert z from radians to degrees.
+
+1 ÆĿ
+ÆĿ 	Returns the zth Lucas number
+
+1 œ¿
+œ¿ 	Index of permutation x in a list of all permutations of x's items sorted by their index in y.
+
+1 Øb
+Øb 	Base64 digits; yield 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+
+1 Œḍ
+Œḍ 	Reconstruct matrix from its antidiagonals.
+
+1 æC
+æC 	Convolution power.
