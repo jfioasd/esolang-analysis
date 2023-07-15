@@ -1,0 +1,586 @@
+s = swap; can also be implicit input.
+
+97 sè
+è 	a,b 	Indexing (0-based, modular). Push a[b]
+
+45 s.
+. 	- 	Two char functions
+
+44 sg
+g 	a 	Length of a
+
+43 så
+å 	a,b 	Check if b occurs in a. Push b in a
+
+35 sk
+k 	a,b 	Index of b in a (0-indexed, -1 when not found)
+
+31 sv
+v 	a 	Enumerated map (range loop), variable y, index N (for y in a)
+
+23 s-
+- 	a,b 	Subtraction. Push a - b
+
+23 sm
+m 	a,b 	Exponentiation. Push a ** b
+
+22 s<
+< 	a 	Decrement. Push a - 1
+
+20 sO
+O 	a 	Sum a if a is list, else sum the stack
+
+19 sD
+D 	a 	Duplicate. Push a, a
+
+19 sK
+K 	a,b 	Push a without b's
+
+18 sR
+R 	a 	Reverse. Push a reversed (a[::-1])
+
+16 s}
+} 	- 	Close a single if statement, loop, etc.
+
+16 s}
+} 	- 	Used to close if statements, loops, etc.
+
+16 sS
+S 	a 	Cast a to a list of characters / digits.
+
+16 s/
+/ 	a,b 	Division. Push a / b
+
+15 s«
+« 	a,b 	Merge / Concatenate. Push merged(a,b) if both are lists, else push concatenated(a, b)
+
+15 sÅ
+Å 	- 	Extended math and list commands
+
+15 s¢
+¢ 	a,b 	Count the occurrences of b in a. Push a.count(b)
+
+14 s)
+) 	- 	Wrap total stack to an array
+
+14 s)
+)
+
+14 sÏ
+Ï 	a,b 	Elements of a for which the corresponding element of b is 1
+
+14 sø
+ø 	(a,)b 	Zip. Transpose b if b is list, else interleave a and b (zip(a,b))
+
+14 sJ
+J 	a 	Join (''.join(a)) if a is list, else join the stack (''.join(stack))
+
+14 sθ
+θ 	a 	Last element. Push a[-1]
+
+13 sy
+y 	- 	Push string variable (used in mapping loops)
+
+13 s¦
+¦ 	a 	Tail (remove the first element). Push a[1:]
+
+12 sF
+F 	a 	For-loop in [0 .. a), variable N (for N in range(0, a)). Usage: F CODE }
+
+12 s€
+€ 	- 	Single-function map. Apply the next command to each element in the list.
+
+11 s×
+× 	a,b 	Sequence product. Push a × b (used for strings)
+
+11 s3
+3 	- 	Numeric literal
+
+11 sI
+I 	- 	Push the input
+
+11 sε
+ε 	a 	Map. Apply a piece of code to each element of a. Usage: ε CODE }
+
+10 s"
+" 	- 	Start / End string literal
+
+10 s£
+£ 	a,b 	Head. Push a[0:b]
+
+10 s>
+> 	a 	Increment. Push a + 1
+
+10 s1
+1 	- 	Numeric literal
+
+10 si
+i 	a 	If statement (if true { then }). Usage: CONDITION i CODE }
+
+9 s9 sã
+ã 	(a,)b 	Cartesian power. Push the cartesian product of b.repeat(2) if b is list, else the cartesian product of a.repeat(b)
+
+9 s‚
+‚ 	a,b 	Pair. Push [a, b]
+
+9 sð
+ð 	- 	Push a space character
+
+8 s'
+' 	- 	Character literal (e.g. 'a pushes "a")
+
+8 sÇ
+Ç 	a 	Ord. Push the ASCII value of a
+
+8 s‡
+‡ 	a,b,c 	Transliterate. Push a.transliterate(b -> c)
+
+8 sP
+P 	a 	Product of a if a is list, else product of the stack
+
+8 s®
+® 	- 	Push the last item from register_c
+
+8 sÖ
+Ö 	a,b 	Divisible? Push a % b == 0
+
+8 sN
+N 	- 	Reserved for variables
+
+8 s¨
+¨ 	a 	Pop, remove the last element of a. Push a[0:-1]
+
+8 s∍
+∍ 	a,b 	Extend / shorten a to length b
+
+7 sδ
+δ 	a,b 	Outer Product. Get the next command and apply it double-vectorized.
+
+7 sǝ
+ǝ 	a,b,c 	Replace the element of a at index c with b
+
+7 s2
+2 	- 	Numeric literal
+
+7 s¹
+¹ 	- 	Push the first item from the input history
+
+7 s#
+# 	a 	Break if the top of the stack is truthy (used in infinite loops)
+
+7 s#
+# 	a 	If a contains spaces, split by spaces.
+
+7 s{
+{ 	a 	Sort a. Push sorted(a)
+
+6 s0
+0 	- 	Numeric literal
+
+6 ss
+s 	a,b 	Swap. Push b, a
+
+6 s„
+„ 	- 	2-char string / can also be used for 2 compressed strings
+
+6 sт
+т 	- 	Push 100
+
+6 s_
+_ 	a 	Negative bool. Push 1 is a is 0, else 0 (vectorizes for lists, returns 0 for strings)
+
+6 sË
+Ë 	a 	1 if all elements are equal, 0 otherwise
+
+6 s‰
+‰ 	a,b 	Divmod. Pair the integer part and the remainder of the division of a and b. Push a divmod b
+
+6 sL
+L 	a 	Inclusive range. Push [1 .. a]
+
+6 sô
+ô 	a,b 	Split a in pieces of length b
+
+6 sù
+ù 	a,b 	Keep the elements of a of length b
+
+6 sZ
+Z 	- 	Maximum. Push max(a) without popping
+
+5 sX
+X 	- 	Integer variable
+
+5 sU
+U 	a 	Assign X to a
+
+5 sl
+l 	a 	Lowercase. Push lower_case(a)
+
+5 s…
+… 	- 	3-char string / can also be used for 3 compressed strings
+
+5 sú
+ú 	a,b 	Pad a with b spaces in the front
+
+5 sÂ
+Â 	a 	Bifurcated a. Push a, reversed(a)
+
+5 sý
+ý 	(a),b 	Push b.join(a) if a is a list, else b.join(stack)
+
+5 sª
+ª 	a,b 	Append b to a as a list
+
+5 sc
+c 	a,b 	Number of combinations (i.e. the binomial coefficient). Push a nCr b (i.e. a choose b)
+
+5 sn
+n 	a 	Square a. Push a ** 2
+
+5 sà
+à 	a 	Maximum. Extract greatest element of list
+
+5 sн
+н 	a 	First element. Push a[0]
+
+4 sи
+и 	a,b 	Repeat list a b times (n-repeat)
+
+4 s%
+% 	a,b 	Modulo. Push a % b
+
+4 sß
+ß 	a 	Minimum. Extract smallest element of list
+
+4 s`
+` 	a 	Dump. Push all contents of a onto the stack
+
+4 sŽ
+Ž 	- 	Two-character compressed string
+
+4 s:
+: 	a,b,c 	Infinite replacement. Push a.replace(b, c)
+
+4 sQ
+Q 	a,b 	Equals? Push a == b (bool)
+
+4 sG
+G 	a 	For-loop in [1 .. a), variable N (for N in range(1, a)). Usage: G CODE }
+
+4 s¥
+¥ 	a 	Deltas of a
+
+4 sç
+ç 	a 	Convert a from an ASCII value to its corresponding character (Chr). Push char a
+
+4 so
+o 	a 	Raise 2 to the ath power. Push 2 ** a
+
+4 sW
+W 	- 	Minimum. Push min(a) without popping
+
+4 sd
+d 	a 	1 if a is a non-negative number (a >= 0), 0 otherwise
+
+3 sa
+a 	a 	Alphabetic? Push is_alpha(a)
+
+3 sC
+C 	a 	Convert from binary to integer. Push int(a, 2)
+
+3 sŸ
+Ÿ 	(a,)b 	Inclusive binary range; push [a .. b] if b is not a list, else push [b[0],...,b[1],...,b[n]]
+
+3 sM
+M 	- 	Largest number on the stack
+
+3 s₄
+₄ 	- 	Push 1000. In a recursive environment, push a(n - 4) instead.
+
+3 s8
+8 	- 	Numeric literal
+
+3 s²
+² 	- 	Second item from the input history
+
+3 se
+e 	a,b 	Number of permutations; push a nPr b
+
+3 s÷
+÷ 	a,b 	Integer division. Push a // b
+
+3 s!
+! 	a, 	Factorial of a
+
+3 st
+t 	a 	Square root. Push sqrt(a)
+
+3 s6
+6 	- 	Numeric literal
+
+3 sĀ
+Ā 	a 	Truthify a (Python-style boolean)
+
+3 sŠ
+Š 	a,b,c 	Triple swap. Push c, a, b
+
+3 s4
+4 	- 	Numeric literal
+
+3 sÃ
+Ã 	a,b 	Keep all elements of a that also occur in b (list intersection). Push a.keep(b)
+
+3 sh
+h 	a 	Convert a to hexadecimal. Push hex(a)
+
+3 sf
+f 	a 	List of prime factors of a without counting multiplicities
+
+3 s]
+] 	- 	Close all loops and if statements
+
+3 s]
+] 	- 	End infinite loop
+
+3 sÉ
+É 	a 	Odd? Push a % 2 == 1
+
+3 sp
+p 	a 	Primality checking. Push isPrime(a)
+
+3 s¤
+¤ 	- 	Tail (Get a). Push tail(a)
+
+3 sõ
+õ 	- 	Empty string
+
+3 s©
+© 	- 	Store a in register_c without popping
+
+3 sм
+м 	a,b 	Remove the elements that also occur in b from a (vectorizes)
+
+3 sÆ
+Æ 	a 	Reduce a by subtraction
+
+3 sá
+á 	a 	Letters of a
+
+3 s˜
+˜ 	a 	Deep flatten a
+
+3 sr
+r 	- 	Reverse stack
+
+2 sþ
+þ 	a 	Digits of a
+
+2 s@
+@ 	a,b 	Greater than or equal to. Push a >= b
+
+2 s»
+» 	(a) 	if (a) is a list, join it by newlines, else join stack by newlines
+
+2 sη
+η 	a 	Prefixes of a
+
+2 sš
+š 	a 	Prepend b to a as a list.
+
+2 sÀ
+À 	a 	Rotate a 1 unit left
+
+2 sÄ
+Ä 	a 	Absolute value. Push abs(a)
+
+2 sæ
+æ 	a 	Powerset. Push powerset(a)
+
+2 s¡
+¡ 	a,b 	Split a on b. Push a.split(b)
+
+2 sï
+ï 	a 	Trim decimals. Push int(a)
+
+2 sb
+b 	a 	Convert a to binary
+
+2 sƶ
+ƶ 	a 	Lift a, multiplying each element by its (1-based) index
+
+2 s7
+7 	- 	Numeric literal
+
+2 s·
+· 	a 	Double. Push 2 * a
+
+2 sζ
+ζ 	a,(b) 	Zip a with filler b (standardized to space)
+
+2 s“
+“ 	- 	For compressed strings (normal)
+
+2 sŒ
+Œ 	a 	Sublists / Substrings. Push substrings(a)
+
+2 sÑ
+Ñ 	a 	Divisors. Push divisors(a)
+
+2 sT
+T 	- 	Push 10
+
+2 sq
+q 	- 	Terminates the program
+
+2 s¸
+¸ 	a 	Wrap / Listify. Push [a]
+
+2 s≠
+≠ 	a 	05AB1E falsified a (a != 1)
+
+2 sв
+в 	a,b 	Convert a to base b (arbitrary)
+
+2 sâ
+â 	a,b 	Cartesian product of a and b
+
+2 s~
+~ 	a,b 	Bitwise OR.
+
+2 sí
+í 	a 	Reverse each. Push [reversed(Q) for Q in a] (short for €R)
+
+2 sä
+ä 	a,b 	Slice a into b pieces
+
+2 s;
+; 	a 	Halve. Push a / 2
+
+2 sû
+û 	a 	Palindromize. Push palindromized(a) (e.g. 12345 becomes 123454321, a + a[::-1][1:])
+
+2 sÁ
+Á 	a 	Rotate a 1 unit right
+
+2 s=
+= 	- 	Print last item
+
+2 sì
+ì 	a,b 	Merge b with a if both are lists, else prepend b to a. Push a.prepend(b)
+
+2 sÝ
+Ý 	a 	Inclusive 0-based range. Push [0 .. a]
+
+1 sć
+ć 	a 	Head extract a. Push a[1:], a[0]
+
+1 s‘
+‘ 	- 	For compressed strings (upper)
+
+1 s¾
+¾ 	- 	Counter variable
+
+1 sĆ
+Ć 	a 	Enclose a, append its head to itself. Push a + a[0]
+
+1 s¿
+¿ 	(a,)b 	Greatest common divisor. Push gcd(b) if b is list, else push gcd([b, a])
+
+1 sΘ
+Θ 	a 	05AB1E truthified a (a == 1)
+
+1 s+
++ 	a,b 	Addition. Push a + b
+
+1 s¶
+¶ 	- 	Newline character (
+
+1 s¬
+¬ 	- 	Head (Get a). Push head(a)
+
+1 s•
+• 	- 	Start / End a 1-9 char compressed string
+
+1 s’
+’ 	- 	For compressed strings (no implicit space)
+
+1 sβ
+β 	a,b 	Convert a from base b (arbitrary)
+
+1 sʒ
+ʒ 	a 	Filter a. Keep the elements where the result of the code is 1. Usage: ʒ CODE }
+
+1 s›
+› 	a,b 	Greater than. push a > b
+
+1 sÕ
+Õ 	a 	Totient. Push euler_totient(a)
+
+1 sA
+A 	- 	Lowercase alphabet. Push 'abcdefghijklmnopqrstuvwxyz'
+
+1 sˆ
+ˆ 	a 	Add to global array
+
+1 s^
+^ 	a,b 	Bitwise XOR. Push a ^ b
+
+1 sò
+ò 	a 	Round to the nearest integer. Push round_nearest(a) (bankers rounding)
+
+1 sê
+ê 	a 	Sorted uniquify. Pushsorted_uniquified(a)
+
+1 sÒ
+Ò 	a 	List of prime factors of a, counting multiplicities.
+
+1 s(
+( 	a 	Negative. Push -a
+
+1 s”
+” 	- 	For compressed strings (title)
+
+1 sƒ
+ƒ 	a 	For-loop in [0 .. a], variable N (for N in range(0, a + 1)). Usage: ƒ CODE }
+
+1 s°
+° 	a 	Raise 10 to the ath power. Push 10 ** a
+
+1 sÙ
+Ù 	a 	Deduplicate. Push uniquified a
+
+1 s5
+5 	- 	Numeric literal
+
+1 s9
+9 	- 	Numeric literal
+
+1 sî
+î 	a 	Ceil. Push round_up(a)
+
+1 sλ
+λ 	(a) 	Recursive list generation with base case(s) a (a defaults to 1). Usage: λ<flag?> CODE } --> f(n) = CODE
+
+1 s[
+[ 	- 	Start an infinite loop
+
+1 së
+ë 	- 	Else statement
+
+1 sΩ
+Ω 	a 	Random choice. Push a random element of a
+
+1 sü
+ü 	- 	Pairwise command (vectorizes if the first element is a list)
+
+1 sÓ
+Ó 	a 	List of exponents of a's prime factorization (2^a, 3^b, 5^c, 7^d, etc.)
+
+1 su
+u 	a 	Uppercase. Push upper_case(a)
+
+1 sx
+x 	a 	a and itself doubled. Push a, 2a
+
+1 s¯
+¯ 	- 	Global array
