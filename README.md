@@ -1,5 +1,5 @@
 # esolang-analysis
-1-byte command order for several esolangs used on CGCC.
+This repository holds the 1-byte and 2-byte command frequencies for several esolangs used on CGCC.
 
 ## An interesting observation
 Jelly has a total of 380 builtins that are ever used on CGCC (1 or 2 bytes). 05AB1E has 415 builtins actually used in total (because there are a few random builtins for specific purposes).
