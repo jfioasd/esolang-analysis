@@ -14,6 +14,8 @@ P. S. Vyxal uses range encoding, and Nibbles uses an approximation to range enco
 
 Also, if it's possible to train a neural network to insert the highly common builtins at the correct positions (so that they don't have to be written explicitly), that would be a great advantage. Neural networks can be quite accurate. ;P
 
+P. P. S. Though the commands are very common, their digraph combinations are highly specific (since they often pair with a lot of different builtins).
+
 ## Defining a core set of builtins & semantics
 Even though the encoding space is enlarged, it's useless if the builtins encoded inside aren't general / useful builtins that can combine easily to form a lot of programs. Therefore, the actual choices of the builtins provided in the language needs to be worked on as well.
 
