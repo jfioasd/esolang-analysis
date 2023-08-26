@@ -1,2123 +1,2191 @@
-3927581 
-3753743 ,
-2893393 (
-2893393 )
-2604162 .
-1562034 =
-1151620 :
-971279 self
-585121 [
-585121 ]
-361235 def
-327002         
-324521 0
-297772 1
-262782             
-216027 if
-183759 return
-151986 None
-146486 2
-135983 -
+4293982 
+4035131 ,
+3074778 (
+3074778 )
+2730918 .
+1685273 =
+1211649 :
+1005856 self
+649480 [
+649480 ]
+381485 def
+360062 0
+349513         
+337002 1
+274977             
+229042 if
+194214 return
+166389 2
+164424 -
+159715 None
+151218 np
+142031 x
 130903 torch
-124784 ==
-123016 in
-118621     
-118616 x
-117138                 
-116195 np
-116064 import
-115192 assertEqual
- 99374 assert
- 93339 for
- 88263 3
- 83704 True
- 82824 +
- 77571 4
- 75753 *
- 74815 @
- 73716 dtype
- 70663 not
- 70331 from
- 66966 a
- 66614 False
- 65250 {
- 65250 }
- 64529 name
- 63757 class
- 63589 else
- 59488 with
- 55945 result
- 55107 i
- 54012 is
- 46264 5
- 46128 f
- 45142 y
- 43585 len
- 43196 space
- 41025 args
- 40878 expected
- 38480 value
- 37485 b
- 37388 s
- 37108 raise
- 36506                     
- 36245 str
- 35841 as
+130414 ==
+130102 in
+126677     
+121391 import
+120956                 
+115210 assertEqual
+101317 assert
+ 98889 for
+ 98745 3
+ 95336 +
+ 92559 *
+ 87468 True
+ 83643 4
+ 80488 dtype
+ 78358 @
+ 75599 a
+ 74042 not
+ 73828 from
+ 70675 False
+ 67597 else
+ 66863 {
+ 66863 }
+ 66100 class
+ 66006 name
+ 62042 with
+ 59111 i
+ 57273 result
+ 56704 is
+ 51684 5
+ 51591 y
+ 48886 f
+ 45722 len
+ 43821 b
+ 43682 args
+ 43215 space
+ 42779 expected
+ 40495 raise
+ 39712 s
+ 38801 value
+ 38633 data
+ 38490 10
+ 37714 as
+ 37559                     
+ 37125 **
+ 36709 str
+ 36100 n
+ 35281 os
  35217 device
- 34778 10
- 34603 data
- 34574 os
- 32143 and
- 31932 **
- 30348 isinstance
- 29945 path
- 29521 X
- 29348 index
- 29198 append
- 29175 %
- 28688 pytest
- 26994 c
- 26758 int
- 26619 res
- 26598 n
- 26566 ValueError
- 25296 array
- 25124 try
- 25115 model
- 24952 msg
- 24923 op
+ 33643 and
+ 32639 pytest
+ 32244 array
+ 31881 c
+ 31361 ValueError
+ 31182 isinstance
+ 30810 X
+ 30797 res
+ 30554 path
+ 30323 append
+ 30291 %
+ 29975 shape
+ 29666 index
+ 28333 p
+ 27724 int
+ 26615 t
+ 26416 range
+ 26230 elif
+ 25845 msg
+ 25836 d
+ 25728 try
+ 25571 __init__
+ 25480 kwargs
+ 25248 m
+ 25163 model
+ 24968 op
+ 24719 df
  24696 assertRaises
- 24640 kwargs
- 24624 elif
- 24579 __init__
- 24528 shape
- 24394 range
- 24012 t
- 23995 p
+ 24223 sys
  23941 165
- 23867 df
- 23865 d
- 23834 sys
- 22963 89
- 21902 tm
- 21758 m
- 21629 except
- 21181 list
- 20303 TypeError
- 20188 obj
- 19724 size
- 19314 nn
- 19204 type
- 18996 unittest
- 18444 cls
- 18226 pass
- 18176 6
- 17881 utf-8
- 17840 #
- 17666 tf
- 17632 ->
- 17327 key
- 17165 or
- 16969 r
- 16814 ''
- 16589 e
+ 22975 89
+ 22371 size
+ 22207 except
+ 21921 tm
+ 21894 list
+ 20882 TypeError
+ 20797 6
+ 20601 /
+ 20390 obj
+ 19986 type
+ 19487 r
+ 19389 nn
+ 19000 unittest
+ 18890 utf-8
+ 18794 cls
+ 18698 1.0
+ 18510 pass
+ 18468 #
+ 18329 or
+ 18087 8
+ 17975 v
+ 17932 !=
+ 17916 axis
+ 17744 random
+ 17743 ->
+ 17730 tf
+ 17698 key
+ 17636 +=
+ 17396 e
+ 17237 out
+ 17132 join
+ 17078 ''
+ 16948 input
+ 16928 lambda
  16533 assertTrue
- 16530 join
- 16462 !=
- 16190 +=
- 16176 input
- 16025 lambda
- 15955 8
- 15830 v
- 15716 out
- 15572 node
- 15279 ax
- 15151 test
- 15126 raises
- 14942 1.0
- 14750 func
- 14608 get
- 14479 "a"
- 14413 other
- 14287 random
- 14200 match
- 14192 mark
- 13996 7
- 13993 axis
- 13848 /
- 13491 values
- 13263 <
- 13250 0.0
- 13224 >
- 13180 144
- 13062 module
- 13039 code
- 12829 float
+ 16384 mark
+ 16216 k
+ 16198 raises
+ 16161 func
+ 15927 assert_equal
+ 15922 7
+ 15699 ax
+ 15650 node
+ 15623 A
+ 15506 match
+ 15385 <
+ 15358 0.0
+ 15283 test
+ 15026 other
+ 14999 >
+ 14892 get
+ 14512 "a"
+ 14293 output
+ 14103 values
+ 13916 float
+ 13200 module
+ 13189 144
+ 13112 code
+ 12861 randn
+ 12823 parametrize
  12800 DataFrame
- 12760 output
- 12631 """
+ 12655 """
+ 12650 bool
+ 12588 100
  12574 models
- 12502 randn
+ 12520 copy
  12440 tensor
- 12331 bool
- 12163 object
- 12072 fn
+ 12429 _
+ 12391 g
+ 12295 0.5
+ 12257 fn
+ 12247 object
  11975 '\x02'
- 11858 g
- 11751 143
+ 11909 format
+ 11764 super
+ 11754 143
+ 11711 nan
+ 11704 print
  11652 objects
- 11636 _
- 11529 super
  11461 lltype
- 11438 k
- 11279 copy
- 11266 datetime
- 11255 assert_equal
- 11206 format
- 11195 print
- 11055 text
- 11045 100
- 11043 parametrize
- 10964 |
- 10963 inputs
+ 11302 datetime
+ 11167 text
+ 11147 w
+ 11135 |
+ 10996 inputs
  10891 rffi
+ 10887                         
+ 10837 arg
  10674 Series
- 10619                         
- 10577 parser
- 10465 arg
- 10156 pd
- 10093 nan
- 10092 A
- 10053 check
- 10041 "b"
-  9998 line
-  9978 start
-  9965 set
-  9605 items
-  9556 __name__
-  9472 getattr
-  9455 idx
-  9374 graph
-  9360 0.5
+ 10665 parser
+ 10492 z
+ 10338 check
+ 10324 line
+ 10218 start
+ 10184 pd
+ 10125 set
+ 10063 "b"
+ 10040 numpy
+  9899 getattr
+  9835 idx
+  9821 __name__
+  9752 items
+  9735 <=
+  9588 20
+  9492 graph
+  9486 write
+  9424 l
   9343 rpython
-  9282 write
   9277 loop
+  9243 plt
   9235 keras
-  9176 37
-  9126 w
-  9081 l
-  9057 plt
+  9210 37
+  9184 9
+  9089 dict
+  9079 mode
+  9078 filename
   8997 Tensor
+  8996 arange
+  8986 C
   8931 jit
-  8819 filename
-  8819 target
-  8780 '\n'
-  8708 TestCase
-  8690 dict
-  8670 <=
-  8545 20
-  8515 'a'
+  8911 target
+  8837 '\n'
+  8822 method
+  8818 arr
+  8729 TestCase
+  8694 dim
+  8664 h
+  8661 assert_allclose
+  8638 val
+  8634 'a'
+  8509 ""
   8428 ops
-  8388 C
-  8377 ""
-  8351 arr
-  8267 42
-  8170 close
-  8146 val
-  8098 hasattr
-  8064 dim
-  8024 z
-  8014 9
-  7949 mod
-  7935 assertFalse
-  7864 yield
-  7861 re
-  7861 RuntimeError
-  7828 mode
-  7718 open
-  7634 tuple
-  7627 ones
-  7559 state
+  8415 ones
+  8395 42
+  8313 hasattr
+  8273 sum
+  8252 close
+  8243 j
+  8112 astype
+  8110 tuple
+  8109 RuntimeError
+  8097 rand
+  8057 re
+  8015 yield
+  7975 mod
+  7957 12
+  7938 assertFalse
+  7897 open
+  7785 float32
+  7773 T
+  7729 state
+  7702 mask
+  7548 295
   7539 297
-  7525 295
-  7493 296
-  7459 arange
-  7419 foo
-  7408 columns
-  7344 float32
-  7297 h
-  7272 rand
-  7263 numpy
-  7257 request
-  7209 add
-  7187 12
+  7498 296
+  7430 foo
+  7419 columns
+  7409 >=
+  7339 while
+  7298 add
+  7287 request
+  7286 2.0
   7160 293
-  7140 mask
   7140 requires_grad
-  7134 astype
-  7121 while
-  7025 sum
+  7120 16
+  7096 config
+  7052 time
+  7028 zeros
+  7006 assert_array_equal
+  6976 core
   6940 '\x04'
-  6914 core
-  6911 time
-  6835 errors
+  6914 count
+  6866 errors
+  6808 "A"
   6806 assert_frame_equal
-  6805 "A"
+  6779 loc
   6774 assertRaisesRegex
-  6737 j
-  6725 ffi
-  6701 config
-  6694 support
-  6678 >=
-  6672 count
+  6750 support
+  6741 ffi
+  6673 default
+  6661 all
   6637 265
-  6636 16
+  6628 del
   6589 django
-  6574 default
-  6512 file
-  6488 repr
-  6473 del
-  6445 item
-  6434 lib
-  6427 mock
+  6576 file
+  6571 repr
+  6558 fit
+  6555 item
+  6539 info
+  6485 dt
+  6458 lib
+  6441 mock
+  6402 N
+  6400 st
   6360 assertIs
-  6353 st
+  6328 assert_
+  6325 rtol
   6309 socket
-  6232 fit
   6231 pandas
-  6186 encoding
-  6183 utils
-  6163 context
-  6099 List
-  6083 cast
+  6228 q
+  6215 split
+  6212 continue
+  6210 encoding
+  6196 utils
+  6172 context
+  6162 atol
+  6113 names
+  6107 exp
+  6104 List
+  6097 cast
+  6095 response
+  6092 max
   6078 Module
-  6063 method
-  6060 response
-  6058 create
-  6055 split
-  6023 T
-  6009 names
-  5991 continue
-  5951 source
-  5934 all
-  5922 base
-  5912 2.0
-  5910 offset
-  5882 ctx
-  5852 dt
-  5844 root
-  5831 'N'
-  5785 forward
-  5777 loc
-  5765 read
-  5732 gc
-  5697 group
-  5690 flags
-  5675 freq
-  5645 err
-  5567 info
+  6064 create
+  6062 offset
+  6042 root
+  6038 base
+  6010 source
+  5990 warnings
+  5916 rng
+  5911 read
+  5909 ctx
+  5869 B
+  5867 0.1
+  5854 'N'
+  5841 err
+  5838 forward
+  5825 flags
+  5796 group
+  5774 gc
+  5730 freq
+  5648 params
+  5615 random_state
+  5597 11
+  5583 fig
+  5566 S
+  5564 id
   5552 assertIn
   5539 layers
-  5514 fig
-  5498 id
-  5472 assert_array_equal
-  5432 pos
-  5427 end
-  5421 zeros
-  5361 max
-  5356 'b'
-  5356 warnings
+  5536 end
+  5535 pos
+  5492 assert_raises
+  5482 ...
+  5475 &
+  5460 scale
+  5448 kind
+  5440 'b'
+  5435 message
+  5423 zip
+  5375 o
+  5339 field
   5316 ser
-  5297 o
-  5269 eq
-  5264 Optional
-  5253 field
-  5248 backend
-  5198 keys
-  5198 ...
-  5189 compile
-  5158 S
-  5149 params
-  5144 buf
-  5144 exp
-  5138 grad
-  5135 error
-  5088 math
-  5087 32
-  5073 exc
-  5068 weight
-  5054 kind
-  5024 11
-  4995 &
-  4984 finally
-  4944 dtypes
-  4930 "c"
-  4913 property
+  5307 stats
+  5298 backend
+  5288 keys
+  5282 grad
+  5281 32
+  5280 eq
+  5273 alpha
+  5269 Optional
+  5240 compile
+  5227 math
+  5204 error
+  5198 u
+  5149 buf
+  5123 1.
+  5117 weight
+  5116 exc
+  5098 log
+  5096 break
+  5086 200
+  5071 dtypes
+  5069 options
+  5064 property
+  5051 30
+  5034 finally
+  5026 rank
+  5005 M
+  4974 "c"
+  4935 engine
   4910 layer
-  4885 zip
-  4881 frame
-  4866 batch_size
-  4860 rank
-  4839 break
-  4820 0.1
-  4804 146
+  4889 Exception
+  4885 frame
+  4882 batch_size
+  4849 param
+  4849 reshape
+  4831 testing
+  4821 startswith
+  4808 146
+  4806 lines
+  4806 assert_array_almost_equal
+  4805 F
+  4793 encode
   4772 workspace
-  4761 200
-  4760 encode
-  4720 lines
-  4712 engine
+  4766 inf
+  4708 inp
   4704 net
-  4696 startswith
-  4677 Exception
-  4674 inp
+  4671 bias
   4670 to
-  4667 "B"
+  4670 "B"
   4664 cpu
-  4635 random_state
-  4628 F
-  4603 "foo"
+  4652 50
+  4648 60
+  4627 actual
+  4623 next
+  4618 "foo"
+  4618 replace
   4585 assert_series_equal
-  4579 next
-  4578 param
-  4566 bias
-  4532 ast
-  4519 30
-  4519 assert_
-  4511 replace
-  4493 stdout
-  4482 prefix
-  4479 rng
+  4581 ndim
+  4555 ast
+  4533 stdout
+  4532 run
+  4532 left
+  4507 prefix
+  4504 15
+  4488 length
+  4482 dist
+  4480 indices
   4468 179
-  4462 60
   4457 client
-  4420 actual
-  4404 run
-  4395 left
-  4387 length
-  4380 log
-  4380 testing
-  4378 main
+  4442 main
+  4428 enumerate
+  4426 types
+  4416 pop
+  4411 1000
+  4409 mean
+  4403 min
   4358 Index
-  4349 q
-  4320 mc
-  4306 options
-  4295 message
-  4294 'foo'
-  4286 pop
-  4286 B
-  4263 Model
-  4202 attr
-  4163 io
-  4150 scale
-  4149 enumerate
-  4145 types
-  4133 label
-  4130 Any
-  4121 88
-  4117 N
-  4091 'L'
-  4079 alpha
+  4327 mc
+  4318 'foo'
+  4284 Model
+  4274 attr
+  4253 io
+  4250 seed
+  4203 label
+  4188 filter
+  4185 NotImplementedError
+  4165 n_samples
+  4161 skip
+  4144 88
+  4141 Any
+  4117 platform
+  4109 'L'
+  4108 float64
+  4075 loss
   4074 cuda
-  4061 reshape
-  4054 50
+  4072 decode
+  4072 assert_almost_equal
+  4067 AttributeError
+  4055 fp
   4049 assertIsInstance
-  4039 15
-  4033 decode
-  4033 loss
-  4032 platform
-  4012 NotImplementedError
-  3996 133
-  3993 skip
-  3988 n_samples
+  4049 right
+  4023 //
+  4001 133
+  3989 fd
+  3981 call
+  3975 order
   3974 aten
   3966 Timestamp
-  3960 fd
-  3947 call
+  3948 empty
   3940 sock
-  3930 codecs
-  3921 right
-  3896 OSError
+  3934 codecs
+  3917 OSError
+  3909 stderr
+  3905 spec
   3892 clone
-  3887 min
-  3871 indices
-  3865 connection
-  3865 fp
-  3862 spec
-  3859 stderr
-  3858 outputs
-  3854 u
+  3892 abs
+  3884 v1
+  3874 outputs
+  3871 connection
+  3869 update
+  3864 verbose
+  3863 ret
   3853 214
-  3847 AttributeError
-  3824 "x"
-  3807 1000
-  3793 filter
+  3841 "x"
+  3802 3.0
+  3798 0.
+  3791 parent
+  3782 operator
+  3779 view
   3775 sample_weight
-  3752 parent
-  3743 v1
-  3741 view
-  3732 Decimal
-  3728 lineno
-  3714 tz
-  3706 staticmethod
-  3692 operator
-  3682 update
-  3654 KeyError
-  3646 event
-  3644 __class__
-  3642 verbose
+  3771 __class__
+  3754 Decimal
+  3749 staticmethod
+  3745 lineno
+  3742 KeyError
+  3734 tz
+  3717 pi
+  3699 P
+  3686 axes
+  3670 event
+  3670 step
+  3656 D
+  3646 ref
   3639 pypy
-  3629 ndim
-  3621 stride
-  3620 //
-  3613 ret
-  3604 dist
+  3637 'x'
+  3630 stride
+  3614 version
+  3609 int64
+  3595 extend
+  3587 width
+  3579 level
+  3579 results
+  3568 pickle
+  3561 asarray
   3559 os_helper
-  3554 float64
-  3550 level
-  3532 version
-  3531 string
+  3549 180
+  3541 classmethod
+  3534 string
+  3532 Dict
   3531 proto
-  3525 Dict
-  3508 extend
-  3507 step
-  3502 pickle
-  3500 mean
-  3498 180
-  3493 102
-  3488 M
-  3484 db
-  3483 'x'
-  3482 fields
-  3480 src
-  3472 width
+  3530 norm
+  3527 cmd
+  3525 src
+  3516 102
+  3505 db
+  3500 Y
+  3485 fields
+  3481 ndarray
   3470 hop
-  3467 classmethod
-  3466 cmd
-  3457 assert_raises
-  3449 atol
-  3448 results
-  3446 int64
+  3469 var
+  3438 subprocess
+  3430 ns
   3400 cm
-  3381 empty
-  3367 P
-  3367 bytes
-  3366 py
+  3376 py
+  3372 bytes
   3360 clf
-  3360 ns
-  3356 subprocess
+  3343 x1
   3335 '\x06'
-  3323 patch
-  3283 3.0
+  3327 patch
+  3310 t1
   3277 TESTFN
   3269 w_obj
+  3267 74
+  3264 <<
+  3258 weights
   3255 script
-  3253 74
-  3249 <<
-  3231 ref
-  3212 modules
-  3205 block
-  3201 Y
-  3177 opt
-  3157 logging
-  3154 environ
-  3153 var
-  3144 new
-  3137 ndarray
-  3132 Tuple
-  3127 94
-  3110 util
-  3101 y_true
-  3084 integers
-  3077 s1
-  3069 ord
-  3066 t1
-  3056 axes
-  3053 D
+  3251 new
+  3249 s1
+  3239 block
+  3234 modules
+  3217 logging
+  3216 opt
+  3204 lower
+  3198 environ
+  3157 'c'
+  3153 ord
+  3151 sort
+  3143 Tuple
+  3142 y_true
+  3137 integers
+  3131 94
+  3125 stream
+  3122 util
+  3108 row
+  3107 warn
+  3097 'name'
+  3090 sample
   3045 rtyper
+  3037 action
+  3034 typing
   3032 compat
-  3031 'name'
-  3017 'c'
-  3016 seed
+  3010 transform
+  3008 _C
+  3008                             
+  3007 128
   3006 skipIf
-  3005 action
   3004 sklearn
-  3003 _C
-  2990 timeout
-  2985 typing
-  2963 transform
-  2947 128
+  3004 timeout
+  2976 matplotlib
+  2976 help
+  2949 num
+  2948 url
+  2945 signal
+  2942 labels
   2941 asyncio
-  2941 order
   2939 y_pred
-  2938                             
+  2939 it
+  2938 evaluate
+  2937 buffer
+  2933 partial
   2930 addr
+  2927 iter
   2926 rlib
-  2924 rtol
-  2918 url
-  2918 loader
-  2918 buffer
-  2914 matplotlib
-  2913 stream
-  2907 evaluate
-  2904 help
-  2901 it
+  2922 loader
+  2921 ts
+  2904 decimal
+  2902 BytesIO
+  2895 13
   2871 setUp
-  2868 partial
-  2853 iter
-  2850 lst
-  2840 elem
-  2834 sort
-  2825 ts
-  2821 62
-  2819 padding
-  2816 BytesIO
-  2783 assert_allclose
-  2776 weights
-  2768 x1
-  2764 title
-  2763 inspect
+  2857 64
+  2856 lst
+  2855 any
+  2853 elem
+  2852 inspect
+  2852 plot
+  2850 -=
+  2843 62
+  2843 int32
+  2834 title
+  2831 padding
+  2830 optimizer
+  2825 fmt
+  2816 strip
+  2790 kernel
+  2786 0.2
+  2782 env
+  2766 doc
+  2758 stack
   2755 closed
-  2753 env
-  2742 fmt
-  2741 plot
+  2754 sorted
+  2746 input_shape
+  2741 wrap
   2739 assertIsNone
-  2739 stack
-  2733 input_shape
-  2732 lower
-  2731 64
-  2724 token
-  2722 1.
-  2721 optimizer
-  2719 wrap
-  2717 assert_almost_equal
-  2714 eval
-  2703 strip
-  2697 doc
-  2696 signal
-  2690 -=
-  2687 add_argument
-  2679 warn
-  2670 groups
-  2657 int32
+  2737 eval
+  2733 groups
+  2731 token
+  2731 add_argument
+  2723 stop
+  2718 map
+  2703 functools
+  2703 dot
+  2697 collections
+  2695 tp
+  2688 __dict__
+  2686 eps
+  2681 pattern
+  2666 color
+  2663 x2
   2653 Signed
   2653 widget
-  2649 fail
-  2649 pattern
-  2647 collections
-  2645 abs
-  2634 stop
-  2629 color
-  2621 functools
-  2609 labels
-  2609 __dict__
+  2653 fail
+  2650 ImportError
+  2631 a1
+  2622 setattr
+  2620 scipy
+  2617 40
+  2617 kwds
+  2616 ' '
+  2615 randint
+  2610 slice
+  2609 31
   2605 _dynamo
-  2603 tp
-  2603 setattr
+  2603 backward
+  2596 1.5
+  2595 StringIO
+  2595 sparse
   2590 periods
-  2587 descr
+  2590 descr
+  2587 s2
   2586 server
-  2585 backward
-  2580 map
-  2578 StringIO
-  2578 num
-  2572 sorted
-  2568 kernel
-  2558 subplots
-  2557 ' '
-  2556 ImportError
-  2552 expr
-  2532 13
-  2522 dir
+  2577 c_int
+  2568 subplots
+  2565 dir
+  2561 expr
+  2561 x0
+  2560 fill_value
+  2554 t2
+  2553 tol
+  2544 complex
+  2537 dirname
+  2520 IndexError
+  2518 kw
+  2511 parse
   2510 assert_index_equal
-  2509 inf
+  2509 getvalue
+  2504 Union
   2502 world_size
-  2501 c_int
-  2493 getvalue
-  2493 Union
-  2490 84
-  2490 31
-  2487 parse
+  2502 84
+  2492 tag
+  2486 AssertionError
   2484 Node
-  2481 randint
+  2482 default_rng
+  2479 __all__
+  2474 struct
+  2473 exists
   2471 async
   2469 ssl
+  2461 body
   2459 MultiIndex
-  2456 t2
-  2454 tag
+  2456 14
   2451 iloc
+  2446 "__main__"
+  2445 "C"
   2444 n_features
-  2436 AssertionError
-  2431 IndexError
   2428 sizeof
   2427 rop
-  2425 "C"
-  2423 "__main__"
-  2416 exists
-  2411 s2
-  2408 any
-  2407 dirname
-  2402 kw
-  2401 body
-  2395 sample
-  2393 row
+  2427 seek
+  2405 fx
+  2403 4.0
+  2397 pk
   2384 estimator
-  2370 debug
+  2375 Path
+  2375 cond
+  2373 debug
   2366 DecorateInfo
+  2362 24
   2360 Linear
-  2355 40
+  2360 '.'
+  2359 'A'
   2354 date_range
-  2354 slice
+  2354 25
   2352 layout
-  2348 decimal
+  2348 callback
+  2348 col
   2344 conn
-  2342 struct
-  2338 seek
-  2335 fill_value
-  2332 'A'
   2331 test_utils
   2328 timedelta
+  2328 itertools
   2327 assertNotEqual
   2323 predict
   2322 "D"
-  2322 '.'
+  2322 linalg
   2317 oefmt
   2316 tk
   2315 369
-  2315 fx
-  2303 Path
-  2294 Foo
-  2288 norm
+  2309 __doc__
+  2307 Foo
+  2287 exception
+  2286 sqrt
   2283 b''
-  2280 exception
+  2276 date
+  2276 fname
   2273 box
-  2272 date
-  2271 pk
-  2241 complex
-  2236 settings
-  2231 24
+  2270 content
+  2255 settings
+  2238 optimize
+  2233 insert
+  2231 Callable
+  2223 gen
   2215 '\x08'
-  2209 0.2
+  2214 double
+  2212 nodes
+  2211 "\n"
+  2206 parameters
   2205 _meta
-  2197 gen
-  2197 Callable
+  2199 query
+  2199 ctypes
   2193 entry
   2191 metrics
   2190 interp2app
-  2186 fname
+  2187 loads
   2183 operations
-  2183 itertools
+  2183 reason
+  2178 case
   2177 "cuda"
   2176 test_combinations
-  2168 loads
+  2173 first
+  2172 hash
   2166 'No'
-  2166 first
-  2164 content
-  2159 parameters
-  2157 hash
-  2154 insert
-  2148 nodes
-  2140 "\n"
-  2137 '0'
-  2130 kwds
-  2129 float16
-  2125 query
+  2163 float16
+  2161 attrs
+  2161 setup
+  2154 header
+  2152 '0'
+  2146 __repr__
+  2146 256
+  2145 strides
+  2130 opts
   2123 178
-  2122 attrs
-  2122 x2
   2120 'abc'
+  2120 __file__
   2119 handle
+  2118 sep
   2116 addCleanup
-  2115 cond
-  2113 strides
-  2112 default_rng
-  2109 pi
-  2108 asarray
-  2106 sep
+  2116 tests
+  2111 dst
   2105 subTest
-  2104 __repr__
-  2081 inplace
-  2080 0.
-  2066 header
-  2064 register
-  2063 sub
-  2060 assert_array_almost_equal
-  2059 tests
-  2059 14
-  2056 headers
-  2055 errno
+  2097 sub
+  2094 strategy
+  2094 xfail
+  2092 inplace
+  2092 vals
+  2082 sin
+  2082 linspace
+  2076 headers
+  2068 register
+  2066 where
+  2058 errno
   2055 python
-  2051 256
-  2044 strategy
+  2055 1024
+  2053 argv
+  2048 cache
+  2046 batch
+  2044 trace
   2043 bfloat16
   2038 CharField
   2032 # %%
-  2032 25
-  2029 dst
-  2023 argv
-  2018 191
-  2016 callback
-  2016 children
+  2029 dumps
+  2027 children
+  2023 191
+  2020 remove
   2015 llmemory
-  2015 reason
-  2012 dumps
-  2002 cache
-  2000 trace
-  1999 sparse
-  1999 1024
-  1996 instance
-  1994 __file__
+  2015 c1
+  2014 d1
+  2004 app
+  2003 'd'
+  2002 instance
+  2000 status
+  1998 record
+  1995 stat
+  1993 '1'
   1991 skipUnless
-  1991 xfail
-  1990 remove
+  1988 clear
   1987 user
-  1986 opts
-  1982 app
-  1982 clear
-  1978 a1
-  1975 store
-  1969 '1'
-  1969 "d"
-  1966 __doc__
-  1961 df2
-  1959 ctypes
+  1985 ;
+  1978 store
+  1978 df2
+  1976 char
+  1974 "d"
+  1974 beta
+  1972 storage
+  1967 f1
+  1957 seq
   1955 groupby
-  1949 storage
-  1947 batch
-  1942 d1
-  1941 double
+  1954 p1
+  1948 63
+  1946 123
+  1941 expect
   1937 port
-  1933 ;
+  1934 OverflowError
   1932 "bar"
   1932 cat
-  1925 max_length
-  1924 OverflowError
-  1919 eps
+  1928 max_length
+  1925 select
+  1918 0.01
+  1915 v2
+  1915 5.0
   1912 child
-  1912 4.0
-  1910 case
-  1909 1.5
-  1906 63
-  1902 __all__
-  1901 where
+  1911 dataset
+  1910 logger
+  1909 tempfile
+  1907 L
+  1899 wait
+  1899 pack
   1898 assertNotIn
   1892 bytearray
-  1892 wait
-  1889 pack
+  1891 threading
   1888 opname
   1888 functional
-  1882 tempfile
-  1880 record
-  1876 logger
-  1875 stat
+  1879 figure
   1875 fut
-  1874 setup
+  1873 2.
   1870 constant
-  1868 threading
-  1860 select
-  1856 123
-  1855 c1
+  1868 endswith
+  1864 height
+  1863 table
+  1857 std
+  1856 signature
+  1855 reverse
+  1852 init
   1849 await
-  1849 figure
+  1849 41
+  1845 function
   1843 4160
-  1841 height
+  1840 ext
   1838 hu
-  1834 seq
-  1832 endswith
-  1829 reverse
+  1834 bar
   1829 _internal
-  1826 bar
+  1825 0.3
   1824 newtext
-  1814 char
-  1812 init
-  1808 raw
-  1802 41
+  1817 raw
+  1813 ss
+  1809 qs
+  1804 n_components
+  1798 "y"
+  1796 fun
+  1795 'i'
+  1794 17
   1792 interpret
-  1792 "y"
-  1790 n_components
-  1789 ss
-  1786 expect
-  1784 signature
+  1789 __new__
   1784 given
-  1781 v2
-  1776 qs
+  1784 1j
+  1779 dedent
+  1776 Z
   1774 td
+  1774 abc
   1771 save
-  1760 dedent
+  1771 DeprecationWarning
+  1764 wrapper
+  1764 err_msg
+  1763 ao
+  1762 lr
+  1762 metric
   1760 caffe2
-  1759 abc
-  1755 ao
+  1757 policy
   1753 assert_numpy_array_equal
-  1753 policy
   1749 categories
-  1747 lr
-  1743 'bar'
-  1743 wrapper
-  1739 __new__
+  1748 'bar'
+  1746 ptr
+  1746 issubclass
+  1743 address
+  1742 tb
+  1741 '__main__'
   1738 handler
-  1737 address
   1737 training
-  1733 ptr
-  1729 metadata
-  1728 unlink
+  1736 unlink
+  1733 metadata
+  1732 kernel_size
+  1726 readline
   1724 execute
   1723 _status
   1721 extra
-  1721 issubclass
-  1719 'i'
-  1718 std
+  1720 y1
   1715 INT
-  1708 readline
-  1707 kernel_size
-  1706 p1
-  1706 L
-  1704 function
-  1702 'd'
+  1712 c2
+  1708 solver
   1700 intmask
-  1697 col
-  1686 tol
-  1684 gm
+  1696 typ
+  1690 gm
   1682 host
+  1682 23
   1681 resp
+  1681 ma
+  1677 axs
+  1677 bounds
+  1675 events
+  1674 'f'
   1672 editor
-  1672 '__main__'
   1666 mpl
   1662 NaT
   1661 assertRaisesMessage
-  1656 table
-  1656 0.01
-  1654 axs
-  1651 vals
+  1661 'utf-8'
+  1658 ~
+  1653 'y'
+  1653 counter
   1650 chr
-  1646 optimize
+  1647 isnan
   1644 schema
   1643 malloc
-  1636 f1
-  1632 'utf-8'
-  1629 'y'
+  1643 dc
+  1640 POINTER
+  1634 reader
+  1634 form
+  1633 tr
+  1633 delta
+  1631 apply
+  1630 executable
   1627 device_type
-  1626 17
-  1625 counter
+  1627 f2
   1623 relu
   1620 '\x05'
-  1620 reader
-  1618 5.0
-  1613 tb
-  1612 executable
-  1609 urllib
-  1607 status
-  1603 events
+  1617 urllib
+  1616 run_test
   1600 translator
-  1600 apply
   1598 633
-  1597 form
-  1594 ext
-  1593 POINTER
-  1593 dataset
-  1588 typ
-  1587 '/'
+  1595 W
+  1590 '/'
   1585 TO
+  1585 tree
+  1581 "w"
   1580 transport
-  1578 23
-  1578 run_test
-  1575 dc
-  1571 unit
-  1568 ch
+  1580 transpose
+  1578 unit
+  1578 files
+  1578 'w'
+  1577 maxsize
+  1572 ch
+  1571 'r'
+  1569 tmp
+  1567 upper
+  1566 option
   1565 assertAllClose
   1565 interpreter
   1564 Categorical
-  1563 "w"
-  1560 option
-  1558 maxsize
-  1556 tr
-  1551 indent
+  1563 indent
+  1562 r1
+  1561 con
+  1559 const
+  1557 exc_info
+  1555 load
+  1552 special
   1550 example_inputs
+  1549 b1
   1547 632
-  1538 c2
+  1547 interp
+  1543 est
+  1541 ravel
   1538 distributed
   1535 newint
-  1532 const
+  1535 shutil
+  1533 parts
+  1532 pad
+  1531 constraints
+  1530 req
+  1530 arrays
   1528 style
-  1526 W
+  1526 low
   1525 posix
-  1524 'f'
-  1522 files
-  1521 DeprecationWarning
-  1521 metric
-  1517 req
-  1513 load
-  1512 630
+  1523 36
+  1522 38
+  1520 "1"
+  1516 630
+  1511 a2
+  1510 conv
   1507 Author
   1507 canvas
-  1505 est
-  1505 sin
-  1505 pad
-  1501 shutil
-  1500 'r'
+  1505 standard_normal
+  1505 *=
+  1504 textwrap
+  1503 writer
+  1500 weakref
+  1500 category
   1499 Ptr
-  1498 tree
-  1498 writer
-  1495 'w'
-  1495 parts
-  1495 conv
+  1499 __str__
+  1499 ind
+  1498 year
+  1497 >>
+  1497 __getitem__
+  1497 repeat
   1494 memoryview
-  1494 weakref
-  1492 38
+  1493 dims
   1492 fileno
-  1490 year
-  1486 >>
-  1485 linalg
-  1484 "1"
+  1492 p2
+  1492 high
   1482 Timedelta
-  1481 textwrap
   1481 CreateOperator
+  1480 tmpdir
+  1480 itemsize
   1477 state_dict
   1476 dilation
-  1475 __str__
-  1467 upper
-  1465 36
-  1462 141
-  1462 dest
-  1460 scope
+  1473 scope
+  1471 cf
+  1467 dest
+  1466 141
+  1464 helper
+  1464 NotImplemented
+  1461 pyplot
   1459 called
-  1456 exc_info
-  1455 cf
-  1455 helper
+  1456 meta
+  1455 klass
+  1455 codes
   1454 tzinfo
   1453 Interval
-  1451 __getitem__
-  1449 _index
-  1448 con
-  1445 klass
+  1452 _index
+  1450 limit
+  1450 m1
+  1448 real
+  1446 delete
   1445 "X"
+  1444 indexer
   1442 run_until_complete
+  1441 round
+  1439 distutils
+  1438 0.25
   1437 Mock
-  1433 codes
-  1432 y1
+  1437 '-'
+  1437 max_iter
+  1437 cos
   1430 metainterp
   1429 email
   1429 suite
+  1429 "name"
   1428 Error
-  1428 indexer
-  1428 f2
-  1427 standard_normal
-  1424 err_msg
+  1427 unique
   1423 w_value
-  1423 pyplot
-  1416 tmpdir
-  1413 '-'
-  1413 0.3
-  1410 itemsize
+  1419 d2
+  1413 suffix
+  1410 m2
   1409 override_settings
-  1409 max_iter
-  1409 "name"
-  1406 NotImplemented
-  1405 delta
+  1409 201
+  1405 0.9
   1404 "cpu"
+  1404 desired
   1403 Input
-  1403 dot
-  1403 meta
-  1400 201
   1399 tgt
   1399 tensors
   1396 app_label
+  1396 levels
   1395 annotate
+  1395 find
+  1395 pow
+  1395 21
   1391 cursor
   1390 w_node
   1388 checkequal
-  1388 delete
-  1386 interp
-  1383 arrays
-  1381 limit
-  1381 suffix
+  1384 domain
+  1381 flush
   1380 'Ll'
-  1380 a2
-  1379 dims
-  1371 return_value
+  1379 Parameter
+  1377 return_value
+  1377 255
+  1375 ax1
+  1375 10000
+  1373 search
+  1372 compiler
+  1371 assertAlmostEqual
+  1371 gamma
+  1370 offsets
+  1368 RandomState
   1367 y_train
   1367 memory_format
-  1366 find
-  1365 round
-  1363 levels
-  1360 d2
+  1365 202
+  1364 traceback
+  1363 half
+  1363 rv
+  1362 product
   1359 reduction
-  1358 202
-  1358 transpose
-  1357 255
   1357 symbolic_helper
-  1356 repeat
-  1355 ~
+  1356 escape
+  1356 meth
   1354 arglocs
   1354 tkinter
-  1353 flush
-  1353 search
-  1351 ax1
-  1351 Parameter
-  1350 half
   1350 zero_point
+  1350 diff
+  1349 ex
+  1348 uint8
   1347 timezone
   1345 627
-  1344 assertAlmostEqual
-  1343 compiler
-  1343 category
-  1343 traceback
-  1334 escape
+  1342 globals
+  1342 contextlib
+  1335 lock
+  1335 28
+  1334 deepcopy
   1333 7202
+  1333 "left"
   1332 FutureWarning
   1329 ipaddress
   1329 column
-  1329 m1
+  1328 sleep
+  1328 nd
+  1328 tolist
   1326 device_option
-  1325 globals
-  1324 contextlib
+  1324 172
   1323 HIP_UNSUPPORTED
-  1322 lock
-  1321 172
+  1323 module_name
+  1323 l1
+  1322 V
   1321 long
+  1321 pid
+  1319 dataclass
+  1318 protocol
+  1318 seen
+  1318 1e-3
   1317 interpreters
-  1317 sleep
+  1317 'test'
+  1316 importlib
   1315 X_test
-  1315 distutils
-  1313 unique
-  1311 protocol
-  1309 pid
-  1308 now
+  1313 now
+  1313 flag
+  1309 "utf-8"
   1306 Codec
-  1305 'test'
+  1306 'C'
+  1305 H
   1304 tearDown
-  1304 deepcopy
   1303 __internal__
-  1303 "utf-8"
-  1303 pow
-  1302 "left"
-  1301 p2
-  1298 importlib
-  1294 final
-  1292 uint8
-  1289 collect
-  1288 192
-  1288 seen
+  1303 18
+  1302 sig
+  1300 command
+  1299 collect
+  1299 y2
+  1298 final
+  1297 epsilon
+  1295 192
+  1295 r2
+  1293 'B'
+  1292 sign
+  1291 sc
+  1290 cb
+  1288 depth
+  1287 xs
   1286 skipna
-  1285 dataclass
+  1286 I
   1285 make_tensor
-  1284 b1
   1283 lltypesystem
-  1283 module_name
   1282 send
-  1281 domain
+  1282 OrderedDict
+  1282 connect
   1281 train
-  1280 28
   1280 quantized
-  1279 'B'
-  1279 l1
-  1279 offsets
-  1278 OrderedDict
+  1279 142
   1274 type2test
-  1274 142
+  1274 fullname
   1272 detach
   1271 173
-  1270 command
+  1270 reset
   1269 optim
-  1267 depth
-  1267 linspace
-  1267 fullname
-  1267 r1
+  1268 top
+  1268 U
   1262 flavor
   1262 assert_produces_warning
-  1261 top
-  1258 nd
-  1257 m2
+  1260 toarray
   1254 inputargs
-  1254 tolist
-  1250 beta
-  1248 cb
-  1245 flag
-  1245 rv
+  1254 10.0
+  1245 fixture
   1244 Conv2d
+  1243 Sequence
   1242 X_train
   1242 tok
-  1242 'C'
   1242 activation
-  1239 reset
-  1239 constraints
   1237 DatetimeIndex
   1236 SimpleTestCase
-  1236 Sequence
-  1236 product
   1233 proc
   1232 2014
   1232 call_function
-  1228 ma
+  1230 exit
   1228 "abc"
-  1228 isnan
   1226 "int64"
   1225 tool
   1225 FeedBlob
+  1225 rc
   1224 make_arg
+  1221 catch_warnings
   1220 cur
-  1217 tmp
   1216 Dense
+  1216 common
   1214 Period
   1214 SampleInput
-  1211 fixture
-  1206 exit
-  1204 186
+  1213 flatten
+  1211 sizes
+  1208 186
+  1207 pc
+  1202 2.5
   1200 '\x0b '
+  1200 uniform
   1199 builder
   1197 Sequential
-  1196 ex
-  1196 rc
+  1197 window
   1196 quantization
   1194 ET
-  1194 epsilon
-  1193 meth
+  1194 last
   1193 "i"
   1192 Void
-  1192 RandomState
-  1190 connect
-  1188 21
-  1188 0.9
-  1186 163
-  1186 10000
-  1185 low
-  1184 'raw'
+  1192 'ascii'
+  1192 22
+  1191 SyntaxError
+  1190 163
+  1190 'raw'
+  1190 basename
+  1185 df1
+  1183 "."
+  1183 " "
   1182 migrations
-  1182 catch_warnings
-  1182 *=
+  1182 __eq__
+  1182 Q
   1181 ordered
   1178 iris
-  1177 'ascii'
-  1175 last
   1174 assertSequenceEqual
-  1174 basename
   1173 162
-  1173 __eq__
-  1172 SyntaxError
-  1171 df1
-  1171 "."
+  1170 vars
+  1166 template
   1163 coro
+  1163 month
+  1163 global
   1161 193
-  1159 high
-  1158 sign
-  1158 sqrt
+  1160 fft
   1157 getarg
-  1157 month
-  1157 common
-  1156 Z
-  1156 global
+  1156 153
+  1156 link
   1154 tensorflow
   1154 Size
-  1153 153
-  1149 orig
-  1147 link
+  1153 orig
+  1153 1e-5
+  1150 _w
+  1149 arguments
+  1149 500
   1146 Array
-  1146 " "
+  1146 ','
   1145 Article
-  1145 pc
-  1144 sizes
+  1145 reg
+  1145 show
   1143 master
   1143 requires_grad_
-  1142 _w
-  1141 sig
+  1143 got
+  1141 inner
   1139 w_dict
-  1137 vars
-  1136 template
+  1135 contents
   1134 Context
+  1134 B0
+  1134 tx
   1133 myjitdriver
   1133 Variable
-  1130 arguments
-  1129 stdin
-  1129 reg
-  1129 desired
+  1132 stdin
+  1132 tell
+  1129 release
   1128 contrib
   1128 "Y"
   1128 'cpu'
+  1128 api
+  1128 bins
+  1128 0.4
   1125 input_data
-  1124 ','
+  1125 eye
   1123 dti
-  1123 B0
-  1122 ravel
-  1121 api
-  1120 contents
+  1123 pa
   1119 OperationError
-  1119 ind
+  1119 R
   1118 features
-  1116 release
-  1115 18
-  1113 alias
-  1112 flatten
+  1117 alias
+  1117 colors
+  1115 constraint
+  1113 linear
+  1113 "dtype"
+  1112 fill
   1110 w_type
   1110 emit
+  1110 operation
+  1110 |=
+  1110 build
   1108 skipTest
-  1107 pa
-  1107 operation
-  1107 r2
+  1107 b2
+  1106 rhs
   1105 forms
   1104 INF
-  1102 tell
-  1102 inner
-  1102 linear
+  1103 keepdims
+  1102 FFI
   1101 b""
-  1101 1e-3
-  1098 FFI
-  1098 colors
-  1097 |=
+  1099 ax2
+  1099 mapping
+  1098 StopIteration
+  1097 concatenate
+  1096 done
+  1095 shuffle
   1093 TYPE
-  1092 got
-  1092 diff
   1091 onnx
-  1090 done
+  1091 day
+  1091 json
+  1090 "r"
   1089 Book
-  1089 0.25
   1088 ForeignKey
+  1088 1e-6
   1087 float_frame
-  1087 StopIteration
-  1085 "r"
-  1083 I
-  1082 "dtype"
+  1085 int8
+  1084 '2'
   1082 traced
-  1081 day
   1081 second
-  1078 ax2
-  1078 '2'
-  1075 show
+  1081 verbosity
+  1077 intp
   1074 'ON'
-  1074 verbosity
-  1073 constraint
+  1074 chars
+  1072 clean
+  1072 nargs
   1070 2008
   1070 position
-  1070 json
   1069 get_field
-  1069 2.
-  1068 chars
-  1068 shuffle
+  1069 task
   1068 keepdim
-  1065 fill
-  1065 solver
-  1064 zipfile
+  1068 zipfile
+  1065 '_'
   1063 PyObject
   1063 get_array
   1063 vmap
-  1062 build
-  1061 22
-  1057 clean
+  1062 example
+  1060 __call__
+  1059 73
+  1058 _data
   1057 seconds
   1055 opcode
-  1055 tx
-  1049 example
+  1054 chunk
+  1054 PIPE
+  1053 cc
+  1050 dataclasses
+  1050 samples
   1048 co
-  1047 gamma
   1046 checkScript
+  1046 input_size
+  1046 argparse
   1044 CASCADE
-  1043 input_size
-  1041 mapping
-  1038 chunk
+  1044 i1
+  1043 300
+  1041 sympy
   1038 autograd
-  1036 PIPE
-  1036 nargs
+  1038 history
+  1038 origin
+  1037 namespace
+  1037 80
+  1036 __iter__
   1035 end_lineno
-  1035 73
-  1034 history
-  1034 dataclasses
-  1033 y2
+  1035 cmap
+  1034 'F'
   1032 status_code
-  1032 namespace
-  1029 rhs
-  1029 V
-  1028 cmap
-  1028 __iter__
+  1032 full
+  1031 variables
+  1031 shapes
+  1030 classes
+  1028 'rb'
   1027 '\x0c'
-  1027 '_'
-  1025 xs
+  1026 shift
+  1025 cell
   1023 sql
-  1021 task
-  1020 classes
-  1020 cell
+  1022 xp
+  1020 splitlines
+  1020 0.05
+  1020 rs
+  1018 reduce
   1017 using_copy_on_write
   1016 assertAllEqual
-  1016 int8
   1015 alignment
   1015 epochs
-  1013 _data
+  1015 glob
+  1014 callable
   1012 concat
+  1012 thread
+  1012 cases
   1011 w_other
   1011 'cuda'
-  1011 sympy
-  1009 argparse
-  1007 500
+  1010 element
   1004 schema_editor
   1004 keras_export
-  1004 thread
-  1004 cos
-  1001 splitlines
+  1004 targets
+  1004 alternative
   1000 r_uint
+  1000 19
    999 FetchBlob
    997 _testing
-   996 element
+   996 res2
+   995 units
+   995 description
    994 ValidationError
    994 fit_transform
-   994 targets
-   990 intp
-   990 i1
-   990 real
+   991 167
+   990 lhs
    988 locale
-   987 units
-   987 bins
    987 input_tensor
-   986 167
+   987 defaults
+   987 abspath
+   985 'spam'
    984 rcParams
-   984 'rb'
    984 model_name
    984 numel
-   981 description
+   984 1e-4
+   983 steps
+   983 E
+   982 99
+   981 2000
+   979 fs
    978 "eager"
-   976 glob
-   976 variables
+   978 imag
+   978 points
+   977 take
+   976 __slots__
    975 w_None
+   975 distribution
+   975 sup
+   974 NS
    973 coef_
    972 apps
    972 run_tests
    971 unwrap_spec
-   971 __slots__
    970 session
-   968 steps
-   967 NS
-   967 reduce
+   970 generate
    966 Person
-   966 cc
    966 rpc
-   961 defaults
-   961 H
+   966 mu
+   965 '*'
+   962 'z'
+   962 1.1
+   961 cv
+   961 number
    960 38864
    960 how
-   959 'spam'
+   960 'e'
+   960 fileobj
+   960 "data"
    959 renderer
-   959 window
-   959 __call__
+   958 total
    957 'line'
-   957 Q
    956 data_format
-   956 'e'
-   954 b2
+   956 section
+   956 side
+   955 bbox
+   954 512
+   954 complex64
    953 Name
-   953 uniform
-   952 '*'
    951 Meta
    951 "int"
-   951 lhs
    950 specialize
-   950 fileobj
-   950 "data"
+   950 fc
    949 GraphModule
+   949 normal
+   948 26
+   947 1234
    945 Constant
    945 bind
+   945 0.8
    943 SUCCEED
    942 pytree
-   940 take
-   938 'z'
-   938 abspath
+   941 ndimage
    938 devices
+   938 cols
    936 literal
-   936 keepdims
-   934 distribution
-   934 300
+   935 Benchmark
+   934 58
    933 typedef
    932 order_by
-   931 stats
-   929 10.0
-   928 family
+   932 family
+   932 '"'
+   931 mul
+   931 ws
+   931 K
    928 process_group
-   927 cv
+   927 "M"
+   927 bn
    925 WORD
-   925 U
-   925 number
-   925 mul
-   924 '"'
-   923 "M"
-   923 callable
-   921 bn
-   920 total
-   920 0.4
+   924 strict
+   922 pat
+   922 tags
+   920 136
    919 _error
    919 in_dims
-   918 pat
-   918 tags
-   917 136
-   916 58
-   916 strict
+   918 ':'
    915 skip_if_lt_x_gpu
+   914 '?'
+   914 part
+   914 ans
    913 'strict'
-   912 section
-   909 x0
-   908 side
+   913 33
+   911 newaxis
    907 _testcapi
-   907 ':'
-   905 80
-   904 '?'
+   907 max_value
+   906 ZeroDivisionError
+   905 .5
    904 185
    904 expectedFailure
-   902 19
+   904 53
+   903 cov
    902 momentum
    901 _beartype
+   900 bases
+   900 average
+   900 tokens
+   899 l2
    898 using
-   897 max_value
-   895 bases
+   896 n1
    894 '\x07'
+   894 allclose
+   894 res1
    893 theclass
    893 _box
-   893 99
    891 inst
+   891 238
+   891 3.
+   890 NA
    888 backends
-   887 53
-   887 ZeroDivisionError
    887 Proto
+   887 figsize
+   886 locals
    885 lookup
+   884 get_config
    883 y_test
    883 n_classes
-   883 locals
-   883 1e-5
-   882 NA
+   883 series
+   883 0.6
    881 _fields_
-   881 238
-   881 512
-   880 get_config
-   879 series
+   881 "right"
+   881 67
+   881 sp
    879 qconfig
    878 w_TypeError
-   878 "right"
-   877 xp
-   877 part
-   875 bbox
+   878 90
+   876 decl
+   875 zeros_like
    874 Structure
-   874 2000
+   874 "f"
+   874 prec
    873 opnum
    873 acquire
    873 queue
    872 all_parsers
    872 "float64"
-   872 decl
-   872 shift
-   871 1j
+   872 UserWarning
+   871 score
    870 getitem
+   870 op_name
    869 cdef
    868 382
    868 common_utils
-   867 67
-   867 2.5
+   868 _name
+   867 1e-2
    866 tarinfo
-   866 figsize
-   866 "f"
    865 beartype
-   864 l2
+   865 "mean"
+   865 y0
+   864 choices
+   864 "auto"
+   864 desc
    862 add_field
-   862 average
-   862 prec
    861 render_to_string
    861 _pos
-   861 tokens
-   861 op_name
+   861 matmul
    860 StreamReader
-   857 _name
+   859 expand
+   857 vmin
    856 manager
-   856 expand
-   856 shapes
    855 curses
    855 dispatch
-   854 choices
-   853 "mean"
+   854 mat
+   853 frozenset
    852 memio
    852 min_value
-   851 "auto"
-   851 desc
-   850 frozenset
-   850 concatenate
-   849 0.05
+   852 setdefault
+   850 mkdir
    849 grad_output
    848 html
-   848 ans
+   847 tarfile
+   847 set_title
+   847 rows
    846 distribute
    846 push
    845 formset
-   845 mkdir
    845 "index"
-   845 33
+   844 vmax
    843 isna
-   843 tarfile
+   843 txt
    842 'Lu'
    842 294
-   842 26
+   841 ArrayLike
+   841 arg1
    840 annmodel
    840 xml
-   839 txt
+   839 complex128
+   837 import_module
    836 dialog
-   835 cols
-   834 generate
+   836 lengths
    834 'W'
    834 "Skipped!"
+   834 mm
    833 fit_intercept
    832 free
    832 grads
+   832 160
+   831 __exit__
    830 '\\'
-   830 vmin
-   830 import_module
    829 read_csv
-   829 matmul
-   828 set_title
+   829 27
+   828 rstrip
    827 184
    827 from_tuples
    827 translation
    827 use_bias
    826 _buffer
    826 FileCheck
+   826 expected_output
    825 166
-   824 score
-   822 rs
+   825 warning
+   824 tar
+   824 npt
+   823 datetime64
+   822 i2
    821 ConstInt
-   821 __exit__
    821 224
-   820 160
-   820 expected_output
-   819 datetime64
-   819 tar
-   818 vmax
-   818 lengths
+   821 legend
+   820 'end'
    817 '1.0'
-   815 E
-   815 warning
-   814 'end'
-   814 origin
-   813 states
+   816 states
    812 end_col_offset
-   812 legend
-   812 setdefault
-   811 rstrip
-   809 sp
+   810 exec
+   809 returncode
    807 losses
-   807 fc
-   807 mm
+   807 scatter
    806 769
    806 handles
-   805 cases
+   806 'hello'
+   805 '+'
    804 _state
-   804 ArrayLike
+   804 45
    803 w_ValueError
-   803 'hello'
-   803 0.8
    803 nonlocal
    802 filepath
+   802 'Y'
+   802 chain
    801 fromHex
-   801 '+'
-   801 exec
-   798 returncode
+   797 deque
+   797 n_jobs
+   797 found
+   797 datasets
+   797 warns
    796 287
    796 "ascii"
+   796 combinations
    795 7178
    795 charset
-   795 'Y'
+   795 tail
    794 identical
    793 package
    792 JitDriver
-   792 deque
-   792 i2
-   792 ws
-   790 n_jobs
+   792 bool_
    790 spam
-   789 scatter
-   789 chain
+   789 modname
+   789 29
+   788 zero
+   787 grid
+   787 rvs
+   786 6.0
    785 numeric_only
    784 assertContains
    783 regalloc
+   783 dx
    782 field_name
-   782 allclose
    780 dropna
    779 IntegerField
+   779 150
+   779 blocks
    778 maxint
-   778 modname
-   778 found
    778 API_DRIVER
    777 reds
-   777 'F'
-   777 datasets
+   777 xx
    776 views
+   776 stacklevel
    775 grouped
-   773 tail
    772 callbacks
    772 caffe2_pb2
    771 imm
-   771 normal
-   771 1.1
    771 Struct
    771 ReLU
-   770 combinations
+   771 squeeze
    770 initializer
+   770 '-c'
+   770 int16
    769 udir
+   769 union
    768 ofs
    767 "one"
+   767 outer
+   767 diag
    766 annotator
+   766 "rb"
+   766 rm
+   766 median
    765 greens
    764 Sig
-   764 '-c'
-   762 90
-   762 full
-   762 complex64
-   761 "rb"
+   764 'win32'
+   764 lb
+   763 coef
+   763 center
+   762 memo
+   762 54
+   761 mesh
    760 StreamWriter
-   758 mesh
-   757 memo
+   759 ddof
+   758 fontsize
+   757 rest
+   757 typecode
    756 "sum"
-   755 union
-   754 coef
+   755 flat
    754 formatter
    754 output_size
    753 machinery
    753 learning_rate
+   751 __module__
    750 jit_merge_point
-   750 'win32'
-   748 150
-   747 zero
-   745 scipy
+   750 dump
+   749 win
+   748 image
+   747 jac
+   746 null
+   746 ids
+   745 Popen
+   745 _check
+   745 endpoint
    744 exitcode
-   743 fontsize
    743 "boolean"
    743 timedelta64
    743 shares_memory
-   743 27
+   743 argtypes
+   743 'ignore'
    742 parameterized
-   742 dump
    742 CONV_MATH_FUNC
+   742 34
+   742 0.7
    741 w_list
    741 _result
+   741 stmt
+   741 reversed
    740 IncrementalEncoder
    740 TclError
-   740 __module__
+   740 43
+   740 55
    739 project_state
-   739 null
    737 __args__
-   737 stmt
-   736 54
+   737 add_subplot
+   736 runner
    735 importorskip
    735 executor
+   735 csr_matrix
    734 dropout
+   734 'n'
    733 optimize_loop
-   733 Popen
-   733 K
-   733 res2
-   732 bool_
-   732 flat
-   732 arg1
    732 boxes
-   732 zeros_like
-   731 blocks
+   731 counts
    730 isinstance_w
-   730 # you may not use this file except in compliance with the License.
-   730 # You may obtain a copy of the License at
-   730 # Unless required by applicable law or agreed to in writing, software
-   730 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   730 # See the License for the specific language governing permissions and
-   730 # limitations under the License.
    729 min_periods
    729 changes
    728 assertIsNot
-   728 outer
+   728 finfo
    727 to_datetime
-   727 image
-   726 # Licensed under the Apache License, Version 2.0 (the "License");
-   726 # distributed under the License is distributed on an "AS IS" BASIS,
-   726 rest
-   726 45
    726 _values
    724 num_classes
-   722 #     http://www.apache.org/licenses/LICENSE-2.0
-   722 29
+   724 contiguous
+   723 original
+   723 theta
    722 CONV_TYPE
+   722 multiprocessing
+   722 mmap
    721 resloc
    721 generator
-   721 int16
+   721 wr
    720 cnf
-   720 argtypes
-   720 reversed
+   720 0.75
    718 new_primitive_type
    718 API_RUNTIME
-   717 runner
+   718 rmtree
    717 col_offset
-   717 1e-2
+   717 4096
    716 jit_utils
    715 op1
    714 queryset
-   714 rm
-   713 add_subplot
+   713 factory
    712 IncrementalDecoder
    712 admin
-   711 typecode
+   711 35
    710 '\x0e'
    710 username
+   710 draw
    709 meta_interp
    709 def_gen
-   709 0.6
+   709 sysconfig
+   709 cnt
+   709 48
    708 272
    708 eci
-   708 factory
-   707 4096
-   706 ids
-   706 multiprocessing
-   706 R
+   707 output_shape
    705 CCHARP
    705 _api
-   705 43
-   705 34
    705 _c
    704 set_index
-   704 UserWarning
    704 Set
-   703 contiguous
+   704 zlib
+   704 local
    703 TensorLikeType
+   703 'data'
+   703 0.001
+   702 "float32"
    701 side_effect
-   701 draw
+   701 pred
    700 'id'
-   700 rmtree
    700 FloorDiv
-   699 wr
-   699 "float32"
+   700 'value'
+   700 precision
    698 reindex
-   697 sysconfig
+   697 isfile
+   697 current
+   697 masked
    696 BInt
    696 skips
-   694 median
-   693 rows
-   693 pred
+   696 Literal
+   696 cdf
+   693 1.2
    692 llop
-   692 'value'
    691 '\x10'
    691 combine
    691 serialize
+   691 im
    690 User
+   690 codec
+   690 threshold
+   690 indptr
    688 w_key
-   688 zlib
    688 dom
-   688 local
-   688 original
-   688 _check
-   687 # ==============================================================================
-   687 55
+   688 Integral
+   688 'int'
    684 assembler
    684 num_samples
-   684 cnt
-   683 Integral
+   684 skipif
+   683 ip
+   683 xi
+   683 statistic
    682 handlers
-   682 res1
-   681 codec
+   682 scalar
+   682 reference
    681 expect_type
    681 as_list
    681 flask
    680 '\ufffe'
-   680 isfile
    680 "value"
-   679 current
+   679 ordering
+   679 disp
    678 w_item
    678 Net
+   678 299
    677 _file
-   677 Literal
    677 proxy
-   676 y0
    675 newline
    675 call_method
-   674 299
-   674 48
-   674 imag
-   674 counts
-   674 # type: ignore[attr-defined]
    673 tup
-   673 scalar
-   672 ordering
-   672 masked
-   672 squeeze
+   673                                 
    672 hook
    672 Scalar
    671 assertQuerysetEqual
+   671 pg
    670 Perm
-   670 grid
+   670 verify
+   670 mi
+   670 add_newdoc
    669 "US/Eastern"
-   669 reference
    668 idlelib
    668 gbl
    668 237
-   668 win
-   668 1e-4
+   668 prod
+   668 system
    667 cid
    667 render
-   667 'int'
-   666 complex128
+   667 127
+   666 'wb'
+   666 xy
+   665 site
+   664 isdir
    663 new_state
    662 bufio
-   661 verify
-   661 pg
+   662 151
+   661 57
+   661 __future__
+   661 101
    660 arraydescr
-   660 'n'
-   660 .5
-   660                                 
+   660 randrange
    659 deadframe
-   659 isdir
    658 '\x12'
    658 rgc
    658 PeriodIndex
-   657 randrange
-   657 1e-6
+   658 g1
    657 opt_fn
-   656 site
-   656 precision
-   655 output_shape
-   654 151
-   654 'wb'
-   654 n1
+   657 ctype
+   657 errstate
+   655 _mask
+   655 44
    654 quantize_per_tensor
+   654 byteorder
    653 input_dim
+   653 pool
+   653 ones_like
+   653 nfev
+   652 variable
    651 typeof
+   651 'default'
    650 w_res
+   650 objs
    649 device_mesh
+   649 decompress
+   649 subset
    648 objspace
    648 unsqueeze
+   648 temp_dir
    647 '\t'
-   647 mi
-   647 objs
-   647 ctype
-   647 'data'
    647 hidden_size
-   646 decompress
+   647 _value
+   647 sentinel
+   647 /=
    646 "two"
-   646 threshold
-   645 57
-   645 __future__
-   645 127
    644 sqlite
    644 exceptions
-   644 mmap
    644 hypothesis
-   643 _value
-   643 newaxis
-   641 _mask
+   643 ac
+   642 n2
    641 2007
-   641 'default'
    641 algorithm
-   641 35
-   641 center
    641 make_input
    640 typeOf
    640 "mse"
+   640 70
    639 setitem
+   639 libraries
+   639 suppress_warnings
    638 base64
    637 objectmodel
-   637 subset
-   637 warns
+   637 235
+   637 power
    636 call_command
+   636 clip
+   636 pvalue
    635 dates
-   635 byteorder
-   634 235
    634 fcntl
+   633 annotations
    632 rwin32
+   632 entries
+   632 one
    631 paths
+   631 mkdtemp
    630 _io
-   629 temp_dir
+   629 'R'
+   629 's'
+   629 xm
    628 623
    628 drop
-   628 6.0
+   628 days
+   628 "test"
+   628 59
+   628 poly
    627 cpython_only
    627 '\x024'
    627 cookie
    627 export
    626 b'a'
    626 strategies
-   625 days
-   625 variable
-   625 "test"
-   624 endpoint
+   626 iinfo
+   625 pipe
+   625 simplefilter
    624 FSDP
-   623 44
    623 gradient
+   623 compress
+   623 ct
    622 'text'
-   622 pipe
    621 remote_field
    621 sample_inputs_func
    620 primary_key
-   620 ac
    620 is_available
+   620 dense
    619 nullptr
-   619 im
-   619 skipif
    619 no_grad
+   619 choice
    618 looptoken
-   618 fft
+   618 nt
    617 args_w
    617 gateway
    617 exclude
-   616 mkdtemp
+   617 Thread
    616 FunctionInput
-   615 0.001
+   615 listdir
+   615 normalize
    614 rbigint
    614 new_pointer_type
    614 frame_or_series
-   614 annotations
-   613 sentinel
    613 destroy
    613 "H"
+   613 ec
+   613 driver
    612 brew
+   612 issparse
+   612 RuntimeWarning
    611 grammar
    611 tv
    611 fold
-   610 'R'
-   610 xy
-   610 entries
+   611 8.0
+   611 'D'
+   610 mp
    609 '\x023'
    608 236
-   608 samples
-   607 59
-   607 libraries
-   607 listdir
+   608 'g'
    607 channels_last
+   607 interpolation
    606 newp
-   606 Thread
    606 Color
-   606 0.7
-   606 one
+   606 ', '
    605 supports_forward_ad
+   605 56
    604 792
    604 com
-   604 npt
+   604 post
+   604 'l'
    603 HOST
    603 recv
    603 ZipFile
-   603 ec
+   603 145
+   603 excinfo
+   603 nest
    602 pprint
    602 FLOAT
+   601 51
+   601 include_dirs
    600 dpi
-   600 145
-   600 ip
-   600 compress
    600 prop
-   599 pool
+   600 defaultdict
+   600 word
+   600 cp
    599 tracer
+   599 csv
+   599 chunks
    598 579
    598 775
+   598 constants
    597 getint
-   597 choice
    597 cpu_x
    596 "NaT"
-   596 defaultdict
-   595 post
+   596 filters
+   596 ok
+   595 xaxis
    594 _winapi
    594 rposix
-   594 word
    593 rolling
-   593 mat
+   593 marker
+   593 unpack
+   593 factor
    592 222
    592 returns
-   591 's'
-   591 filters
-   591 iinfo
+   592 sources
+   592 pdf
    591 Graph
-   590 xaxis
+   591 "v"
    590 assert_called_with
-   590 csv
    589 serv
    589 '\x025'
-   589 excinfo
    589 cancel
+   589 nrows
+   589 "ignore"
    588 visitor
-   588 101
-   588 dense
    587 we_are_translated
    587 "category"
-   587 normalize
-   587 simplefilter
    586 audioop
-   586 poly
    585 image_comparison
-   585 marker
-   583 constants
+   585 logs
+   585 52
+   584 einsum
+   584 h2
    583 sampled_from
    582 "id"
-   582 ones_like
    582 op_bench
-   581 interpolation
-   581 logs
-   581 "v"
-   580 ok
+   582 135
+   582 hx
+   580 unwrap
+   580 angle
+   580 120
    579 w_self
    579 CategoricalIndex
    579 z3
-   578 nest
    577 lzma
+   577 340
+   577 72
+   576 __import__
+   576 __enter__
    575 waiter
    575 n_neighbors
-   574 340
-   574 unwrap
-   573 'g'
-   573 unpack
+   575 g2
+   574 n_clusters
+   574 "s"
+   574 ufunc
    573 checks
-   573 56
    573 deadline
+   572 epoch
+   572 conj
+   572 1e-14
+   571 empty_like
    570 cppyy
    570 index_col
    569 GcStruct
-   569 135
-   569 chunks
-   569 hx
+   569 "min"
    568 NAN
-   568 __import__
-   568 __enter__
    567 717
-   567 n_clusters
    567 "first"
-   567 52
-   567 cov
    567 named_parameters
    567 input_channels
    566 Real
    566 metaclass
-   566 ', '
-   566 "s"
-   566 "min"
    566 Enum
+   566 equal
    565 db_table
    565 decorators
-   564 ct
-   564 clip
-   564 epoch
    564 data_ptr
+   564 vstack
+   564 ub
    563 cpython_api
    563 from_arrays
    563 all_types_and_complex_and
+   563 ^
    562 GraphContext
+   562 3.5
    561 period_range
    561 signed
    561 blob
-   560 nrows
    560 "-c"
    560 _onnx_symbolic
    559 '\x14'
    559 723
    559 get_payload
    559 od
+   559 HIGHEST_PROTOCOL
    558 w_name
+   558 iterator
+   558 131
+   558 symbol
    557 SparseArray
    557 batch_first
+   557 '#'
+   557 casting
+   557 edges
    556 idleConf
-   556 HIGHEST_PROTOCOL
-   556 cp
-   556 1.2
-   556 einsum
    555 rarithmetic
    555 run_eagerly
    555 global_random_seed
-   555 iterator
-   555 ^
    554 '\x022'
-   554 131
    554 new_field
    554 "object"
-   554 '#'
-   554 51
    554 annotation
+   553 old
+   553 111
    552 zipfp
    552 773
+   552 bits
+   552 4.
    551 socket_helper
    551 MSG
    551 assertWarns
@@ -2125,390 +2193,411 @@
    550 'Nl'
    550 Hashable
    550 manual_seed
-   549 70
    549 "/"
    549 add_docstr_all
+   549 enabled
+   549 condition
+   549 matrix
    548 721
+   548 iterable
    547 assertRegex
+   547 'X'
+   547 400
    546 capi
    546 State
-   546 'l'
-   546 enabled
    546 is_contiguous
    546 foreach
-   545 old
+   546 gb
    545 impl
    544 _loop
    544 724
    544 font
    544 words
-   544 72
-   544 symbol
    543 cpyext
-   543 casting
    542 checkpoint
+   542 restype
+   542 zipf
    541 '\x03U'
-   541 gb
-   541 stacklevel
-   541 ufunc
+   541 nonzero
    540 "ns"
    540 Dataset
    539 import_helper
    539 Value
-   539 eye
    539 op_info
    539 quint8
+   539 "max"
+   539 percentile
    538 W_Root
+   538 "z"
+   538 t0
    537 editwin
    537 MagicMock
    537 'mps'
+   537 control
    536 ABSTFN
-   536 include_dirs
-   536 ddof
-   536 driver
    535 binascii
    535 "key"
-   535 "z"
-   535 3.
-   534 "max"
+   535 # type: ignore[arg-type]
+   534 tid
+   534 filterwarnings
    533 int_w
    533 trainable
-   533 iterable
-   533 0.75
    533 rnn
+   533 TYPE_CHECKING
    532 BStruct
    532 linesep
-   532 'X'
    532 put
+   532 __len__
+   532 parse_args
    531 NULL
-   530 "ignore"
+   531 regex
+   531 filenames
+   530 'S'
    529 build_types
    529 "replace"
-   529 restype
-   529 zipf
-   529 fs
-   529 # type: ignore[arg-type]
+   529 sol
    528 VOIDP
    528 srid
    528 InvalidOperation
-   528 condition
    527 decoding_table
-   527 tid
    527 same
+   527 resample
+   527 ys
+   527 trans
    526 _test_get_x
    526 '\x027'
    526 "Int64"
+   526 attributes
+   526 maxiter
    525 FFFD
    525 '01'
    525 skipUnlessDBFeature
-   525 __len__
    524 GCREF
-   524 regex
    524 SGD
-   523 angle
+   524 arg2
    523 :=
-   523 equal
    523 placements
    523 blobs
    522 newtuple
-   522 filenames
    522 num_layers
-   521 111
-   521 bits
-   521 arg2
+   522 "df"
+   522 wraps
    521 booleans
-   520 'S'
-   520 edges
+   521 ll
+   521 observed
    520 c10d
    519 _all_ushort
    519 _rawffi
+   518 ii
    517 assert_python_ok
    517 digits
    517 images
+   517 c_void_p
    516 Test
+   516 X2
+   516 invalid
    515 Layer
-   515 TYPE_CHECKING
+   515 head
+   515 ds
    514 '\x026'
    514 X_trans
-   514 "df"
-   514 prod
+   514 radius
+   514 1e-10
    513 Point
    513 Event
+   513 author
    512 'other'
-   512 120
    512 MyModule
    512 dist_init
+   512 file_name
+   512 2j
    511 token_type
-   511 percentile
    511 assertExpectedInline
+   511 "_"
    510 <class 'numpy.int64'>
-   509 parse_args
+   509 functions
+   509 contextmanager
    508 cbook
-   508 author
-   507 8.0
-   507 "_"
-   507 wraps
+   508 check_random_state
+   508 density
    507 align_corners
    507 supports_fwgrad_bwgrad
+   506 cdouble
+   506 e1
    505 w_result
    505 skip_but_pass_in_sandcastle_if
+   505 0j
+   505 exact
+   505 1e-7
    504 random_st
-   504 theta
-   504 finfo
    504 OpInfo
    503 datetime_series
    503 agg
-   501 c_void_p
+   503 version_info
+   503 139
+   503 compare
+   502 nbytes
+   502 interval
    501 inps
+   501 prev
+   501 align
    500 of these patches (using 10 images), we run the
-   500 head
-   500 g1
    500 worker_name
+   500 cwd
    499 TP
-   499 resample
    499 "graph"
-   499 version_info
-   499 functions
+   499 report
+   499 pathlib
+   499 isfinite
    498 '3'
-   498 'D'
-   497 139
+   498 compression
+   498 partition
    496 557
    496 '\x00'
    496 run_all_keras_modes
    496 patches
-   496 file_name
    496 API_BLAS
+   496 sa
    495 smtp
    495 related_name
    495 to_dense
+   495 divmod
+   495 65
    494 enc
-   494 nbytes
-   494 n2
    494 input_record
+   494 'dtype'
    493 password
-   493 compression
-   493 sa
-   493 partition
+   493 scores
+   493 J
    492 fromcache
    492 StrOptions
    492 childNodes
    492 fillna
    492 qconfig_dict
    492 gcs
+   492 is_valid
+   492 61
+   492 integer
    491 init_net
+   491 tester
    490 _mgr
+   490 __setitem__
+   490 argmax
    489 keywords
-   489 control
    489 experimental
+   489 ascending
    488 432
-   488 tester
-   488 prev
-   488 report
+   488 358
+   488 0.00
    487 ResOperation
    487 '\x039'
    487 assertLen
    487 equals
    487 RangeIndex
-   487 is_valid
-   487 xm
    486 2011
-   486 ll
-   486 contextmanager
    485 external
-   484 358
+   485 argsort
+   485 xdata
    484 AF_INET
-   484 empty_like
+   484 ", "
+   484 approx
+   484 1e-8
    483 488
-   483 ascending
+   483 'h'
+   483 n_iter
+   483 maximum
    482 validate
-   482 power
+   482 div
+   482 600
    481 assertNumQueries
    481 skipIfUnsupportedMinOpsetVersion
+   481 hist
    480 concretetype
    480 flat_param
-   479 div
+   480 img
+   480 49
+   480 r0
+   479 'm'
+   479 floor
    478 '\x028'
    478 eq_w
    478 LogisticRegression
    478 _libs
+   478 times
    477 asm
+   477 quantile
+   477 75
    476 graphs
    476 weight_decay
-   475 toarray
-   475 hist
-   475 scores
+   476 ","
+   476 obj2
+   475 usage
    474 _all_short
-   474 'h'
-   474 0.00
    474 set_params
-   474 align
    474 out_channels
+   474 initial
    473 rffi_platform
-   473 'ignore'
    473 logits
+   473 abstractmethod
    472 n_estimators
    472 write_line
-   472 divmod
-   472 quantile
    472 ignore_index
-   471 65
-   470 n_iter
-   470 ","
+   471 lw
+   470 comment
+   470 probs
    469 x_train
+   469 nnz
    468 _call_status
-   468 usage
    468 embedding_dim
    468 sigmoid
+   468 Generator
    467 bookkeeper
    467 selenium
    467 465
-   467 61
-   467 600
-   467 1234
-   467 compare
-   467 cdouble
+   467 overload
+   467 parallel
    466 should_run_eagerly
-   466 filterwarnings
-   466 ds
+   466 __hash__
+   466 by
+   466 test_case
    465 program
-   465 400
-   465 obj2
    465 SkipTest
-   465 abstractmethod
    465 floats
+   465 Iterable
+   465 identity
+   465 1e-12
    464 gc_ll_descr
    464 any_string_dtype
    464 CategoricalDtype
-   464 overload
    464 output_dim
    464 supports_out
-   463 csr_matrix
+   464 typename
+   464 dimensions
    463 debug_print
-   463 img
    463 qint8
+   463 is_complex
+   463 7.0
+   463 1e-15
    462 574
-   462 comment
    462 input_names
-   461 'm'
+   462 l0
+   462 'inf'
    461 translate
-   461 __hash__
    461 param_init_net
+   461 # noqa: F401
    460 genop
    460 y_score
-   460 by
-   459 49
+   460 yaxis
+   460 props
+   459 call_args
    458 GetSetProperty
-   458 l0
    457 exits
    457 TimedeltaIndex
    457 _verbose
-   457 typename
    457 "val"
+   457 which
    456 'EN'
    456 output_field
    456 script_name
-   456 yaxis
-   456 pathlib
+   456 bottom
+   456 B1
    455 mailbox
    455 mgr
-   455 e1
-   454 __setitem__
-   454 Generator
-   454 test_case
+   455 monkeypatch
+   454 longlong
+   454 filled
+   454 pair
    453 ModelAdmin
-   453 'inf'
-   452 bottom
-   452 initial
-   452 cwd
+   453 Number
    451 '012'
    451 Self
    451 box1
-   451 Iterable
+   451 Type
    450 '\x02M'
    450 assertHTMLEqual
    450 fig_ref
    450 container
-   450 Number
-   450 parallel
    450 placement
-   449 longlong
+   450 rd
+   450 mpmath
    449 implementation
    449 display
    449 copy_
+   449 prnt
+   449 nan_policy
+   448 ncols
    447 NDArray
    447 __code__
-   447 Type
    446 rutf8
    446 cts
-   446 # noqa: F401
-   445 lw
+   446 cnts
    445 tdi
    445 feature_names
    445 idx1
+   445 'none'
    444 fig_test
-   444 filled
    444 idx2
-   444 75
-   444 /=
    444 conv1
    444 assertReferenceChecks
+   444 126
+   444 '('
+   444 visit
+   444 builtins
    443 prog
-   443 cnts
+   443 fobj
    442 is_w
    442 classes_
    442 ignore
    442 prepare
-   442 nt
-   441 126
-   441 monkeypatch
-   441 integer
-   441 argmax
-   441 ", "
-   441 probs
+   441 calls
+   441 loaded
+   441 ydata
    440 RPythonAnnotator
-   440 B1
+   440 result2
+   440 250
    439 executing_eagerly
    439 from_product
    439 "string"
    439 decoder
-   439 'none'
    439 fsdp_model
+   439 lt
+   439 fm
+   439 numbers
+   439 vertices
+   439 ci
    438 server_context
    438 styler
    438 page
-   438 '('
+   438 rules
+   438 100.0
    437 _cffi_backend
    437 syms
    437 "date"
    437 unchanged
-   437 calls
-   437 factor
-   437 X2
+   437 dp
+   437 interpolate
    436 posixpath
    436 orient
-   436 props
    436 exc_type
-   436 lt
+   436 assert_close
    435 NPY
    435 errorhandler
    435 ob
-   435 xx
-   435 dx
-   435 fm
    434 log_start
    434 "array-like"
    434 make_module
-   433 fobj
+   434 authors
+   434 bp
    433 blank
-   432 visit
+   433 imp
+   433 '<'
    432 hints
-   432 call_args
    432 after
+   432 permute
+   432 dy
    431 client_context
    431 2005
-   431 rd
    431 opset_version
-   430 prnt
    430 tz_localize
    429 7232
    429 in_channels
@@ -2517,512 +2606,536 @@
    428 RegrTest
    428 EffectInfo
    428 "baz"
-   428 builtins
-   428 loaded
    428 qconfig_mapping
    427 "earth"
-   427 rules
    427 Expr
-   426 t0
+   427 imshow
    426 RunNetOnce
+   426 "method"
+   426 _lib
+   426 sf
    425 script_helper
    425 can_enter_jit
-   425 authors
    425 contains
    425 dynamic
+   425 nu
    424 prefer_skip_nested_validation
    424 t_jit
-   423 imshow
-   422 check_random_state
+   424 conf
+   423 ceil
    422 "hello"
-   422 permute
    422 grad_fn
    422 quant_min
    421 kernel_initializer
-   421 pair
+   421 "0"
    420 ExternalCompilationInfo
-   420 issparse
    420 "none"
    420 padding_mode
    420 "schema_property_name"
-   419 imp
-   419 result2
    419 create_model
-   419 3.5
+   419 gs
+   419 out2
    418 management
    418 setup_path
-   418 ncols
    417 '\x18'
    417 905
    417 predict_proba
    417 scoring
    417 initializers
    416 defects
-   416 ys
-   416 g2
-   416 is_complex
    416 quant_max
+   416 rep
+   416 perm
    415 STR
    415 transformer
    415 TensorType
+   415 var1
+   415 h1
    414 adr
    414 r_longlong
    414 2006
-   414 "0"
    414 evt
    414 DispatchKey
    414 'TestCommon'
+   414 argtype
+   414 maximize
+   414 t3
    413 TypeDef
+   413 process
+   413 atleast_1d
    412 failureException
    412 assign
    411 Const
+   411 setup_method
    410 llexternal
-   410 argtype
    410 2013
    410 get_model
-   410 observed
-   409 250
+   410 param_name
+   410 cdata
+   410 set_xlim
    409 'H'
-   409 assert_close
+   409 e2
+   409 work
+   409 nx
+   409 hstack
+   409 workers
    408 573
    408 "idx"
    408 deep
    408 "float"
    408 tree_flatten
-   407 rep
+   408 dat
    407 "mps"
-   406 numbers
+   407 searchsorted
+   407 hi
    406 IS_WINDOWS
+   406 wx
+   406 s0
    405 '\x16'
    405 box_with_array
-   405 gs
-   405 radius
    405 "S"
-   405 out2
-   405 mp
+   405 r3
    404 568
    404 df_orig
-   404 '<'
-   404 param_name
+   404 linear_model
+   404 softmax
    403 571
    403 lowleveltype
    403 HttpResponse
-   403 argsort
    403 max_val
    403 RunOperatorOnce
    403 add_docstr
-   402 wx
-   402 nonzero
+   403 chunksize
    402 add_
-   402 maximize
    402 BACKEND
+   402 prob
    401 py_obj
    401 content_type
-   401 cdata
+   401 expression
+   401 input_array
+   401 # noqa: E501
+   401 cumsum
+   401 blocksize
    400 assert_extension_array_equal
-   400 vertices
-   400 linear_model
-   400 conf
+   400 auto
+   400 masked_array
+   400 5.
    399 AutoField
    399 datapath
    399 option_context
    399 "both"
-   399 trans
    399 sample_input
    399 dequantize
    399 ELEMENTWISE_TYPE_PROMOTION_KIND
+   399 q1
    398 '\x02P'
    398 check_is_fitted
    398 check_array
-   398 var1
    398 script_method
-   397 set_xlim
+   398 __qualname__
+   398 multiply
+   397 138
+   397 '='
+   397 'v'
+   397 typecodes
+   397 retval
+   397 sigma
    396 '\x02I'
    396 "UTC"
    396 dry_run
-   396 maximum
+   396 on
+   396 uint64
+   396 'p'
    395 unicode
    395 na_value
    395 args_s
    395 min_val
    395 batch_shape
+   395 'title'
+   395 set_ylim
+   395 "linear"
    394 'found'
    394 metainterp_sd
    394 w_set
    394 aggregate
-   394 fun
-   394 process
+   394 preamble
+   394 '>'
+   394 new_shape
    393 resulttype
    393 SomeInteger
-   393 add_newdoc
-   393 expression
-   393 __qualname__
    393 scheduler
    392 FUNC
    392 ManyToManyField
    392 '\r'
-   392 'title'
    392 IntervalIndex
    392 sort_values
+   392 location
+   392 criterion
+   392 X1
    391 as_unit
-   391 on
-   391 xdata
-   391 sources
-   391 density
    391 LSTM
    391 error_regex
    391 ScriptModule
+   391 slow
    390 save_err
    390 "int32"
    390 "relu"
    390 argval
-   390 softmax
    390 jit_o
-   389 preamble
-   389 attributes
-   389 7.0
+   390 errmsg
+   390 ls
    389 MyModel
    389 input1
    389 input2
-   388 input_array
+   389 indexes
+   389 a3
+   388 centers
    387 asfreq
-   387 138
    387 "and"
-   387 times
+   387 minimum
    386 LLOp
-   386 indexes
    386 comp
+   386 ir
+   386 var0
+   386 expected_dtype
    385 242
    385 Address
    385 Op
    385 "2"
-   385 auto
+   385 constructor
+   385 # type: ignore[assignment]
    384 mcolors
-   384 # noqa: E501
    384 scaler
-   384 dp
+   384 'P'
+   384 csc_matrix
+   384 minimize
    383 lgt
-   383 set_ylim
    383 formats
    383 symbolic_trace
    383 prof
+   383 meshgrid
    382 include
-   381 'P'
-   381 location
-   381 constructor
+   382 legacy
+   382 10.
    380 classdef
-   380 interpolate
-   380 ir
+   380 68
+   380 plan
    379 6592
-   379 var0
    379 extents
-   379 chunksize
    379 FAIL
-   379 # type: ignore[assignment]
    378 get_temp_dir
-   378 centers
    378 Function
+   378 nditer
+   378 3j
    377 BaseEstimator
-   377 errstate
    377 array_function_dispatch
-   377 '='
-   377 uint64
+   377 dirpath
+   377 loops
+   377 decorator
    376 dont_look_inside
    376 class_weight
    376 make_classification
-   376 t3
    376 op_type
+   376 pr
    375 atomic
    375 memory
-   375 expected_dtype
    375 selector
    375 gradcheck
+   375 methods
    374 cached_session
    374 _parameter_constraints
    374 w_x
    374 optimizers
-   374 errmsg
-   374 dirpath
    374 Adam
    374 group_id
+   374 linewidth
+   374 lo
+   374 iterations
    373 startblock
-   373 '>'
-   373 loops
-   373 e2
    373 _inductor
    373 ceil_mode
    373 Dyn
+   373 positive
    372 headline
-   372 ydata
-   372 matrix
    372 predictions
-   371 linewidth
-   371 invalid
+   372 '4'
+   372 orientation
+   372 test_basic
    371 transforms
    371 BATCH_SIZE
-   371 s0
    371 output_channels
+   371 'one'
+   371 66
+   371 rho
    370 jitdriver
    370 timedelta_range
    370 log_prob
+   370 Argument
+   370 69
+   370 solve
    369 appexec
-   369 nditer
    369 stale
    369 fill_
    369 "Constant"
    369 Shard
+   369 out1
+   369 71
+   369 messages
+   369 error_msg
    368 Migration
    368 engine_kwargs
    368 "wb"
-   368 criterion
+   368 240
+   368 divide
    367 W_NDimArray
-   367 legacy
    367 forward_input
-   366 Argument
-   365 'p'
+   367 "same"
+   367 47
+   366 convert
+   366 ')'
+   366 neighbors
+   366 46
    365 pipeline
-   365 "linear"
-   365 positive
    365 nopython
+   365 234
+   365 999
    364 BacktrackException
    364 W_ListObject
    364 testing_infra
    364 no_default
-   364 240
    364 setUpClass
    364 opinfo
    364 pin_memory
    364 backend_config
+   364 quote
+   363 set_xlabel
+   363 success
    362 _exc
    362 custom_objects
    362 "pandas"
-   362 'one'
-   362 r3
    362 with_comms
+   362 colorbar
    361 rstr
    361 intercept_
-   361 69
-   361 'v'
-   361 quote
    361 sharded_tensor
+   361 outfile
    360 'Nd'
    360 _obj
-   360 '4'
-   360 68
-   360 floor
+   360 v0
    359 '\x02R'
    359 gis
    359 utc
    359 Base
    359 is_constant
-   359 convert
+   359 failures
    358 SpaceOperation
    358 newbytes
    358 expressions
    358 nested
+   358 hour
+   358 object_
+   358 110
+   358 39
+   358 xmin
+   358 a0
    357 oparg
-   357 colorbar
    357 ensure_clean
-   357 ')'
    357 frame_count
    357 nnq
+   357 'T'
    356 vocab_data
-   356 234
    356 steps_per_epoch
    356 pending
    355 train_test_split
-   355 "same"
-   355 r0
    355 Float
+   355 "'"
+   355 ai
    354 calldescr
    354 w_lineno
    354 "20130101"
-   354 decorator
    354 torchgen
    354 bidirectional
+   354 set_ylabel
+   354 frozen
    353 '\x02Y'
    353 svm
-   353 vstack
-   353 searchsorted
-   353 out1
    353 local_tensor
+   353 required
+   353 yy
+   353 issubdtype
    352 start_datetime
-   352 masked_array
    352 urls
-   352 66
-   352 "'"
    352 Backend
-   352 ceil
+   352 tmp_path
+   352 77
    351 getdescr
    351 "datetime64[ns]"
-   351 new_shape
    351 assertDeviceChecks
+   351 rename
+   351 preprocessing
+   351 realpath
+   351 result_type
    350 next_instr
    350 facecolor
-   350 typecodes
-   350 required
+   350 1e-13
    349 _cppyy
+   349 'u'
+   349 'float'
    348 ll_assert
    348 dtype_backend
+   348 "all"
+   348 extensions
+   348 dr
+   348 diagonal
    347 '\x1a'
    347 fcond
    347 ContentType
    347 # isort: off
    347 book
    347 transaction
-   347 hour
-   347 999
-   347 a3
-   347 rename
-   347 cumsum
    347 BatchNorm2d
+   347 87
    346 rclass
-   346 0j
    346 loaded_model
    346 datapipe
-   345 neighbors
-   345 outfile
-   345 "all"
    345 constructor_input
+   345 direction
    344 'pk'
    344 quote_name
    344 Axis
-   344 tmp_path
    343 through
-   343 71
-   343 "method"
-   343 ls
-   343 extensions
    343 "call_function"
    343 subtest
+   343 __reduce__
+   343 structure
    342 '\x0bA'
    342 as_view
    342 b'abc'
-   342 preprocessing
    342 table_name
    342 reset_index
-   342 bounds
-   342 realpath
    342 torch_opinfo_name
+   342 merge
+   342 "F"
+   342 isin
    341 llops
    341 TemplateSyntaxError
    341 '@'
    341 check_dtype
    341 fsdp
+   341 mat1
+   341 findall
+   341 member
+   341 A_ub
    340 entry_point
-   340 set_xlabel
-   340 __reduce__
+   340 "O"
+   340 override
+   340 ev
+   340 0.99
    339 text_w
    339 pos_label
    339 shape_env
-   338 approx
+   339 fh
+   339 param_names
    338 is_list_like
-   338 h1
-   338 retval
-   338 4.
    338 buffers
-   338 mat1
    338 JitScalarType
-   337 orientation
-   337 dr
-   337 "O"
+   338 78
    337 __del__
-   337 messages
-   337 failures
    337 exact_dtype
    337 ErrorInput
+   337 auth
+   337 81
+   337 ident
+   337 r_
    336 cast_ptr_to_adr
    336 switch
    336 '&'
-   336 87
-   336 plan
    336 assertIsNotNone
    336 qscheme
    336 dim_in
+   336 rg
+   336 xlabel
    335 jitdriver_sd
    335 deconstruct
    335 # docstring inherited
-   335 'T'
-   335 findall
-   335 identity
    335 "nan"
+   335 171
+   335 namedtuple
+   335 hess
    334 fielddescr
    334 CreateModel
    334 route
-   334 auth
    334 consts
+   334 scale_factor
+   334 "k"
+   334 sem
    333 '\x02O'
    333 '\x021'
    333 w_end_lineno
    333 utf8
    333 _ndarray
-   333 fh
    333 device_id
+   333 directory
+   333 ylabel
+   333 tmpfile
+   333 k2
    332 '\x1c'
-   332 46
-   332 member
-   332 multiply
    332 "loss"
    332 feed
    332 value_t
    332 CompileCounter
+   332 ModuleType
    331 '\x0b'
    331 uniques
    331 box_expected
    331 users
+   331 rt
+   331 x3
    330 inputconst
    330 w_col_offset
    330 w_end_col_offset
    330 get_loc
-   330 set_ylabel
-   330 77
    330 from_numpy
    330 clamp
    330 register_buffer
    330 register_decomposition
+   330 setter
    329 '\x02L'
    329 leg
    329 sheet_name
    329 "col1"
    329 'center'
-   329 merge
-   329 rg
-   329 RuntimeWarning
-   329 ModuleType
-   329 "F"
    329 "lr"
    329 counters
+   329 nc
    328 cast_opaque_ptr
    328 verts
    328 sb
+   328 'j'
+   328 mat2
+   328 shell
+   328 A_eq
    327 '\x02G'
    327 encoded
-   327 pr
+   327 'two'
    326 Frame
-   326 minimum
    326 tensor_type
    326 profiler
    326 DeviceMesh
-   325 object_
    325 137
-   325 171
-   325 xlabel
    325 max_depth
-   325 'j'
    325 dtensor
-   325 error_msg
-   325 mat2
+   325 121
+   325 97
    324 _ffi
    324 ImproperlyConfigured
    324 save_format
-   324 'u'
-   324 disp
    324 storage_options
-   324 rt
-   324 directory
-   324 'float'
    324 dependencies
    324 conv2
+   324 delimiter
+   324 alphas
+   324 setup_class
    323 rfloat
    323 old_field
    323 base_layer
@@ -3030,163 +3143,171 @@
    323 ragged
    323 usecols
    323 "2011-01-01"
-   323 shell
    323 input_spec
-   323 meshgrid
-   323 scale_factor
    323 quantized_decomposed
+   323 wrapped
+   323 xmax
    322 as_default
-   322 ylabel
-   322 ai
-   322 override
    322 "bool"
    322 check_not
    322 dim_out
+   322 subplot
+   322 fi
+   322 "nearest"
+   322 105
+   322 sz
    321 _socket
    321 ERR_LIB_SSL
    321 timesteps
-   321 tmpfile
-   321 delimiter
-   321 alphas
-   321 hi
    321 NativeFunction
    321 onlyNativeDeviceTypes
+   321 rf
+   321 4.5
    320 varoftype
    320 "fire"
    320 "pyarrow"
    320 output_mode
    320 sort_index
-   320 'dtype'
+   320 operands
+   320 79
+   320 getcwd
    319 unerase
-   319 setup_class
    319 dta
-   319 110
-   319 78
-   319 39
-   319 system
-   318 subplot
+   319 expected_result
+   319 maxlen
+   319 locs
+   319 keep
+   319 mstats
    318 future_stack
-   318 'two'
    318 hex
    318 dual
-   318 nnz
    318 rref
+   318 550
+   318 is_integer
+   318 ft
    317 Xt
    317 241
    317 box2
-   317 47
-   317 121
-   317 "k"
-   317 operands
    317 symint
    317 cfloat
+   317 metavar
+   317 tile
+   317 period
    316 __pypy__
    316 newdict
    316 mtransforms
-   316 interval
-   316 ev
    316 placeholder
    316 diagnostics
    316 call_module
+   316 "m"
+   316 'src'
+   316 0.95
+   316 matvec
    315 instr
    315 regularizers
    315 StandardScaler
-   315 550
-   315 setter
    315 "W"
    315 infra
    314 FFFDx2
    314 typeStr
    314 from_config
    314 244
-   314 97
    314 op2
    313 n_bins
-   313 is_integer
-   313 wrapped
    313 "inductor"
    313 contiguous_format
    313 API_SPECIAL
+   313 227
+   313 set_visible
+   313 dev
+   313 argmin
+   313 degree
+   313 temp
    312 tf_utils
    312 to_numpy
-   312 perm
    312 'weight'
+   312 170
+   312 na
+   312 method_name
+   312 distfn
    311 Axes
    311 template_name
    311 pooling
    311 values_list
-   311 fi
    311 assertListEqual
    311 Store
    311 Source
-   311 expected_result
    311 kernels
    311 output_padding
    311 fake_mode
+   311 rn
    310 "migrations"
    310 2010
    310 newlist
-   310 dy
-   310 100.0
-   310 diag
    310 BaseCType
    310 attn_mask
    310 prims
+   310 "store_true"
+   310 "-"
+   310 12345
+   310 resize
+   310 0.02
    309 InputArgInt
    309 2012
    309 "columns"
-   309 maxlen
-   309 227
    309 "values"
    309 _tensor
    309 default_dtype
+   309 chdir
+   309 '5'
    308 raw_prediction
    308 Affine2D
-   308 set_visible
+   308 phi
    307 args_r
    307 from_object
    307 or 308.
    307 183
-   307 sem
-   307 h2
    307 is_scalar
    307 TEST_CUDA
    307 hidden
    307 make_fx
+   307 'Z'
+   307 f3
+   307 isscalar
    306 "E"
-   306 "m"
    306 load_state_dict
    305 Estimator
-   305 locs
-   305 "nearest"
    305 ModuleInput
+   305 dll
+   305 155
+   305 uint32
    304 compilation_info
    304 4288
    304 pub_date
    304 FuncType
    304 algos
    304 Char
-   304 mu
    304 onlyCUDA
    304 floating_types_and
+   304 'right'
    303 bz2f
    303 estimators
    303 # License: BSD 3 clause
    303 '$'
-   303 81
    303 Tag
-   303 "store_true"
    303 serial
    303 num_heads
+   303 225
    302 rawstart
    302 '\x02K'
    302 _array
-   302 dll
    302 includes
    302 new_index
    302 strided
    302 reference_fn
    302 ConstantVariable
+   302 "win32"
+   302 w1
    301 ovfcheck
    301 w_l
    301 'field'
@@ -3194,158 +3315,175 @@
    301 "channels_first"
    301 221
    301 parse_dates
-   301 155
    301 running_mean
+   301 projection
+   301 resource
    300 intval
    300 ensemble
    300 _fit_context
    300 first_name
-   300 bp
    300 hint
    300 tree_map
+   300 rout
+   300 210
+   300 at
+   300 trim
+   300 b_ub
    299 boosts (300 decision trees) is compared with a single decision tree
    299 '|'
    299 hours
-   299 dev
    299 named_modules
+   299 "count"
+   299 click
+   299 qr
    298 verbose_name
    298 global_dtype
    298 extent
    298 "center"
    298 "std"
-   298 "win32"
-   298 metavar
+   298 registry
+   298 125
    297 int_data
    297 bufsize
-   297 105
    297 'baz'
-   297 79
-   297 xmin
    297 benchmark
    297 configs
+   297 NameError
+   297 zs
+   297 c0
+   297 sym
    296 check_resops
    296 'ab'
    296 n_splits
    296 iteritems
-   296 rout
-   296 xmax
    296 "i8"
    296 __contains__
    296 profile
    296 graph_for
    296 supports_autograd
+   296 'q'
+   296 edgecolor
+   296 129
+   296 vectorize
+   296 b_eq
    295 INT_real
    295 vlist
    295 'exec'
-   295 "count"
-   295 chdir
    295 "time"
+   295 230
+   295 roll
    294 migration
    294 end_datetime
    294 accept_sparse
    294 widgets
    294 _from_sequence
-   294 getcwd
    294 running_var
    294 factory_kwargs
    294 all_types_and
    294 VariableTracker
-   293 'q'
+   294 ARGS
+   294 validator
    293 0xff
    293 st_mode
-   293 lo
-   293 ci
    293 dynamic_axes
+   293 histogram
+   293 cs
    292 SVC
-   292 edgecolor
    292 fieldname
-   292 projection
    292 _thread
-   292 rn
    292 thing
    292 refs
    292 "aten"
+   292 ylim
+   292 vec
+   292 rate
    291 backendopt
    291 _combine_errors
    291 232
    291 grouper
    291 BatchNormalization
    291 "channels_last"
-   291 uint32
    291 Iterator
+   291 remainder
+   291 'left'
+   291 9.0
+   291 inv
    290 explanation
    290 906
    290 is_true
    290 feature_column
    290 locator
    290 find_stack_level
-   290 '5'
    290 Bool
-   290 'Z'
-   290 "-"
    290 "NCHW"
    290 sparsifier
+   290 "error"
+   290 "axis"
    289 GcArray
    289 895
    289 import_extension
-   289 NameError
    289 bytecode
-   289 129
-   289 resource
-   289 click
    289 "input"
+   289 coords
+   289 elements
    288 longevity
    288 serializers
-   288 ylim
-   288 ARGS
-   288 225
    288 coord
    288 warm_start
-   288 registry
    288 tensor_list
    288 fc2
    288 device_ids
    288 'TestUnaryUfuncs'
+   288 "csr"
+   288 a4
+   288 2.2
+   288 yi
    287 walkabout
    287 "sgd"
    287 components_
-   287 210
    287 __next__
-   287 validator
+   287 dialect
    286 s_value
    286 setUpTestData
    286 Form
-   286 125
    286 classifier
    286 splits
+   286 geom
+   286 can_cast
+   286 distributions
+   286 check_finite
    285 "top"
    285 ser2
-   285 isin
-   285 at
    285 DEBUG
    285 param_groups
    285 get_world_size
    285 graph_module
+   285 submodule
+   285 'darwin'
+   285 ranks
+   285 footprint
+   285 cephes
    284 cleaned_data
-   284 170
-   284 ident
    284 chunk_size
    284 replacement
+   284 'I'
    283 'c_parser.py'
    283 pca
    283 # int
    283 tuples
    283 Embedding
-   283 blocksize
+   283 cached_property
+   283 rule
+   283 tolerance
+   283 6.
    282 assertCountEqual
    282 base_config
    282 pa_type
    282 'return'
-   282 230
-   282 12345
-   282 a0
    282 predict_net
    282 fqn
+   282 summary
+   282 return_indices
    281 __extend__
    281 register_lookup
    281 convert_to_tensor
@@ -3354,102 +3492,103 @@
    281 DatetimeArray
    281 223
    281 fspath
-   281 points
    281 rfind
    281 is_floating_point
+   281 239
+   281 246
+   281 arr2
+   281 permutation
+   281 random_sample
+   281 'type'
+   281 .1
    280 jitcode
    280 im_func
    280 _validate_data
    280 remove_text
-   280 na
    280 get_template
    280 gid
-   280 sc
    280 requires_nccl
+   280 ax3
+   280 __version__
    279 659
    279 missing_values
    279 177
-   279 remainder
-   279 frozen
+   279 CDLL
+   279 'readonly'
    278 interp_operations
    278 BChar
-   278 cached_property
    278 ignore_warnings
    278 make_pipeline
    278 signals
    278 243
    278 funcname
-   278 Benchmark
-   278 X1
-   278 roll
-   277 239
-   277 2j
-   277 sz
+   278 104
+   278 85
+   278 S1
+   278 Arg
+   277 rec
+   277 argnames
    276 artist
-   276 ax3
-   276 CDLL
    276 new_model
    276 dt1
-   276 submodule
+   276 ba
+   276 86
+   276 intersection
+   276 fr
+   276 expected_shape
    275 '\x0bE'
    275 marshal
    275 tf_export
-   275 'readonly'
    275 '6'
    275 button
    275 "Float64"
-   275 "csr"
    275 Conv2D
-   275 'darwin'
    275 uuid
+   275 linestyle
+   275 v3
    274 settings_dict
    274 trainable_variables
    274 228
-   274 divide
-   274 x3
-   274 argmin
-   274 rule
    273 r_ulonglong
    273 recognize
    273 monotonic
+   273 nperseg
    272 typeid
    272 start_lineno
    272 ROOT_URLCONF
    272 include_top
-   272 linestyle
-   272 exact
-   272 a4
-   272 method_name
    272 _utils
-   272 work
    272 ShardingStrategy
    271 obj_to_int
    271 D_arr_0p5
    271 inverse_transform
    271 imputer
    271 calcsize
-   271 246
-   271 keep
-   271 f3
    271 then
    271 file_path
    271 zero_grad
    271 hypothesis_test_util
+   271 109
+   271 cx
+   271 w2
+   271 isinf
    270 OF
    270 '\x03O'
    270 layers_module
    270 jd
    270 transData
-   270 ba
-   270 "error"
+   270 loc1
+   270 sio
+   270 result1
+   270 expand_dims
+   270 ranges
    269 899
-   269 86
-   269 intersection
-   269 histogram
    269 get_device
    269 DEFAULT
    269 local_shards
    269 common_args
+   269 scales
+   269 ArgumentParser
    268 databases
    268 ModelState
    268 Employee
@@ -3457,59 +3596,62 @@
    268 connections
    268 estimators_
    268 methodcaller
-   268 'right'
-   268 iterations
-   268 rec
    268 Mapping
    268 guards
    268 assume
+   268 xlim
+   268 114
+   268 missing
+   268 tanh
+   268 intercept
+   268 funcs
+   268 atleast_2d
    267 pairtype
    267 BooleanField
    267 vocabulary
    267 n_iter_
-   267 'I'
-   267 dialect
-   267 geom
-   267 v3
-   267 isfinite
-   267 ii
-   267 result_type
-   267 summary
    267 _type_utils
+   267 neg
    266 226
-   266 arr2
-   266 slow
-   266 "axis"
-   266 can_cast
+   266 av
+   266 "h"
+   266 converter
+   266 tight_layout
+   266 count_nonzero
    265 spaceconfig
-   265 109
    265 229
-   265 'src'
    265 "dense"
    265 updates
    265 Instruction
    265 create_graph
+   265 positions
+   265 p0
    264 bias_initializer
    264 transAxes
-   264 104
    264 pycode
    264 UnicodeDecodeError
    264 uid
-   264 diagonal
+   264 152
+   264 181
+   264 83
+   264 __getattr__
    263 dir_fd
    263 interpleveldefs
    263 X_csr
-   263 direction
    263 conv2d
-   263 scales
    263 coalesced
    263 ctors
    263 qparams
-   262 av
+   263 broadcast
+   263 190
+   263 'i4'
    262 ';'
    262 "default"
    262 synchronize
    262 dim1
+   262 heap
+   262 100000
+   262 _cache
    261 '\x0bI'
    261 start_col_offset
    261 "rmsprop"
@@ -3517,30 +3659,28 @@
    261 global_variables_initializer
    261 screen
    261 175
-   261 xlim
    261 "2000"
    261 today
    261 231
-   261 152
-   261 85
-   261 "h"
    261 builtin
-   261 permutation
    261 skipIfTorchDynamo
    261 sharding_strategy
+   261 176
+   261 angles
+   261 entropy
+   261 tau
    260 '\x02J'
    260 DateTimeField
    260 string_series
    260 Template
-   260 coords
+   260 cl
+   260 as_strided
    259 effectinfo
    259 writechar
    259 mark_safe
    259 DatetimeTZDtype
    259 SOCK_STREAM
    259 "second"
-   259 zs
-   259 rf
    259 new_values
    259 initial_state
    259 "var"
@@ -3551,51 +3691,52 @@
    258 assertAllCloseAccordingToType
    258 unicodedata
    258 "exec"
-   258 trim
    258 "g"
    258 generic
    258 snippet
    258 hostname
-   258 5.
    258 X_scale
-   258 neg
+   258 116
+   258 writeable
+   258 'mean'
    257 fromlong
    257 new_array_type
    257 '8'
    257 off
-   257 'left'
    257 to_csv
-   257 indptr
-   257 nx
-   257 176
-   257 S1
-   257 resize
+   257 blk
+   257 finish
+   257 "raise"
+   257 data1
    256 as_sql
    256 City
    256 bit_generator
    256 * number of cores to enable parallelism on all cores.
-   256 loc1
    256 2009
    256 to_timedelta
    256 as_index
    256 channel
-   256 special
-   256 broadcast
    256 fsdp_state
-   255 181
-   255 114
+   256 index_dtype
+   256 "random_state"
+   256 103
+   256 108
    255 Load
-   255 converter
-   255 random_sample
-   255 tile
-   255 test_basic
+   255 '%'
+   255 '__name__'
+   255 difference
    254 to_object
    254 w_subtype
    254 ARRAY
    254 <class 'numpy.uint8'>
    254 pytz
-   254 83
    254 current_device
+   254 enum
+   254 r"""
+   254 'f8'
+   254 'k'
+   254 G
+   254 f0
    253 knowntype
    253 _immutable_fields_
    253 llsupport
@@ -3603,14 +3744,13 @@
    253 "col2"
    253 '{'
    253 "color"
-   253 190
    253 poll
-   253 cl
    253 i8
    253 codegen
    253 padding_idx
-   253 index_dtype
    253 observer
+   253 MaskedArray
+   253 1e-1
    252 RESULT
    252 exception_cannot_occur
    252 kernel_regularizer
@@ -3620,32 +3760,26 @@
    252 df3
    252 read_excel
    252 sess
-   252 blk
-   252 '%'
-   252 tight_layout
-   252 missing
    252 "cat"
+   252 indx
+   252 logspace
    251 LinearRegression
    251 multi_class
    251 max_features
-   251 116
    251 '}'
-   251 _lib
    251 _dtype
-   251 suppress_warnings
-   251 as_strided
-   251 enum
    251 "nccl"
    251 ModelHelper
+   251 return_inverse
+   251 ar
+   251 z1
    250 follow_symlinks
-   250 "random_state"
    250 247
-   250 sio
    250 fromkeys
-   250 argnames
-   250 0.02
    250 input_dtype
    250 device_count
+   250 rect
+   250 func_name
    249 205
    249 index_name
    249 _pa_array
@@ -3653,63 +3787,60 @@
    249 "red"
    249 "table"
    249 Dropout
+   249 expected2
    248 superuser
    248 decayed_lr
    248 clf1
    248 sender
-   248 __version__
    248 onlyCPU
    248 default_qconfig
+   248 records
+   248 asanyarray
    247 CConfig
    247 SCRATCH
    247 LONG
    247 add_weight
-   247 103
-   247 finish
-   247 yy
-   247 r"""
-   247 tolerance
-   247 tanh
    247 DataType
    247 DeviceOption
    247 context_id
+   247 tri
+   247 spcreator
    246 getopnum
    246 extra_context
    246 pieces
-   246 fr
-   246 result1
    246 fused
-   246 ArgumentParser
    246 DTensor
    246 rpc_sync
    246 out_dims
+   246 affine
+   246 mx
    245 codewriter
    245 diabetes
    245 requires
-   245 expand_dims
-   245 return_inverse
    245 fwAD
+   245 149
+   245 language
+   245 coo_matrix
    244 w_unicode
    244 train_on_batch
    244 apply_gradients
    244 max_tokens
-   244 '__name__'
-   244 "raise"
    244 "outer"
    244 pathname
    244 gradients
-   244 1e-7
    244 batch_sizes
    244 compatibility
+   244 pointer
+   244 _base
    243 c_ast
    243 select_related
    243 c_long
    243 "last"
    243 shard
-   243 namedtuple
    243 sizevars
    243 rank_to_GPU
    243 assertGradientChecks
+   243 dummy
    242 921
    242 'migrations'
    242 'nt'
@@ -3720,64 +3851,61 @@
    242 min_count
    242 read_ext
    242 "label"
-   242 expected_shape
    242 zero_
+   242 154
+   242 lru_cache
+   242 swapaxes
+   242 cython_special
    241 '\x02H'
    241 l1_ratio
    241 Fs
-   241 difference
    241 accumulate
    241 blob_out
+   241 124
+   241 dirs
+   241 ny
+   241 extrapolate
    240 w_ob
-   240 'i4'
    240 w_start
-   240 heap
    240 router
    240 ndtype
    240 AxisInt
    240 minutes
-   240 pointer
-   240 positions
    240 autocast
    239 gc_collect
    239 META
    239 bias_regularizer
    239 post_data
    239 suptitle
-   239 108
-   239 MaskedArray
    239 SparseDtype
-   239 rect
    239 Child
-   239 9.0
    239 _ops
    239 chalf
    239 op_count
    239 ast_rewriter
+   239 resolve
+   239 log10
    238 llstr
    238 faildescr
    238 addressof
    238 "l2"
    238 "2016-01-01"
-   238 124
    238 KeyboardInterrupt
    238 test_size
-   238 sup
-   238 affine
    238 ref_output
    238 ProfilingMode
+   238 134
+   238 noise
+   238 ftype
    237 '\x8b\x05A'
    237 _statusstatus
    237 Class
-   237 154
    237 TensorShape
    237 292
    237 digit
-   237 149
    237 'replace'
    237 check_figures_equal
    237 yerr
-   237 which
    237 dt2
    237 skipIfNoFBGEMM
    237 TEST_WITH_DEV_DBG_ASAN
@@ -3787,32 +3915,42 @@
    236 '\x03Y'
    236 POS
    236 "precomputed"
-   236 'f8'
-   236 degree
    236 233
    236 extension
    236 mixed_precision
    236 narrow
    236 flat_args
+   236 NamedTuple
+   236 return_type
+   236 penalty
+   236 obs
    235 w_arg
    235 base_loc
    235 w_iterable
    235 macro
-   235 dummy
    235 new_empty
    235 scripted
    235 rpc_backend_options
    235 shard_offsets
    235 ConstantFill
    235 writeline
+   235 settrace
+   235 148
+   235 "valid"
+   235 x_test
+   235 ym
+   235 log1p
    234 gcrootmap
    234 w_descr
    234 mdates
    234 notna
    234 sw
-   234 lru_cache
    234 "weight"
    234 partitions
+   234 extra_args
+   234 point
+   234 rotation
+   234 test_data
    233 classifier_activation
    233 load_iris
    233 last_name
@@ -3820,34 +3958,45 @@
    233 156
    233 w_a
    233 174
-   233 indx
-   232 settrace
+   233 subok
+   233 ix
+   233 0.15
    232 cropping
    232 model_selection
-   232 134
    232 ExtensionArray
-   232 148
-   232 language
-   232 cx
+   232 "T"
+   232 channels
+   232 _version
+   232 ms
+   232 noverlap
+   232 dec
    231 spaceop
    231 __context__
    231 add_patch
    231 get_option
    231 reduce_sum
-   231 records
    231 non_blocking
    231 seq_len
-   231 ranges
    231 dst_rank
+   231 test_name
+   231 ge
+   231 margins
+   231 ymin
+   231 futures
+   231 c_name
+   231 fit_params
    230 gcmap
    230 CFUNCTYPE
    230 'Name'
-   230 expected2
-   230 resolve
    230 test_util
-   230 vectorize
-   230 NamedTuple
    230 storage_offset
+   230 test_cases
+   230 MemoryError
+   230 getter
+   230 variance
+   230 marks
+   230 moment
+   230 assert_approx_equal
    229 w_index
    229 DateField
    229 saved_model_dir
@@ -3855,24 +4004,28 @@
    229 to_frame
    229 EQ
    229 var_list
-   229 mx
    229 operators
-   229 return_indices
    229 getLogger
    229 op_db
    229 make_test
    229 inp2
    229 ReduceOp
+   229 115
+   229 'nearest'
    228 run_unittest
    228 size_gc_header
    228 ffi1
    228 TextIOWrapper
-   228 writeable
-   228 return_type
    228 BaseTy
    228 TEST_WITH_ROCM
    228 shard_sizes
    228 ddp_model
+   228 ep
+   228 gca
+   228 'f4'
+   228 ri
+   228 assert_warns
+   228 kappa
    227 setdictvalue
    227 'AN'
    227 changelist
@@ -3881,48 +4034,45 @@
    227 Bbox
    227 datetime_frame
    227 na_rep
-   227 subok
-   227 _base
    227 instantiate_device_type_tests
-   227 elements
    227 nni
+   227 triang
    226 tmpname
    226 make_blobs
    226 assert_categorical_equal
    226 what
-   226 ar
    226 do_opt
-   226 c0
-   226 vec
    226 output_names
-   226 test_name
-   226 w1
    226 head_dim
+   226 168
+   226 Sum
+   226 date_format
+   226 bc
+   226 cval
    225 newvalue
    225 'lineno'
    225 777
-   225 "valid"
-   225 0.99
    225 attr_name
-   225 test_cases
    225 "cuda:0"
-   225 ge
    225 DistributedDataParallel
    225 norm_type
    225 get_rank
    225 op_schema
-   225 ranks
    225 prepare_fx
+   225 "bottom"
+   225 pl
+   225 tc
+   225 broadcast_to
    224 totalsize
    224 thresholds
    224 partial_fit
    224 169
    224 b"abc"
-   224 115
-   224 margins
-   224 count_nonzero
    224 diagnostic
    224 gcs_cpu_only
+   224 iters
+   224 pmf
+   224 ppf
    223 flowspace
    223 AL
    223 '\x02T'
@@ -3934,40 +4084,35 @@
    223 saving
    223 tslibs
    223 0xFF
-   223 noise
-   223 "T"
    223 "accuracy"
-   223 10.
    223 input_name
    223 Add
    223 CPU
    223 group_size
    223 GRAPH_EXECUTOR
    223 field_blobs
+   223 """\
+   223 'numpy'
+   223 int_
    222 def_op
    222 w_ffitype
    222 elidable
    222 validation_data
    222 bias_constraint
-   222 penalty
    222 instring
    222 158
-   222 MemoryError
    222 currpos
-   222 168
-   222 "bottom"
    222 _simple_new
    222 "zeros"
-   222 Sum
    222 ElementwiseTypePromotionRule
+   222 decimals
+   222 "shape"
    221 immortal
    221 TyperError
    221 w_mod
    221 Count
-   221 intercept
    221 bool_t
    221 savefig
-   221 2.2
    221 regularizer
    221 loss_fn
    221 #!/usr/bin/env python3
@@ -3976,6 +4121,7 @@
    221 num_workers
    221 grad_input
    221 pred_net
+   221 fglob
    220 418
    220 STRUCT
    220 force_allocate_reg
@@ -3984,10 +4130,11 @@
    220 NORMAL
    220 MT19937
    220 ha
-   220 ymin
    220 track_running_stats
    220 Conv3d
    220 model_helper
+   220 margin
+   220 minor
    219 529
    219 BA
    219 subtype
@@ -3995,8 +4142,8 @@
    219 activations
    219 expected_values
    219 _pytree
-   219 ep
    219 dist_autograd
+   219 age
    218 cbuilder
    218 gendirectcall
    218 '\x02V'
@@ -4007,8 +4154,12 @@
    218 value_counts
    218 _debug
    218 equal_nan
-   218 futures
    218 InputDim
+   218 208
+   218 'top'
+   218 bincount
+   218 global_optimum
+   218 _bounds
    217 JitCellToken
    217 Rc
    217 b'x'
@@ -4020,53 +4171,55 @@
    217 "inner"
    217 pairwise
    217 Conv1d
-   217 getter
+   217 262
+   217 new_name
+   217 rel
+   217 ndmin
+   217 p3
    216 RFFI_SAVE_ERRNO
    216 csource
    216 When
    216 1.00
-   216 gca
    216 "M8[ns]"
    216 "bias"
-   216 channels
    216 sparse_coo_tensor
    216 num_embeddings
    216 qengine
+   216 ymax
+   216 uint16
+   216 square
+   216 zi
    215 W_UnicodeObject
    215 lookup_name
-   215 'f4'
    215 'xxx'
    215 get_indexer
-   215 3j
-   215 temp
    215 output_dir
    215 outs
    215 current_stream
    215 unbiased
    215 get_size
    215 "DNNLOWP"
+   215 loadtxt
+   215 nomask
+   215 confidence_level
    214 argrepr
    214 Equal
    214 descr1
    214 'AL'
    214 output_dataset
-   214 208
    214 get_visible
    214 161
-   214 """\
-   214 hstack
-   214 decimals
-   214 ft
-   214 "shape"
    214 db_type
+   214 'O'
+   214 place
    213 ac_tester
    213 StringBuilder
    213 w_func
-   213 262
-   213 age
    213 mpatches
-   213 date_format
    213 DTensorSpec
+   213 NamedTemporaryFile
+   213 _str
+   213 symbols
    212 usemodules
    212 CommandError
    212 get_constraints
@@ -4078,16 +4231,14 @@
    212 rendered
    212 check_names
    212 _check_plot_works
-   212 c_name
-   212 margin
    212 output_schema
    212 is_backward_compatible
    211 '\x02W'
-   211 1e-1
-   211 extra_args
-   211 rate
    211 "out"
    211 local_shard
+   211 http
+   211 s3
+   211 full_output
    210 execute_operation
    210 '\x02C'
    210 159
@@ -4095,51 +4246,55 @@
    210 sharey
    210 "neither"
    210 is_none
-   210 ri
    210 retain_graph
    210 Future
    210 activation_post_process
+   210 getrefcount
+   210 datsp
    209 canfold
    209 auto_id
    209 "fit"
    209 aspect
    209 to_json
-   209 pl
-   209 ix
-   209 methods
-   209 NamedTemporaryFile
    209 NamedCType
    209 type_promotion_kind
    209 use_orig_params
    209 qX
    209 out_wrapper
+   209 new_args
+   209 dtype2
+   209 logical_and
+   209 fid
+   209 freqs
    208 argboxes
    208 oopspecindex
    208 get_feature_names_out
    208 edgecolors
    208 0xF
-   208 point
-   208 4.5
    208 tmp_filename
    208 guard
+   208 "median"
+   208 le
+   208 ab
    207 getlength
    207 '\x02S'
    207 mutate_over
    207 ModelForm
    207 FieldError
    207 input_layer
-   207 'top'
-   207 triang
    207 sharex
    207 "US/Pacific"
    207 opcodes
-   207 _str
    207 login
    207 "prod"
    207 owner
-   207 _version
    207 "output"
    207 CopyFrom
+   207 zorder
+   207 'both'
+   207 output2
+   207 va
+   207 per
    206 llhelper
    206 not_rpython
    206 codeno
@@ -4147,57 +4302,55 @@
    206 TestModelAdmin
    206 built
    206 164
-   206 loadtxt
    206 "timedelta64[ns]"
    206 simple_index
-   206 ymax
-   206 variance
    206 max_norm
    206 module_info
    206 is_test
+   206 invert
+   206 nv
+   206 12.0
+   206 multivariate_normal
    205 charmap_decode
    205 get_int_value
    205 literal_1
    205 person
    205 var0_np
    205 getopt
-   205 nomask
    205 PeriodDtype
-   205 "median"
-   205 new_args
    205 run_model_test
+   205 "func"
+   205 output1
+   205 beta1
+   205 # noqa
    204 warnings_helper
    204 API
    204 291
    204 pu
    204 ConvergenceWarning
    204 953
-   204 zorder
    204 "test1"
    204 before
-   204 func_name
-   204 funcs
    204 boundaries
    204 is_tensor
+   204 duration
+   204 out_dtype
+   204 "|"
+   204 _test
+   204 fftn
    203 '\x11'
    203 script_dir
    203 w_bytes
-   203 'both'
-   203 http
    203 tz_convert
    203 nlevels
    203 "softmax"
-   203 xi
-   203 new_name
-   203 getrefcount
    203 ints
-   203 bincount
-   203 w2
    203 destination
    203 fast_mode
+   203 scalars
+   203 bb
    202 ofs_loc
    202 LINETO
-   202 rotation
    202 add_marker
    202 ujson
    202 input_shapes
@@ -4207,48 +4360,58 @@
    202 nested_tensor
    202 TensorProto
    202 create_blob
+   202 test_shape
+   202 'o'
+   202 res3
    201 INFINITY
    201 cdecl
-   201 rel
    201 unstack
    201 allow_fill
    201 "ms"
    201 argument
    201 instructions
+   201 "type"
+   201 describe
+   201 "N"
    200 ExtRegistryEntry
    200 quals
    200 utf8_w
    200 LinearSVC
    200 _log
-   200 uint16
-   200 'k'
-   200 0.15
    200 cudnn
    200 ShardMetadata
    200 arg_map
+   200 ndims
+   200 ax0
+   200 beta2
+   200 start_time
+   200 'auto'
+   200 'linear'
+   200 'less'
+   200 'greater'
+   200 overwrite_x
+   200 tck
+   200 floc
    199 'testapp'
-   199 'O'
    199 visible
-   199 cs
-   199 'type'
-   199 duration
-   199 period
-   199 dtype2
-   199 invert
-   199 le
    199 timestep
-   199 out_dtype
    199 torch_type
    199 fx_g
    199 onnx_model
+   199 ticker
+   199 decay
+   199 longdouble
    198 error_messages
-   198 'numpy'
-   198 "|"
    198 Category
    198 assert_raises_regex
    198 Replicate
+   198 ul
+   198 pt
+   198 get_shape
+   198 distances
+   198 5.5
+   198 sos
    197 get_queryset
-   197 angles
    197 asi8
    197 "1 days"
    197 node_id
@@ -4261,52 +4424,52 @@
    197 dilations
    197 fsdp_kwargs
    197 BasicBlock
-   197 symbols
    197 blob_name
+   197 # noqa: F811
+   197 'integer'
+   197 svd
    196 TimedeltaArray
    196 expected_index
-   196 asanyarray
-   196 minor
    196 deserialize
-   196 "func"
-   196 nv
    196 exprs
-   196 test_shape
    196 torchvision
    196 onnx_test_common
    196 int_repr
    196 _add_docstr
+   196 cpp
+   196 cu
+   196 b_
+   196 cfg
+   196 't'
    195 isolate_apps
    195 kernel_constraint
    195 conv_utils
    195 Flask
-   195 'o'
-   195 ticker
    195 create_section_header
    195 weekday
    195 "3"
-   195 ndims
    195 divisor
    195 ref_out
    195 use_reentrant
    195 active_if
    195 register_meta
    195 external_input
+   195 Case
+   195 top_path
    194 DecisionTreeClassifier
    194 raw_predictions
    194 _docstring
-   194 ax0
    194 using_array_manager
    194 _new
-   194 decay
    194 model2
-   194 s3
-   194 # noqa: F811
    194 exported
    194 FakeTensorMode
    194 precisionOverride
    194 size_average
    194 HypothesisTestCase
+   194 deg
+   194 amax
+   194 Hyp2f1TestCase
    193 INSTALLED_APPS
    193 param_grid
    193 from_estimator
@@ -4316,59 +4479,58 @@
    193 cache_readonly
    193 'invalid'
    193 sequential
-   193 100000
-   193 "type"
-   193 output2
-   193 cpp
-   193 _test
+   193 connectivity
+   193 timer
+   193 'bottom'
+   193 flip
+   193 2.3
+   193 distance
    192 absl
    192 gradient_descent
-   192 fit_params
    192 # .. admonition:: References
    192 is_monotonic_increasing
    192 NoDefault
-   192 va
    192 definition
    192 i4
-   192 test_data
    192 parsed
    192 input_args
    192 ResetWorkspace
+   192 widths
+   192 moveaxis
    191 extras
    191 cats
    191 ExtensionDtype
    191 Transform
-   191 scalars
-   191 'mean'
    191 _export
    191 parametrizations
    191 input_channels_per_group
    191 output_channels_per_group
    191 randomness
+   191 "inf"
+   191 inclusive
    190 re_path
    190 always_skip_v1
    190 Pipeline
    190 n_targets
-   190 1e-8
    190 data_type
    190 mul_
-   190 cu
    190 NextScopedBlob
    190 _C_onnx
+   190 dictionary
+   190 AxisError
+   190 'two-sided'
    189 empty_view
-   189 connectivity
    189 #    The use of the following functions, methods, classes and modules is shown
    189 #    in this example:
    189 managers
-   189 deg
-   189 isinf
    189 fn_name
-   189 timer
    189 inp1
-   189 beta2
    189 ProcessGroup
    189 PROFILING
    189 run_pass
+   189 Ellipsis
+   189 nb
+   189 multinomial
    188 run_v2_only
    188 layer_test
    188 n_init
@@ -4376,33 +4538,36 @@
    188 tick
    188 "Z"
    188 act
-   188 start_time
    188 is_cuda
    188 linear1
    188 LR
+   188 deprecated
+   188 n_fft
+   188 roots
+   188 derivative
+   188 overwrite_a
    187 attname
    187 image_preprocessing
    187 min_samples
    187 'mpl20'
-   187 'bottom'
    187 Gtk
    187 "uint64"
    187 ABCSeries
    187 "us"
    187 reporter
    187 _transform
-   187 dictionary
    187 "strides"
    187 load_model
-   187 dirs
-   187 output1
    187 instantiate_parametrized_tests
    187 num_threads
    187 sample_inputs
    187 RunNet
+   187 rem
+   187 jvp
+   187 ier
+   187 Rotation
    186 ticks
    186 num_thresholds
-   186 inv
    186 SymInt
    186 uniform_
    186 quantizer
@@ -4410,59 +4575,68 @@
    186 f32
    186 BackendPatternConfig
    186 mt
+   186 lists
+   186 sides
+   186 rnd
    185 target_names
    185 IndexLabel
    185 _typing
-   185 b_
-   185 0.95
    185 Field
-   185 G
-   185 Ellipsis
    185 error_type
    185 create_instruction
    185 Y_scale
    185 unimplemented
+   185 parents
+   185 repeats
+   185 njev
+   185 logpdf
    184 prefetch_related
    184 modeladmin
    184 InputSpec
    184 as_numpy_dtype
-   184 describe
    184 to_html
-   184 q1
    184 use_gpu
    184 check_count
    184 triton
    184 IterDataPipe
-   184 beta1
    184 'output'
+   184 "alpha"
+   184 aux
+   184 _cdf
    183 4326
    183 from_logits
-   183 ul
    183 transformers
    183 train_step
-   183 lists
    183 custom_ops
    183 "device"
    183 tracing_mode
    183 seq_lengths
    183 quantization_config
+   183 strings
+   183 result_dtype
+   183 field_names
+   183 'max'
+   183 _util
+   183 .2
+   183 phase
+   183 pp
+   183 get_lapack_funcs
    182 compute_output_shape
    182 var1_np
    182 data_id
    182 Line2D
    182 hasher
    182 "Q"
-   182 marks
-   182 bb
    182 "f8"
    182 library
-   182 "N"
-   182 distributions
    182 unbind
-   182 "inf"
    182 f64
    182 shards_metadata
    182 rpc_async
+   182 minute
+   182 alt
+   182 correct
+   182 properties
    181 TextField
    181 make_regression
    181 interactive
@@ -4471,39 +4645,37 @@
    181 get_position
    181 startingMonth
    181 read_json
-   181 _cache
-   181 longdouble
-   181 atleast_1d
-   181 pt
-   181 flip
    181 'TestJit'
    181 'TestModule'
+   181 y_
+   181 major
+   181 an
+   181 u1
+   181 xtol
    180 add_artist
    180 subplots_adjust
    180 facecolors
    180 Item
-   180 ndmin
-   180 "alpha"
-   180 AxisError
    180 aten_name
    180 repo
    180 gather
-   180 qr
    180 op_eq
+   180 'f1'
    179 books
    179 get_weights
    179 tz_naive_fixture
    179 "freq"
    179 xticks
-   179 get_shape
-   179 tc
    179 embed_dim
    179 output_spec
-   179 iters
    179 per_sample_weights
    179 transformed
    179 toleranceOverride
    179 CreateNet
+   179 starts
+   179 9.
+   179 den
+   179 idx_dtype
    178 validators
    178 PCA
    178 "predict_proba"
@@ -4513,17 +4685,17 @@
    178 output_data
    178 gfile
    178 Parent
-   178 p3
    178 _path
-   178 rem
    178 payload
-   178 strings
-   178 ms
-   178 sym
    178 ERROR
    178 dim_constraints
+   178 y3
+   178 el
+   178 accuracy
+   178 dz
+   178 25.0
+   178 integrate
    177 map_structure
-   177 csc_matrix
    177 scorer
    177 zdir
    177 holidays
@@ -4532,11 +4704,6 @@
    177 data_missing
    177 to_string
    177 "three"
-   177 deprecated
-   177 parents
-   177 lb
-   177 workers
-   177 param_names
    177 GRU
    177 commit
    177 bucket
@@ -4547,14 +4714,17 @@
    177 remote
    177 autogradF
    177 fetch
+   177 warn_msg
+   177 expected1
+   177 1.6
+   177 bs
+   177 iteration
    176 force_all_finite
-   176 x_test
-   176 y_
    176 label_smoothing
-   176 cfg
-   176 z1
-   176 result_dtype
    176 tensor_meta
+   176 i0
+   176 c_
+   176 lwork
    175 introspection
    175 "testapp"
    175 variable_scope
@@ -4563,38 +4733,38 @@
    175 "transform"
    175 nulls_fixture
    175 pa_dtype
-   175 sides
    175 strftime
-   175 r_
    175 "str"
-   175 swapaxes
    175 bmm
    175 "requires CUDA"
    175 tensor1
-   175 jvp
    175 operator_export_type
    175 check_batched_forward_grad
    175 input_blob
    175 external_output
+   175 midx
+   175 "sparse"
+   175 mf
+   175 1.4
+   175 configuration
+   175 triu
    174 Reporter
-   174 'integer'
    174 triangles
    174 nanops
    174 filepath_or_buffer
-   174 minute
    174 TextIO
    174 "config"
-   174 isscalar
    174 save_path
-   174 issubdtype
    174 Symbol
    174 example_input
+   174 pcolormesh
+   174 "t"
+   174 new_data
    173 assertOutput
    173 content_object
    173 tda
    173 "body"
    173 Image
-   173 starts
    173 is_sparse
    173 get_dtype
    173 sarif
@@ -4602,6 +4772,14 @@
    173 ShardedTensor
    173 train_net
    173 RUN_NVFUSER
+   173 ngroups
+   173 contour
+   173 ne
+   173 li
+   173 arr1
+   173 padded
+   173 caller
+   173 rv_continuous
    172 'secret'
    172 GEOSGeometry
    172 data_utils
@@ -4610,91 +4788,97 @@
    172 sparse_csr
    172 batches
    172 FakeTensor
-   172 n_fft
    172 # LICENSE file in the root directory of this source tree.
    172 "params"
    172 convert_fx
    172 DeviceScope
+   172 o1
+   172 maxval
+   172 denom
+   172 limits
    171 check_html
    171 losses_utils
    171 return_X_y
    171 "infer"
    171 "o"
-   171 Case
    171 add_node
    171 mkldnn
    171 register_lowering
    171 skipCPUIfNoLapack
    171 model_helper_obj
    171 TensorBox
+   171 two
+   171 Warning
+   171 full_like
+   171 aa
+   171 k1
+   171 b0
+   171 conjugate
+   171 rdt
    170 jit_compile
    170 text_vectorization
    170 grads_and_vars
-   170 pcolormesh
    170 "average"
    170 "klass"
    170 lev
-   170 ngroups
    170 Grouper
    170 network
    170 "constant"
-   170 log10
    170 noncontiguous
    170 tensor2
    170 create_node
    170 _functorch
    170 BinConstraintD
+   170 sm
    169 proba
    169 slug
    169 spines
    169 "numba"
    169 Appender
    169 downcast
-   169 midx
    169 get_response
-   169 alt
-   169 "sparse"
    169 state_size
    169 coll
-   169 square
    169 compute
-   169 field_names
-   169 repeats
    169 randn_like
    169 dropout_p
    169 handle_torch_function
+   169 aliases
+   169 km
+   169 pivot
+   169 integrality
+   169 assert_mpmath_equal
    168 stateful
    168 _shared_docs
    168 "2011-01-02"
    168 joined
-   168 o1
-   168 two
    168 shards
    168 native_functions
    168 "indices"
    168 LongTensor
    168 propagate
    168 zero_points
+   168 correction
    167 distinct
    167 model_admin
    167 qs1
    167 include_preprocessing
    167 Ridge
    167 "passthrough"
-   167 contour
    167 '3d'
    167 ax_ref
    167 any_numeric_ea_dtype
    167 "m8[ns]"
    167 "any"
-   167 rho
    167 NotSupportedError
    167 combined
-   167 # noqa
-   167 ne
    167 x_cpu
    167 type_as
    167 'test_variant_consistency_jit'
+   167 "size"
+   167 q2
+   167 bootstrap
+   167 distname
    166 app_configs
    166 'age'
    166 trainable_weights
@@ -4711,43 +4895,45 @@
    166 key_padding_mask
    166 API_RAND
    166 CONV_TEX
+   166 max_size
+   166 cbar
+   166 'sum'
+   166 "csc"
+   166 'alpha'
+   166 eo
    165 OneHotEncoder
-   165 'f1'
    165 "kernel_size"
-   165 warn_msg
    165 "int8"
    165 stacked
-   165 y3
    165 "model"
    165 Stream
    165 to_mkldnn
    165 Y_zero_point
    165 ValueRanges
    165 'TestMathBits'
+   165 nextafter
+   165 Version
+   165 tocsr
    164 article
-   164 ym
    164 datetimes
    164 Final
-   164 data1
-   164 aliases
    164 substitute
    164 get_name
    164 grad_out
    164 importer
    164 cross_product_configs
+   164 "full"
+   164 job
+   164 'raise'
    163 "testcase_name"
-   163 assert_warns
    163 _nx
    163 "kernel"
-   163 int_
    163 Flatten
-   163 't'
    163 _subclasses
    163 barrier
    163 functional_call
    163 assertONNX
    163 # Owner(s): ["oncall: distributed"]
-   163 li
    163 prepare_custom_config
    163 "NHWC"
    163 CONV_MEM
@@ -4755,20 +4941,18 @@
    162 assertNoOutput
    162 precompute
    162 selection
-   162 Warning
-   162 "t"
    162 SUM
    162 FloatTensor
    162 error_inputs_func
    162 floating_and_complex_types
-   162 max_size
-   162 sm
    162 OpOverload
    162 is_causal
    162 rendezvous
    162 FileStore
    162 reduce_range
    162 make_fallback
+   162 check_output
+   162 __array__
    161 urlpatterns
    161 SET_NULL
    161 qs2
@@ -4778,21 +4962,17 @@
    161 "sample_weight"
    161 2015
    161 recons
-   161 km
    161 all_data
-   161 pivot
-   161 el
    161 Mod
    161 init_process_group
    161 "Cast"
+   161 means
+   161 Poly
    160 has_changed
    160 X_array
    160 ewm
    160 get_color
-   160 arr1
    160 adam
-   160 new_data
-   160 12.0
    160 feature
    160 u8
    160 # type: ignore[union-attr]
@@ -4800,6 +4980,9 @@
    160 fake_tensor
    160 EmbeddingBag
    160 gradient_as_bucket_view
+   160 mid
+   160 LinearOperator
+   160 lu
    159 IntegrityError
    159 group_keys
    159 logdir
@@ -4808,11 +4991,16 @@
    159 "group"
    159 "pad"
    159 vocab
-   159 "size"
    159 Target
    159 dispatch_key
    159 f16
    159 dst_worker_name
+   159 "dim"
+   159 2048
+   159 _y
+   159 dm
+   159 1e6
+   159 linkage
    158 methodName
    158 clusters to 100 clusters.
    158 get_transform
@@ -4826,18 +5014,19 @@
    158 SerializeToString
    158 intrinsic
    158 override_quantized_engine
+   158 inverse
+   158 c3
+   158 7.
+   158 rcond
    157 current_app
    157 modify_settings
    157 database_forwards
    157 ax_test
-   157 cbar
    157 Engine
    157 ensure_clean_store
    157 expected_data
-   157 major
    157 is_integer_dtype
    157 Level
-   157 check_output
    157 "self"
    157 "placeholder"
    157 new_size
@@ -4847,6 +5036,10 @@
    157 scripted_mod
    157 expected_node_occurrence
    157 concentration
+   157 transposed
+   157 cy
+   157 d3
+   157 fscale
    156 created
    156 cheb
    156 xycoords
@@ -4856,15 +5049,15 @@
    156 ridx
    156 "qux"
    156 places
-   156 nb
    156 exc_value
-   156 'sum'
    156 complex32
    156 d_model
    156 BlobReference
    156 schedulers
    156 false_fn
    156 TensorLike
+   156 'log'
+   156 lp
    155 create_user
    155 '__all__'
    155 temp_filepath
@@ -4876,13 +5069,15 @@
    155 expanding
    155 "2011-01"
    155 "class_name"
-   155 widths
-   155 ftype
-   155 accuracy
    155 Integer
    155 "op_name"
    155 2022
    155 quant_type
+   155 aligned
+   155 Bar
+   155 arg_name
+   155 11.0
+   155 96
    154 book1
    154 Pony
    154 var_dtype
@@ -4890,17 +5085,16 @@
    154 response_method
    154 X_binned
    154 artists
-   154 "csc"
    154 get_text
-   154 per
-   154 distances
-   154 expected1
-   154 logspace
    154 ConvTranspose2d
    154 _nn
    154 axis_i
    154 script_module
    154 "Requires fusion optimization pass to be effective"
+   154 enable
+   154 contig
+   154 3.4
+   154 _ShapeInfo
    153 to_python
    153 assertOperationAttributes
    153 filterspec
@@ -4924,22 +5118,27 @@
    153 "gloo"
    153 as_python_constant
    153 'ConstantFill'
+   153 "forward"
+   153 sh
+   153 w0
    152 request_factory
    152 validation
    152 Xy
    152 "Pony"
    152 2016
    152 Dtype
-   152 __array__
    152 merged
    152 "log"
-   152 aligned
    152 tree_unflatten
    152 out_ref
    152 'device'
-   152 obs
    152 node_occurrence
    152 INT_TO_FLOAT
+   152 matches
+   152 Rectangle
+   152 cluster
+   152 ua
+   152 nobs
    151 assertNotContains
    151 coefficients
    151 "predict"
@@ -4951,21 +5150,21 @@
    151 stamp
    151 y_p
    151 input_features
-   151 means
    151 ar1
-   151 Bar
-   151 1.6
-   151 'max'
-   151 arg_name
    151 closure
    151 quantize
    151 ChunkShardingSpec
    151 with_args
    151 from_float
    151 QConfigMapping
+   151 "p"
+   151 single
+   151 stepsize
+   151 z2
+   151 moments
+   151 wp
    150 Note
    150 'numpy.core.multiarray'
-   150 Poly
    150 num_oov_indices
    150 yticks
    150 as_frame
@@ -4973,13 +5172,15 @@
    150 baseline
    150 y_t
    150 "padding"
-   150 broadcast_to
-   150 bs
-   150 transposed
    150 check_batched_grad
    150 NameScope
    150 event_dim
    150 CONV_NUMERIC_LITERAL
+   150 "ab"
+   150 denominator
+   150 _node
+   150 log2
+   150 windows
    149 'headline'
    149 middleware
    149 assertTableNotExists
@@ -4988,8 +5189,6 @@
    149 input_layer_lib
    149 copy_X
    149 res_values
-   149 "full"
-   149 enable
    149 default_value
    149 expected_grad
    149 inner_fn
@@ -4997,6 +5196,13 @@
    149 cpu_offload
    149 node_name
    149 PythonRefInfo
+   149 cache_size
+   149 setting
+   149 dp1
+   149 cells
+   149 variant
+   149 overwrite
+   149 _pdf
    148 gdal
    148 pol
    148 "tf"
@@ -5008,16 +5214,21 @@
    148 "binary"
    148 get_value
    148 "python"
-   148 setup_method
    148 ends
-   148 job
-   148 matches
    148 TEST_MULTIGPU
    148 "state"
    148 to_i
    148 shard_spec
    148 dtype_configs
    148 opset9
+   148 "euclidean"
+   148 _config
+   148 call_count
+   148 output_dtype
+   148 out_shape
+   148 m3
+   148 pts
+   148 linprog
    147 HttpRequest
    147 302
    147 adapt
@@ -5030,13 +5241,14 @@
    147 to_replace
    147 by_row
    147 "1 day"
-   147 Rectangle
    147 "l1"
    147 encoder
-   147 an
-   147 sigma
    147 fn1
    147 agent
+   147 disconnect
+   147 IS_PYPY
+   147 threads
+   147 orth
    146 author1
    146 auto_created
    146 'email'
@@ -5051,27 +5263,30 @@
    146 infer_dtype
    146 "title"
    146 RNN
-   146 'nearest'
    146 include_last_offset
    146 sparse_dim
    146 init_rpc
    146 vjp
    146 blob_in
+   146 dtype1
+   146 patterns
+   146 'nan'
+   146 xf
+   146 poly1d
+   146 coeffs
+   146 0.j
    145 reuse
    145 RandomForestClassifier
    145 _param_validation
    145 'author'
    145 NFFT
    145 xerr
-   145 "ab"
-   145 6.
    145 requests
-   145 cy
-   145 full_like
    145 datapipes
    145 min_size
+   145 "src"
+   145 nhev
    144 session_key
-   144 "euclidean"
    144 NotFittedError
    144 arrowprops
    144 Figure
@@ -5086,12 +5301,23 @@
    144 RMSprop
    144 lazy
    144 'label'
-   144 nc
    144 # type: ignore[override]
    144 num_directions
    144 stride_h
    144 stride_w
    144 cpp_constructor_args
+   144 force
+   144 newbyteorder
+   144 floating
+   144 column_stack
+   144 'scale'
+   144 1.25
+   144 M2
+   144 fval
+   144 qmc
+   144 lam
+   144 analit
+   144 _logpdf
    143 to_field
    143 ncu
    143 set_weights
@@ -5102,42 +5328,50 @@
    143 "2000-01-01"
    143 umath
    143 mw
-   143 _config
    143 is_bool
-   143 call_count
-   143 multinomial
-   143 dtype1
    143 LSTMCell
    143 layer2
    143 "add"
    143 get_op
-   143 d3
    143 skipIfMps
    143 qint32
-   143 __getattr__
-   143 cache_size
    143 impl_aten
+   143 submod
+   143 tables
+   143 hashlib
+   143 input_length
+   143 return_counts
+   143 block_size
+   143 corr
+   143 8.
+   143 detrend
    142 to_state
    142 related
    142 herme
    142 herm
    142 auc_obj
-   142 disconnect
    142 tzname
    142 pyarrow
    142 "xxx"
    142 "2012-01-01"
    142 sparse_output
-   142 'log'
    142 preds
    142 "uint8"
-   142 inverse
    142 algorithms
    142 negative
-   142 correct
    142 scalar_type
    142 rois
    142 all_reduce
+   142 get_xticklabels
+   142 get_params
+   142 linestyles
+   142 log_softmax
+   142 promote_types
+   142 cumprod
+   142 _helper
+   142 val1
+   142 m0
+   142 c_double
    141 Site
    141 state_forwards
    141 lookup_type
@@ -5147,7 +5381,6 @@
    141 caches
    141 "start"
    141 output_path
-   141 patterns
    141 num_shards
    141 backend_indices
    141 amp
@@ -5155,33 +5388,38 @@
    141 nullcontext
    141 __constants__
    141 define
-   141 contig
-   141 output_dtype
    141 node_list
    141 NetDef
+   141 1337
+   141 captured
+   141 "random"
+   141 band
+   141 fromstring
+   141 breaks
+   141 test_func
+   141 360
+   141 dis
+   141 fprime
+   141 significant
    140 'code'
    140 cce_obj
    140 image_utils
    140 conv_layers
-   140 cluster
    140 zero_division
    140 salt
-   140 'auto'
    140 libalgos
    140 max_samples
    140 decoded
-   140 setting
-   140 v0
    140 "sigmoid"
    140 initial_value
-   140 padded
    140 bsz
    140 _schema
    140 in_place
    140 GLOBALS
    140 async_op
-   140 submod
    140 QuantType
+   140 niter
+   140 'omit'
    139 'slug'
    139 DEFAULT_DB_ALIAS
    139 new_apps
@@ -5195,8 +5433,6 @@
    139 alpha_
    139 'year'
    139 example_plot
-   139 tables
-   139 get_xticklabels
    139 PeriodArray
    139 adjust
    139 'color'
@@ -5204,15 +5440,17 @@
    139 "col"
    139 searched
    139 "kind"
-   139 .1
-   139 force
-   139 hashlib
-   139 dz
    139 include_self
-   139 aux
-   139 "dim"
    139 eager
-   139 dp1
+   139 cross
+   139 'all'
+   139 'normal'
+   139 logical_or
+   139 only
+   139 covariance
+   139 spacing
+   139 lambda_
+   139 interp1d
    138 captured_queries
    138 gettext_lazy
    138 published
@@ -5224,10 +5462,7 @@
    138 dense_shape
    138 mlp
    138 grads1
-   138 nu
    138 timestamp
-   138 1337
-   138 captured
    138 yaml
    138 coalesce
    138 input_t
@@ -5238,26 +5473,29 @@
    138 W_scale
    138 use_channelwise
    138 is_qat
+   138 use
+   138 pe
+   138 subs
+   138 absolute
+   138 js
+   138 cholesky
+   138 convolve
+   138 nit
+   138 binom
    137 outbox
    137 make_aware
    137 po_contents
    137 lookups
    137 MODEL_CONFIGS
-   137 get_params
    137 QtWidgets
    137 _constructor
    137 to_timestamp
    137 read_xml
-   137 "random"
    137 note
    137 "int16"
    137 'self'
-   137 11.0
    137 "training"
-   137 cells
-   137 c3
    137 tools
-   137 96
    137 saved
    137 UnaryUfuncInfo
    137 functorch
@@ -5266,26 +5504,29 @@
    137 real_result
    137 ref_net
    137 constant_args
+   137 acc
+   137 quant
+   137 worker
+   137 markers
+   137 valid
+   137 "n"
+   137 testcase
+   137 x_scale
+   137 dct
    136 UniqueConstraint
-   136 band
    136 oov_token
    136 'en'
-   136 minimize
    136 svd_solver
    136 grid_search
    136 eigen_solver
    136 genfromtxt
-   136 linestyles
    136 horizontalalignment
    136 ax4
    136 pandas_dtype
    136 pivot_table
    136 na_values
    136 "abcd"
-   136 fromstring
-   136 input_length
    136 # type: ignore[import]
-   136 2048
    136 fullgraph
    136 module_cls
    136 calculate_qparams
@@ -5293,23 +5534,22 @@
    136 state_dict_type
    136 requires_gloo
    136 override_qengines
+   136 largest
+   136 c_contiguous
+   136 interface
+   136 ps
+   136 1e-9
    135 training_utils_v1
    135 return_distance
    135 ax_
    135 'blue'
    135 xytext
-   135 breaks
    135 __finalize__
    135 to_pydatetime
    135 "black"
-   135 ua
-   135 place
    135 "warn"
-   135 "p"
    135 assertLess
-   135 out_shape
    135 IS_MACOS
-   135 i0
    135 device_index
    135 RUN_CUDA
    135 named_buffers
@@ -5317,26 +5557,31 @@
    135 diagnostic_context
    135 new_node
    135 TensorFactory
-   135 properties
    135 to_here
    135 mutable_local
+   135 converted
+   135 'store_true'
+   135 b3
    134 article_set
    134 grads0
    134 ensure_2d
    134 metric_params
    134 ymd
-   134 denominator
    134 model_2
-   134 cross
    134 total_count
    134 set_
    134 TEST_SCIPY
    134 QConfig
-   134 _node
    134 symbolic_traced
    134 PackageExporter
    134 allow_nan
    134 checkGraphModuleNodes
+   134 sorter
+   134 3.14
+   134 .3
+   134 erf
+   134 intersect
+   134 confidence_interval
    133 assertTemplateUsed
    133 PositiveIntegerField
    133 MIDDLEWARE
@@ -5349,10 +5594,8 @@
    133 str_
    133 import_optional_dependency
    133 interval_range
-   133 tri
    133 "verbose"
    133 output_name
-   133 return_counts
    133 output_tensor
    133 TestFailure
    133 layer_norm
@@ -5363,6 +5606,16 @@
    133 weight_dtype
    133 ch_axis
    133 W_zero_point
+   133 "integer"
+   133 corrcoef
+   133 restore
+   133 getmask
+   133 quantiles
+   133 arrs
+   133 truncate
+   133 extract
+   133 xk
+   133 mu2
    132 related_model
    132 get_changes
    132 Country
@@ -5374,52 +5627,56 @@
    132 y_type
    132 model_input
    132 ambiguous
-   132 5.5
-   132 2.3
-   132 mid
-   132 log2
    132 binary
    132 output_tensors
-   132 'nan'
-   132 log_softmax
    132 function_events
-   132 correction
    132 CallFunction
    132 get_default_qconfig
    132 ann
    132 caffe_op
+   132 'class'
+   132 "L"
+   132 0.005
+   132 lower_bound
+   132 assert_array_less
    131 Band
    131 using_cow
    131 skip_pyarrow
    131 "datetime"
-   131 aa
-   131 acc
    131 NativeFunctionsGroup
    131 SchemaKind
-   131 amax
    131 erase_node
+   131 # type: ignore[misc]
+   131 t4
+   131 0.999
+   131 d0
+   131 modes
+   131 minimizer_kwargs
+   131 Y_right
    130 BaseCommand
    130 name_scope
    130 fpr
    130 cv_results_
-   130 _y
    130 boxplot
    130 indexer_sl
    130 left_on
-   130 c_
-   130 promote_types
    130 test_config
-   130 atleast_2d
-   130 cumprod
    130 normalizer
-   130 logical_and
    130 "pytorch"
    130 variant_test_name
    130 net1
    130 expected_out
-   130 "forward"
    130 op_func
    130 vjp_fn
+   130 # All rights reserved.
+   130 sample_shape
+   130 tl
+   130 set_aspect
+   130 n_outputs
+   130 greater
+   130 cdist
+   130 analog
+   130 _ppf
    129 cookies
    129 CaseTestModel
    129 Company
@@ -5427,19 +5684,11 @@
    129 training_lib
    129 DecisionTreeRegressor
    129 TransformerMixin
-   129 dm
-   129 "integer"
    129 is_object_dtype
    129 register_option
    129 freqstr
    129 result_t
    129 "author"
-   129 fid
-   129 corrcoef
-   129 1e-10
-   129 converted
-   129 single
-   129 'store_true'
    129 frames
    129 skipIfRocm
    129 MaxPool2d
@@ -5447,18 +5696,19 @@
    129 SIZE
    129 get_default_dtype
    129 dequantize_per_tensor
-   129 quant
    129 state_steps
    129 export_options
    129 _FSDPState
    129 lin
+   129 c2d
+   129 candidate
+   129 'same'
    128 RequestFactory
    128 formfield
    128 mbase
    128 groupcache
    128 metrics_utils
    128 subsample
-   128 'class'
    128 inverted
    128 pad_to
    128 verify_integrity
@@ -5478,6 +5728,12 @@
    128 CodeTemplate
    128 skipMeta
    128 tracing
+   128 set_xticks
+   128 'f0'
+   128 B2
+   128 over
+   128 lmbda
+   128 worN
    127 set_attributes_from_name
    127 RaggedTensor
    127 use_multiprocessing
@@ -5490,11 +5746,7 @@
    127 _get_axis_number
    127 rand_data
    127 connector
-   127 "src"
-   127 use
-   127 "L"
    127 # noqa: B950
-   127 _helper
    127 preserve_format
    127 torch_fn
    127 compiler_fn
@@ -5508,7 +5760,16 @@
    127 last_epoch
    127 assertGraphContainsExactly
    127 _jit_internal
-   127 pe
+   127 in1d
+   127 'first'
+   127 collection
+   127 bound
+   127 small
+   127 less
+   127 upper_bound
+   127 _x
+   127 ifft
+   127 iqr
    126 USE_TZ
    126 decimal_places
    126 TransactionTestCase
@@ -5522,19 +5783,13 @@
    126 _with_freq
    126 float_string_frame
    126 TensorSpec
-   126 'all'
-   126 restore
    126 feature_idx
    126 _m
-   126 k1
    126 argpartition
-   126 res3
    126 Binding
    126 end_dim
    126 linear2
-   126 mf
    126 # Copyright (c) Facebook, Inc. and its affiliates.
-   126 # All rights reserved.
    126 # This source code is licensed under the BSD-style license found in the
    126 create_proxy
    126 reducer
@@ -5542,6 +5797,11 @@
    126 qualname
    126 build_sparse_tensor
    126 DistTestCases
+   126 'second'
+   126 term
+   126 ngev
+   126 Wn
+   126 _shape_info
    125 abstract
    125 assertOperationTypes
    125 BasePerson
@@ -5550,12 +5810,8 @@
    125 Polygon
    125 subplot_kw
    125 AbstractMethodError
-   125 1.4
-   125 sorter
    125 field_type
    125 avg
-   125 9.
-   125 # type: ignore[misc]
    125 cpu_grad
    125 LayerNorm
    125 normalized_shape
@@ -5565,7 +5821,12 @@
    125 convs
    125 ModuleList
    125 input_node
-   125 sample_shape
+   125 Func
+   125 tick_params
+   125 get_data
+   125 centered
+   125 f4
+   125 hermitian
    124 new_io
    124 city
    124 alter_field
@@ -5578,29 +5839,27 @@
    124 get_lines
    124 Command
    124 IS_WASM
-   124 'normal'
    124 "mask"
-   124 in1d
    124 numpy_dtype
    124 mps_x
    124 allowed_dtypes
-   124 tl
-   124 worker
    124 kernel_h
    124 kernel_w
    124 nn_module
    124 allow_infinity
+   124 'append'
+   124 simplify
+   124 tobytes
+   124 amin
+   124 laplace
+   124 0.000
+   124 least_squares
    123 assertNumberMigrations
    123 Place
    123 bob
    123 'fields'
    123 "ovr"
-   123 ny
-   123 set_xticks
    123 NDFrame
-   123 'second'
-   123 newbyteorder
-   123 svd
    123 registration
    123 'cuda:0'
    123 random_
@@ -5615,6 +5874,9 @@
    123 X_zero_point
    123 calib_data
    123 max_examples
+   123 arg_type
+   123 mgrid
+   123 permutations
    122 Media
    122 Permission
    122 from_model
@@ -5634,23 +5896,34 @@
    122 hist_df
    122 lab
    122 set_module
-   122 caller
-   122 floating
-   122 Func
    122 INFO
    122 gt
-   122 variant
    122 input_dp
    122 TEST_NUMPY
    122 backend_index
+   122 2017
+   122 "seed"
+   122 gx
+   122 "array"
+   122 yt
+   122 dep
+   122 out_size
+   122 fromfile
+   122 poisson
+   122 compressed
+   122 wn
+   122 depends
+   122 assert_array_almost_equal_nulp
+   122 cons
+   122 'fun'
+   122 ttest_ind
+   122 pval
    121 TaggedItem
    121 DecimalModel
    121 _assert_func
    121 tracking
    121 time_major
    121 joblib
-   121 'first'
-   121 set_aspect
    121 get_ylim
    121 "Asia/Tokyo"
    121 na_action
@@ -5659,7 +5932,6 @@
    121 check_input
    121 void
    121 to_concat
-   121 3.4
    121 ar2
    121 numba
    121 global_step
@@ -5675,6 +5947,16 @@
    121 sat
    121 gn
    121 is_reference
+   121 tokenizer
+   121 to_dict
+   121 subtract
+   121 hooks
+   121 'zeros'
+   121 hy
+   121 tab
+   121 rosen
+   121 vh
+   121 check_qr
    120 max_digits
    120 FloatField
    120 bulk_create
@@ -5689,9 +5971,7 @@
    120 df_expected
    120 lk
    120 delayed
-   120 subs
    120 kernel_shape
-   120 logical_or
    120 found_inf
    120 num_features
    120 seq_length
@@ -5701,6 +5981,12 @@
    120 sharding_spec
    120 is_dynamic
    120 NumberType
+   120 _registry
+   120 face
+   120 nat
+   120 sparsity
+   120 2.1
+   120 _stats
    119 media
    119 constraint_name
    119 Restaurant
@@ -5709,27 +5995,20 @@
    119 pool_size
    119 config_context
    119 mpl_toolkits
-   119 2017
-   119 'append'
-   119 IS_PYPY
-   119 only
-   119 freqs
-   119 "seed"
    119 get_path
    119 none
-   119 m3
    119 new_zeros
    119 amsgrad
    119 BackendConfig
    119 in_t
-   119 gx
-   119 _util
    119 base_dist
    119 nets
+   119 numerator
+   119 tan
+   119 vectorized
    118 admin_site
    118 find_element_by_id
    118 "... "
-   118 'f0'
    118 mX
    118 early_stopping
    118 'day'
@@ -5743,29 +6022,29 @@
    118 read_hdf
    118 SparseTensor
    118 span
-   118 tokenizer
-   118 to_dict
    118 anchor
-   118 prob
    118 optimize_compare
    118 count_include_pad
    118 test_module
    118 BatchNorm1d
    118 Sigmoid
-   118 conj
    118 common_distributed
    118 local_rank
    118 Std
    118 entrypoint
    118 base_lr
    118 _pair
-   118 block_size
+   118 "solver"
+   118 apply_along_axis
+   118 'args'
+   118 tril
+   118 scramble
+   118 ta
    117 as_p
    117 nodelist
    117 fetch_openml
    117 error_score
    117 'user'
-   117 getmask
    117 'constrained'
    117 right_index
    117 ujson_dumps
@@ -5773,14 +6052,15 @@
    117 cut
    117 overwrite_input
    117 dicts
-   117 arg_type
    117 input_
-   117 largest
    117 module_inputs_func
    117 input_fn
    117 run_id
    117 assertRaisesRegexWithHighlight
    117 pads
+   117 shifted
+   117 f_contiguous
+   117 dirichlet
    116 sites
    116 gettext
    116 Membership
@@ -5796,38 +6076,35 @@
    116 check_in_list
    116 hspace
    116 wspace
-   116 "array"
    116 duplicated
    116 NumpyExtensionArray
    116 "2D"
-   116 sh
    116 is_float_dtype
    116 set_device
-   116 log1p
-   116 t4
    116 fc3
    116 StateDictType
    116 _get_default_group
    116 recompile
    116 Relu
    116 quantize_per_channel
+   116 freeze
+   116 comments
+   116 'i8'
+   116 answer
+   116 X_min
+   116 _indices
+   116 data2
+   116 _sf
    115 get_for_model
    115 serialization_lib
    115 base_layer_utils
    115 grid_resolution
-   115 tick_params
    115 lang
    115 comparison_op
    115 mapper
    115 tf2
-   115 corr
    115 exp_dtype
    115 fpath
-   115 collection
-   115 absolute
-   115 test_func
-   115 b3
-   115 simplify
    115 rounding_mode
    115 dim_size
    115 __torch_dispatch__
@@ -5837,6 +6114,16 @@
    115 "is"
    115 attr_names
    115 verify_aot_autograd
+   115 'num'
+   115 msgs
+   115 prune
+   115 d4
+   115 arctan2
+   115 num_rows
+   115 LinAlgError
+   115 proj
+   115 rp
+   115 lut
    114 OuterRef
    114 get_changelist_instance
    114 ValidationTestModel
@@ -5847,12 +6134,7 @@
    114 train_size
    114 csr_container
    114 'black'
-   114 shifted
    114 sgd
-   114 get_data
-   114 yt
-   114 val1
-   114 dep
    114 mT
    114 resize_
    114 test_model
@@ -5868,6 +6150,13 @@
    114 Device
    114 SerializedTestCase
    114 output_dims
+   114 'unsafe'
+   114 1e-05
+   114 type_
+   114 kde
+   114 OptimizeResult
+   114 __dir__
+   114 FuncData
    113 'OPTIONS'
    113 OneToOneField
    113 geos
@@ -5876,48 +6165,39 @@
    113 grads0_np
    113 label_mode
    113 shading
-   113 js
    113 _offset
    113 join_index
    113 groupby_func
    113 Text
    113 total_loss
-   113 subtract
-   113 _registry
-   113 q2
-   113 p0
    113 failure
    113 buffer_size
    113 topk
    113 dim0
-   113 freeze
    113 node1
-   113 threads
    113 crow_indices
    113 saved_tensors
    113 FSDPInitMode
    113 checkTrace
+   113 decorate
+   113 relpath
+   113 rk
+   113 quad
+   113 omega
    112 available_apps
    112 _lazy_re_compile
    112 metrics_module
    112 'NaT'
    112 to_rgba
-   112 xf
-   112 nobs
    112 nogil
    112 memory_usage
    112 tsframe
    112 offset_cases
    112 from_string
-   112 comments
-   112 markers
    112 is_float
    112 LOCAL
    112 loss_scale
-   112 moveaxis
-   112 valid
    112 "module"
-   112 1e6
    112 model_class
    112 BaseType
    112 es
@@ -5930,14 +6210,23 @@
    112 nhead
    112 set_module_name
    112 train_init_net
+   112 exponent
+   112 ng
+   112 tpr
+   112 param_info
+   112 fv
+   112 'message'
+   112 'col'
+   112 Bounds
+   112 _ufuncs
+   112 expm1
+   112 passb
+   112 _dist
    111 'password1'
    111 "Author"
-   111 'unsafe'
    111 class_names
-   111 "solver"
    111 y_mean
    111 Cs
-   111 'num'
    111 'horizontal'
    111 textcoords
    111 ABCDataFrame
@@ -5946,10 +6235,17 @@
    111 randperm
    111 'meta'
    111 package_a
-   111 out_size
    111 checkModule
    111 serialized_test
    111 Y_glow
+   111 x_orig
+   111 20.
+   111 der
+   111 lapack_driver
+   111 expm
+   111 # noqa: F822
+   111 add_extension
+   111 bc_type
    110 follow
    110 list_display
    110 vocabulary_dtype
@@ -5966,9 +6262,6 @@
    110 # pragma: no cover
    110 "green"
    110 input_a
-   110 c_contiguous
-   110 centered
-   110 'linear'
    110 HAS_CUDA
    110 compiled
    110 sub2
@@ -5977,15 +6270,18 @@
    110 wrap_functional
    110 dist_tensor
    110 weight_scale
-   110 hooks
-   110 stepsize
    110 event_shape
    110 serialized_test_util
    110 example_value
+   110 a5
+   110 'Foo'
+   110 frombuffer
+   110 correlate
+   110 # This file is not meant for public use and will be removed in SciPy v2.0.0.
+   110 n_resamples
    109 paginator
    109 inlines
    109 IntegerModel
-   109 'i8'
    109 ubnd
    109 GradientTape
    109 "lbfgs"
@@ -5996,23 +6292,15 @@
    109 arr_or_dtype
    109 model_type
    109 object_name
-   109 quantiles
-   109 360
    109 Max
    109 Block
-   109 msgs
-   109 answer
-   109 1e-12
-   109 0.999
    109 object_list
    109 OptionalCType
    109 LintSeverity
-   109 1e-05
    109 index_select
    109 req_grad
    109 expected_error
    109 init_method
-   109 B2
    109 assert_autodiffed
    109 check_forward_ad
    109 opset
@@ -6023,10 +6311,14 @@
    109 _get_name
    109 is_per_channel
    109 RPCExecMode
+   109 vector
+   109 percentiles
+   109 'u1'
+   109 check_exact
+   109 q0
    108 check_password
    108 on_delete
    108 # NOQA
-   108 c2d
    108 DenseFeatures
    108 "input_shape"
    108 adapter_cls
@@ -6039,21 +6331,21 @@
    108 "3.8"
    108 new_dtype
    108 new_layer
-   108 f4
    108 "filters"
-   108 term
-   108 .2
-   108 inclusive
-   108 maxval
    108 runtime
-   108 d0
-   108 'zeros'
    108 qx
-   108 b0
    108 conv1d
    108 set_dtype_configs
    108 scale_tril
    108 TensorProtoDataType
+   108 tmp_dir
+   108 arch
+   108 missing_value
+   108 9999
+   108 'exact'
+   108 'row'
+   108 maxfun
+   108 _entropy
    107 AdminSite
    107 _default_manager
    107 database_backwards
@@ -6076,45 +6368,41 @@
    107 "2 days"
    107 "j"
    107 train_dataset
-   107 nextafter
    107 _run_test
-   107 arrs
    107 common_device_type
    107 tree_map_only
-   107 0.005
    107 remained_onnx_input_idx
    107 output_sharding
    107 ddp_logging_data
-   107 exponent
    107 default_factory
    107 out_spec
    107 ITER
    107 num_blobs
    107 _property_bag
+   107 "op"
+   107 fn_opt
+   107 macros
+   107 __setattr__
+   107 actual_output
+   107 segments
+   107 dists
    106 'loaddata'
-   106 poly1d
    106 "categorical_crossentropy"
    106 cluster_centers_
    106 safe_sparse_dot
    106 rgbFace
-   106 noverlap
    106 create_sql
    106 "price"
    106 timezones
    106 _check_visible
    106 "day"
    106 unroll
-   106 a5
    106 "acc"
-   106 column_stack
-   106 overwrite
-   106 distance
    106 Xs
    106 masks
    106 missing_keys
    106 compiled_fn
    106 stream_id
-   106 prune
    106 prepend
    106 type_promotion
    106 OutputSharding
@@ -6124,8 +6412,19 @@
    106 f"{TestCustomOp.test_ns}::foo"
    106 new_kwargs
    106 _validate_args
-   106 ng
    106 has_torch_function_unary
+   106 "scipy"
+   106 'index'
+   106 resolution
+   106 deg2rad
+   106 role
+   106 # type: ignore
+   106 str_io
+   106 x_shape
+   106 #------------------------------------------------------------------------------
+   106 csgraph
+   106 xb
+   106 trust_radius
    105 'django'
    105 'Accounting'
    105 fromstr
@@ -6135,10 +6434,8 @@
    105 layer_utils
    105 "[OOV]"
    105 price
-   105 bootstrap
    105 arrowstyle
    105 _copy_docstring_and_deprecators
-   105 # Autogenerated by boilerplate.py.  Do not edit as changes will be lost.
    105 set_major_formatter
    105 splitter
    105 "month"
@@ -6146,21 +6443,25 @@
    105 StorageOptions
    105 libindex
    105 ht
-   105 vector
-   105 fromfile
-   105 type_
-   105 mgrid
    105 from_dict
    105 register_hook
    105 weight_init
-   105 decorate
    105 single_targets
-   105 hy
    105 Sub
    105 __setstate__
    105 _modules
    105 Dist
    105 _net
+   105 makedirs
+   105 adj
+   105 col_indices
+   105 area
+   105 'key'
+   105 13.0
+   105 ptp
+   105 isf
+   105 skew
+   105 spearmanr
    104 lang_code
    104 ArrayField
    104 true_positives
@@ -6168,18 +6469,14 @@
    104 SimpleImputer
    104 categorical_features
    104 ridge
-   104 dat
    104 "bfill"
    104 BusinessHour
    104 offset2
    104 NpyDatetimeUnit
    104 Checkpoint
-   104 coo_matrix
    104 "All"
-   104 relpath
    104 "momentum"
    104 global_batch_size
-   104 tmp_dir
    104 Cast
    104 Queue
    104 new_tensor
@@ -6189,6 +6486,16 @@
    104 # noqa: E131
    104 dyndep
    104 Conj
+   104 Normal
+   104 pct
+   104 slc
+   104 build_dir
+   104 hypot
+   104 nulp
+   104 expected_value
+   104 'method'
+   104 vgq
+   104 weightf
    103 TimeField
    103 codename
    103 'first_name'
@@ -6199,17 +6506,11 @@
    103 'cmsy10'
    103 mlines
    103 explode
-   103 percentiles
    103 IntervalArray
-   103 truncate
    103 delay
    103 rmsprop
    103 idx3
-   103 "op"
    103 "end"
-   103 f_contiguous
-   103 u1
-   103 7.
    103 get_context
    103 elementwise_affine
    103 node2
@@ -6217,8 +6518,6 @@
    103 _logging
    103 batch_dim
    103 nonlinearity
-   103 d4
-   103 'scale'
    103 DTypeConfig
    103 input_nodes
    103 zero_size
@@ -6226,6 +6525,16 @@
    103 forward_only
    103 fx_node
    103 backend_feature
+   103 'equal'
+   103 S2
+   103 cli
+   103 inds
+   103 matrix_rank
+   103 exp1
+   103 overwrite_b
+   103 # included below.
+   103 A2
+   103 poles
    102 DoesNotExist
    102 geom_type
    102 gettext_noop
@@ -6240,34 +6549,34 @@
    102 set_yscale
    102 rc_context
    102 "skew"
-   102 rk
    102 "head"
    102 attention_layer
    102 new_value
    102 "ts"
    102 "cumsum"
-   102 1.25
    102 "output_1"
    102 CUDA
    102 "torch"
-   102 fn_opt
    102 pad_h
    102 worker_id
    102 sparse_csc
    102 CrossEntropyLoss
-   102 x_orig
    102 extra_repr
    102 _lazy
    102 ElementwiseUnaryPythonRefInfo
    102 'test_reference_numerics_large'
    102 _make_inplace
+   102 compiler_type
+   102 begin
+   102 "*"
+   102 'lower'
+   102 logical_not
    101 GenericForeignKey
    101 publications
    101 max_queue_size
    101 optimizer_fn
    101 Parallel
    101 shrinkage
-   101 'Foo'
    101 warn_external
    101 mpl_connect
    101 mtri
@@ -6287,27 +6596,27 @@
    101 "high"
    101 HAS_REFCOUNT
    101 input_value
-   101 "n"
    101 "obj"
    101 Tags
    101 nr
    101 "key1"
    101 SelectiveBuilder
    101 # noqa: F403
-   101 makedirs
    101 divisor_override
    101 out_dim
    101 IS_FBCODE
    101 pad_w
    101 assertWarnsRegex
-   101 Normal
    101 in_dim
    101 'fbgemm'
    101 opt_func
    101 is_scripting
-   101 X_min
    101 _numpy
    101 exec_mode
+   101 tempdir
+   101 intervals
+   101 stft
+   101 dts
    100 TextInput
    100 contenttypes
    100 POST
@@ -6324,20 +6633,13 @@
    100 beta_loss
    100 'it'
    100 Triangulation
-   100 "scipy"
    100 _append
    100 BooleanArray
    100 convert_dates
    100 slice_locs
    100 thousands
    100 reduction_func
-   100 pct
-   100 Version
    100 File
-   100 'index'
-   100 macros
-   100 roots
-   100 adj
    100 TestModel
    100 ln
    100 "version"
@@ -6346,13 +6648,11 @@
    100 IS_SANDCASTLE
    100 OpDTypes
    100 get_example_inputs
-   100 col_indices
    100 assertAllFused
    100 test_params
    100 constructor_args
    100 init_rrefs
    100 param_dtype
-   100 __setattr__
    100 shard_metadata
    100 weight_qparams
    100 "dequantize"
@@ -6360,21 +6660,27 @@
    100 m_s
    100 ModuleInfo
    100 output_blob
+   100 ABC
+   100 "always"
+   100 may_share_memory
+   100 seg
+   100 machine
+   100 'count'
+   100 rng2
+   100 bernoulli
+   100 approx_derivative
+   100 dat2
     99 'otherapp'
     99 Lower
     99 num_tokens
     99 is_classifier
     99 estimator_name
     99 'book'
-    99 face
     99 tz_aware_fixture
     99 bdate_range
     99 assert_sp_array_equal
-    99 pts
-    99 resolution
     99 cache_key
     99 i3
-    99 actual_output
     99 is_inplace
     99 "fbgemm"
     99 T_co
@@ -6393,6 +6699,21 @@
     99 LinearReLU
     99 RRef
     99 GuardBuilder
+    99 'yes'
+    99 fake
+    99 Task
+    99 'None'
+    99 binomial
+    99 h0
+    99 jacobian
+    99 xl
+    99 LU
+    99 safe_import
+    99 mpf
+    99 freqz
+    99 in1
+    99 nfft
+    99 CensoredData
     98 view_func
     98 ProjectState
     98 NoReverseMatch
@@ -6404,21 +6725,15 @@
     98 l_not
     98 _inbound_nodes
     98 io_utils
-    98 tpr
-    98 linkage
     98 'month'
-    98 'u1'
     98 _axes
     98 styles
     98 "2020-01-01"
-    98 area
-    98 covariance
     98 3600
     98 add_loss
     98 Normalize
     98 compute_dtype
     98 input_b
-    98 slc
     98 "aten::add"
     98 cpp_extension
     98 x_mps
@@ -6431,6 +6746,13 @@
     98 module_input
     98 rank0_only
     98 bit_rate
+    98 splitext
+    98 old_name
+    98 lc
+    98 output_type
+    98 _params
+    98 logsumexp
+    98 kx
     97 'pub_date'
     97 run_manage
     97 'app'
@@ -6446,33 +6768,34 @@
     97 sqlalchemy
     97 frame_data
     97 oy
-    97 'key'
-    97 deg2rad
-    97 dec
     97 "split"
     97 run_fn
     97 target_size
-    97 segments
     97 obj1
     97 mutable
-    97 interface
     97 gradgradcheck
     97 is_view_of
     97 test_mutation
-    97 _indices
     97 'placeholder'
     97 additional_test_inputs
     97 exporter
     97 qualified_name
-    97 role
     97 MinMaxObserver
     97 nniq
     97 module_fqn
     97 FC
     97 GlobalInit
-    97 param_info
     97 do_dequantize
     97 'TestReductions'
+    97 probability
+    97 _optimizer
+    97 'no'
+    97 50000
+    97 isclose
+    97 solution
+    97 PytestTester
+    97 1e-11
+    97 bsp
     96 unique_together
     96 question
     96 coef3
@@ -6491,21 +6814,24 @@
     96 1999
     96 layer_class
     96 "deprecated"
-    96 bc
     96 fill_val
-    96 'alpha'
     96 kth
     96 formula
     96 map_location
     96 repeat_interleave
     96 allow_unused
-    96 iteration
     96 _unimplemented
-    96 ABC
     96 "get_attr"
     96 run_subtests
     96 dynamo_result
     96 'test_reference_numerics_extremal'
+    96 max_dim
+    96 '--'
+    96 problem
+    96 Configuration
+    96 _ni_support
+    96 x10
+    96 _boost
     95 limit_choices_to
     95 as_ul
     95 articles
@@ -6514,7 +6840,6 @@
     95 assertTableExists
     95 "michigan"
     95 ModeKeys
-    95 'yes'
     95 MouseEvent
     95 set_transform
     95 docstrings
@@ -6529,10 +6854,7 @@
     95 "uniform"
     95 decomposition
     95 sample_indices
-    95 extract
     95 2023
-    95 fake
-    95 candidate
     95 "short"
     95 "call_module"
     95 decompositions
@@ -6550,6 +6872,19 @@
     95 FUSION_GUARD
     95 TorchBenchmarkBase
     95 config_list
+    95 'names'
+    95 putmask
+    95 'date'
+    95 zero_d
+    95 frac
+    95 __array_interface__
+    95 n_cols
+    95 x4
+    95 si
+    95 get_info
+    95 ky
+    95 tout
+    95 mannwhitneyu
     94 "app_a"
     94 Http404
     94 busday_offset
@@ -6561,7 +6896,6 @@
     94 X_csc
     94 NearestNeighbors
     94 assume_centered
-    94 | Cosmetic | Spelling error on Login ('log|n')         |         14
     94 titles
     94 cycler
     94 microsecond
@@ -6571,12 +6905,10 @@
     94 expected_rows
     94 "unit"
     94 Functional
-    94 multivariate_normal
     94 assertLogs
     94 subject
     94 "numpy"
     94 LintMessage
-    94 bound
     94 out_t
     94 BatchNorm3d
     94 # Owner(s): ["oncall: jit"]
@@ -6591,6 +6923,16 @@
     94 ELEMENTWISE_PRIM_TYPE_PROMOTION_KIND
     94 _log_api_usage_once
     94 remote_module
+    94 'ndarray'
+    94 max_len
+    94 112
+    94 new_type
+    94 big
+    94 dense_output
+    94 ks
+    94 peaks
+    94 parent_package
+    94 NonlinearConstraint
     93 'numpy.core.umath'
     93 l_and
     93 floatx
@@ -6608,24 +6950,13 @@
     93 dayfirst
     93 index_cls
     93 "low"
-    93 n_outputs
-    93 probability
     93 full_path
     93 max_bins
-    93 _optimizer
     93 ary
-    93 m0
-    93 poisson
     93 holder
-    93 arch
-    93 build_dir
-    93 hypot
     93 modified
-    93 tobytes
     93 extra_postargs
     93 like
-    93 small
-    93 numerator
     93 tensor_name
     93 opt_model
     93 split_output
@@ -6644,6 +6975,17 @@
     93 grad_map
     93 pad_l
     93 'XavierFill'
+    93 Ufunc
+    93 dimension
+    93 middle
+    93 members
+    93 'dim'
+    93 ver
+    93 a_
+    93 yb
+    93 Inf
+    93 rmatvec
+    93 BSpline
     92 FileField
     92 skipIfDBFeature
     92 related_query_name
@@ -6657,16 +6999,10 @@
     92 layoutgrids
     92 casted
     92 expected_columns
-    92 nulp
-    92 'no'
-    92 # --------------------------------------------------------------------
-    92 'equal'
     92 "kwargs"
     92 "4"
     92 "CPU"
     92 overload_name
-    92 testcase
-    92 amin
     92 view_as
     92 output_scale
     92 "call_method"
@@ -6682,13 +7018,22 @@
     92 QuantStub
     92 scale_grad_by_freq
     92 setup_rpc
-    92 Task
     92 "rank:0/cuda:0"
     92 module_instance
     92 W_q
     92 test_only_eval_fn
     92 data_groups
     92 _instance
+    92 l3
+    92 'dt'
+    92 project
+    92 Z2
+    92 tofile
+    92 build_info
+    92 inexact
+    92 val2
+    92 chi2
+    92 bounds_error
     91 Blueprint
     91 secure
     91 user_permissions
@@ -6704,21 +7049,12 @@
     91 n_train
     91 pls
     91 numticks
-    91 missing_value
     91 Substitution
     91 "is_visible"
     91 exp_data
-    91 compiler_type
     91 Client
-    91 arctan2
     91 "c1"
-    91 13.0
     91 normalization
-    91 begin
-    91 fv
-    91 rcond
-    91 "*"
-    91 "always"
     91 slowTest
     91 empty_strided
     91 output_process_fn_grad
@@ -6731,15 +7067,28 @@
     91 "tensor_fqn"
     91 input_device_options
     91 execution_step
+    91 library_dirs
+    91 byref
+    91 "scale"
+    91 __getstate__
+    91 convolution
+    91 multiarray
+    91 csingle
+    91 num_inputs
+    91 "mode"
+    91 wa
+    91 reciprocal
+    91 u4
+    91 rot
+    91 vonmises
+    91 bands
+    91 aslinearoperator
     90 book2
     90 Post
     90 process_request
     90 'password2'
     90 rock
     90 TemplateDoesNotExist
-    90 'ndarray'
-    90 Ufunc
-    90 code was able to be compiled successfully)
     90 reduce_mean
     90 X_mean
     90 train_sizes
@@ -6750,19 +7099,13 @@
     90 geom_df
     90 ts2
     90 squared
-    90 'names'
     90 bytes_
-    90 'None'
-    90 putmask
     90 index2
-    90 pdf
     90 step_fn
     90 predictor
     90 callee
     90 analyzer
-    90 splitext
     90 "round"
-    90 spacing
     90 num_buckets
     90 pred2
     90 ShardedTest
@@ -6771,7 +7114,6 @@
     90 src_mask
     90 register_parameter
     90 DeQuantStub
-    90 dimension
     90 value_info
     90 onnx_type
     90 _world
@@ -6781,9 +7123,7 @@
     90 local_model
     90 ignored_modules
     90 replace_all_uses_with
-    90 M2
     90 input_lengths
-    90 max_dim
     90 make_global
     90 _prims_common
     90 tensor_le_bom
@@ -6792,6 +7132,18 @@
     90 INT64
     90 create_param
     90 preserve_activation_sparsity
+    90 "q"
+    90 file_paths
+    90 dfs
+    90 'big'
+    90 exponential
+    90 in_
+    90 se
+    90 'order'
+    90 ya
+    90 minres
+    90 iscomplexobj
+    90 nonlin
     89 SlugField
     89 db_field
     89 vdata_a
@@ -6807,7 +7159,6 @@
     89 vect
     89 transformers_
     89 lda
-    89 'date'
     89 set_text
     89 h_pad
     89 'vertical'
@@ -6824,13 +7175,9 @@
     89 'action'
     89 'unique'
     89 "timestamp"
-    89 tempdir
-    89 may_share_memory
     89 "copy"
     89 Collection
-    89 S2
     89 Fraction
-    89 conjugate
     89 TemporaryDirectory
     89 Pattern
     89 org
@@ -6839,14 +7186,11 @@
     89 requires_cuda
     89 bn1
     89 conv_module
-    89 zero_d
     89 type_before_parametrizations
     89 tangent
     89 _outputs
     89 distribute_tensor
     89 # Owner(s): ["module: dynamo"]
-    89 l3
-    89 w0
     89 remove_duplicate
     89 control_flow
     89 python_type
@@ -6857,6 +7201,24 @@
     89 _warn_typed_storage_removal
     89 TupleVariable
     89 register_kl
+    89 unravel_index
+    89 768
+    89 'width'
+    89 error_msgs
+    89 Vt
+    89 capsys
+    89 bandwidth
+    89 sorted_indices
+    89 'version'
+    89 af
+    89 mdtype
+    89 logistic
+    89 xc
+    89 u2
+    89 '2-point'
+    89 dps
+    89 Y_test1
+    89 logcdf
     88 run_django_admin
     88 'BACKEND'
     88 recorder
@@ -6871,21 +7233,11 @@
     88 quoting
     88 get_label
     88 new_levels
-    88 cli
-    88 binomial
     88 "list"
-    88 library_dirs
-    88 middle
-    88 byref
     88 split_info
-    88 frombuffer
     88 nanmedian
     88 sequence_lengths
-    88 frac
     88 relu1
-    88 seg
-    88 'same'
-    88 "scale"
     88 WORLD
     88 local_world_size
     88 to_padded_tensor
@@ -6893,6 +7245,16 @@
     88 _FLOAT_MODULE
     88 INT32
     88 'TestBinaryUfuncs'
+    88 'formats'
+    88 whiten
+    88 tpl
+    88 window_size
+    88 100.
+    88 M1
+    88 sl
+    88 z0
+    88 assert_array_equal_dtype
+    88 _a
     87 full_clean
     87 Avg
     87 FieldDoesNotExist
@@ -6905,15 +7267,12 @@
     87 recurrent_regularizer
     87 recurrent_initializer
     87 KNeighborsClassifier
-    87 rnd
     87 n_repeats
     87 triangular
     87 'required'
     87 url_prefix
-    87 '--'
     87 set_data
     87 axd
-    87 # Fixing random state for reproducibility
     87 gender
     87 ABCIndex
     87 index_label
@@ -6921,13 +7280,6 @@
     87 SubclassedDataFrame
     87 trades
     87 'height'
-    87 50000
-    87 old_name
-    87 members
-    87 "q"
-    87 file_paths
-    87 dfs
-    87 max_len
     87 opt_mod
     87 normal_
     87 out_cpu
@@ -6935,17 +7287,27 @@
     87 Softmax
     87 max_pool2d
     87 o2
-    87 hermitian
     87 'input'
     87 TrainingMode
     87 expected_tensor
     87 MixedPrecision
     87 RewritingTracer
     87 'call_module'
-    87 __getstate__
     87 observation_type
     87 use_cudnn
     87 params_with_grad
+    87 contourf
+    87 submodules
+    87 max_nodes
+    87 warning_msg
+    87 scheme
+    87 astr
+    87 _scale
+    87 supported_dtypes
+    87 x_new
+    87 sps
+    87 zeta
+    87 _argcheck
     86 Publisher
     86 UserModel
     86 alfred
@@ -6962,18 +7324,12 @@
     86 subfigs
     86 Day
     86 mgr_locs
-    86 check_exact
     86 "2017-01-01"
     86 "tests"
     86 axis_name
-    86 ptp
-    86 laplace
     86 "i4"
     86 fns
     86 binary_op
-    86 convolution
-    86 112
-    86 'dim'
     86 lin1
     86 skipScriptTest
     86 Example
@@ -6990,6 +7346,18 @@
     86 ShapeType
     86 QConfigAny
     86 _init_global_test
+    86 "epoch"
+    86 bf
+    86 num_groups
+    86 Polynomial
+    86 kmeans
+    86 'var'
+    86 jj
+    86 qr_insert
+    86 _lazywhere
+    86 convert_dtype
+    86 _testOne
+    86 _b
     85 werkzeug
     85 keepdb
     85 Car
@@ -7002,7 +7370,6 @@
     85 grower
     85 ransac_estimator
     85 n_features_to_select
-    85 # type: ignore
     85 w_pad
     85 fetchall
     85 date2num
@@ -7010,25 +7377,18 @@
     85 from_codes
     85 MonthEnd
     85 "2001"
-    85 # ----------------------------------------------------------------------
     85 _get_model
     85 jinja_env
     85 copyto
     85 "height"
     85 database
     85 base_dtype
-    85 lc
-    85 machine
     85 "gamma"
-    85 tab
     85 "l"
     85 "..."
     85 init_params
-    85 unravel_index
     85 tensorT
     85 pos_weight
-    85 3.14
-    85 768
     85 has_relu
     85 output_zero_point
     85 eager_out
@@ -7053,6 +7413,22 @@
     85 outputs_with_grads
     85 mask_input
     85 "VariableTracker"
+    85 radii
+    85 "u"
+    85 normalized
+    85 min_dim
+    85 uf
+    85 FloatingPointError
+    85 indexing
+    85 crosstab
+    85 variants
+    85 x_
+    85 btype
+    85 _process_parameters
+    85 conditional_odds_ratio
+    85 conditional_odds_ratio_ci
+    85 Parameters
+    85 RResults
     84 login_url
     84 'Pony'
     84 Question
@@ -7070,40 +7446,40 @@
     84 'Subject'
     84 fontname
     84 draw_idle
-    84 contourf
     84 _renderer
-    84 kde
     84 UTC
     84 makeTimeSeries
     84 "2018-01-01"
     84 single_cpu
-    84 multiarray
     84 "metric"
     84 dense1
     84 default_size
-    84 'width'
     84 ABCMeta
-    84 new_type
-    84 csingle
     84 x_np
     84 gelu
     84 TEST_WITH_ASAN
-    84 submodules
     84 from_tensor
     84 bf16
     84 foo_impl
     84 num_instances
     84 filter_fn
     84 "qnnpack"
-    84 num_inputs
     84 dim_map
-    84 max_nodes
     84 inserting_before
-    84 entropy
     84 scripted_fn
     84 ModelLayer
     84 TensorVariable
     84 commits
+    84 step_size
+    84 'i1'
+    84 91
+    84 te
+    84 nk
+    84 laplacian
+    84 ratio
+    84 gammaln
+    84 spl
+    84 in2
     83 asc
     83 CaptureQueriesContext
     83 'rating'
@@ -7120,7 +7496,6 @@
     83 score_samples
     83 kneighbors_graph
     83 kernel_
-    83 'formats'
     83 pages
     83 bboxes
     83 theta2
@@ -7128,7 +7503,6 @@
     83 CURVE3
     83 CURVE4
     83 tstart
-    83 warning_msg
     83 as_series
     83 get_xdata
     83 "records"
@@ -7139,13 +7513,9 @@
     83 2020
     83 "0 days"
     83 fk
-    83 __array_interface__
-    83 greater
     83 "class"
     83 "dropout"
-    83 "epoch"
     83 "cumprod"
-    83 n_cols
     83 ReductionOpInfo
     83 input_cpu
     83 expand_as
@@ -7155,7 +7525,6 @@
     83 check_next
     83 expected_res
     83 sub1
-    83 error_msgs
     83 snm
     83 floating_types
     83 Eq
@@ -7165,7 +7534,20 @@
     83 RemovableHandle
     83 bucket_index
     83 cflags
-    83 str_io
+    83 "empty"
+    83 formatted
+    83 warning_message
+    83 nan_to_num
+    83 rowvar
+    83 Z1
+    83 cg
+    83 mult
+    83 pdist
+    83 tmp2
+    83 hdr
+    83 construct
+    83 kdtree_type
+    83 "greater"
     82 pubdate
     82 'form'
     82 create_superuser
@@ -7173,7 +7555,6 @@
     82 GenericRelation
     82 autoreload
     82 EAT
-    82 'dt'
     82 inner1d
     82 'M8[D]'
     82 tf_logging
@@ -7188,7 +7569,6 @@
     82 grid_helper
     82 ismath
     82 draw_without_rendering
-    82 configuration
     82 resolver
     82 ensure_platform_int
     82 array_equivalent
@@ -7196,11 +7576,7 @@
     82 ReadBuffer
     82 colormap
     82 initial_epoch
-    82 25.0
     82 inferred_type
-    82 'big'
-    82 x4
-    82 inds
     82 "train"
     82 severity
     82 BaseCppType
@@ -7209,19 +7585,15 @@
     82 AdaptiveAvgPool2d
     82 cpu_y
     82 graph_break
-    82 "mode"
     82 DataLoader
-    82 wa
     82 PackedSequence
     82 UninitializedParameter
-    82 output_type
     82 fully_shard
     82 offload_params
     82 lin2
     82 benchmark_utils
     82 eta_min
     82 record_shapes
-    82 project
     82 TreeSpec
     82 set_observation_type
     82 error_message
@@ -7229,6 +7601,18 @@
     82 reveal_type
     82 comm_size
     82 target_fn
+    82 add_collection
+    82 checker
+    82 0.002
+    82 data_a
+    82 get_matrix
+    82 'object'
+    82 plat
+    82 'propagate'
+    82 4j
+    82 u0
+    82 chi
+    82 cost
     81 app_name
     81 mugshot
     81 Line
@@ -7245,7 +7629,6 @@
     81 return_train_score
     81 Lasso
     81 axvline
-    81 radii
     81 rgba
     81 "openpyxl"
     81 "coerce"
@@ -7258,12 +7641,10 @@
     81 add_index
     81 Policy
     81 'M'
-    81 "u"
     81 target_dir
     81 is_tensor_like
     81 pr_num
     81 Uniform
-    81 8.
     81 masked_fill
     81 num_warps
     81 i64
@@ -7273,7 +7654,6 @@
     81 inference_mode
     81 _gen_sparse
     81 compressed_indices
-    81 normalized
     81 all_gather
     81 ModuleDict
     81 pattern_count_map
@@ -7286,6 +7666,14 @@
     81 base_learning_rate
     81 bias_init
     81 NotImplementedType
+    81 'table'
+    81 "param"
+    81 log_probs
+    81 'description'
+    81 common_dtype
+    81 nf
+    81 p_h
+    81 comb
     80 HttpResponseRedirect
     80 TabularInline
     80 "0001_initial"
@@ -7295,7 +7683,6 @@
     80 get_internal_type
     80 _multiarray_tests
     80 'attrspec'
-    80 # Copyright 2016 The TensorFlow Authors. All Rights Reserved.
     80 deserialize_keras_object
     80 recurrent_kernel
     80 executing_eagerly_outside_functions
@@ -7303,7 +7690,6 @@
     80 loss_scale_optimizer
     80 "arpack"
     80 oob_score
-    80 Vt
     80 emp_cov
     80 * pi <= X[:, 1] <= 560 * pi,
     80 MyArray
@@ -7311,7 +7697,6 @@
     80 empty_value
     80 tic
     80 "tight"
-    80 capsys
     80 needs_i8_conversion
     80 to_numeric
     80 result_index
@@ -7320,14 +7705,10 @@
     80 sp_index
     80 mi_styler
     80 sorted_df
-    80 bandwidth
     80 numeric
     80 "ckpt"
     80 stage
-    80 coeffs
     80 inference
-    80 scheme
-    80 "empty"
     80 assertGreaterEqual
     80 replacements
     80 Tanh
@@ -7343,7 +7724,6 @@
     80 wait_stream
     80 qtype
     80 FlatParamHandle
-    80 min_dim
     80 nnqat
     80 set_backend_pattern_configs
     80 set_default_load_endianness
@@ -7356,6 +7736,17 @@
     80 gm_b
     80 'test_memory_format'
     80 operator_benchmark
+    80 bio
+    80 "NaN"
+    80 XX
+    80 sampler
+    80 masked_where
+    80 unpickled
+    80 factorial
+    80 5e-14
+    80 _rvs
+    80 _spbase
+    80 'statistic'
     79 defer
     79 base_fields
     79 RunPython
@@ -7368,7 +7759,6 @@
     79 min_samples_split
     79 CSR_CONTAINERS
     79 RBF
-    79 | Minor    | System slow when running too many reports |         47
     79 set_color
     79 Nano
     79 NDFrameT
@@ -7381,44 +7771,48 @@
     79 result3
     79 expected_df
     79 inferred_dtype
-    79 formatted
-    79 warning_message
     79 faces
     79 "sources"
-    79 .3
-    79 bf
     79 is_active
-    79 less
-    79 ver
-    79 intervals
     79 WARNING
     79 gpu
     79 num_gpus
-    79 reciprocal
     79 BaseTest
     79 i32
-    79 tau
-    79 niter
     79 assertLastGraphAllFused
     79 exp_avg_sqs
-    79 h0
     79 HasField
     79 SymbolicValueError
     79 _Action
     79 make
-    79 step_size
     79 wrapper_fn
     79 _triple
-    79 num_groups
     79 shared
     79 AddGradientOperators
-    79 lower_bound
     79 ScalarType
     79 OpSpec
     79 namescope
     79 has_biases
     79 "Y_q"
     79 add_options
+    79 not_equal
+    79 is_leaf
+    79 "mixed"
+    79 standard_gamma
+    79 array_like
+    79 coordinates
+    79 Y2
+    79 zp
+    79 svds
+    79 'constant'
+    79 kendalltau
+    79 PPoly
+    79 ef
+    79 x_opt
+    79 ty
+    79 "two-sided"
+    79 'pvalue'
+    79 _isf
     78 author2
     78 db_column
     78 'example.com'
@@ -7427,10 +7821,7 @@
     78 collation
     78 assertIsInvalid
     78 SearchQuery
-    78 c_double
-    78 'raise'
     78 ulen
-    78 'i1'
     78 vdata_b
     78 p_obj
     78 get_model_from_layers
@@ -7445,10 +7836,7 @@
     78 get_namespace
     78 pred_decision
     78 cluster_std
-    78 u4
-    78 'table'
     78 '%s'
-    78 Z2
     78 width_ratios
     78 animation
     78 colspan
@@ -7458,13 +7846,10 @@
     78 "df1"
     78 xml_books
     78 modifiers
-    78 big
     78 is_sequence
-    78 uf
     78 feature_name
     78 name1
     78 gumbel
-    78 tofile
     78 archive
     78 common_cuda
     78 SM80OrLater
@@ -7473,14 +7858,11 @@
     78 IterableWrapper
     78 module_list
     78 Batch
-    78 "param"
     78 tensor_id
     78 rnn_utils
-    78 sorted_indices
     78 win_length
     78 reduce_op
     78 MetadataIndex
-    78 _params
     78 worker_group
     78 1e-04
     78 optim_input
@@ -7496,6 +7878,12 @@
     78 _get_tensor_rank
     78 dequantize_helper
     78 "TestCommon"
+    78 rfunc
+    78 _wrap_result
+    78 "="
+    78 Gamma
+    78 row_indices
+    78 x_range
     77 JSONField
     77 TEMPLATES
     77 "0001"
@@ -7504,14 +7892,11 @@
     77 resolve_expression
     77 GeometryField
     77 "max_iter"
-    77 whiten
     77 last_mean
     77 tsne
     77 interaction_only
-    77 add_collection
     77 antialiased
     77 useblit
-    77 tpl
     77 _decorators
     77 ensure_index
     77 unstacked
@@ -7524,20 +7909,14 @@
     77 model_config
     77 'parent'
     77 _exceptions
-    77 bio
     77 "apply"
     77 "multinomial"
     77 from_iterable
-    77 apply_along_axis
-    77 window_size
     77 get_children
     77 __getattribute__
-    77 exponential
     77 ListType
     77 batch_norm
     77 gO
-    77 9999
-    77 nan_to_num
     77 num_chunks
     77 in_spec
     77 var_ranges
@@ -7545,7 +7924,6 @@
     77 unsorted_indices
     77 buffer_name
     77 constructor_accepts_foreach
-    77 log_probs
     77 src_key_padding_mask
     77 STATIC
     77 W_min
@@ -7556,6 +7934,23 @@
     77 nets_or_steps
     77 splice
     77 benchmark_runner
+    77 msg2
+    77 'J'
+    77 radians
+    77 flatnonzero
+    77 "case"
+    77 nz
+    77 system_info
+    77 rotate
+    77 lambda1
+    77 "backward"
+    77 ftol
+    77 tocsc
+    77 eigh
+    77 sampling_method
+    77 shp
+    77 qc
+    77 keep_feasible
     76 register_blueprint
     76 'selected'
     76 get_app_configs
@@ -7576,16 +7971,12 @@
     76 as_number
     76 checkpoint_directory
     76 cluster_spec
-    76 'description'
     76 eval_gradient
     76 set_position
     76 backend_tools
-    76 detrend
     76 toks
-    76 FloatingPointError
     76 gridspec
     76 rects
-    76 alternative
     76 "sem"
     76 is_string_dtype
     76 construct_array_type
@@ -7595,19 +7986,10 @@
     76 dt64
     76 s3so
     76 _check_colors
-    76 over
     76 selected
-    76 'lower'
     76 "inplace"
-    76 "NaN"
-    76 XX
-    76 rowvar
-    76 not_equal
-    76 'count'
-    76 20.
     76 run_checks
     76 set_seed
-    76 'version'
     76 summarize
     76 inner_model
     76 key_prefix
@@ -7629,14 +8011,11 @@
     76 is_quantized
     76 make_dual
     76 safeToDense
-    76 is_leaf
-    76 checker
     76 anchors
     76 mods
     76 ModuleWrapPolicy
     76 "instead."
     76 op_list
-    76 x_scale
     76 prepared_model
     76 q_scale
     76 nniqat
@@ -7644,6 +8023,21 @@
     76 AddExternalInput
     76 meta_net_def
     76 model_DDP
+    76 y_max
+    76 fmod
+    76 pivots
+    76 return_index
+    76 segment
+    76 branch
+    76 byteswap
+    76 x_min
+    76 OptimizeWarning
+    76 SparseEfficiencyWarning
+    76 DTYPES
+    76 qr_delete
+    76 make_interp_spline
+    76 sputils
+    76 whole
     75 UUIDField
     75 'sql'
     75 'Smith'
@@ -7654,8 +8048,6 @@
     75 Database
     75 MONTH_DAY_FORMAT
     75 "runTest"
-    75 rfunc
-    75 Polynomial
     75 ds_combinations
     75 Bidirectional
     75 transform_matrix
@@ -7665,7 +8057,6 @@
     75 MatplotlibDeprecationWarning
     75 validate_bool
     75 rowspan
-    75 "mixed"
     75 iat
     75 fill_method
     75 pyarrow_dtype
@@ -7674,21 +8065,15 @@
     75 ser1
     75 "datetime64[ns, US/Eastern]"
     75 "2s"
-    75 in_
     75 base_loss
-    75 'message'
     75 this
-    75 compressed
     75 'path'
     75 templates
     75 "epsilon"
-    75 91
     75 find_common_type
     75 "Min"
-    75 _wrap_result
     75 NUM_REPEATS
     75 "bytes"
-    75 0.002
     75 serializer
     75 "batch"
     75 gru
@@ -7709,7 +8094,6 @@
     75 mp_config
     75 Proxy
     75 Timer
-    75 indexing
     75 total_iters
     75 loss_reference_fns
     75 gates
@@ -7717,13 +8101,31 @@
     75 ensure_outputs_are_inferred
     75 "quantized_data"
     75 GitHubPR
+    75 42.0
+    75 expected_msg
+    75 nout
+    75 mv
+    75 func2
+    75 di
+    75 'jac'
+    75 up
+    75 change_dimensionality
+    75 tmp1
+    75 guess
+    75 1.0j
+    75 xr
+    75 _rtol
+    75 slope
+    75 t_events
+    75 'dd'
+    75 y_r
+    75 kdtree
     74 fieldsets
     74 use_l10n
     74 get_or_create
     74 'instance'
     74 live_server_url
     74 bacon
-    74 standard_gamma
     74 "mixed_float16"
     74 725
     74 can_handle
@@ -7731,42 +8133,34 @@
     74 manifold
     74 labels_true
     74 StratifiedKFold
-    74 kmeans
     74 bgmm
     74 xys
     74 mtext
     74 tick_values
     74 boxstyle
     74 subplot_mosaic
-    74 nat
     74 "vertical"
     74 "uint32"
     74 if_exists
     74 strict_nan
     74 "ABCD"
     74 "id1"
-    74 rng2
     74 mi2
-    74 msg2
     74 name2
     74 index1
     74 sctypes
     74 "key2"
-    74 upper_bound
     74 _fn
     74 generated_kernel_count
     74 index_expr
     74 module_path
     74 to_sparse_csr
     74 t_inp
-    74 matrix_rank
     74 np_fn
-    74 expected_value
     74 ref_input
     74 _test_name_inference
     74 func_schema
     74 nproc_per_node
-    74 jacobian
     74 "gm"
     74 qconv
     74 UntypedStorage
@@ -7782,6 +8176,22 @@
     74 appname
     74 dst_worker
     74 no_batch_dim_reference_fn
+    74 "expected"
+    74 _constants
+    74 deltas
+    74 "tol"
+    74 'string'
+    74 md
+    74 define_macros
+    74 'pdf'
+    74 1.3
+    74 exception_to_nan
+    74 'periodic'
+    74 BPoly
+    74 qhull
+    74 taps
+    74 goodargs
+    74 cond0
     73 friends
     73 db_index
     73 'apps'
@@ -7803,7 +8213,6 @@
     73 categories_
     73 Trans
     73 with_mean
-    73 'J'
     73 c8
     73 ParserElement
     73 pink
@@ -7822,25 +8231,18 @@
     73 WeekDay
     73 lognormal
     73 "Name"
-    73 Z1
-    73 y_max
-    73 radians
     73 View
     73 depth_multiplier
-    73 'var'
     73 input_1
     73 _metrics
     73 'extra'
     73 op_overload
     73 "caffe2"
-    73 bernoulli
     73 compile_fx
-    73 cg
     73 # type: ignore[index]
     73 _get_data_loader
     73 _size
     73 parametrize_test
-    73 modes
     73 max_exp_avg_sqs
     73 NONE
     73 "Conv"
@@ -7850,7 +8252,6 @@
     73 cuda_init_mode
     73 "This test file is not meant to be run directly, use:\n\n"
     73 dim_order
-    73 dis
     73 _weight_bias
     73 expected_node_list
     73 model_path
@@ -7859,6 +8260,13 @@
     73 op_engine_list
     73 in_oper
     73 add_shape_compute_mapping
+    73 _fit
+    73 cfuncs
+    73 'to'
+    73 113
+    73 iv
+    73 A1
+    73 "less"
     72 upload_to
     72 SimpleUploadedFile
     72 'last_name'
@@ -7902,16 +8310,12 @@
     72 mod_eager
     72 codecache
     72 batchsize
-    72 fmod
     72 make_loader
-    72 sampler
-    72 pivots
     72 loss2
     72 broadcasts_input
     72 "Add"
     72 "Shape"
     72 proj_size
-    72 stft
     72 summon_full_params
     72 perm_fn
     72 ref_mod
@@ -7926,6 +8330,16 @@
     72 _dtypes_impl
     72 extra_check
     72 _barrier
+    72 y_min
+    72 "("
+    72 others
+    72 clongdouble
+    72 tol1
+    72 fvec
+    72 sq
+    72 vs
+    72 rankdata
+    72 f_exp
     71 publisher
     71 autoescape
     71 references_column
@@ -7950,7 +8364,6 @@
     71 BoundaryNorm
     71 _writeln
     71 fig1
-    71 astr
     71 get_subplotspec
     71 index_array
     71 "lxml"
@@ -7962,22 +8375,18 @@
     71 check_stacklevel
     71 2019
     71 reset_state
-    71 flatnonzero
     71 components
     71 bit
     71 set_output
     71 "bb"
-    71 return_index
     71 set_printoptions
     71 "remainder"
     71 dispatcher
     71 TorchDispatchMode
     71 ShapeEnv
     71 input_sizes
-    71 a_
     71 pretrained
     71 traced_fn
-    71 sparsity
     71 "WORLD_SIZE"
     71 optim_state_dict
     71 from_
@@ -7990,8 +8399,17 @@
     71 Y_c2
     71 _enabled
     71 is_batched
-    71 Arg
     71 generate_pt_test
+    71 "tanh"
+    71 label1
+    71 dataset_name
+    71 deps
+    71 dk
+    71 xn
+    71 loadmat
+    71 iwork
+    71 cond1
+    71 _clean_inputs
     70 PermissionDenied
     70 USE_L10N
     70 AUTH_USER_MODEL
@@ -8003,7 +8421,6 @@
     70 import_string
     70 lazy_func
     70 dict_append
-    70 data_a
     70 Mean
     70 1138
     70 loss_weights
@@ -8011,7 +8428,6 @@
     70 decode_predictions
     70 "activation"
     70 RealNotInt
-    70 _fit
     70 X_r
     70 assert_allclose_dense_sparse
     70 mean_
@@ -8025,23 +8441,15 @@
     70 histtype
     70 truncated
     70 expected_labels
-    70 crosstab
     70 QuarterEnd
     70 SubclassedSeries
     70 dti2
     70 df0
     70 "names"
     70 slobj
-    70 'args'
-    70 xl
     70 kt
     70 MLPClassifier
-    70 42.0
-    70 expected_msg
-    70 "="
-    70 segment
     70 envs
-    70 _scale
     70 loss1
     70 compare_with_numpy
     70 "-inf"
@@ -8062,13 +8470,30 @@
     70 _vmap_test
     70 per_tensor_symmetric
     70 ref_m
-    70 "expected"
     70 "ConstantFill"
     70 "test_net"
+    70 'ID'
+    70 gy
+    70 'always'
+    70 qkv
+    70 ")"
+    70 wi
+    70 true_divide
+    70 'full'
+    70 eigs
+    70 _asarray_validated
+    70 REAL_DTYPES
+    70 float_
+    70 scaling
+    70 EPS
+    70 contains_nan
+    70 y10
+    70 base_bad_size_zi
+    70 cov_object
+    70 logpmf
     69 modelformset_factory
     69 dom2
     69 'generic'
-    69 cfuncs
     69 tf_inspect
     69 batch_input_shape
     69 dataset_utils
@@ -8077,13 +8502,10 @@
     69 score_name
     69 AgglomerativeClustering
     69 lines_
-    69 masked_where
     69 'polar'
-    69 get_matrix
     69 FigureCanvas
     69 click_and_drag
     69 Circle
-    69 array_like
     69 "dataframe"
     69 take_nd
     69 groupings
@@ -8095,16 +8517,13 @@
     69 "male"
     69 expected_codes
     69 data_for_grouping
-    69 y_min
     69 "vals"
     69 col_idx
     69 namespaces
     69 "aa"
-    69 'to'
     69 new_path
     69 enter_context
     69 "tensor"
-    69 branch
     69 LeakyReLU
     69 Process
     69 ProfilerActivity
@@ -8113,22 +8532,17 @@
     69 variant_name
     69 source_dp
     69 unitriangular
-    69 z2
     69 SubModule
     69 sample_kwargs
     69 in_proj_bias
     69 sparse_dims
-    69 _constants
     69 hop_length
     69 _get_process_group
     69 skip_if_no_gpu
     69 default_pg
     69 curr
-    69 te
-    69 "("
     69 QuantizationTestCase
     69 sparse_config
-    69 Gamma
     69 NetBuilder
     69 input_blobs
     69 param_out
@@ -8139,6 +8553,22 @@
     69 API_FFT
     69 rpc_backend
     69 istype
+    69 ###############################################################################
+    69 pad_mode
+    69 Tk
+    69 qn
+    69 _common
+    69 1e3
+    69 fac
+    69 broadcast_arrays
+    69 .25
+    69 qr_update
+    69 xa
+    69 sparse_jacobian
+    69 epsabs
+    69 yout
+    69 f_obs
+    69 logsf
     68 alias_map
     68 'query_string'
     68 DATETIME_FORMAT
@@ -8146,7 +8576,6 @@
     68 'admin_scripts'
     68 CharFieldModel
     68 get_language
-    68 build_info
     68 reset_states
     68 "glorot_uniform"
     68 merge_mode
@@ -8160,7 +8589,6 @@
     68 MiniBatchKMeans
     68 n_outputs_
     68 extmath
-    68 'object'
     68 'linewidth'
     68 get_version
     68 BaseOffset
@@ -8172,24 +8600,17 @@
     68 _check_axes_shape
     68 sel
     68 stack_size
-    68 dts
     68 error_list
     68 result_mask
-    68 exp1
     68 warn_deprecated
     68 "->"
-    68 byteswap
     68 grouped_native_functions
     68 FileManager
     68 cpu_fm
     68 var_names
-    68 "tanh"
     68 unfold
-    68 cdf
     68 kH
-    68 supported_dtypes
     68 index_put_
-    68 x_shape
     68 expected_state
     68 opt_m
     68 warmup_and_run_forward
@@ -8203,7 +8624,6 @@
     68 flattened
     68 in_x
     68 edge_order
-    68 deltas
     68 _test_basic_cases
     68 parameter_dict
     68 bw_compiler
@@ -8219,9 +8639,15 @@
     68 user_node
     68 CONV_JIT
     68 ref_node
+    68 default_index
+    68 _testutils
+    68 eta
+    68 pjoin
+    68 dfd
+    68 datsp2
+    68 hypergeom
     67 max_age
     67 has_perm
-    67 'ID'
     67 'form-INITIAL_FORMS'
     67 Song
     67 getpath
@@ -8247,7 +8673,6 @@
     67 ydescent
     67 axins
     67 savefig_kwarg
-    67 label1
     67 guiEvent
     67 skip_if_no
     67 "2013-01-01"
@@ -8255,25 +8680,20 @@
     67 limit_area
     67 _shared_doc_kwargs
     67 _get_axis
-    67 "case"
     67 td1
     67 _call_spec
     67 option_name
-    67 af
     67 Experiment
     67 "svd"
     67 statements
-    67 coordinates
     67 dependency
     67 uri
     67 yw
     67 "grad"
     67 setLevel
-    67 solve
     67 negative_slope
     67 split_sizes
     67 checkpoint_wrapper
-    67 gy
     67 _graph
     67 AdamW
     67 _cdata
@@ -8302,6 +8722,23 @@
     67 preserve_weight_sparsity
     67 gm_a
     67 QuantizationConfig
+    67 lm
+    67 301
+    67 input_arr
+    67 p4
+    67 sfx
+    67 kwarg
+    67 basis
+    67 down
+    67 diags
+    67 custom_bounds
+    67 newton
+    67 A_sparse
+    67 rfft
+    67 warnflag
+    67 _assert_success
+    67 jac_true
+    67 _munp
     66 'POST'
     66 urlconf
     66 get_app_config
@@ -8310,7 +8747,6 @@
     66 LOOKUP_SEP
     66 YEAR_MONTH_FORMAT
     66 'common'
-    66 mdtype
     66 'need'
     66 add_metric
     66 supports_masking
@@ -8318,14 +8754,12 @@
     66 read_value
     66 preprocess_input
     66 confusion_matrix
-    66 "tol"
     66 mlb
     66 'price'
     66 getmaskarray
     66 offsetText
     66 linthresh
     66 "3.7"
-    66 unpickled
     66 compression_only
     66 internals
     66 "1D"
@@ -8333,20 +8767,13 @@
     66 array_type
     66 "style"
     66 tag_name
-    66 'always'
     66 lims
-    66 _x
-    66 dirichlet
     66 engines
     66 CType
-    66 derivative
-    66 variants
     66 processes
     66 enable_timing
-    66 common_dtype
     66 kW
     66 set_to_none
-    66 nz
     66 b8
     66 onnxscript
     66 ConvReLU2d
@@ -8357,7 +8784,6 @@
     66 pre_hook
     66 l4
     66 stack_trace
-    66 qkv
     66 quantization_levels
     66 Mul
     66 tensor_le_no_bom
@@ -8372,6 +8798,23 @@
     66 'test_compare_cpu'
     66 wrap_fx_proxy
     66 input_one
+    66 test_samples
+    66 polyfit
+    66 Ellipse
+    66 x_ref
+    66 Distribution
+    66 true
+    66 timeit
+    66 'f2'
+    66 lambda2
+    66 src_dir
+    66 Y1
+    66 5000
+    66 lstsq
+    66 fb
+    66 desired_fun
+    66 Delta
+    66 bsr_matrix
     65 test_client
     65 EmailField
     65 LANGUAGE_CODE
@@ -8397,7 +8840,6 @@
     65 X_fit
     65 get_file
     65 ParseException
-    65 'string'
     65 bbox_to_anchor
     65 inaxes
     65 transform_non_affine
@@ -8406,7 +8848,6 @@
     65 hashing
     65 is_string
     65 2021
-    65 default_index
     65 ffill
     65 "Sheet1"
     65 halflife
@@ -8421,7 +8862,6 @@
     65 "c2"
     65 geomspace
     65 grouping
-    65 se
     65 dense_features
     65 aggregator
     65 overloads
@@ -8437,7 +8877,6 @@
     65 "labels"
     65 model_tp
     65 output_tensor_list
-    65 isclose
     65 CUDA_BEFORE
     65 Tracer
     65 num_indices
@@ -8450,7 +8889,6 @@
     65 conv_op
     65 _make_tensor
     65 ProfilerAction
-    65 denom
     65 broadcast_all
     65 bench
     65 outputs_to_check
@@ -8461,6 +8899,20 @@
     65 input_info
     65 export_case
     65 _run_helper
+    65 compiler_name
+    65 wald
+    65 new_inputs
+    65 pn
+    65 expected3
+    65 huber
+    65 'valid'
+    65 T1
+    65 'disp'
+    65 complexfloating
+    65 population
+    65 cdt
+    65 dB
+    65 pearsonr
     64 pk__in
     64 'This field is required.'
     64 new_class
@@ -8497,7 +8949,6 @@
     64 local_path
     64 use_numpy
     64 Window
-    64 nout
     64 "timedelta"
     64 string_storage
     64 sortorder
@@ -8505,14 +8956,9 @@
     64 "1/1/2001"
     64 num_colors
     64 "concat"
-    64 rot
-    64 others
-    64 Y2
-    64 dense_output
     64 OptionalType
     64 OperatorName
     64 retries
-    64 ps
     64 empty_cache
     64 mps
     64 test_helper
@@ -8522,7 +8968,6 @@
     64 guard_fail_fn
     64 leaky_relu
     64 fake_tensor_mode
-    64 si
     64 ToyModel
     64 nop
     64 reset_parameters
@@ -8547,6 +8992,19 @@
     64 "TestJit"
     64 "test_variant_consistency_jit"
     64 get_reduction
+    64 a10
+    64 'same_kind'
+    64 "n_samples"
+    64 20.0
+    64 A_dense
+    64 lfilter
+    64 xe
+    64 gtol
+    64 todense
+    64 DifferentialEvolutionSolver
+    64 slice2
+    64 ntaps
+    64 pvalues
     63 get_source_expressions
     63 file1
     63 GET
@@ -8559,7 +9017,6 @@
     63 ds_input
     63 use_legacy_format
     63 weighted_metrics
-    63 test_samples
     63 layer_cls
     63 mp_test_util
     63 load_diabetes
@@ -8569,14 +9026,11 @@
     63 cross_val_predict
     63 "pca"
     63 var_
-    63 nk
-    63 dataset_name
     63 setName
     63 set_alpha
     63 labelcolor
     63 validate_float
     63 um
-    63 lm
     63 document
     63 Thing
     63 multiindex_year_month_day_dataframe_random_data
@@ -8598,24 +9052,19 @@
     63 "a2"
     63 actions
     63 'libraries'
-    63 ###############################################################################
     63 "abcde"
-    63 inexact
     63 compile_utils
     63 32768
-    63 100.
     63 input_2
     63 arg_names
     63 relu2
     63 proxy_tensor
-    63 erf
     63 all_args
     63 realize
     63 num_stages
     63 'mask'
     63 output_ratio
     63 test_tensor
-    63 x_
     63 new_params
     63 model_proto
     63 prepare_qat
@@ -8630,7 +9079,6 @@
     63 dynamic_dims
     63 tangents
     63 ConstDictVariable
-    63 pad_mode
     63 act_compare_dict
     63 split_node
     63 new_schema
@@ -8650,6 +9098,17 @@
     63 device_grads
     63 NSNodeTargetType
     63 output_filename
+    63 bg
+    63 lvals
+    63 "floor"
+    63 suffixes
+    63 _decomp
+    63 num_cols
+    63 RegularGridInterpolator
+    63 fact
+    63 ijob
+    63 hessp
+    63 fun_trivial
     62 a6
     62 'super@example.com'
     62 add_model
@@ -8664,7 +9123,6 @@
     62 model_field
     62 PO_FILE
     62 std_call
-    62 clongdouble
     62 ott
     62 AR_f
     62 build_graph
@@ -8682,9 +9140,7 @@
     62 PartialDependenceDisplay
     62 neigh_ind
     62 45000
-    62 polyfit
     62 offsetbox
-    62 Ellipse
     62 nth_coord
     62 indexers
     62 DtypeArg
@@ -8696,7 +9152,6 @@
     62 pi2
     62 spam_data
     62 c_parser_only
-    62 301
     62 get_obj
     62 last_n
     62 fraction
@@ -8729,14 +9184,25 @@
     62 GradientSlice
     62 trans_b
     62 createNode
-    62 ")"
     62 op_scale
     62 op_zero_point
-    62 compiler_name
     62 conv_configs
     62 side_effects
     62 SymNodeVariable
     62 structured
+    62 install_dir
+    62 "message"
+    62 Counter
+    62 rot90
+    62 unique_labels
+    62 min_length
+    62 2e-3
+    62 det
+    62 'maxiter'
+    62 degrees
+    62 erfc
+    62 dfn
+    62 asp
     61 url_for
     61 "POST"
     61 Subquery
@@ -8751,10 +9217,7 @@
     61 'INNER JOIN'
     61 GDALRaster
     61 "GET"
-    61 system_info
     61 temppath
-    61 vonmises
-    61 wald
     61 iaxis
     61 base_metric
     61 CategoricalAccuracy
@@ -8765,7 +9228,6 @@
     61 # TODO(tanzheny, omalleyt): Fix test in eager mode.
     61 np_gamma
     61 np_beta
-    61 logistic
     61 TSNE
     61 SGDRegressor
     61 y_proba
@@ -8773,13 +9235,9 @@
     61 LabelBinarizer
     61 regr
     61 contamination
-    61 laplacian
     61 DecisionBoundaryDisplay
-    61 a10
-    61 Tk
     61 axisartist
     61 elev
-    61 rotate
     61 set_xscale
     61 axhline
     61 pie
@@ -8794,15 +9252,11 @@
     61 secondary_y
     61 statement
     61 test_string
-    61 yi
     61 recall
     61 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
-    61 ratio
-    61 deps
     61 "**"
     61 RNNCell
     61 ten
-    61 cholesky
     61 load_tests
     61 _run
     61 fetched
@@ -8833,11 +9287,29 @@
     61 just
     61 hidden_t
     61 node_a
-    61 new_inputs
     61 Disj
     61 classproperty
     61 node_schedule
     61 reconstruct
+    61 ":"
+    61 test_args
+    61 1e-02
+    61 Callback
+    61 t5
+    61 result_list
+    61 csd
+    61 savemat
+    61 complete
+    61 vl
+    61 vr
+    61 funcalls
+    61 LinearConstraint
+    61 dd
+    61 rowcov
+    61 colcov
+    61 _get_support
+    61 rbrack
+    61 lbrack
     60 add_arguments
     60 db_manager
     60 RegexValidator
@@ -8859,7 +9331,6 @@
     60 task_type
     60 distribute_strategy
     60 TimeDistributed
-    60 input_arr
     60 AUC
     60 "randomized"
     60 min_weight_fraction_leaf
@@ -8873,7 +9344,6 @@
     60 nca
     60       300       381409   1271.4     97.1          clf.predict(X_test_sparse)
     60 '<i4'
-    60 bg
     60 rotate_deg
     60 _axis
     60 tight
@@ -8889,7 +9359,6 @@
     60 get_ylabel
     60 2018
     60 ensure_wrapped_if_datetimelike
-    60 lvals
     60 limit_direction
     60 365
     60 "small"
@@ -8902,13 +9371,11 @@
     60 new_names
     60 "new"
     60 Exponential
-    60 "floor"
     60 AvgPool2d
     60 IW
     60 grid_sample
     60 attn_weight
     60 Pointwise
-    60 M1
     60 assume_static_by_default
     60 split_with_sizes
     60 foo2
@@ -8929,7 +9396,6 @@
     60 check_gradgrad
     60 expected_ops
     60 UserError
-    60 zp
     60 weight_ih
     60 X_max
     60 packed_weight
@@ -8944,6 +9410,18 @@
     60 fx_type_utils
     60 f_input
     60 unpack_var_sequence
+    60 test_values
+    60 mask_or
+    60 compilers
+    60 deriv
+    60 lti
+    60 equal_var
+    60 border_value
+    60 fblas
+    60 lp_cleaned
+    60 0.125
+    60 antiderivative
+    60 check_named_results
     59 get_context_data
     59 is_relation
     59 parent_link
@@ -8969,7 +9447,6 @@
     59 BASE_DOCSTRING
     59 UUID
     59 "lars"
-    59 tocsr
     59 decision
     59 "n_components"
     59 X_expected
@@ -8979,7 +9456,6 @@
     59 markersize
     59 showmeans
     59 polygon_place_vertex
-    59 p4
     59 target_file
     59 "horizontal"
     59 float_numpy_dtype
@@ -9000,18 +9476,13 @@
     59 Match
     59 get_rng_state
     59 set_rng_state
-    59 ks
-    59 logical_not
     59 b_fp32
     59 tensor_shape
     59 torchdynamo
     59 clone_inputs
     59 # Make the helper files in test/ importable
     59 _python_dispatch
-    59 phase
     59 tracker
-    59 x_ref
-    59 mult
     59 _random_samples
     59 in_proj_weight
     59 src_len
@@ -9038,7 +9509,6 @@
     59 "inner_mod_name"
     59 _compare_eager_and_script
     59 vmap_result
-    59 Distribution
     59 Pareto
     59 codomain
     59 ONE
@@ -9054,6 +9524,27 @@
     59 build_expr
     59 MutableLocal
     59 _make_elementwise_unary_reference
+    59 go
+    59 117
+    59 inv_scale
+    59 lambd
+    59 param_list
+    59 queries
+    59 'hann'
+    59 normed
+    59 directed
+    59 3.3
+    59 'reflect'
+    59 'economic'
+    59 eig
+    59 psi
+    59 cond2
+    59 curve_fit
+    59 rdr
+    59 wf
+    59 splev
+    59 ncv
+    59 blockVectorX
     58 Response
     58 source_expressions
     58 as_table
@@ -9065,9 +9556,6 @@
     58 WSGIRequest
     58 _ptr
     58 _multiarray_umath
-    58 'same_kind'
-    58 sfx
-    58 fval
     58 AR
     58 string_lookup
     58 absolute_import
@@ -9087,7 +9575,6 @@
     58 feature_importances_
     58 type_of_target
     58 lrap_score
-    58 "n_samples"
     58 n_clusters_per_class
     58 MinMaxScaler
     58 p_w
@@ -9116,17 +9603,12 @@
     58 linecolors
     58 "cummax"
     58 yaml_str
-    58 install_dir
-    58 "message"
     58 TensorOptionsArguments
-    58 true
     58 default_stream
     58 common_methods_invocations
     58 rsample
-    58 val2
     58 a_ref
     58 exclude_zero
-    58 logsumexp
     58 f_name
     58 result_ref
     58 TEST_WITH_TSAN
@@ -9142,10 +9624,7 @@
     58 rankset
     58 UNDEFINED
     58 _assert_same_struct
-    58 timeit
     58 SymBool
-    58 pn
-    58 wn
     58 torch_dtype
     58 mobile_module
     58 _size_2_t
@@ -9163,9 +9642,23 @@
     58 cxx
     58 _special
     58 'TestNormalizeOperators'
+    58 deprecation
+    58 "single"
+    58 run_lambda
+    58 n0
+    58 sampling
+    58 leafsize
+    58 T2
+    58 eigvals
+    58 irfft
+    58 _id
+    58 h_abs
+    58 mat_stream
+    58 wo
+    58 allow_singular
+    58 rvs1
     57 Approximate
     57 DATABASE_ROUTERS
-    57 qn
     57 get_compiler
     57 test_urls
     57 MultiValueDict
@@ -9199,7 +9692,6 @@
     57 remove_index
     57 axes_grid1
     57 get_edgecolor
-    57 113
     57 silent
     57 usefixtures
     57 any_numpy_dtype
@@ -9207,7 +9699,6 @@
     57 to_xml
     57 "%Y-%m-%d"
     57 "medium"
-    57 expected3
     57 check_like
     57 "C1"
     57 "a1"
@@ -9219,14 +9710,10 @@
     57 printing
     57 fo
     57 computation
-    57 test_values
     57 "interval"
     57 "cummin"
     57 Table
-    57 depends
-    57 x_min
     57 "text"
-    57 ":"
     57 lint_message
     57 NativeFunctionsViewGroup
     57 backend_name
@@ -9235,11 +9722,9 @@
     57 GroupNorm
     57 traced_model
     57 conv_bias
-    57 test_args
     57 check_lowp
     57 num_batches_tracked
     57 wrapper_set_seed
-    57 1e-02
     57 t_args
     57 skipCUDAIfNoMagmaAndNoCusolver
     57 largeTensorTest
@@ -9266,12 +9751,9 @@
     57 convert_custom_config
     57 _load_for_lite_interpreter
     57 'lr'
-    57 nf
     57 supports_rhs_python_scalar
-    57 tol1
     57 Beta
     57 device_prefix
-    57 lambda1
     57 check_quantized_results_close
     57 ALWAYS_BOOL
     57 non_differentiable
@@ -9281,6 +9763,31 @@
     57 matched_node_pattern
     57 goal
     57 find_prop
+    57 error_class
+    57 short
+    57 intern
+    57 capfd
+    57 shgo
+    57 nprob
+    57 welch
+    57 fftconvolve
+    57 1e-16
+    57 1e4
+    57 matmat
+    57 doccer
+    57 correlate1d
+    57 _datacopied
+    57 0.5j
+    57 5e-15
+    57 fa
+    57 max_nfev
+    57 n_ineq
+    57 ig
+    57 assert_identical
+    57 gammainc
+    57 am
+    57 window_length
+    57 outcome
     56 'json'
     56 APPEND_SLASH
     56 DiscoverRunner
@@ -9302,7 +9809,6 @@
     56 serial_str
     56 form_field
     56 assertMsgId
-    56 top_path
     56 datetime_as_string
     56 intrin
     56 mrec
@@ -9319,7 +9825,6 @@
     56 "from_estimator"
     56 n_bins_non_missing
     56 all_gradients
-    56 huber
     56 'pink'
     56 controller
     56 interpd
@@ -9346,11 +9851,8 @@
     56 index_a
     56 "subclass"
     56 job_name
-    56 Counter
     56 "stride"
-    56 go
     56 base_name
-    56 wi
     56 first_arg
     56 need_weights
     56 num_nodes
@@ -9365,21 +9867,18 @@
     56 x_t
     56 destroy_process_group
     56 _param
-    56 md
     56 get_backend
     56 scatter_list
     56 "sharding_strategy"
     56 BackwardPrefetch
     56 _caffe2
     56 m_f
-    56 rot90
     56 attn_output
     56 test_x
     56 unary_attr
     56 qconv_prepack
     56 "outer_mod_name"
     56 tq
-    56 num_rows
     56 sparse_block_shape
     56 failed
     56 "K"
@@ -9395,6 +9894,21 @@
     56 check_sum_reduction
     56 guard_source
     56 logger_cls
+    56 _trace
+    56 Query
+    56 yf
+    56 118
+    56 8.5
+    56 matrices
+    56 gaussian_kde
+    56 firwin
+    56 binary_erosion
+    56 unknown_options
+    56 'ineq'
+    56 vectors
+    56 monic
+    56 paired
+    56 gkde
     55 render_template
     55 TestDataMixin
     55 editable
@@ -9408,28 +9922,22 @@
     55 'Management'
     55 NullableIntegerArrayModel
     55 StatTestModel
-    55 bands
     55 FCompiler
-    55 get_info
     55 quo
     55 checkpoint_prefix
     55 "expand_ratio"
     55 "se_ratio"
     55 task_id
     55 use_dataset
-    55 Callback
     55 "input_b"
     55 epoch_data
     55 'nl'
     55 voting
     55 Est
-    55 p_h
     55 "fit_transform"
     55 hidden_layer_sizes
     55 X_plot
     55 doActions
-    55 assert_array_almost_equal_nulp
-    55 deprecation
     55 '100'
     55 'svg'
     55 get_tightbbox
@@ -9445,7 +9953,6 @@
     55 group_index
     55 sparsify
     55 combine_first
-    55 117
     55 convert_axes
     55 YearEnd
     55 "XX"
@@ -9461,16 +9968,13 @@
     55 "res"
     55 input_kwargs
     55 atom
-    55 inv_scale
     55 dst2
-    55 triu
     55 IH
     55 extra_ldflags
     55 _prims
     55 aot_autograd
     55 add_1
     55 MapDataPipe
-    55 LU
     55 'relu'
     55 n_heads
     55 # randomness
@@ -9479,7 +9983,6 @@
     55 seq_lens
     55 _Partial
     55 RendezvousParameters
-    55 kwarg
     55 skipIfTorchInductor
     55 quint4x2
     55 print_readable
@@ -9487,7 +9990,6 @@
     55 standard_test
     55 quantized_model
     55 my_dyn_fn
-    55 _common
     55 Xq
     55 X_fp32
     55 f"{self.test_ns}::foo"
@@ -9503,6 +10005,18 @@
     55 require_backend_is_available
     55 prev_node
     55 "test_matrix"
+    55 'trust-constr'
+    55 sv
+    55 rv_discrete
+    55 blas_func
+    55 rr
+    55 lsq_solver
+    55 df_dy
+    55 coo
+    55 rootf
+    55 'ddd'
+    55 ttest_1samp
+    55 'mvsk'
     54 signing
     54 'CONTENT_TYPE'
     54 MigrationWriter
@@ -9531,8 +10045,6 @@
     54 "log_loss"
     54 min_impurity_decrease
     54 recall_score
-    54 unique_labels
-    54 dists
     54 SVR
     54 working_memory
     54 VotingClassifier
@@ -9541,8 +10053,6 @@
     54 n_components_
     54 kpca
     54       300       532339   1774.5     99.9          clf.predict(X_test)
-    54 'f2'
-    54 mask_or
     54 line_kw
     54 martist
     54 mpl3d_image_comparison
@@ -9556,11 +10066,9 @@
     54 ydata_new
     54 "gaussian"
     54 get_view_interval
-    54 error_class
     54 set_option
     54 "Index"
     54 id_vars
-    54 "single"
     54 union_categoricals
     54 "ordered"
     54 nanos
@@ -9576,24 +10084,18 @@
     54 ConstRefCType
     54 out_name
     54 DispatcherSignature
-    54 compilers
-    54 "backward"
     54 Namespace
     54 folder
     54 x_copy
     54 elapsed_time
     54 res_mps
     54 to_dtype
-    54 short
-    54 mv
     54 max_pool2d_with_indices
     54 relu_
-    54 suffixes
     54 supports_sparse_csr
     54 instance_id
     54 jitted
     54 PReLU
-    54 t5
     54 dataloader
     54 DoubleTensor
     54 matcher
@@ -9601,7 +10103,6 @@
     54 ElementwiseBinaryPythonRefInfo
     54 ONNX
     54 onesided
-    54 lambd
     54 correct_outputs
     54 Conf
     54 FULL_SHARD
@@ -9610,10 +10111,8 @@
     54 qmax
     54 load_arg
     54 out_test
-    54 success
     54 failure_reason
     54 weight_hh
-    54 intern
     54 num_outputs
     54 tabulate
     54 get_mask
@@ -9623,7 +10122,6 @@
     54 batched_args
     54 data_parallel_model
     54 field_types
-    54 lambda2
     54 CurrentDeviceScope
     54 net_modifier
     54 num_onnxified_ops
@@ -9631,12 +10129,23 @@
     54 # DO NOT EDIT! This file was generated by jschema_to_python version 0.0.1.dev29,
     54 # with extension for dataclasses and type annotation.
     54 read_writes
-    54 run_lambda
     54 ind_inv
     54 local_grads
     54 'test_normalize_operator_exhaustive'
     54 VariableBuilder
     54 is_pre_volta
+    54 libname
+    54 7.5
+    54 X0
+    54 kron
+    54 slice1
+    54 DATA_PATH
+    54 evalf
+    54 kn
+    54 _specfun
+    54 bw
+    54 iirdesign
+    54 _stats_py
     53 #:
     53 'authors'
     53 form_class
@@ -9685,7 +10194,6 @@
     53 scale_by_freq
     53 linear_width
     53 _selection_artist
-    53 lambda_
     53 expected_message
     53 barh
     53 "book"
@@ -9708,22 +10216,17 @@
     53 "gpu"
     53 _sleep
     53 mps_out
-    53 tril
-    53 2.1
     53 384
-    53 tan
     53 rsqrt
     53 except_for
     53 schemas
     53 sequences
     53 sparse_mask
     53 supported_qengines
-    53 _trace
     53 cpp_function_call
     53 input_tensor_list
     53 prev_stream
     53 "ucc"
-    53 func2
     53 backward_prefetch
     53 wrap_fsdp
     53 RECURSIVE
@@ -9739,7 +10242,6 @@
     53 concentration1
     53 concentration0
     53 65535
-    53 moment
     53 Lengths
     53 AddArgument
     53 'Direct'
@@ -9750,6 +10252,16 @@
     53 target_values
     53 subobj
     53 from_reference
+    53 truncnorm
+    53 istop
+    53 bracket
+    53 converged
+    53 alpha1
+    53 p_value
+    53 max_step
+    53 t_eval
+    53 kv
+    53 stat2
     52 add_url_rule
     52 get_absolute_url
     52 LogEntry
@@ -9759,12 +10271,10 @@
     52 ChoiceFormSet
     52 rel_obj
     52 introspected_field_types
-    52 Query
     52 force_str
     52 'Johnson'
     52 to_attr
     52 PostgreSQLTestCase
-    52 plat
     52 '000'
     52 errmess
     52 dfnum
@@ -9789,7 +10299,6 @@
     52 param_range
     52 std_display_style
     52                                           def benchmark_dense_predict():
-    52 src_dir
     52 Patch
     52 from_bounds
     52 _mtx
@@ -9801,11 +10310,9 @@
     52 get_alpha
     52 combiner
     52 tostring
-    52 yf
     52 "utc"
     52 AnyArrayLike
     52 yrot
-    52 118
     52 parsers
     52 "2011-02"
     52 "3 days"
@@ -9815,7 +10322,6 @@
     52 assert_called_once
     52 SelfArgument
     52 "mul"
-    52 cdist
     52 bias_shape
     52 InstanceNorm1d
     52 _weight
@@ -9826,11 +10332,8 @@
     52 target_length
     52 scalar_tensor
     52 get_logs
-    52 _decomp
     52 wrapped_m
     52 setup_context
-    52 true_divide
-    52 di
     52 tmp_file
     52 norm_layer
     52 cpp_var_map
@@ -9838,7 +10341,6 @@
     52 output_device
     52 gpus_for_rank
     52 tensor_shapes
-    52 param_list
     52 Transformer
     52 base_and_logging_tensor
     52 expanded_args
@@ -9847,7 +10349,6 @@
     52 _te
     52 placeholders
     52 w_hh
-    52 Y1
     52 qconv_module
     52 ObserverBase
     52 m_eager
@@ -9874,12 +10375,27 @@
     52 "List[VariableTracker]"
     52 "Dict[str, VariableTracker]"
     52 ListVariable
+    52 butter
+    52 ifftn
+    52 powers
+    52 generate_random_dtype_array
+    52 bnds
+    52 locally_biased
+    52 resid
+    52 subprob
+    52 optimality
+    52 _contains_nan
+    52 ml
+    52 integral
+    52 readsav
+    52 _shape
+    52 wilcoxon
+    52 rvs2
     51 a7
     51 select_for_update
     51 SITE_ID
     51 DeleteModel
     51 target_field
-    51 queries
     51 'answer2'
     51 find_element_by_css_selector
     51 WidgetTest
@@ -9888,7 +10404,6 @@
     51 HStoreModel
     51 GEOSFuncFactory
     51 index_url
-    51 capfd
     51 TypeDescription
     51 _numeric_dtypes
     51 AR_LIKE_b
@@ -9911,8 +10426,6 @@
     51 model_and_input
     51 regnet
     51 multi_label
-    51 libname
-    51 min_length
     51 check_classification_targets
     51 scorers
     51 DistanceMetric
@@ -9921,15 +10434,12 @@
     51 X_64
     51 linear_loss
     51 SparseSGDClassifier
-    51 jj
     51 oa
     51 strRepr
     51 'content'
-    51 define_macros
     51 'Bar'
     51 '10'
     51 QtGui
-    51 'pdf'
     51 TransformedBbox
     51 check_isinstance
     51 n_angles
@@ -9938,7 +10448,6 @@
     51 cairo
     51 parseString
     51 other_data
-    51 result_list
     51 "Float32"
     51 set_axis
     51 comp_ids
@@ -9963,11 +10472,9 @@
     51 basicConfig
     51 test_list
     51 c2p
-    51 2e-3
     51 input_tuple
     51 fn_s
     51 last_executed_optimized_graph
-    51 permutations
     51 PLATFORM_SUPPORTS_FUSED_SDPA
     51 set_grad_enabled
     51 first_node
@@ -9976,8 +10483,6 @@
     51 main_datapipe
     51 nondet_tol
     51 lazy_module
-    51 dk
-    51 row_indices
     51 extra_files
     51 FakeQuantize
     51 dummy_input
@@ -10030,3 +10535,16 @@
     51 type_promoting_args
     51 index_vars
     51 'test_conj_view'
+    51 milp
+    51 hierarchy_test_data
+    51 dtype_
+    51 base_non_simple_strides
+    51 lapack_opt
+    51 brack
+    51 '3-point'
+    51 a_vu
+    51 d_bc_vc
+    51 TransferFunction
+    51 waveforms
+    51 stopb
+    51 null_distribution
